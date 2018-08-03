@@ -34,7 +34,7 @@ def read_file(file_path):
     col_names = sheet.row_values(0)
     pf = sheet.col_values(col_names.index("Product1_ECFP4"))[1:]
     rf = sheet.col_values(col_names.index("Reaction_site_ECFP4"))[1:]
-    label = [1 for _ in range(len(pf))]
+    label = [[1] for _ in range(len(pf))]
     pf = [[int(c) for c in fingerprint] for fingerprint in pf]
     rf = [[int(c) for c in fingerprint] for fingerprint in rf]
     d = dict()
@@ -57,7 +57,7 @@ def read_all_data(dir_path=data_dir):
 def get_train_and_test(data, train_ratio=0.7):
     train, test = [], []
     for l in data:
-        pos = math.floor(len(l["product_fingerprint"]) * 0.7)
+        pos = math.floor(len(l["product_fingerprint"]) * train_ratio)
         train.append(dict(name=l["name"], product_fingerprint=l["product_fingerprint"][:pos],
                           reaction_fingerprint=l["reaction_fingerprint"][:pos],
                           label=l["label"][:pos]))

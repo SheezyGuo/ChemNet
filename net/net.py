@@ -57,38 +57,55 @@ class SimilarityNet(object):
         if not self.train_flag:
             self.dropout = tf.layers.dropout(self.dense_left, rate=0.3)
             self.dense_left = self.dropout
-            pre = self.dense_left
-        else:
-            pre = self.product_fingerprint
         self.gate_1 = tf.layers.dense(inputs=self.dense_left,
-                                      units=2048,
+                                      units=1024,
                                       kernel_initializer=tf.truncated_normal_initializer(stddev=0.01),
                                       activation=tf.nn.sigmoid)
-        self.highway_1 = self.gate_1 * self.dense_left + (1 - self.gate_1) * pre
+        self.highway_y_1 = tf.layers.dense(inputs=self.dense_left,
+                                           units=1024,
+                                           kernel_initializer=tf.truncated_normal_initializer(stddev=0.01),
+                                           activation=tf.nn.elu)
+        self.highway_1 = self.gate_1 * self.highway_y_1 + (1 - self.gate_1) * self.dense_left
 
         self.gate_2 = tf.layers.dense(inputs=self.highway_1,
                                       units=1024,
                                       kernel_initializer=tf.truncated_normal_initializer(stddev=0.01),
                                       activation=tf.nn.sigmoid)
-        self.highway_2 = self.gate_2 * self.highway_1 + (1 - self.gate_2) * self.dense_left
+        self.highway_y_2 = tf.layers.dense(inputs=self.highway_1,
+                                           units=1024,
+                                           kernel_initializer=tf.truncated_normal_initializer(stddev=0.01),
+                                           activation=tf.nn.elu)
+        self.highway_2 = self.gate_2 * self.highway_y_2 + (1 - self.gate_2) * self.highway_1
 
         self.gate_3 = tf.layers.dense(inputs=self.highway_2,
                                       units=1024,
                                       kernel_initializer=tf.truncated_normal_initializer(stddev=0.01),
                                       activation=tf.nn.sigmoid)
-        self.highway_3 = self.gate_3 * self.highway_2 + (1 - self.gate_3) * self.highway_1
+        self.highway_y_3 = tf.layers.dense(inputs=self.highway_2,
+                                           units=1024,
+                                           kernel_initializer=tf.truncated_normal_initializer(stddev=0.01),
+                                           activation=tf.nn.elu)
+        self.highway_3 = self.gate_3 * self.highway_y_3 + (1 - self.gate_3) * self.highway_2
 
         self.gate_4 = tf.layers.dense(inputs=self.highway_3,
                                       units=1024,
                                       kernel_initializer=tf.truncated_normal_initializer(stddev=0.01),
                                       activation=tf.nn.sigmoid)
-        self.highway_4 = self.gate_4 * self.highway_3 + (1 - self.gate_4) * self.highway_2
+        self.highway_y_4 = tf.layers.dense(inputs=self.highway_3,
+                                           units=1024,
+                                           kernel_initializer=tf.truncated_normal_initializer(stddev=0.01),
+                                           activation=tf.nn.elu)
+        self.highway_4 = self.gate_4 * self.highway_y_4 + (1 - self.gate_4) * self.highway_3
 
         self.gate_5 = tf.layers.dense(inputs=self.highway_4,
                                       units=1024,
                                       kernel_initializer=tf.truncated_normal_initializer(stddev=0.01),
                                       activation=tf.nn.sigmoid)
-        self.highway_5 = self.gate_5 * self.highway_4 + (1 - self.gate_5) * self.highway_3
+        self.highway_y_5 = tf.layers.dense(inputs=self.highway_4,
+                                           units=1024,
+                                           kernel_initializer=tf.truncated_normal_initializer(stddev=0.01),
+                                           activation=tf.nn.elu)
+        self.highway_5 = self.gate_5 * self.highway_y_5 + (1 - self.gate_5) * self.highway_4
 
         #############################left_layer###############################
 
