@@ -157,7 +157,7 @@ class SimilarityNet(object):
             print(accuracy, loss)
 
     def predict(self, product_fingerprint, reaction_fingerprint, label):
-        epoch = int(np.ceil(product_fingerprint.shape[0] / FLAGS.batch_size))
+        epoch = int(np.ceil(len(product_fingerprint) / FLAGS.batch_size))
         for i in range(epoch):
             batch_pf = product_fingerprint[i * FLAGS.batch_size:(i + 1) * FLAGS.batch_size]
             batch_rf = reaction_fingerprint[i * FLAGS.batch_size:(i + 1) * FLAGS.batch_size]
