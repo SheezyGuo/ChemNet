@@ -32,7 +32,7 @@ FLAGS = flags.FLAGS
 
 
 class SimilarityNet(object):
-    def __init__(self, train_flag, model_name=None):
+    def __init__(self, train_flag=False, model_name=None):
         self.train_flag = train_flag
         self.sess = tf.Session()
         self.__build_model()
@@ -57,6 +57,7 @@ class SimilarityNet(object):
         if not self.train_flag:
             self.dropout = tf.layers.dropout(self.dense_left, rate=0.3)
             self.dense_left = self.dropout
+
         self.gate_1 = tf.layers.dense(inputs=self.dense_left,
                                       units=1024,
                                       kernel_initializer=tf.truncated_normal_initializer(stddev=0.01),
@@ -129,15 +130,14 @@ class SimilarityNet(object):
 
     def __loss(self):
         # self.similarity_loss = tf.nn.sigmoid_cross_entropy_with_logits(labels=self.y, logits=self.similarity)
-        self.similarity_loss = tf.reduce_mean(tf.square(self.label - self.similarity))
+        self.similarity_loss = tf.reduce_sum(tf.square(self.label - self.similarity))
 
     def __accuracy(self):
         self.equals = tf.equal(self.label, tf.round(self.similarity))
         self.accuracy = tf.reduce_mean(tf.cast(self.equals, tf.float32))
 
     def train(self, product_fingerprint, reaction_fingerprint, label):
-        if not self.train_flag:
-            return
+        self.train_flag = True
         try:
             self.sess.run(tf.global_variables_initializer())
         except:
@@ -152,22 +152,23 @@ class SimilarityNet(object):
                               feed_dict={self.product_fingerprint: batch_pf,
                                          self.reaction_fingerprint: batch_rf,
                                          self.label: batch_label})
-            if tf.to_int32(self.global_step) % 100 == 0:
+            if tf.to_int32(self.global_step) % 10 == 0:
                 self.save(global_setp=self.global_step)
             print(accuracy, loss)
 
     def predict(self, product_fingerprint, reaction_fingerprint, label):
+        self.train_flag = False
         epoch = int(np.ceil(len(product_fingerprint) / FLAGS.batch_size))
         for i in range(epoch):
             batch_pf = product_fingerprint[i * FLAGS.batch_size:(i + 1) * FLAGS.batch_size]
             batch_rf = reaction_fingerprint[i * FLAGS.batch_size:(i + 1) * FLAGS.batch_size]
             batch_label = label[i * FLAGS.batch_size:(i + 1) * FLAGS.batch_size]
-            accuracy, loss = \
-                self.sess.run([self.accuracy, self.similarity_loss],
+            accuracy, loss, similarity = \
+                self.sess.run([self.accuracy, self.similarity_loss, self.similarity],
                               feed_dict={self.product_fingerprint: batch_pf,
                                          self.reaction_fingerprint: batch_rf,
                                          self.label: batch_label})
-            print("############", accuracy, loss)
+            print("############", accuracy, loss, np.mean(similarity, axis=0)[0])
 
     def save(self, global_setp):
         self.saver.save(self.sess, os.path.join(FLAGS.checkpoint_dir, "similarity_net_model"), global_step=global_setp)
