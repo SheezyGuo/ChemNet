@@ -27,7 +27,7 @@ flags = tf.app.flags
 # flags.DEFINE_integer("epoch", 25, "Epoch to train [25]")
 flags.DEFINE_float("learning_rate", 0.0002, "Learning rate of for adam [0.0002]")
 flags.DEFINE_integer("batch_size", 128, "MiniBatch size set to be 128")
-flags.DEFINE_string("checkpoint_dir", "checkpoint", "dir path to checkpoint")
+flags.DEFINE_string("checkpoint_dir", os.path.join("..", "checkpoint"), "dir path to checkpoint")
 FLAGS = flags.FLAGS
 
 
@@ -35,6 +35,7 @@ class SimilarityNet(object):
     def __init__(self, train_flag=False, model_name=None):
         self.train_flag = train_flag
         self.sess = tf.Session()
+        self.keep_prob = tf.placeholder(dtype=tf.float32, shape=[1, 1], name="keep_prob")
         self.__build_model()
         self.__loss()
         self.__accuracy()
@@ -45,6 +46,10 @@ class SimilarityNet(object):
             self.saver = tf.train.Saver(max_to_keep=4)
         else:
             self.load(model_name)
+        try:
+            self.sess.run(tf.global_variables_initializer())
+        except:
+            self.sess.run(tf.initialize_all_variables())
 
     def __build_model(self):
         self.product_fingerprint = tf.placeholder(dtype=tf.float32, shape=[None, 2048], name="product_fingerprint")
@@ -54,9 +59,8 @@ class SimilarityNet(object):
                                           units=1024,
                                           kernel_initializer=tf.truncated_normal_initializer(stddev=0.01),
                                           activation=tf.nn.elu)
-        if not self.train_flag:
-            self.dropout = tf.layers.dropout(self.dense_left, rate=0.3)
-            self.dense_left = self.dropout
+        self.dropout = tf.layers.dropout(self.dense_left, rate=self.keep_prob)
+        self.dense_left = self.dropout
 
         self.gate_1 = tf.layers.dense(inputs=self.dense_left,
                                       units=1024,
@@ -138,10 +142,6 @@ class SimilarityNet(object):
 
     def train(self, product_fingerprint, reaction_fingerprint, label):
         self.train_flag = True
-        try:
-            self.sess.run(tf.global_variables_initializer())
-        except:
-            self.sess.run(tf.initialize_all_variables().run())
         epoch = int(np.ceil(len(product_fingerprint) / FLAGS.batch_size))
         for i in range(epoch):
             batch_pf = product_fingerprint[i * FLAGS.batch_size:(i + 1) * FLAGS.batch_size]
@@ -151,10 +151,12 @@ class SimilarityNet(object):
                 self.sess.run([self.accuracy, self.trainop, self.similarity_loss],
                               feed_dict={self.product_fingerprint: batch_pf,
                                          self.reaction_fingerprint: batch_rf,
-                                         self.label: batch_label})
-            if tf.to_int32(self.global_step) % 10 == 0:
-                self.save(global_setp=self.global_step)
-            print(accuracy, loss)
+                                         self.label: batch_label,
+                                         self.keep_prob: np.array(0.7).reshape([1, 1])})
+            step = self.sess.run(self.global_step)
+            if step % 10 == 0:
+                self.save(global_step=step)
+            print("#", step, accuracy, loss)
 
     def predict(self, product_fingerprint, reaction_fingerprint, label):
         self.train_flag = False
@@ -167,11 +169,12 @@ class SimilarityNet(object):
                 self.sess.run([self.accuracy, self.similarity_loss, self.similarity],
                               feed_dict={self.product_fingerprint: batch_pf,
                                          self.reaction_fingerprint: batch_rf,
-                                         self.label: batch_label})
+                                         self.label: batch_label,
+                                         self.keep_prob: np.array(1.0).reshape([1, 1])})
             print("############", accuracy, loss, np.mean(similarity, axis=0)[0])
 
-    def save(self, global_setp):
-        self.saver.save(self.sess, os.path.join(FLAGS.checkpoint_dir, "similarity_net_model"), global_step=global_setp)
+    def save(self, global_step):
+        self.saver.save(self.sess, os.path.join(FLAGS.checkpoint_dir, "similarity_net_model"), global_step=global_step)
 
     def load(self, file_name):
         self.saver = tf.train.import_meta_graph(os.path.join(FLAGS.checkpoint_dir, file_name))

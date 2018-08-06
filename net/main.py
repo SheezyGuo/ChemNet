@@ -18,7 +18,6 @@ __date_ = '2018.08.03'
                ┃┫┫ ┃┫┫
                ┗┻┛ ┗┻┛
 """
-import numpy as np
 from convert_data import *
 from net import SimilarityNet
 
@@ -30,10 +29,30 @@ def main():
     # label = np.ones([1280, 1], dtype=np.float32)
     data = read_all_data()
     train, test = get_train_and_test(data)
+    fake_train, fake_test = get_negative_data(train, test)
+    # for sheet in train:
+    #     net.train(product_fingerprint=sheet["product_fingerprint"],
+    #               reaction_fingerprint=sheet["reaction_fingerprint"], label=sheet["label"])
+    # for sheet in fake_train:
+    #     net.train(product_fingerprint=sheet["product_fingerprint"],
+    #               reaction_fingerprint=sheet["reaction_fingerprint"], label=sheet["label"])
+    # for sheet in test:
+    #     net.predict(product_fingerprint=sheet["product_fingerprint"],
+    #                 reaction_fingerprint=sheet["reaction_fingerprint"], label=sheet["label"])
+    # for sheet in fake_test:
+    #     net.predict(product_fingerprint=sheet["product_fingerprint"],
+    #                 reaction_fingerprint=sheet["reaction_fingerprint"], label=sheet["label"])
     for sheet in train:
         net.train(product_fingerprint=sheet["product_fingerprint"],
                   reaction_fingerprint=sheet["reaction_fingerprint"], label=sheet["label"])
+
     for sheet in test:
+        net.predict(product_fingerprint=sheet["product_fingerprint"],
+                    reaction_fingerprint=sheet["reaction_fingerprint"], label=sheet["label"])
+    for sheet in fake_train:
+        net.train(product_fingerprint=sheet["product_fingerprint"],
+                  reaction_fingerprint=sheet["reaction_fingerprint"], label=sheet["label"])
+    for sheet in fake_test:
         net.predict(product_fingerprint=sheet["product_fingerprint"],
                     reaction_fingerprint=sheet["reaction_fingerprint"], label=sheet["label"])
 
