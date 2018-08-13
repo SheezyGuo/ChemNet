@@ -35,7 +35,7 @@ class SimilarityNet(object):
     def __init__(self, train_flag=False, model_name=None):
         self.train_flag = train_flag
         self.sess = tf.Session()
-        self.keep_prob = tf.placeholder(dtype=tf.float32, shape=[1, 1], name="keep_prob")
+        self.drop_prob = tf.placeholder(dtype=tf.float32, shape=[1, 1], name="drop_prob")
         self.__build_model()
         self.__loss()
         self.__accuracy()
@@ -59,18 +59,17 @@ class SimilarityNet(object):
                                           units=1024,
                                           kernel_initializer=tf.truncated_normal_initializer(stddev=0.01),
                                           activation=tf.nn.elu)
-        self.dropout = tf.layers.dropout(self.dense_left, rate=self.keep_prob)
-        self.dense_left = self.dropout
+        self.dropout = tf.layers.dropout(self.dense_left, rate=self.drop_prob)
 
-        self.gate_1 = tf.layers.dense(inputs=self.dense_left,
+        self.gate_1 = tf.layers.dense(inputs=self.dropout,
                                       units=1024,
                                       kernel_initializer=tf.truncated_normal_initializer(stddev=0.01),
                                       activation=tf.nn.sigmoid)
-        self.highway_y_1 = tf.layers.dense(inputs=self.dense_left,
+        self.highway_y_1 = tf.layers.dense(inputs=self.dropout,
                                            units=1024,
                                            kernel_initializer=tf.truncated_normal_initializer(stddev=0.01),
                                            activation=tf.nn.elu)
-        self.highway_1 = self.gate_1 * self.highway_y_1 + (1 - self.gate_1) * self.dense_left
+        self.highway_1 = self.gate_1 * self.highway_y_1 + (1 - self.gate_1) * self.dropout
 
         self.gate_2 = tf.layers.dense(inputs=self.highway_1,
                                       units=1024,
@@ -126,15 +125,16 @@ class SimilarityNet(object):
         model1 = tf.sqrt(tf.reduce_sum(tf.square(self.highway_5), axis=1))
         model2 = tf.sqrt(tf.reduce_sum(tf.square(self.dense_right), axis=1))
         multi_sum = tf.reduce_sum(tf.multiply(self.highway_5, self.dense_right), axis=1)
-        cosine = multi_sum / (model1 * model2)
-
-        self.similarity = tf.nn.sigmoid(cosine)[:, np.newaxis]
+        cosine = tf.abs(multi_sum) / (model1 * model2)
+        self.cosine = cosine
+        # self.similarity = tf.nn.sigmoid(cosine)[:, np.newaxis]
+        self.similarity = cosine[:, np.newaxis]
 
         return self.similarity
 
     def __loss(self):
         # self.similarity_loss = tf.nn.sigmoid_cross_entropy_with_logits(labels=self.y, logits=self.similarity)
-        self.similarity_loss = tf.reduce_sum(tf.square(self.label - self.similarity))
+        self.similarity_loss = tf.reduce_mean(tf.square(self.label - self.similarity))
 
     def __accuracy(self):
         self.equals = tf.equal(self.label, tf.round(self.similarity))
@@ -147,16 +147,17 @@ class SimilarityNet(object):
             batch_pf = product_fingerprint[i * FLAGS.batch_size:(i + 1) * FLAGS.batch_size]
             batch_rf = reaction_fingerprint[i * FLAGS.batch_size:(i + 1) * FLAGS.batch_size]
             batch_label = label[i * FLAGS.batch_size:(i + 1) * FLAGS.batch_size]
-            accuracy, _, loss = \
-                self.sess.run([self.accuracy, self.trainop, self.similarity_loss],
+            accuracy, _, loss, cosine = \
+                self.sess.run([self.accuracy, self.trainop, self.similarity_loss, self.cosine],
                               feed_dict={self.product_fingerprint: batch_pf,
                                          self.reaction_fingerprint: batch_rf,
                                          self.label: batch_label,
-                                         self.keep_prob: np.array(0.7).reshape([1, 1])})
+                                         self.drop_prob: np.reshape(0.3, (1, 1))})
             step = self.sess.run(self.global_step)
-            if step % 10 == 0:
+            if step % 1000 == 0:
                 self.save(global_step=step)
-            print("#", step, accuracy, loss)
+            # print("#", step, accuracy, loss)
+            # print(cosine)
 
     def predict(self, product_fingerprint, reaction_fingerprint, label):
         self.train_flag = False
@@ -170,7 +171,7 @@ class SimilarityNet(object):
                               feed_dict={self.product_fingerprint: batch_pf,
                                          self.reaction_fingerprint: batch_rf,
                                          self.label: batch_label,
-                                         self.keep_prob: np.array(1.0).reshape([1, 1])})
+                                         self.drop_prob: np.reshape(0.0, (1, 1))})
             print("############", accuracy, loss, np.mean(similarity, axis=0)[0])
 
     def save(self, global_step):
