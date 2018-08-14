@@ -29,6 +29,7 @@ data_dir = os.path.abspath(data_dir)
 
 
 def read_file(file_path):
+    print("Reading file from {}...".format(file_path))
     name = os.path.basename(file_path).split(".")[0]
     ExcelFile = xlrd.open_workbook(file_path)
     sheet = ExcelFile.sheet_by_index(0)
@@ -43,6 +44,7 @@ def read_file(file_path):
     d['product_fingerprint'] = pf
     d['reaction_fingerprint'] = rf
     d['label'] = label
+    print("Completed.")
     return d
 
 

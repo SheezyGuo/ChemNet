@@ -26,7 +26,7 @@ flags = tf.app.flags
 
 # flags.DEFINE_integer("epoch", 25, "Epoch to train [25]")
 flags.DEFINE_float("learning_rate", 0.0002, "Learning rate of for adam [0.0002]")
-flags.DEFINE_integer("batch_size", 128, "MiniBatch size set to be 128")
+flags.DEFINE_integer("batch_size", 1, "MiniBatch size set to be 128")
 flags.DEFINE_string("checkpoint_dir", os.path.join("..", "checkpoint"), "dir path to checkpoint")
 FLAGS = flags.FLAGS
 
@@ -126,18 +126,21 @@ class SimilarityNet(object):
         model2 = tf.sqrt(tf.reduce_sum(tf.square(self.dense_right), axis=1))
         multi_sum = tf.reduce_sum(tf.multiply(self.highway_5, self.dense_right), axis=1)
         cosine = tf.abs(multi_sum) / (model1 * model2)
-        self.cosine = cosine
         # self.similarity = tf.nn.sigmoid(cosine)[:, np.newaxis]
+        # cosine = tf.map_fn(lambda x: 1.0 if tf.greater_equal(x, 0.7) else x, cosine)
         self.similarity = cosine[:, np.newaxis]
 
         return self.similarity
 
     def __loss(self):
-        # self.similarity_loss = tf.nn.sigmoid_cross_entropy_with_logits(labels=self.y, logits=self.similarity)
-        self.similarity_loss = tf.reduce_mean(tf.square(self.label - self.similarity))
+        self.similarity_loss = tf.reduce_mean(tf.square(
+            tf.maximum(self.similarity - 0.3, np.zeros_like(self.similarity)) * (1 - self.label) +
+            tf.minimum(self.similarity - 0.7, np.zeros_like(self.similarity)) * self.label
+        ))
 
     def __accuracy(self):
-        self.equals = tf.equal(self.label, tf.round(self.similarity))
+        self.label_pred = tf.round(self.similarity)
+        self.equals = tf.equal(self.label, self.label_pred)
         self.accuracy = tf.reduce_mean(tf.cast(self.equals, tf.float32))
 
     def train(self, product_fingerprint, reaction_fingerprint, label):
@@ -147,20 +150,29 @@ class SimilarityNet(object):
             batch_pf = product_fingerprint[i * FLAGS.batch_size:(i + 1) * FLAGS.batch_size]
             batch_rf = reaction_fingerprint[i * FLAGS.batch_size:(i + 1) * FLAGS.batch_size]
             batch_label = label[i * FLAGS.batch_size:(i + 1) * FLAGS.batch_size]
-            accuracy, _, loss, cosine = \
-                self.sess.run([self.accuracy, self.trainop, self.similarity_loss, self.cosine],
+            accuracy, loss, similarity = \
+                self.sess.run([self.accuracy, self.similarity_loss, self.similarity],
                               feed_dict={self.product_fingerprint: batch_pf,
                                          self.reaction_fingerprint: batch_rf,
                                          self.label: batch_label,
                                          self.drop_prob: np.reshape(0.3, (1, 1))})
+            if (similarity[0][0] <= 0.3 and batch_label[0][0] == 0) or \
+                    (similarity[0][0] >= 0.7 and batch_label[0][0] == 1):
+                pass
+            else:
+                self.sess.run(self.trainop, feed_dict={self.product_fingerprint: batch_pf,
+                                                       self.reaction_fingerprint: batch_rf,
+                                                       self.label: batch_label,
+                                                       self.drop_prob: np.reshape(0.3, (1, 1))})
             step = self.sess.run(self.global_step)
-            if step % 1000 == 0:
+            if step % 100 == 0:
+                print("Train step {:6d}".format(step))
+            if step % 10000 == 0:
                 self.save(global_step=step)
-            # print("#", step, accuracy, loss)
-            # print(cosine)
 
     def predict(self, product_fingerprint, reaction_fingerprint, label):
         self.train_flag = False
+        FLAGS.batch_size = 128
         epoch = int(np.ceil(len(product_fingerprint) / FLAGS.batch_size))
         for i in range(epoch):
             batch_pf = product_fingerprint[i * FLAGS.batch_size:(i + 1) * FLAGS.batch_size]
@@ -172,14 +184,21 @@ class SimilarityNet(object):
                                          self.reaction_fingerprint: batch_rf,
                                          self.label: batch_label,
                                          self.drop_prob: np.reshape(0.0, (1, 1))})
-            print("############", accuracy, loss, np.mean(similarity, axis=0)[0])
+            print("Accuracy:{0:10.5f},Average_Loss:{1:10.5f},Average_cosine:{2:10.5f}".format(accuracy, loss,
+                                                                                              np.mean(similarity,
+                                                                                                      axis=0)[0]))
+            print(str(similarity))
 
     def save(self, global_step):
+        print("Saving model of step {}...".format(global_step))
         self.saver.save(self.sess, os.path.join(FLAGS.checkpoint_dir, "similarity_net_model"), global_step=global_step)
+        print("Saved.".format(global_step))
 
     def load(self, file_name):
+        print("Loading model from {}...".format(file_name))
         self.saver = tf.train.import_meta_graph(os.path.join(FLAGS.checkpoint_dir, file_name))
         self.saver.restore(self.sess, tf.train.latest_checkpoint(FLAGS.checkpoint_dir))
+        print("Completed")
 
 
 if __name__ == "__main__":
