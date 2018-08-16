@@ -40,7 +40,7 @@ class SimilarityNet(object):
         self.__loss()
         self.__accuracy()
         if train_flag:
-            self.global_step = tf.Variable(0, name='global_step', trainable=False)
+            self.global_step = tf.Variable(1, name='global_step', trainable=False)
             self.optimizer = tf.train.AdamOptimizer(learning_rate=FLAGS.learning_rate)
             self.trainop = self.optimizer.minimize(self.similarity_loss, global_step=self.global_step)
             self.saver = tf.train.Saver(max_to_keep=4)
@@ -58,7 +58,7 @@ class SimilarityNet(object):
         self.dense_left = tf.layers.dense(inputs=self.product_fingerprint,
                                           units=1024,
                                           kernel_initializer=tf.truncated_normal_initializer(stddev=0.01),
-                                          activation=tf.nn.elu)
+                                          activation=tf.nn.sigmoid)
         self.dropout = tf.layers.dropout(self.dense_left, rate=self.drop_prob)
 
         self.gate_1 = tf.layers.dense(inputs=self.dropout,
@@ -68,7 +68,7 @@ class SimilarityNet(object):
         self.highway_y_1 = tf.layers.dense(inputs=self.dropout,
                                            units=1024,
                                            kernel_initializer=tf.truncated_normal_initializer(stddev=0.01),
-                                           activation=tf.nn.elu)
+                                           activation=tf.nn.sigmoid)
         self.highway_1 = self.gate_1 * self.highway_y_1 + (1 - self.gate_1) * self.dropout
 
         self.gate_2 = tf.layers.dense(inputs=self.highway_1,
@@ -78,7 +78,7 @@ class SimilarityNet(object):
         self.highway_y_2 = tf.layers.dense(inputs=self.highway_1,
                                            units=1024,
                                            kernel_initializer=tf.truncated_normal_initializer(stddev=0.01),
-                                           activation=tf.nn.elu)
+                                           activation=tf.nn.sigmoid)
         self.highway_2 = self.gate_2 * self.highway_y_2 + (1 - self.gate_2) * self.highway_1
 
         self.gate_3 = tf.layers.dense(inputs=self.highway_2,
@@ -88,7 +88,7 @@ class SimilarityNet(object):
         self.highway_y_3 = tf.layers.dense(inputs=self.highway_2,
                                            units=1024,
                                            kernel_initializer=tf.truncated_normal_initializer(stddev=0.01),
-                                           activation=tf.nn.elu)
+                                           activation=tf.nn.sigmoid)
         self.highway_3 = self.gate_3 * self.highway_y_3 + (1 - self.gate_3) * self.highway_2
 
         self.gate_4 = tf.layers.dense(inputs=self.highway_3,
@@ -98,7 +98,7 @@ class SimilarityNet(object):
         self.highway_y_4 = tf.layers.dense(inputs=self.highway_3,
                                            units=1024,
                                            kernel_initializer=tf.truncated_normal_initializer(stddev=0.01),
-                                           activation=tf.nn.elu)
+                                           activation=tf.nn.sigmoid)
         self.highway_4 = self.gate_4 * self.highway_y_4 + (1 - self.gate_4) * self.highway_3
 
         self.gate_5 = tf.layers.dense(inputs=self.highway_4,
@@ -108,7 +108,7 @@ class SimilarityNet(object):
         self.highway_y_5 = tf.layers.dense(inputs=self.highway_4,
                                            units=1024,
                                            kernel_initializer=tf.truncated_normal_initializer(stddev=0.01),
-                                           activation=tf.nn.elu)
+                                           activation=tf.nn.sigmoid)
         self.highway_5 = self.gate_5 * self.highway_y_5 + (1 - self.gate_5) * self.highway_4
 
         #############################left_layer###############################
@@ -118,7 +118,7 @@ class SimilarityNet(object):
         self.dense_right = tf.layers.dense(inputs=self.reaction_fingerprint,
                                            units=1024,
                                            kernel_initializer=tf.truncated_normal_initializer(stddev=0.01),
-                                           activation=tf.nn.elu)
+                                           activation=tf.nn.sigmoid)
 
         #############################right_layer###############################
 
@@ -127,7 +127,6 @@ class SimilarityNet(object):
         multi_sum = tf.reduce_sum(tf.multiply(self.highway_5, self.dense_right), axis=1)
         cosine = tf.abs(multi_sum) / (model1 * model2)
         # self.similarity = tf.nn.sigmoid(cosine)[:, np.newaxis]
-        # cosine = tf.map_fn(lambda x: 1.0 if tf.greater_equal(x, 0.7) else x, cosine)
         self.similarity = cosine[:, np.newaxis]
 
         return self.similarity
@@ -137,8 +136,10 @@ class SimilarityNet(object):
             tf.maximum(self.similarity - 0.3, np.zeros_like(self.similarity)) * (1 - self.label) +
             tf.minimum(self.similarity - 0.7, np.zeros_like(self.similarity)) * self.label
         ))
+        # self.similarity_loss = tf.reduce_mean(tf.square(self.similarity - self.label))
 
     def __accuracy(self):
+        # cosine = tf.map_fn(lambda x: 1.0 if tf.greater_equal(x, 0.7) else x, cosine)
         self.label_pred = tf.round(self.similarity)
         self.equals = tf.equal(self.label, self.label_pred)
         self.accuracy = tf.reduce_mean(tf.cast(self.equals, tf.float32))
@@ -150,20 +151,21 @@ class SimilarityNet(object):
             batch_pf = product_fingerprint[i * FLAGS.batch_size:(i + 1) * FLAGS.batch_size]
             batch_rf = reaction_fingerprint[i * FLAGS.batch_size:(i + 1) * FLAGS.batch_size]
             batch_label = label[i * FLAGS.batch_size:(i + 1) * FLAGS.batch_size]
-            accuracy, loss, similarity = \
-                self.sess.run([self.accuracy, self.similarity_loss, self.similarity],
+            _, accuracy, loss, similarity = \
+                self.sess.run([self.trainop, self.accuracy, self.similarity_loss, self.similarity],
                               feed_dict={self.product_fingerprint: batch_pf,
                                          self.reaction_fingerprint: batch_rf,
                                          self.label: batch_label,
                                          self.drop_prob: np.reshape(0.3, (1, 1))})
-            if (similarity[0][0] <= 0.3 and batch_label[0][0] == 0) or \
-                    (similarity[0][0] >= 0.7 and batch_label[0][0] == 1):
-                pass
-            else:
-                self.sess.run(self.trainop, feed_dict={self.product_fingerprint: batch_pf,
-                                                       self.reaction_fingerprint: batch_rf,
-                                                       self.label: batch_label,
-                                                       self.drop_prob: np.reshape(0.3, (1, 1))})
+            print('cosine:', str(similarity[0][0]), "label:", str(batch_label[0][0]))
+            # if (similarity[0][0] <= 0.3 and batch_label[0][0] == 0) or \
+            #         (similarity[0][0] >= 0.7 and batch_label[0][0] == 1):
+            #     pass
+            # else:
+            #     self.sess.run(self.trainop, feed_dict={self.product_fingerprint: batch_pf,
+            #                                            self.reaction_fingerprint: batch_rf,
+            #                                            self.label: batch_label,
+            #                                            self.drop_prob: np.reshape(0.3, (1, 1))})
             step = self.sess.run(self.global_step)
             if step % 100 == 0:
                 print("Train step {:6d}".format(step))
@@ -187,7 +189,7 @@ class SimilarityNet(object):
             print("Accuracy:{0:10.5f},Average_Loss:{1:10.5f},Average_cosine:{2:10.5f}".format(accuracy, loss,
                                                                                               np.mean(similarity,
                                                                                                       axis=0)[0]))
-            print(str(similarity))
+            # print(str(similarity))
 
     def save(self, global_step):
         print("Saving model of step {}...".format(global_step))
