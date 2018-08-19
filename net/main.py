@@ -37,6 +37,9 @@ def main():
               reaction_fingerprint=final_train["reaction_fingerprint"], label=final_train["label"])
     net.predict(product_fingerprint=final_test["product_fingerprint"],
                 reaction_fingerprint=final_test["reaction_fingerprint"], label=final_test["label"])
+    print("*****")
+    net.predict(product_fingerprint=fake_test["product_fingerprint"],
+                reaction_fingerprint=fake_test["reaction_fingerprint"], label=fake_test["label"])
     net.train(product_fingerprint=fake_train["product_fingerprint"],
               reaction_fingerprint=fake_train["reaction_fingerprint"], label=fake_train["label"])
     net.predict(product_fingerprint=fake_test["product_fingerprint"],
@@ -44,7 +47,13 @@ def main():
     print("*****")
     net.predict(product_fingerprint=final_test["product_fingerprint"],
                 reaction_fingerprint=final_test["reaction_fingerprint"], label=final_test["label"])
-
+    s_train, s_test = get_shuffled_data(data)
+    net.train(product_fingerprint=s_train["product_fingerprint"],
+              reaction_fingerprint=s_train["reaction_fingerprint"], label=s_train["label"])
+    net.train(product_fingerprint=s_train["product_fingerprint"],
+              reaction_fingerprint=s_train["reaction_fingerprint"], label=s_train["label"])
+    net.predict(product_fingerprint=s_test["product_fingerprint"],
+                reaction_fingerprint=s_test["reaction_fingerprint"], label=s_test["label"])
 
 def main2():
     net = SimilarityNet(True)
@@ -56,4 +65,4 @@ def main2():
 
 
 if __name__ == "__main__":
-    main2()
+    main()
