@@ -36,7 +36,7 @@ def read_file(file_path):
     col_names = sheet.row_values(0)
     pf = sheet.col_values(col_names.index("Product1_ECFP4"))[1:]
     rf = sheet.col_values(col_names.index("Reaction_site_ECFP4"))[1:]
-    label = np.reshape([1 for _ in range(len(pf))], (-1, 1))
+    label = [1 for _ in range(len(pf))]
     pf = [[int(c) for c in fingerprint] for fingerprint in pf]
     rf = [[int(c) for c in fingerprint] for fingerprint in rf]
     d = dict()
@@ -79,14 +79,14 @@ def get_negative_data(train, test, shift_size=1, change_property="product_finger
                                                                                                     "product_fingerprint"][
                                                                                                 :shift_size],
                                    reaction_fingerprint=t1["reaction_fingerprint"],
-                                   label=np.reshape([0 if _[0] == 1 else 1 for _ in t1["label"]], (-1, 1))))
+                                   label=[0 if _ == 1 else 1 for _ in t1["label"]]))
         for t2 in test:
             fake_test.append(dict(name=t2["name"],
                                   product_fingerprint=t2["product_fingerprint"][shift_size:] + t2[
                                                                                                    "product_fingerprint"][
                                                                                                :shift_size],
                                   reaction_fingerprint=t2["reaction_fingerprint"],
-                                  label=np.reshape([0 if _[0] == 1 else 1 for _ in t2["label"]], (-1, 1))))
+                                  label=[0 if _ == 1 else 1 for _ in t2["label"]]))
         return fake_train, fake_test
     elif change_property == "reaction_fingerprint":
         for t1 in train:
@@ -95,14 +95,14 @@ def get_negative_data(train, test, shift_size=1, change_property="product_finger
                                    reaction_fingerprint=t1["reaction_fingerprint"][shift_size:] + t1[
                                                                                                       "reaction_fingerprint"][
                                                                                                   :shift_size],
-                                   label=np.reshape([0 if _[0] == 1 else 1 for _ in t1["label"]], (-1, 1))))
+                                   label=[0 if _ == 1 else 1 for _ in t1["label"]]))
         for t2 in test:
             fake_test.append(dict(name=t2["name"],
                                   product_fingerprint=t2["product_fingerprint"],
                                   reaction_fingerprint=t2["reaction_fingerprint"][shift_size:] + t2[
                                                                                                      "reaction_fingerprint"][
                                                                                                  :shift_size],
-                                  label=np.reshape([0 if _[0] == 1 else 1 for _ in t2["label"]], (-1, 1))))
+                                  label=[0 if _ == 1 else 1 for _ in t2["label"]]))
         return fake_train, fake_test
         # elif change_property == "label":
         #     for t1 in train:
@@ -149,6 +149,42 @@ def get_shuffled_data(data=None):
         final_test["product_fingerprint"].append(triple[0])
         final_test["reaction_fingerprint"].append(triple[1])
         final_test["label"].append(triple[2])
+    return final_train, final_test
+
+
+def get_shuffled_data2(data=None):
+    if data is None:
+        data = read_all_data()
+    train, test = get_train_and_test(data)
+    neg_train, neg_test = get_negative_data(train, test)
+    all_train, all_test = [], []
+    for sheet in train:
+        for couple in zip(sheet["product_fingerprint"], sheet["reaction_fingerprint"], sheet["label"]):
+            all_train.append(couple)
+    for sheet in neg_train:
+        for couple in zip(sheet["product_fingerprint"], sheet["reaction_fingerprint"], sheet["label"]):
+            all_train.append(couple)
+    for sheet in test:
+        for couple in zip(sheet["product_fingerprint"], sheet["reaction_fingerprint"], sheet["label"]):
+            all_test.append(couple)
+    for sheet in neg_test:
+        for couple in zip(sheet["product_fingerprint"], sheet["reaction_fingerprint"], sheet["label"]):
+            all_test.append(couple)
+    shuffled_train = np.random.permutation(all_train)
+    shuffled_test = np.random.permutation(all_test)
+    final_train = dict(product_fingerprint=[], reaction_fingerprint=[], spliced_fingerprint=[], label=[])
+    final_test = dict(product_fingerprint=[], reaction_fingerprint=[], spliced_fingerprint=[], label=[])
+    for triple in shuffled_train:
+        final_train["product_fingerprint"].append(triple[0])
+        final_train["reaction_fingerprint"].append(triple[1])
+        final_train["spliced_fingerprint"].append(triple[0] + triple[1])
+        final_train["label"].append(triple[2])
+    for triple in shuffled_test:
+        final_test["product_fingerprint"].append(triple[0])
+        final_test["reaction_fingerprint"].append(triple[1])
+        final_test["spliced_fingerprint"].append(triple[0] + triple[1])
+        final_test["label"].append(triple[2])
+
     return final_train, final_test
 
 

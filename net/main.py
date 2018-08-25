@@ -55,6 +55,7 @@ def main():
     net.predict(product_fingerprint=s_test["product_fingerprint"],
                 reaction_fingerprint=s_test["reaction_fingerprint"], label=s_test["label"])
 
+
 def main2():
     net = SimilarityNet(True)
     final_train, final_test = get_shuffled_data()
