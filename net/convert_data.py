@@ -34,11 +34,19 @@ def read_file(file_path):
     ExcelFile = xlrd.open_workbook(file_path)
     sheet = ExcelFile.sheet_by_index(0)
     col_names = sheet.row_values(0)
+    rf1 = sheet.col_values(col_names.index("Reactant1_ECFP4"))[1:]
+    rf2 = sheet.col_values(col_names.index("Reactant2_ECFP4"))[1:]
     pf = sheet.col_values(col_names.index("Product1_ECFP4"))[1:]
-    rf = sheet.col_values(col_names.index("Reaction_site_ECFP4"))[1:]
     label = [1 for _ in range(len(pf))]
-    pf = [[int(c) for c in fingerprint] for fingerprint in pf]
-    rf = [[int(c) for c in fingerprint] for fingerprint in rf]
+    rf1 = [[int(c) for c in fingerprint] if len(fingerprint) == 2048 else [0] * 2048 for fingerprint in rf1]
+    rf2 = [[int(c) for c in fingerprint] if len(fingerprint) == 2048 else [0] * 2048 for fingerprint in rf2]
+    pf = [[int(c) for c in fingerprint] if len(fingerprint) == 2048 else [0] * 2048 for fingerprint in pf]
+    rf = []
+    for x, y, z in zip(rf1, rf2, pf):
+        temp = []
+        for x_, y_, z_ in zip(x, y, z):
+            temp.append(x_ + y_ + z_)
+        rf.append(temp)
     d = dict()
     d['name'] = name
     d['product_fingerprint'] = pf
@@ -48,12 +56,20 @@ def read_file(file_path):
     return d
 
 
-def read_all_data(dir_path=data_dir):
+def read_all_data(dir_path=data_dir, num=None):
     files = [path if path.split(".")[-1] in ("xls", "xlsx") else None for path in os.listdir(dir_path)]
     file_paths = [os.path.join(dir_path, f) for f in files]
     data_list = []
-    for file_path in file_paths:
-        data_list.append(read_file(file_path))
+    if num and num > 0:
+        count = 0
+        for file_path in file_paths:
+            data_list.append(read_file(file_path))
+            count += 1
+            if count >= num:
+                break
+    else:
+        for file_path in file_paths:
+            data_list.append(read_file(file_path))
     return data_list
 
 
@@ -152,9 +168,9 @@ def get_shuffled_data(data=None):
     return final_train, final_test
 
 
-def get_shuffled_data2(data=None):
+def get_shuffled_data2(data=None, num=None):
     if data is None:
-        data = read_all_data()
+        data = read_all_data(num=num)
     train, test = get_train_and_test(data)
     neg_train, neg_test = get_negative_data(train, test)
     all_train, all_test = [], []

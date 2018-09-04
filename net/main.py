@@ -59,11 +59,12 @@ def main():
 def main2():
     net = SimilarityNet(True)
     final_train, final_test = get_shuffled_data()
-    net.train(product_fingerprint=final_train["product_fingerprint"],
-              reaction_fingerprint=final_train["reaction_fingerprint"], label=final_train["label"])
+    for i in range(10):
+        net.train(product_fingerprint=final_train["product_fingerprint"],
+                  reaction_fingerprint=final_train["reaction_fingerprint"], label=final_train["label"])
     net.predict(product_fingerprint=final_test["product_fingerprint"],
                 reaction_fingerprint=final_test["reaction_fingerprint"], label=final_test["label"])
 
 
 if __name__ == "__main__":
-    main()
+    main2()

@@ -18,14 +18,16 @@ __mtime__ = '2018.07.31'
                ┃┫┫ ┃┫┫
                ┗┻┛ ┗┻┛
 """
-import tensorflow as tf
-import numpy as np
 import os
+
+import numpy as np
+import tensorflow as tf
+
+from convert_data import get_shuffled_data
 
 flags = tf.app.flags
 
-# flags.DEFINE_integer("epoch", 25, "Epoch to train [25]")
-flags.DEFINE_float("learning_rate", 1e-4, "Learning rate of for adam [0.0002]")
+flags.DEFINE_float("learning_rate", 1e-4, "Learning rate of for adam")
 flags.DEFINE_integer("batch_size", 1, "MiniBatch size set to be 128")
 flags.DEFINE_string("checkpoint_dir", os.path.join("..", "checkpoint"), "dir path to checkpoint")
 flags.DEFINE_float("stddev", 0.01, "Stander deviation")
@@ -152,8 +154,8 @@ class SimilarityNet(object):
         #     tf.maximum(self.similarity - 0.3, np.zeros_like(self.similarity)) * (1 - self.label) +
         #     tf.minimum(self.similarity - 0.7, np.zeros_like(self.similarity)) * self.label
         # ))
-        self.similarity_loss = tf.reduce_mean(-(self.similarity * self.label) + self.similarity * (1 - self.label))
-        # self.similarity_loss = tf.reduce_mean(tf.square(self.similarity - self.label))
+        # self.similarity_loss = tf.reduce_mean(-(self.similarity * self.label) + self.similarity * (1 - self.label))
+        self.similarity_loss = tf.reduce_mean(tf.square(self.similarity - self.label))
 
     def __accuracy(self):
         # cosine = tf.map_fn(lambda x: 1.0 if tf.greater_equal(x, 0.7) else x, cosine)
@@ -175,7 +177,7 @@ class SimilarityNet(object):
                     self.sess.run([self.trainop, self.accuracy, self.similarity_loss, self.similarity],
                                   feed_dict={self.product_fingerprint: batch_pf,
                                              self.reaction_fingerprint: batch_rf,
-                                             self.label: batch_label,
+                                             self.label: np.reshape(batch_label, [-1, 1]),
                                              self.drop_prob: np.reshape(0.3, (1, 1))})
             else:
                 accuracy, loss, similarity = \
@@ -193,11 +195,11 @@ class SimilarityNet(object):
                                                            self.label: batch_label,
                                                            self.drop_prob: np.reshape(0.3, (1, 1))})
 
-            print('Similarity:', str(similarity), "label:", str(batch_label[0][0]), "loss:", loss)
+            print("loss:", loss)
             step = self.sess.run(self.global_step)
             if step > 0 and step % 100 == 0:
                 print("Train step {:6d}".format(step))
-            if step > 0 and step % 10000 == 0:
+            if step > 0 and step % 100 == 0:
                 self.save(global_step=step)
 
     def predict(self, product_fingerprint, reaction_fingerprint, label):
@@ -212,7 +214,7 @@ class SimilarityNet(object):
                 self.sess.run([self.accuracy, self.similarity_loss, self.similarity],
                               feed_dict={self.product_fingerprint: batch_pf,
                                          self.reaction_fingerprint: batch_rf,
-                                         self.label: batch_label,
+                                         self.label: np.reshape(batch_label, [-1, 1]),
                                          self.drop_prob: np.reshape(0.0, (1, 1))})
             print("Accuracy:{0:10.5f},Total_Loss:{1:10.5f},Average_cosine:{2:10.5f}".format(accuracy, loss,
                                                                                             np.mean(similarity,
@@ -233,8 +235,9 @@ class SimilarityNet(object):
 
 if __name__ == "__main__":
     net = SimilarityNet(True)
-    pf = np.random.uniform(-1, 1, [1280, 2048]).astype(np.float32)
-    rf = np.random.uniform(-1, 1, [1280, 2048]).astype(np.float32)
-    label = np.ones([1280, 1], dtype=np.float32)
-
-    net.train(pf, rf, label)
+    final_train, final_test = get_shuffled_data()
+    for i in range(10):
+        net.train(product_fingerprint=final_train["product_fingerprint"],
+                  reaction_fingerprint=final_train["reaction_fingerprint"], label=final_train["label"])
+    net.predict(product_fingerprint=final_test["product_fingerprint"],
+                reaction_fingerprint=final_test["reaction_fingerprint"], label=final_test["label"])
