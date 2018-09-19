@@ -90,10 +90,11 @@ class SiameseNet(object):
             # e_w_g = self.__model(data1, data2, drop_rate)
             # e_w_i = self.__model(data1, data3, drop_rate)
         with tf.name_scope("loss") as scope:
-            Q = tf.constant(FLAGS.Q, dtype=tf.float32, name="Q")
-            increase = tf.multiply(tf.multiply(self.label, 2 / Q), tf.square(e_w), name="increase")
-            decrease = tf.multiply(tf.multiply(1 - self.label, 2 * Q), tf.exp(-2.77 / Q * e_w), name="decrease")
-            loss = tf.reduce_mean(increase + decrease, name="loss")
+            # Q = tf.constant(FLAGS.Q, dtype=tf.float32, name="Q")
+            # increase = tf.multiply(self.label * 2 / Q, tf.square(e_w), name="increase")
+            # decrease = tf.multiply(1 - self.label * 2 * Q, tf.exp(-2.77 / Q * e_w), name="decrease")
+            # loss = tf.reduce_mean(increase + decrease, name="loss")
+            loss = tf.reduce_mean(self.label * e_w + (1 - self.label) * 1 / (e_w + 1e-6))
         return loss
 
     def __accuracy(self, input1, input2, label):
@@ -180,7 +181,7 @@ class SiameseNet(object):
 
 if __name__ == "__main__":
     net = SiameseNet()
-    train, test = get_shuffled_data2(num=1)
+    train, test = get_shuffled_data2(num=None)
     net.train(input1=train["product_fingerprint"],
               input2=train["reaction_fingerprint"], label=train["label"])
     net.predict(input1=test["product_fingerprint"],
