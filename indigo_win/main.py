@@ -4,7 +4,7 @@ import threading
 import pandas as pd
 import xlrd
 
-from indigo_win import *
+from indigo import *
 
 
 def read_file(file_path):

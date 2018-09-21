@@ -4,8 +4,7 @@ import threading
 import pandas as pd
 import xlrd
 
-from indigo_linux import *
-
+from indigo import *
 
 def read_file(file_path):
     print("Reading file from {}...".format(file_path))
@@ -87,7 +86,7 @@ if __name__ == "__main__":
     file_num = 18
     file_list = [2, 7]
     thread_list = []
-    for i in file_list:
+    for i in range(16):
         t = myThread(i)
         thread_list.append(t)
     for t in thread_list:
