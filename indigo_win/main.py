@@ -1,9 +1,11 @@
+import os
 import threading
 
 import pandas as pd
 import xlrd
 
 from indigo import *
+from net.convert_data import data_dir
 
 
 def read_file(file_path):
@@ -86,10 +88,11 @@ class myThread(threading.Thread):
 
 
 if __name__ == "__main__":
-    file_num = 18
+    files = [path if path.split(".")[-1] in ("xls", "xlsx") else None for path in os.listdir(data_dir)]
+    file_num = len(files)
     file_list = [2, 7]
     thread_list = []
-    for i in file_list:
+    for i in range(file_num):
         t = myThread(i)
         thread_list.append(t)
     for t in thread_list:

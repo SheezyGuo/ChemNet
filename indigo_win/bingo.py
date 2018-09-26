@@ -12,7 +12,7 @@
 # WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 
 import os
-from indigo_win import *
+from indigo import *
 
 
 class BingoException(Exception):
