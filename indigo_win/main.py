@@ -1,4 +1,3 @@
-import os
 import threading
 
 import pandas as pd
@@ -74,6 +73,9 @@ class myThread(threading.Thread):
                 automap_list.append(automap)
             except IndigoException as e:
                 print(self.name, reaction, e)
+            except Exception as e:
+                print(e)
+                continue
         dataframe = pd.DataFrame({
             "raw_ractions": raw_reactions, "transformed_reactions": transformed_reactions, "automap": automap_list})
         if not os.path.isdir(os.path.join("..", "automap")):

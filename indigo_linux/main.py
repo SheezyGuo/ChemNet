@@ -6,6 +6,7 @@ import xlrd
 
 from indigo import *
 
+
 def read_file(file_path):
     print("Reading file from {}...".format(file_path))
     name = os.path.basename(file_path).split(".")[0]
@@ -84,9 +85,9 @@ class myThread(threading.Thread):
 
 if __name__ == "__main__":
     file_num = 18
-    file_list = [2, 7]
+    file_list = [3, 16]
     thread_list = []
-    for i in range(16):
+    for i in file_list:
         t = myThread(i)
         thread_list.append(t)
     for t in thread_list:
