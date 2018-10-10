@@ -5,7 +5,7 @@ import pandas as pd
 import xlrd
 
 from indigo import *
-from net.convert_data import data_dir
+from convert_data import data_dir
 
 
 def read_file(file_path):

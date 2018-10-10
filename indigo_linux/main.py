@@ -55,6 +55,7 @@ class myThread(threading.Thread):
         data_dir = os.path.join("..", "data")
         data, file_path = read_certain_file(data_dir, id=self.num)
         indigo = Indigo()
+        indigo.loadReaction()
         raw_reactions = []
         transformed_reactions = []
         automap_list = []
