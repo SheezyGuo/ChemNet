@@ -1,4 +1,3 @@
 @echo off
-cd indigo_win
-python single_rdkit_test.py
+python indigo_win\single_rdkit_test.py %*
 pause
