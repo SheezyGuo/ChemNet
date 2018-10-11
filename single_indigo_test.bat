@@ -1,3 +1,5 @@
 @echo off
-python indigo_win\single_indigo_test.py %*
+cd indigo_win
+python single_indigo_test.py %*
+cd ..
 pause

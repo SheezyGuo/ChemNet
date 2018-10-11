@@ -1,3 +1,5 @@
 @echo off
-python indigo_win\automap_excel.py %*
+cd indigo_win
+python automap_excel.py %*
+cd ..
 pause
