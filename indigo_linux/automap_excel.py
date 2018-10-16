@@ -1,7 +1,10 @@
+import ctypes
+import inspect
 import math
 import threading
 from functools import wraps
 from queue import Queue
+from threading import Thread
 
 import pandas as pd
 import xlrd
@@ -83,7 +86,14 @@ class MyThread(threading.Thread):
                 try:
                     rxn = indigo.loadReaction(reaction)
                     transformed = rxn.smiles()
-                    rxn.automap("discard")
+
+                    @time_limited_func()
+                    def rxn_auto_map(_rxn):
+                        _rxn.automap("discard")
+
+                    result = rxn_auto_map(rxn)
+                    if not result:
+                        raise TimeoutError("Automap timeout.")
                     automap = rxn.smiles()
                     raw_reactions.append(reaction)
                     transformed_reactions.append(transformed)
@@ -159,20 +169,59 @@ def main(slice=None):
         print(slice)
 
 
-def log_time_delta(func):
+def time_limited_func(func, *args, **kargs):
+    interval = 1
+
+    def _async_raise(tid, exctype):
+        """raises the exception, performs cleanup if needed"""
+        tid = ctypes.c_long(tid)
+        if not inspect.isclass(exctype):
+            exctype = type(exctype)
+        res = ctypes.pythonapi.PyThreadState_SetAsyncExc(tid, ctypes.py_object(exctype))
+        if res == 0:
+            raise ValueError("invalid thread id")
+        elif res != 1:
+            # """if it returns a number greater than one, you're in trouble,
+            # and you should call it again with exc=NULL to revert the effect"""
+            ctypes.pythonapi.PyThreadState_SetAsyncExc(tid, None)
+            raise SystemError("PyThreadState_SetAsyncExc failed")
+
+    def stop_thread(thread):
+        _async_raise(thread.ident, SystemExit)
+
     @wraps(func)
     def wrapper(*args, **kargs):
-        """doc"""
-        print("In wrapper")
-        return func(*args, **kargs)
+        """Do func in interval"""
+
+        class time_limited_class(Thread):
+            def __init__(self):
+                Thread.__init__(self)
+                self.is_finished = False
+
+            def run(self):
+                timer = threading.Timer(interval, stop_thread, [self])
+                timer.start()
+                func(*args, **kargs)
+                timer.cancel()
+                self.is_finished = True
+
+        t = time_limited_class()
+        t.start()
+        t.join()
+        return t.is_finished
 
     return wrapper
 
 
-@log_time_delta
-def f():
-    print("f")
+@time_limited_func
+def f(a):
+    from time import sleep
+    sleep(a)
 
 
 if __name__ == "__main__":
-    f()
+    try:
+        result = f(1)
+        print(result)
+    except Exception as e:
+        print(e)
