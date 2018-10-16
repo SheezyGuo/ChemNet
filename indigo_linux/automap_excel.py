@@ -132,8 +132,22 @@ def main(slice=None):
         if path.split(".")[-1] in ("xls", "xlsx"):
             files.append(os.path.join(data_dir, path))
     file_num = len(files)
-    thread_num = 16
-    if not slice:
+    thread_num = 32
+    if slice == "all":
+        task_queue = Queue()
+        for file in files:
+            task_queue.put(file)
+        thread_list = []
+        count_list = [0, file_num]
+        for i in range(thread_num):
+            t = MyThread(task_queue, count_list)
+            thread_list.append(t)
+        for t in thread_list:
+            t.start()
+        for t in thread_list:
+            t.join()
+        task_queue.join()
+    elif slice is None or slice == 0:
         for i in range(int(math.ceil(file_num / thread_num))):
             print("Round", i + 1, "#" * 60)
             task_queue = Queue()
@@ -150,7 +164,7 @@ def main(slice=None):
             for t in thread_list:
                 t.join()
             task_queue.join()
-    else:
+    elif slice > 0:
         task_queue = Queue()
         sub_files = files[
                     slice * thread_num: file_num if (slice + 1) * thread_num > file_num else (slice + 1) * thread_num]
@@ -220,8 +234,9 @@ def f(a):
 
 
 if __name__ == "__main__":
-    try:
-        result = f(1)
-        print(result)
-    except Exception as e:
-        print(e)
+    # try:
+    #     result = f(1)
+    #     print(result)
+    # except Exception as e:
+    #     print(e)
+    main("all")
