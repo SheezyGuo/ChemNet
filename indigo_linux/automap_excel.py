@@ -7,9 +7,6 @@ import xlrd
 from convert_data import data_dir
 from indigo import *
 
-count_num = 0
-total = 0
-
 
 def read_file(file_path):
     print("Reading file from {}...".format(file_path))
@@ -53,18 +50,22 @@ def read_certain_file(dir_path, id):
 
 
 class MyThread(threading.Thread):
-    def __init__(self, queue):
+
+    def __init__(self, queue, count_list):
         threading.Thread.__init__(self)
         self.queue = queue
+        self.count_list = count_list
 
     def run(self):
+        indigo = Indigo()
         while not self.queue.empty():
             file_path = self.queue.get()
             data = read_file(file_path)
-            file_name = file_path[:file_path.rindex(".")]
-            self.setName("{:04d}--->{:s}".format(self.num, file_name))
+            self.queue.task_done()
+            file_name = os.path.basename(file_path)
+            file_name = file_name[:file_name.rindex(".")]
+            self.setName("{:s}".format(file_name))
             print("Starting " + self.name)
-            indigo = Indigo()
             raw_reactions = []
             transformed_reactions = []
             automap_list = []
@@ -102,27 +103,28 @@ class MyThread(threading.Thread):
             if len(error_reactions) > 0 or len(error_info) > 0:
                 errorframe.to_csv(
                     "{}.csv".format(os.path.join("..", "automap_error", "error_" + file_name)), sep=',')
-            count_num += 1
-            print("{:04d}/{:04d}   Exiting {:s}".format(count_num, total, self.name))
-            self.queue.task_done()
+            self.count_list[0] = self.count_list[0] + 1
+            print("{:04d}/{:04d}   Exiting {:s}".format(self.count_list[0], self.count_list[1], self.name))
 
 
 def main():
     files = []
     for path in os.listdir(data_dir):
         if path.split(".")[-1] in ("xls", "xlsx"):
-            files.append(path)
+            files.append(os.path.join(data_dir, path))
     task_queue = Queue()
     file_num = len(files)
     for file in files:
         task_queue.put(file)
-    total = file_num
     thread_list = []
-    for i in range(file_num):
-        t = MyThread(task_queue)
+    thread_num = 32
+    count_list = [0, file_num]
+    for i in range(thread_num):
+        t = MyThread(task_queue, count_list)
         thread_list.append(t)
     for t in thread_list:
         t.start()
+    for t in thread_list:
         t.join()
     task_queue.join()
 
