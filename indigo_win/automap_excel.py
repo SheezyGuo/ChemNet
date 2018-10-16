@@ -159,4 +159,4 @@ def main(slice=None):
 
 
 if __name__ == "__main__":
-    main(3)
+    main(6)

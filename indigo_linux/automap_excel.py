@@ -1,5 +1,6 @@
 import math
 import threading
+from functools import wraps
 from queue import Queue
 
 import pandas as pd
@@ -158,5 +159,20 @@ def main(slice=None):
         print(slice)
 
 
+def log_time_delta(func):
+    @wraps(func)
+    def wrapper(*args, **kargs):
+        """doc"""
+        print("In wrapper")
+        return func(*args, **kargs)
+
+    return wrapper
+
+
+@log_time_delta
+def f():
+    print("f")
+
+
 if __name__ == "__main__":
-    main(3)
+    f()
