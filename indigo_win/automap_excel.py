@@ -1,11 +1,12 @@
-import os
+import math
 import threading
+from queue import Queue
 
 import pandas as pd
 import xlrd
 
-from indigo import *
 from convert_data import data_dir
+from indigo import *
 
 
 def read_file(file_path):
@@ -38,7 +39,10 @@ def read_all_data(dir_path, num=None):
 
 
 def read_certain_file(dir_path, id):
-    files = [path if path.split(".")[-1] in ("xls", "xlsx") else None for path in os.listdir(dir_path)]
+    files = []
+    for path in os.listdir(dir_path):
+        if path.split(".")[-1] in ("xls", "xlsx"):
+            files.append(path)
     file_paths = [os.path.join(dir_path, f) for f in files]
     assert id < len(file_paths)
     file_path = file_paths[id]
@@ -46,54 +50,113 @@ def read_certain_file(dir_path, id):
     return data, file_path
 
 
-class myThread(threading.Thread):
-    def __init__(self, num):
+class MyThread(threading.Thread):
+
+    def __init__(self, queue, count_list):
         threading.Thread.__init__(self)
-        self.num = num
+        self.queue = queue
+        self.count_list = count_list
 
     def run(self):
-        print("Starting " + self.name)
-        data_dir = os.path.join("..", "data")
-        data, file_path = read_certain_file(data_dir, id=self.num)
         indigo = Indigo()
-        raw_reactions = []
-        transformed_reactions = []
-        automap_list = []
-        reaction_list = data
-        count = 0
-        for reaction in reaction_list:
-            count += 1
-            if count % 100 == 0:
-                print(self.name, count)
-            try:
-                rxn = indigo.loadReaction(reaction)
-                transformed = rxn.smiles()
-                rxn.automap("discard")
-                automap = rxn.smiles()
-                raw_reactions.append(reaction)
-                transformed_reactions.append(transformed)
-                automap_list.append(automap)
-            except IndigoException as e:
-                print(self.name, reaction, e)
-            except Exception as e:
-                print(e)
-                continue
-        dataframe = pd.DataFrame({
-            "raw_ractions": raw_reactions, "transformed_reactions": transformed_reactions, "automap": automap_list})
-        if not os.path.isdir(os.path.join("..", "automap")):
-            os.mkdir(os.path.join("..", "automap"))
-        dataframe.to_csv(
-            "{}.csv".format(os.path.join("..", "automap", os.path.basename(file_path).split(".")[0])), sep=',')
-        print("Exiting " + self.name)
+        while not self.queue.empty():
+            file_path = self.queue.get()
+            data = read_file(file_path)
+            self.queue.task_done()
+            file_name = os.path.basename(file_path)
+            file_name = file_name[:file_name.rindex(".")]
+            self.setName("{:s}".format(file_name))
+            print("Starting " + self.name)
+
+            raw_reactions = []
+            transformed_reactions = []
+            automap_list = []
+            error_reactions = []
+            error_info = []
+            reaction_list = data
+
+            for index, reaction in enumerate(reaction_list):
+                if reaction.startswith("<<") or reaction.count(".") > 1:
+                    continue
+                print(self.name, index)
+                try:
+                    rxn = indigo.loadReaction(reaction)
+                    transformed = rxn.smiles()
+                    rxn.automap("discard")
+                    automap = rxn.smiles()
+                    raw_reactions.append(reaction)
+                    transformed_reactions.append(transformed)
+                    automap_list.append(automap)
+                except IndigoException as e:
+                    error_reactions.append(reaction)
+                    error_info.append(str(e))
+                    print(self.name, reaction, e)
+                except Exception as e:
+                    error_reactions.append(reaction)
+                    error_info.append(str(e))
+                    print(self.name, reaction, e)
+
+            dataframe = pd.DataFrame({
+                "raw_ractions": raw_reactions, "transformed_reactions": transformed_reactions, "automap": automap_list})
+            errorframe = pd.DataFrame({
+                "error_ractions": error_reactions, "error_info": error_info})
+
+            if not os.path.isdir(os.path.join("..", "automap")):
+                os.mkdir(os.path.join("..", "automap"))
+            if not os.path.isdir(os.path.join("..", "automap_error")):
+                os.mkdir(os.path.join("..", "automap_error"))
+            if len(raw_reactions) > 0 or len(transformed_reactions) > 0 or len(automap_list) > 0:
+                dataframe.to_csv(
+                    "{}.csv".format(os.path.join("..", "automap", file_name), sep=','))
+            if len(error_reactions) > 0 or len(error_info) > 0:
+                errorframe.to_csv(
+                    "{}.csv".format(os.path.join("..", "automap_error", "error_" + file_name)), sep=',')
+            self.count_list[0] = self.count_list[0] + 1
+            print("{:04d}/{:04d}   Exiting {:s}".format(self.count_list[0], self.count_list[1], self.name))
+
+
+def main(slice=None):
+    files = []
+    for path in os.listdir(data_dir):
+        if path.split(".")[-1] in ("xls", "xlsx"):
+            files.append(os.path.join(data_dir, path))
+    file_num = len(files)
+    thread_num = 16
+    if not slice:
+        for i in range(int(math.ceil(file_num / thread_num))):
+            print("Round", i + 1, "#" * 60)
+            task_queue = Queue()
+            sub_files = files[i * thread_num: file_num if (i + 1) * thread_num > file_num else (i + 1) * thread_num]
+            for file in sub_files:
+                task_queue.put(file)
+            thread_list = []
+            count_list = [0, file_num]
+            for i in range(thread_num):
+                t = MyThread(task_queue, count_list)
+                thread_list.append(t)
+            for t in thread_list:
+                t.start()
+            for t in thread_list:
+                t.join()
+            task_queue.join()
+    else:
+        task_queue = Queue()
+        sub_files = files[
+                    slice * thread_num: file_num if (slice + 1) * thread_num > file_num else (slice + 1) * thread_num]
+        for file in sub_files:
+            task_queue.put(file)
+        thread_list = []
+        count_list = [0, file_num]
+        for i in range(thread_num):
+            t = MyThread(task_queue, count_list)
+            thread_list.append(t)
+        for t in thread_list:
+            t.start()
+        for t in thread_list:
+            t.join()
+        task_queue.join()
+        print(slice)
 
 
 if __name__ == "__main__":
-    files = [path if path.split(".")[-1] in ("xls", "xlsx") else None for path in os.listdir(data_dir)]
-    file_num = len(files)
-    file_list = [2, 7]
-    thread_list = []
-    for i in range(file_num):
-        t = myThread(i)
-        thread_list.append(t)
-    for t in thread_list:
-        t.start()
+    main(3)

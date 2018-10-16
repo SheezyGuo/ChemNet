@@ -1,3 +1,4 @@
+import math
 import threading
 from queue import Queue
 
@@ -66,13 +67,17 @@ class MyThread(threading.Thread):
             file_name = file_name[:file_name.rindex(".")]
             self.setName("{:s}".format(file_name))
             print("Starting " + self.name)
+
             raw_reactions = []
             transformed_reactions = []
             automap_list = []
             error_reactions = []
             error_info = []
             reaction_list = data
+
             for index, reaction in enumerate(reaction_list):
+                if reaction.startswith("<<") or reaction.count(".") > 1:
+                    continue
                 print(self.name, index)
                 try:
                     rxn = indigo.loadReaction(reaction)
@@ -90,16 +95,19 @@ class MyThread(threading.Thread):
                     error_reactions.append(reaction)
                     error_info.append(str(e))
                     print(self.name, reaction, e)
+
             dataframe = pd.DataFrame({
                 "raw_ractions": raw_reactions, "transformed_reactions": transformed_reactions, "automap": automap_list})
             errorframe = pd.DataFrame({
                 "error_ractions": error_reactions, "error_info": error_info})
+
             if not os.path.isdir(os.path.join("..", "automap")):
                 os.mkdir(os.path.join("..", "automap"))
             if not os.path.isdir(os.path.join("..", "automap_error")):
                 os.mkdir(os.path.join("..", "automap_error"))
-            dataframe.to_csv(
-                "{}.csv".format(os.path.join("..", "automap", file_name), sep=','))
+            if len(raw_reactions) > 0 or len(transformed_reactions) > 0 or len(automap_list) > 0:
+                dataframe.to_csv(
+                    "{}.csv".format(os.path.join("..", "automap", file_name), sep=','))
             if len(error_reactions) > 0 or len(error_info) > 0:
                 errorframe.to_csv(
                     "{}.csv".format(os.path.join("..", "automap_error", "error_" + file_name)), sep=',')
@@ -107,27 +115,48 @@ class MyThread(threading.Thread):
             print("{:04d}/{:04d}   Exiting {:s}".format(self.count_list[0], self.count_list[1], self.name))
 
 
-def main():
+def main(slice=None):
     files = []
     for path in os.listdir(data_dir):
         if path.split(".")[-1] in ("xls", "xlsx"):
             files.append(os.path.join(data_dir, path))
-    task_queue = Queue()
     file_num = len(files)
-    for file in files:
-        task_queue.put(file)
-    thread_list = []
-    thread_num = 32
-    count_list = [0, file_num]
-    for i in range(thread_num):
-        t = MyThread(task_queue, count_list)
-        thread_list.append(t)
-    for t in thread_list:
-        t.start()
-    for t in thread_list:
-        t.join()
-    task_queue.join()
+    thread_num = 16
+    if not slice:
+        for i in range(int(math.ceil(file_num / thread_num))):
+            print("Round", i + 1, "#" * 60)
+            task_queue = Queue()
+            sub_files = files[i * thread_num: file_num if (i + 1) * thread_num > file_num else (i + 1) * thread_num]
+            for file in sub_files:
+                task_queue.put(file)
+            thread_list = []
+            count_list = [0, file_num]
+            for i in range(thread_num):
+                t = MyThread(task_queue, count_list)
+                thread_list.append(t)
+            for t in thread_list:
+                t.start()
+            for t in thread_list:
+                t.join()
+            task_queue.join()
+    else:
+        task_queue = Queue()
+        sub_files = files[
+                    slice * thread_num: file_num if (slice + 1) * thread_num > file_num else (slice + 1) * thread_num]
+        for file in sub_files:
+            task_queue.put(file)
+        thread_list = []
+        count_list = [0, file_num]
+        for i in range(thread_num):
+            t = MyThread(task_queue, count_list)
+            thread_list.append(t)
+        for t in thread_list:
+            t.start()
+        for t in thread_list:
+            t.join()
+        task_queue.join()
+        print(slice)
 
 
 if __name__ == "__main__":
-    main()
+    main(3)
