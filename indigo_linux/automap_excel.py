@@ -13,6 +13,18 @@ from convert_data import data_dir
 from indigo import *
 
 
+def get_excel_files_in(dir_path):
+    if not os.path.isdir(dir_path):
+        os.mkdir(dir_path)
+    files = []
+    for path in os.listdir(dir_path):
+        if path.split(".")[-1] in ("xls", "xlsx"):
+            files.append(path)
+        else:
+            print(path)
+    return files
+
+
 def read_file(file_path):
     print("Reading file from {}...".format(file_path))
     name = os.path.basename(file_path).split(".")[0]
@@ -26,7 +38,7 @@ def read_file(file_path):
 
 
 def read_all_data(dir_path, num=None):
-    files = [path if path.split(".")[-1] in ("xls", "xlsx") else None for path in os.listdir(dir_path)]
+    files = get_excel_files_in(data_dir)
     file_paths = [os.path.join(dir_path, f) for f in files]
     data_list = []
     if num and num > 0:
@@ -43,15 +55,15 @@ def read_all_data(dir_path, num=None):
 
 
 def read_certain_file(dir_path, id):
-    files = []
-    for path in os.listdir(dir_path):
-        if path.split(".")[-1] in ("xls", "xlsx"):
-            files.append(path)
+    files = get_excel_files_in(data_dir)
     file_paths = [os.path.join(dir_path, f) for f in files]
     assert id < len(file_paths)
     file_path = file_paths[id]
     data = read_file(file_path)
     return data, file_path
+
+
+indigo = Indigo()
 
 
 class MyThread(threading.Thread):
@@ -62,7 +74,7 @@ class MyThread(threading.Thread):
         self.count_list = count_list
 
     def run(self):
-        indigo = Indigo()
+        global indigo
         while not self.queue.empty():
             file_path = self.queue.get()
             data = read_file(file_path)
@@ -80,18 +92,20 @@ class MyThread(threading.Thread):
             reaction_list = data
 
             for index, reaction in enumerate(reaction_list):
-                if reaction.startswith("<<") or reaction.count(".") > 1:
+                if reaction.startswith(">>") or reaction.count(".") > 1:
                     continue
                 print(self.name, index)
                 try:
                     rxn = indigo.loadReaction(reaction)
                     transformed = rxn.smiles()
 
-                    @time_limited_func()
+                    @time_limited_func
                     def rxn_auto_map(_rxn):
                         _rxn.automap("discard")
 
-                    result = rxn_auto_map(rxn)
+                    result, exception = rxn_auto_map(rxn)
+                    if exception is not None:
+                        raise Exception(str(exception))
                     if not result:
                         raise TimeoutError("Automap timeout.")
                     automap = rxn.smiles()
@@ -127,10 +141,7 @@ class MyThread(threading.Thread):
 
 
 def main(slice=None):
-    files = []
-    for path in os.listdir(data_dir):
-        if path.split(".")[-1] in ("xls", "xlsx"):
-            files.append(os.path.join(data_dir, path))
+    files = get_excel_files_in(data_dir)
     file_num = len(files)
     thread_num = 32
     if slice == "all":
@@ -184,7 +195,7 @@ def main(slice=None):
 
 
 def time_limited_func(func, *args, **kargs):
-    interval = 1
+    interval = 100
 
     def _async_raise(tid, exctype):
         """raises the exception, performs cleanup if needed"""
@@ -211,18 +222,24 @@ def time_limited_func(func, *args, **kargs):
             def __init__(self):
                 Thread.__init__(self)
                 self.is_finished = False
+                self.exception = None
 
             def run(self):
                 timer = threading.Timer(interval, stop_thread, [self])
                 timer.start()
-                func(*args, **kargs)
+                try:
+                    func(*args, **kargs)
+                except IndigoException as e:
+                    self.exception = e
+                except Exception as e:
+                    self.exception = e
                 timer.cancel()
                 self.is_finished = True
 
         t = time_limited_class()
         t.start()
         t.join()
-        return t.is_finished
+        return t.is_finished, t.exception
 
     return wrapper
 
@@ -233,10 +250,25 @@ def f(a):
     sleep(a)
 
 
+def get_unhandled_file():
+    handled_dir = os.path.abspath(os.path.join(data_dir, "..", "automap"))
+    handled_files = get_excel_files_in(handled_dir)
+    handled_files_name = [file[:file.rindex(".")] for file in handled_files]
+    unhandled_files = get_excel_files_in(data_dir)
+    print("All files num:{:4d}".format(len(unhandled_files)))
+    for unhandled_file in unhandled_files:
+        unhandled_file_name = unhandled_file[:unhandled_file.rindex(".")]
+        if unhandled_file_name in handled_files_name:
+            unhandled_files.remove(unhandled_file)
+    print("Unhandled files num:{:4d}".format(len(unhandled_files)))
+    print("Handled files num:{:4d}".format(len(handled_files)))
+    return unhandled_files
+
+
 if __name__ == "__main__":
-    # try:
-    #     result = f(1)
-    #     print(result)
-    # except Exception as e:
-    #     print(e)
-    main("all")
+    try:
+        result = f(1)
+        print(result)
+    except Exception as e:
+        print(e)
+    main(3)
