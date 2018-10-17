@@ -142,6 +142,7 @@ class MyThread(threading.Thread):
 
 def main(slice=None):
     files = get_excel_files_in(data_dir)
+    files = [os.path.join(data_dir, file) for file in files]
     file_num = len(files)
     thread_num = 32
     if slice == "all":
@@ -158,7 +159,7 @@ def main(slice=None):
         for t in thread_list:
             t.join()
         task_queue.join()
-    elif slice is None or slice == 0:
+    elif slice is None:
         for i in range(int(math.ceil(file_num / thread_num))):
             print("Round", i + 1, "#" * 60)
             task_queue = Queue()
@@ -175,7 +176,7 @@ def main(slice=None):
             for t in thread_list:
                 t.join()
             task_queue.join()
-    elif slice > 0:
+    elif slice >= 0:
         task_queue = Queue()
         sub_files = files[
                     slice * thread_num: file_num if (slice + 1) * thread_num > file_num else (slice + 1) * thread_num]
@@ -195,7 +196,7 @@ def main(slice=None):
 
 
 def time_limited_func(func, *args, **kargs):
-    interval = 100
+    interval = 10
 
     def _async_raise(tid, exctype):
         """raises the exception, performs cleanup if needed"""
@@ -265,10 +266,12 @@ def get_unhandled_file():
     return unhandled_files
 
 
+def handle_all():
+    while len(get_unhandled_file()) > 0:
+        t = threading.Thread(target=lambda: main(0))
+        t.start()
+        t.join()
+
+
 if __name__ == "__main__":
-    try:
-        result = f(1)
-        print(result)
-    except Exception as e:
-        print(e)
-    main(3)
+    handle_all()
