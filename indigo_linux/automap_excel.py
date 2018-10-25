@@ -38,28 +38,28 @@ class MyThread(threading.Thread):
             reaction_list = data
 
             for index, reaction in enumerate(reaction_list):
-                if reaction.startswith(">>") or reaction.endswith(">>") or reaction.count(".") > 1:
+                if reaction.startswith(">>") or reaction.endswith(">>") or reaction[:reaction.index(">>")].count(
+                        ".") > 1:
                     error_reactions.append(reaction)
                     error_info.append("Ignored this reaction")
                     continue
                 print(self.name, index)
                 try:
-                    rxn = indigo.loadReaction(reaction)
-                    transformed = rxn.smiles()
-
                     @time_limited_func
-                    def rxn_auto_map(_rxn):
-                        _rxn.automap("discard")
+                    def proceed():
+                        rxn = indigo.loadReaction(reaction)
+                        transformed = rxn.smiles()
+                        rxn.automap("discard")
+                        automap = rxn.smiles()
+                        raw_reactions.append(reaction)
+                        transformed_reactions.append(transformed)
+                        automap_list.append(automap)
 
-                    result, exception = rxn_auto_map(rxn)
+                    is_finished, exception = proceed()
                     if exception is not None:
                         raise Exception(str(exception))
-                    if not result:
+                    if not is_finished:
                         raise TimeoutError("Automap timeout.")
-                    automap = rxn.smiles()
-                    raw_reactions.append(reaction)
-                    transformed_reactions.append(transformed)
-                    automap_list.append(automap)
                 except IndigoException as e:
                     error_reactions.append(reaction)
                     error_info.append(str(e))
@@ -86,6 +86,7 @@ class MyThread(threading.Thread):
                     "{}.csv".format(os.path.join("..", "automap_error", "error_" + file_name)), sep=',')
             self.count_list[0] = self.count_list[0] + 1
             print("{:04d}/{:04d}   Exiting {:s}".format(self.count_list[0], self.count_list[1], self.name))
+            print("Activate thread num:", threading.active_count())
 
 
 def main(mode=None):
@@ -95,6 +96,7 @@ def main(mode=None):
     recoder.maintain_corrupt()
     files = recoder.get_no_corrupt(files)
     file_num = len(files)
+    print("Left nums:", file_num)
     thread_num = 10
     if mode == "all":
         recoder.append_corrupt(files)

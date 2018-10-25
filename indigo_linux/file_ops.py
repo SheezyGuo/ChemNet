@@ -31,6 +31,9 @@ data_dir = os.path.abspath(data_dir)
 automap_dir = os.path.join(data_dir, "..", "automap")
 automap_dir = os.path.abspath(automap_dir)
 
+error_dir = os.path.join(data_dir, "..", "automap_error")
+error_dir = os.path.abspath(error_dir)
+
 
 def get_files_in(dir_path, suffix):
     if not os.path.isdir(dir_path):
@@ -91,10 +94,12 @@ def read_certain_file(dir_path, id):
 
 
 def get_unhandled_file():
-    handled_dir = os.path.abspath(automap_dir)
-    handled_files = get_files_in(handled_dir, ["csv"])
+    handled_files = get_files_in(automap_dir, ["csv"])
     handled_files_name = [file[:file.rindex(".")] for file in handled_files]
-    unhandled_files = get_files_in(data_dir)
+    error_files = get_files_in(error_dir, ["csv"])
+    error_files_name = [file[:file.rindex(".")].lstrip("error_") for file in error_files]
+    unhandled_files = get_files_in(data_dir, ("xls", "xlsx"))
+    handled_files_name.extend(error_files_name)
     print("All files num:{:4d}".format(len(unhandled_files)))
     to_remove_list = []
     for unhandled_file in unhandled_files:
@@ -176,6 +181,7 @@ class Recorder(object):
 
     def get_no_corrupt(self, l):
         corrupt = self.get_corrupt()
+        corrupt = [c.strip("\n") for c in corrupt]
         for c in corrupt:
             if c in l:
                 l.remove(c)
