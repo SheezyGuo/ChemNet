@@ -1,0 +1,1168 @@
+,error_ractions,error_info
+0,C(CC)CC=O.c1(ccc(Br)cc1)\C=C\N(=O)=O>>[C@H](CN(=O)=O)([C@H](C=O)CCC)c1ccc(Br)cc1,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+1,c12c(cccc1)cc(C=O)[nH]2.c12c(cccc1)ccc(C)[n+]2C.[I-]>>c12c(cccc1)ccc(\C=C\c3cc(cccc4)c4[nH]3)[n+]2C.[I-],Ignored this reaction
+2,c1(ccc(Cl)cc1)N(=O)=O>>c1(Cl)ccc(N)cc1.c1(N)ccccc1.c1(NO)ccc(Cl)cc1,Ignored this reaction
+3,O(C)CBr.[Si](CC)(CC)(CC)O[C@H](C[C@@H](O)C[C@H](O)C[C@@H]1CCC[C@H](CCO[Si](C)(C)C(C)(C)C)O1)[C@@H](C)COCc2ccccc2.O(C)CBr>>[Si](CC)(CC)(CC)O[C@H](C[C@@H](OCOC)C[C@H](OCOC)C[C@@H]1CCC[C@H](CCO[Si](C)(C)C(C)(C)C)O1)[C@@H](C)COCc2ccccc2,Ignored this reaction
+4,c1(Br)ccc(Br)s1.C1(CCCCCC)(CCCCCC)c2c(ccc(C#C)c2)c(ccc(n3c4c(cccc4)c(cccc5)c35)c6)c16.C1(CCCCCC)(CCCCCC)c2c(ccc(C#C)c2)c(ccc(n3c4c(cccc4)c(cccc5)c35)c6)c16>>C1(CCCCCC)(CCCCCC)c2c(ccc(C#Cc3ccc(C#Cc4ccc(c(ccc(n5c6c(cccc6)c(cccc7)c57)c8)c8C9(CCCCCC)CCCCCC)c9c4)s3)c2)c(ccc(n%10c%11c(cccc%11)c(cccc%12)c%10%12)c%13)c1%13,Ignored this reaction
+5,C1(=O)NC(=O)NC(=O)C1=O.c12c(cccc1)C(=O)NNC2=O.c12c(cccc1)C(=O)C=C(O)C2=O>>C12(C(=O)NC(=O)NC1=O)C3=C(C(=O)c(cccc4)c4C3=O)N(C(=O)c(cccc5)c5C6=O)N26,Ignored this reaction
+6,c12c(cccc1)C(=O)NNC2=O.c12c(cccc1)C(=O)C=C(O)C2=O.c1(C=O)ccc(C)cc1>>C1(c2ccc(C)cc2)C3=C(C(=O)c(cccc4)c4C3=O)N(C(=O)c(cccc5)c5C6=O)N16,Ignored this reaction
+7,c12c(cccc1)C(=O)NNC2=O.c12c(cccc1)C(=O)C=C(O)C2=O.c1(OC)ccc(C=O)cc1>>N12N(C(=O)c(cccc3)c3C1=O)C(c4ccc(OC)cc4)C(C(=O)c(cccc5)c5C6=O)=C26,Ignored this reaction
+8,c12c(cccc1)C(=O)NNC2=O.c12c(cccc1)C(=O)C=C(O)C2=O.c1(C=O)ccc(O)cc1>>C1(c2ccc(O)cc2)C3=C(C(=O)c(cccc4)c4C3=O)N(C(=O)c(cccc5)c5C6=O)N16,Ignored this reaction
+9,c12c(cccc1)C(=O)NNC2=O.c12c(cccc1)C(=O)C=C(O)C2=O.c1(C=O)cccc(F)c1>>N12N(C(=O)c(cccc3)c3C1=O)C(c4cccc(F)c4)C(C(=O)c(cccc5)c5C6=O)=C26,Ignored this reaction
+10,c12c(cccc1)C(=O)NNC2=O.c12c(cccc1)C(=O)C=C(O)C2=O.c1(C=O)cccc(Br)c1>>N12N(C(=O)c(cccc3)c3C1=O)C(c4cccc(Br)c4)C(C(=O)c(cccc5)c5C6=O)=C26,Ignored this reaction
+11,c12c(cccc1)C(=O)NNC2=O.c12c(cccc1)C(=O)C=C(O)C2=O.c1(cccc(C=O)c1)N(=O)=O>>N12N(C(=O)c(cccc3)c3C1=O)C(c4cccc(N(=O)=O)c4)C(C(=O)c(cccc5)c5C6=O)=C26,Ignored this reaction
+12,c1(ccncc1Cl)N(=O)=O.c1(CN)cc(Cl)ccc1Cl.Cl[H]>>c1(ccncc1NCc2cc(Cl)ccc2Cl)N(=O)=O,Ignored this reaction
+13,[C@H](C=C(C)I)(O[Si](CC)(CC)CC)[C@@H](OCc1ccc(OC)cc1)[C@@H](O)CCC#C[Si](C)(C)C.B(F)(F)(F)F.[O+](C)(C)C>>[C@H](C=C(C)I)(O[Si](CC)(CC)CC)[C@@H](OCc1ccc(OC)cc1)[C@@H](OC)CCC#C[Si](C)(C)C,Ignored this reaction
+14,c1(Br)ccc(Br)cc1.C1(CCCCCC)(CCCCCC)c2c(ccc(C#C)c2)c(ccc(n3c4c(cccc4)c(cccc5)c35)c6)c16.C1(CCCCCC)(CCCCCC)c2c(ccc(C#C)c2)c(ccc(n3c4c(cccc4)c(cccc5)c35)c6)c16>>C1(CCCCCC)(CCCCCC)c2c(ccc(C#Cc3ccc(C#Cc4ccc(c(ccc(n5c6c(cccc6)c(cccc7)c57)c8)c8C9(CCCCCC)CCCCCC)c9c4)cc3)c2)c(ccc(n%10c%11c(cccc%11)c(cccc%12)c%10%12)c%13)c1%13,Ignored this reaction
+15,c12c(cccc1)C(=O)NNC2=O.c12c(cccc1)C(=O)C=C(O)C2=O.c(c(ccc1)ccc2)(c1C(=O)C3=O)c23>>C12(C(=O)c3c(c(ccc3)ccc4)c14)C5=C(C(=O)c(cccc6)c6C5=O)N(C(=O)c(cccc7)c7C8=O)N28,Ignored this reaction
+16,c12c(cccc1)C(=O)NNC2=O.c12c(cccc1)C(=O)C=C(O)C2=O.c1(ccccc1C=O)N(=O)=O>>C1(c2ccccc2N(=O)=O)C3=C(C(=O)c(cccc4)c4C3=O)N(C(=O)c(cccc5)c5C6=O)N16,Ignored this reaction
+17,c12c(cccc1)C(=O)NNC2=O.c12c(cccc1)C(=O)C=C(O)C2=O.c1(C=O)ccc(Cl)cc1>>C1(c2ccc(Cl)cc2)C3=C(C(=O)c(cccc4)c4C3=O)N(C(=O)c(cccc5)c5C6=O)N16,Ignored this reaction
+18,c12c(cccc1)C(=O)NNC2=O.c12c(cccc1)C(=O)C=C(O)C2=O.c1(C([H])=O)ccccc1>>N12N(C(=O)c(cccc3)c3C1=O)C(c4ccccc4)C(C(=O)c(cccc5)c5C6=O)=C26,Ignored this reaction
+19,c12c(cccc1)C(=O)NNC2=O.c12c(cccc1)C(=O)C=C(O)C2=O.c1(ccc(C=O)cc1)N(=O)=O>>N12N(C(=O)c(cccc3)c3C1=O)C(c4ccc(N(=O)=O)cc4)C(C(=O)c(cccc5)c5C6=O)=C26,Ignored this reaction
+20,c12c(cccc1)C(=O)NNC2=O.c12c(cccc1)C(=O)C=C(O)C2=O.c12c(ccc(Br)c1)NC(=O)C2=O>>C12(C(=O)Nc(ccc(Br)c3)c13)C4=C(C(=O)c(cccc5)c5C4=O)N(C(=O)c(cccc6)c6C7=O)N27,Ignored this reaction
+21,c12c(ccc(F)c1)NC(=O)C2=O.c12c(cccc1)C(=O)NNC2=O.c12c(cccc1)C(=O)C=C(O)C2=O>>C12(C(=O)Nc(ccc(F)c3)c13)C4=C(C(=O)c(cccc5)c5C4=O)N(C(=O)c(cccc6)c6C7=O)N27,Ignored this reaction
+22,c12c(cccc1)C(=O)NNC2=O.c12c(cccc1)C(=O)C=C(O)C2=O.N1(c2ccccc2)C(=O)C(=O)c(cccc3)c13>>C12(C(=O)N(c3ccccc3)c(cccc4)c14)C5=C(C(=O)c(cccc6)c6C5=O)N(C(=O)c(cccc7)c7C8=O)N28,Ignored this reaction
+23,C1(=O)NC(=O)NC(=O)C1=O.c12c(cccc1)C(=O)NNC2=O.C1(O)=CC(=O)C(O)=CC1=O>>C12(C(=O)NC(=O)NC1=O)N3N(C(=O)c(cccc4)c4C3=O)C(C(=O)C(C5(C(=O)NC(=O)NC5=O)N(C(=O)c(cccc6)c6C7=O)N78)=C8C9=O)=C29,Ignored this reaction
+24,c12c(cccc1)C(=O)NNC2=O.C1(O)=CC(=O)C(O)=CC1=O.c(c(ccc1)ccc2)(c1C(=O)C3=O)c23>>C12(C(=O)c3c(c(ccc3)ccc4)c14)N5N(C(=O)c(cccc6)c6C5=O)C(C(=O)C(C7(C(=O)c8c(c(ccc8)ccc9)c79)N(C(=O)c(cccc%10)c%10C%11=O)N%11%12)=C%12C%13=O)=C2%13,Ignored this reaction
+25,c12c(cccc1)C(=O)NNC2=O.C1(O)=CC(=O)C(O)=CC1=O.c1(C=O)ccc(C)cc1>>C12=C(C(=O)C(N3N(C(=O)c(cccc4)c4C3=O)C5c6ccc(C)cc6)=C5C1=O)C(c7ccc(C)cc7)N(C(=O)c(cccc8)c8C9=O)N29,Ignored this reaction
+26,c12c(cccc1)C(=O)NNC2=O.C1(O)=CC(=O)C(O)=CC1=O.c1(C=O)ccc(O)cc1>>C12=C(C(=O)C(N3N(C(=O)c(cccc4)c4C3=O)C5c6ccc(O)cc6)=C5C1=O)C(c7ccc(O)cc7)N(C(=O)c(cccc8)c8C9=O)N29,Ignored this reaction
+27,c12c(cccc1)C(=O)NNC2=O.C1(O)=CC(=O)C(O)=CC1=O.c12c(cccc1)NC(=O)C2=O>>C12(C(=O)Nc(cccc3)c13)N4N(C(=O)c(cccc5)c5C4=O)C(C(=O)C(C6(C(=O)Nc(cccc7)c67)N(C(=O)c(cccc8)c8C9=O)N9%10)=C%10C%11=O)=C2%11,Ignored this reaction
+28,c12c(ccc(F)c1)NC(=O)C2=O.c12c(cccc1)C(=O)NNC2=O.C1(O)=CC(=O)C(O)=CC1=O>>C12(C(=O)Nc(ccc(F)c3)c13)N4N(C(=O)c(cccc5)c5C4=O)C(C(=O)C(C6(C(=O)Nc(ccc(F)c7)c67)N(C(=O)c(cccc8)c8C9=O)N9%10)=C%10C%11=O)=C2%11,Ignored this reaction
+29,[Si](C)(C)(OCC[C@H]1CCC[C@@H](C[C@]2([H])CO2)O1)C(C)(C)C.[Si](C)(C)(C(C)(C)C)C1SCCCS1.[C@@H]1(CO1)[C@@H](C)COCc2ccccc2>>C1(SCCCS1)(C[C@@H](O)[C@@H](C)COCc2ccccc2)C[C@@H](C[C@@H]3CCC[C@H](CCO[Si](C)(C)C(C)(C)C)O3)O[Si](C)(C)C(C)(C)C,Ignored this reaction
+30,c12c(cccc1)c(Br)c(cccc3)c3c2Br.C1(CCCCCC)(CCCCCC)c2c(ccc(C#C)c2)c(ccc(n3c4c(cccc4)c(cccc5)c35)c6)c16>>C1(CCCCCC)(CCCCCC)c2c(ccc(C#Cc3c4c(cccc4)c(C#Cc5ccc(c(ccc(n6c7c(cccc7)c(cccc8)c68)c9)c9C%10(CCCCCC)CCCCCC)c%10c5)c(cccc%11)c3%11)c2)c(ccc(n%12c%13c(cccc%13)c(cccc%14)c%12%14)c%15)c1%15,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+31,c1(cc(C(=O)c2cc(OC)c(OC)c(OC)c2)ccc1N(C)C)C3OCCO3.[P+](C)(c1ccccc1)(c2ccccc2)c3ccccc3.[I-]>>c1(cc(C(=C)c2cc(OC)c(OC)c(OC)c2)ccc1N(C)C)C3OCCO3,Ignored this reaction
+32,c12c(cccc1)C(=O)NNC2=O.c12c(cccc1)C(=O)C=C(O)C2=O.c12c(cccc1)NC(=O)C2=O>>C12(C(=O)Nc(cccc3)c13)C4=C(C(=O)c(cccc5)c5C4=O)N(C(=O)c(cccc6)c6C7=O)N27,Ignored this reaction
+33,c12c(cccc1)C(=O)C(=O)N2C.c12c(cccc1)C(=O)NNC2=O.c12c(cccc1)C(=O)C=C(O)C2=O>>C12(C(=O)N(C)c(cccc3)c13)C4=C(C(=O)c(cccc5)c5C4=O)N(C(=O)c(cccc6)c6C7=O)N27,Ignored this reaction
+34,c12c(cccc1)C(=O)NNC2=O.C1(O)=CC(=O)C(O)=CC1=O.c1(ccccc1C=O)N(=O)=O>>C12=C(C(=O)C(C(c3ccccc3N(=O)=O)N(C(=O)c(cccc4)c4C5=O)N56)=C6C1=O)N7N(C(=O)c(cccc8)c8C7=O)C2c9ccccc9N(=O)=O,Ignored this reaction
+35,c12c(cccc1)C(=O)NNC2=O.C1(O)=CC(=O)C(O)=CC1=O.c1(C=O)ccc(Cl)cc1>>C12=C(C(=O)C(N3N(C(=O)c(cccc4)c4C3=O)C5c6ccc(Cl)cc6)=C5C1=O)C(c7ccc(Cl)cc7)N(C(=O)c(cccc8)c8C9=O)N29,Ignored this reaction
+36,c12c(cccc1)C(=O)NNC2=O.C1(O)=CC(=O)C(O)=CC1=O.c1(C([H])=O)ccccc1>>C12=C(C(=O)C(N3N(C(=O)c(cccc4)c4C3=O)C5c6ccccc6)=C5C1=O)C(c7ccccc7)N(C(=O)c(cccc8)c8C9=O)N29,Ignored this reaction
+37,c12c(cccc1)C(=O)NNC2=O.c1(C=O)cccc(Br)c1.C1(O)=CC(=O)C(O)=CC1=O>>C12=C(C(=O)C(N3N(C(=O)c(cccc4)c4C3=O)C5c6cccc(Br)c6)=C5C1=O)C(c7cccc(Br)c7)N(C(=O)c(cccc8)c8C9=O)N29,Ignored this reaction
+38,c12c(cccc1)C(=O)NNC2=O.C1(O)=CC(=O)C(O)=CC1=O.c1(ccc(C=O)cc1)N(=O)=O>>C12=C(C(=O)C(N3N(C(=O)c(cccc4)c4C3=O)C5c6ccc(N(=O)=O)cc6)=C5C1=O)C(c7ccc(N(=O)=O)cc7)N(C(=O)c(cccc8)c8C9=O)N29,Ignored this reaction
+39,c12c(cccc1)C(=O)NNC2=O.C1(O)=CC(=O)C(O)=CC1=O.c12c(ccc(Br)c1)NC(=O)C2=O>>C12(C(=O)Nc(ccc(Br)c3)c13)N4N(C(=O)c(cccc5)c5C4=O)C(C(=O)C(C6(C(=O)Nc(ccc(Br)c7)c67)N(C(=O)c(cccc8)c8C9=O)N9%10)=C%10C%11=O)=C2%11,Ignored this reaction
+40,c12c(cccc1)C(=O)NNC2=O.C1(O)=CC(=O)C(O)=CC1=O.c1(C=O)ccc(F)cc1>>C12=C(C(=O)C(N3N(C(=O)c(cccc4)c4C3=O)C5c6ccc(F)cc6)=C5C1=O)C(c7ccc(F)cc7)N(C(=O)c(cccc8)c8C9=O)N29,Ignored this reaction
+41,N1(C(=O)OC[C@H]1Cc2ccccc2)C(=O)[C@H](OCc3ccc(OC)cc3)[C@@H](O)C=C(C)I.S(=O)(=O)(O[Si](CC)(CC)CC)C(F)(F)F.O(C)NC.Cl[H]>>[C@H](OCc1ccc(OC)cc1)(C(=O)N(C)OC)[C@H](C=C(C)I)O[Si](CC)(CC)CC,Ignored this reaction
+42,c1(cc(OC)c(OC)c(OC)c1)C(=O)c2ccc(N(C)C)c(N(=O)=O)c2.[P+](C)(c1ccccc1)(c2ccccc2)c3ccccc3.[I-]>>c1(cc(OC)c(OC)c(OC)c1)C(=C)c2ccc(N(C)C)c(N(=O)=O)c2,Ignored this reaction
+43,[Si](C)(C)(OCC[C@H]1CCC[C@@H](C[C@]2([H])CO2)O1)C(C)(C)C.[C@@H]1(CO1)[C@@H](C)COCc2ccccc2.[Si](CC)(CC)(CC)C1SCCCS1>>C1(SCCCS1)(C[C@H](O)C[C@@H]2CCC[C@H](CCO[Si](C)(C)C(C)(C)C)O2)C[C@H]([C@@H](C)COCc3ccccc3)O[Si](CC)(CC)CC,Ignored this reaction
+44,P(=O)(Cl)(OCC)OCC.C(C)(C)(C)c1cc(Sc2c(O)c(Sc(cc(C(C)(C)C)c3)c(O)c3Sc(cc(C(C)(C)C)c4)c(O)c4S5)cc(C(C)(C)C)c2)c(O)c5c1.P(=O)(Cl)(OCC)OCC.P(=O)(Cl)(OCC)OCC.P(=O)(Cl)(OCC)OCC>>c(OP(=O)(OCC)OCC)(c(cc(C(C)(C)C)c1)Sc2c(OP(=O)(OCC)OCC)c(cc(C(C)(C)C)c2)Sc(cc(C(C)(C)C)c3)c(OP(=O)(OCC)OCC)c3Sc(cc(C(C)(C)C)c4)c(OP(=O)(OCC)OCC)c4S5)c15,Ignored this reaction
+45,c12c(ccc(C(=O)c3cc(OC)c(OC)c(OC)c3)c1)n(CC)c(cccc4)c24.[P+](C)(c1ccccc1)(c2ccccc2)c3ccccc3.[I-]>>c12c(ccc(C(=C)c3cc(OC)c(OC)c(OC)c3)c1)n(CC)c(cccc4)c24,Ignored this reaction
+46,c1(cc(OC)c(OC)c(OC)c1)C(=O)c2ccc(N(C)C)cc2.[P+](C)(c1ccccc1)(c2ccccc2)c3ccccc3.[I-]>>c1(cc(OC)c(OC)c(OC)c1)C(=C)c2ccc(N(C)C)cc2,Ignored this reaction
+47,n1(Cc2cc(Cl)ccc2Cl)c(C)nc(ccnc3)c13.c1(OC)ccc(CCl)cc1>>c12c(cc[n+](Cc3ccc(OC)cc3)c1)nc(C)n2Cc4cc(Cl)ccc4Cl.[Cl-],Ignored this reaction
+48,c12c(cccc1)ccc(C)[n+]2C.[I-].c1(C=O)ccc(O)cc1>>c12c(cccc1)ccc(\C=C\c3ccc(O)cc3)[n+]2C.[I-],Ignored this reaction
+49,[Ru]12(Cl)(Cl)(N(=C3)C(=CC=C3)C(C=CC=C4)=N14)N(=C5)C(=CC=C5)C(=CC=C6)N2=C6.O([H])[H].c12c(nc(c3c(O)ccc(C(C)=CC(=O)O4)c34)[nH]1)c5c(nccc5)c(nccc6)c26.Cl([O])(=O)(=O)=O.[Na+]>>[Ru+2]123(N4=C(C=CC=C4)C(C=CC=C5)=N15)(N6=C(C=CC=C6)C(C=CC=C7)=N27)N(=C8)c(c(C=C8)c(nc(c9c(O)ccc(C(C)=CC(=O)O%10)c9%10)[nH]%11)c%11%12)c(c%12C=C%13)N3=C%13.Cl([O-])(=O)(=O)=O,Ignored this reaction
+50,n1(Cc2cc(Cl)ccc2Cl)c(COC)nc(ccnc3)c13.c1(OC)ccc(CCl)cc1>>c12c(cc[n+](Cc3ccc(OC)cc3)c1)nc(COC)n2Cc4cc(Cl)ccc4Cl.[Cl-],Ignored this reaction
+51,P(=O)(Cl)(OCC)OCC.c12c(O)c(ccc1)Sc3c(O)c(ccc3)Sc(ccc4)c(O)c4Sc(ccc5)c(O)c5S2.P(=O)(Cl)(OCC)OCC.P(=O)(Cl)(OCC)OCC.P(=O)(Cl)(OCC)OCC>>c(OP(=O)(OCC)OCC)(c(ccc1)Sc2c(OP(=O)(OCC)OCC)c(ccc2)Sc(ccc3)c(OP(=O)(OCC)OCC)c3Sc(ccc4)c(OP(=O)(OCC)OCC)c4S5)c15,Ignored this reaction
+52,S(=O)(=O)(NCc1ccccc1)c2ccc(C)cc2.[C@@H]1(OC(C)=O)[C@H](OC=C[C@H]1OC(C)=O)COC(C)=O>>N(Cc1ccccc1)([C@H]2C=C[C@H](OC(C)=O)[C@@H](COC(C)=O)O2)S(=O)(=O)c3ccc(C)cc3.N(Cc1ccccc1)([C@@H]2C=C[C@H](OC(C)=O)[C@@H](COC(C)=O)O2)S(=O)(=O)c3ccc(C)cc3,Ignored this reaction
+53,N1(CCO)CCNCC1.C(=O)(O)C(=O)O>>C(=O)(O)C(=O)O.N1(CCO)CCNCC1,Ignored this reaction
+54,[Ru]12(Cl)(Cl)(N(=C3)c(c(C=C3)cc4)c(c4C=C5)N1=C5)N(=C6)c(c(C=C6)cc7)c(c7C=C8)N2=C8.O([H])[H].c12c(nc(c3c(O)ccc(C(C)=CC(=O)O4)c34)[nH]1)c5c(nccc5)c(nccc6)c26.Cl([O])(=O)(=O)=O.[Na+]>>[Ru+2]123(N4=C(C(=CC=C4)C=C5)C(C5=CC=C6)=N16)(N7=C(C(=CC=C7)C=C8)C(C8=CC=C9)=N29)N(=C%10)c(c(C=C%10)c(nc(c%11c(O)ccc(C(C)=CC(=O)O%12)c%11%12)[nH]%13)c%13%14)c(c%14C=C%15)N3=C%15.Cl([O-])(=O)(=O)=O,Ignored this reaction
+55,n1(cnc(c(N)ncn2)c12)[C@@H]3O[C@H](CO[Si](C)(C)C(C)(C)C)[C@@H](O)[C@H]3O.n1(cnc(c(N)ncn2)c12)[C@@H]3O[C@H](CO[Si](C)(C)C(C)(C)C)[C@@H](O)[C@H]3O>>[C@H]1(O[C@H](CO[Si](C)(C)C(C)(C)C)[C@@H](OP(=O)O)[C@H]1O)n2cnc(c(N)ncn3)c23.[C@H]1(O[C@H](CO[Si](C)(C)C(C)(C)C)[C@@H](O)[C@H]1OP(=O)O)n2cnc(c(N)ncn3)c23,Ignored this reaction
+56,[C@H]1(O[C@H](CO[Si](C)(C)C(C)(C)C)[C@@H](O)[C@H]1O)N2C=CC(N)=NC2=O.[C@H]1(O[C@H](CO[Si](C)(C)C(C)(C)C)[C@@H](O)[C@H]1O)N2C=CC(N)=NC2=O>>[C@H]1(O[C@H](CO[Si](C)(C)C(C)(C)C)[C@@H](O)[C@H]1OP(=O)O)N2C=CC(N)=NC2=O.[C@H]1(O[C@H](CO[Si](C)(C)C(C)(C)C)[C@@H](OP(=O)O)[C@H]1O)N2C=CC(N)=NC2=O,Ignored this reaction
+57,[C@H]1(O[C@H](CO[Si](C)(C)C(C)(C)C)[C@@H](O)[C@H]1O)N2C=CC(=O)NC2=O.[C@H]1(O[C@H](CO[Si](C)(C)C(C)(C)C)[C@@H](O)[C@H]1O)N2C=CC(=O)NC2=O>>[C@H]1(O[C@H](CO[Si](C)(C)C(C)(C)C)[C@@H](O)[C@H]1OP(=O)O)N2C=CC(=O)NC2=O.[C@H]1(O[C@H](CO[Si](C)(C)C(C)(C)C)[C@@H](OP(=O)O)[C@H]1O)N2C=CC(=O)NC2=O,Ignored this reaction
+58,O.Cl.Cl.[Cu].[C@]([H])(N)(C(=O)O)C(C)C.c12c(cc(F)cc1)sc(N=Cc3ccccc3O)n2>>[Cu+2]12([O-]C(=O)[C@]([H])([C@@H](C)C)[NH2]1)[O-]c3c(cccc3)C=N2c4sc(cc(F)cc5)c5n4,Ignored this reaction
+59,O.Cl.Cl.[Cu].[C@]([H])(N)(C(=O)O)C(C)C.c12c(cc(F)cc1)sc(N=Cc3ccccc3O)n2>>[Cu+2]12([O-]C(=O)[C@@]([H])([C@@H](C)C)[NH2]1)[O-]c3c(cccc3)C=N2c4sc(cc(F)cc5)c5n4,Ignored this reaction
+60,c12c(cccc1)CC(=O)N2.c12c(cccc1)CC(=O)N2.c12c(cccc1)CC(=O)N2.c12c(cccc1)CC(=O)N2>>c12c([nH]c(cccc3)c13)c4c([nH]c(cccc5)c45)c(c6c(cccc6)[nH]7)c7c(c8c(cccc8)[nH]9)c29,Ignored this reaction
+61,[Br-].c1(cc[n+](CCCC)cc1)CC(CC)CCCC.C1C=CC=C1>>c12c(ccc1)ccc(CC(CC)CCCC)cc2,Ignored this reaction
+62,S(C)(=O)(=O)NCc1ccccc1.[C@@H]1(OC(C)=O)[C@H](OC=C[C@H]1OC(C)=O)COC(C)=O>>[C@@H]1(C=C[C@H](OC(C)=O)[C@@H](COC(C)=O)O1)N(Cc2ccccc2)S(C)(=O)=O.[C@H]1(C=C[C@H](OC(C)=O)[C@@H](COC(C)=O)O1)N(Cc2ccccc2)S(C)(=O)=O,Ignored this reaction
+63,c1(ccccc1)S(=O)(=O)NCc2ccccc2.[C@@H]1(OC(C)=O)[C@H](OC=C[C@H]1OC(C)=O)COC(C)=O>>N(Cc1ccccc1)([C@H]2C=C[C@H](OC(C)=O)[C@@H](COC(C)=O)O2)S(=O)(=O)c3ccccc3.N(Cc1ccccc1)([C@@H]2C=C[C@H](OC(C)=O)[C@@H](COC(C)=O)O2)S(=O)(=O)c3ccccc3,Ignored this reaction
+64,S(N)(=O)(=O)c1ccc(C(C)(C)C)cc1.[C@@H]1(OC(C)=O)[C@H](OC=C[C@H]1OC(C)=O)COC(C)=O>>c1(ccc(C(C)(C)C)cc1)S(=O)(=O)N[C@H]2C=C[C@H](OC(C)=O)[C@@H](COC(C)=O)O2.c1(ccc(C(C)(C)C)cc1)S(=O)(=O)N[C@@H]2C=C[C@H](OC(C)=O)[C@@H](COC(C)=O)O2,Ignored this reaction
+65,S(=O)(=O)(NCc1ccccc1)c2ccc(C(C)(C)C)cc2.[C@@H]1(OC(C)=O)[C@H](OC=C[C@H]1OC(C)=O)COC(C)=O>>S(=O)(=O)(c1ccc(C(C)(C)C)cc1)N(Cc2ccccc2)[C@H]3C=C[C@H](OC(C)=O)[C@@H](COC(C)=O)O3.S(=O)(=O)(c1ccc(C(C)(C)C)cc1)N(Cc2ccccc2)[C@@H]3C=C[C@H](OC(C)=O)[C@@H](COC(C)=O)O3,Ignored this reaction
+66,S(N)(=O)(=O)c1cccc(C(F)(F)F)c1.[C@@H]1(OC(C)=O)[C@H](OC=C[C@H]1OC(C)=O)COC(C)=O>>c1(cccc(C(F)(F)F)c1)S(=O)(=O)N[C@H]2C=C[C@H](OC(C)=O)[C@@H](COC(C)=O)O2.c1(cccc(C(F)(F)F)c1)S(=O)(=O)N[C@@H]2C=C[C@H](OC(C)=O)[C@@H](COC(C)=O)O2,Ignored this reaction
+67,c1(ccc(C)cc1)S(=O)(=O)Nc2ccccc2.[C@@H]1(OC(C)=O)[C@H](OC=C[C@H]1OC(C)=O)COC(C)=O>>N(c1ccccc1)([C@@H]2C=C[C@H](OC(C)=O)[C@@H](COC(C)=O)O2)S(=O)(=O)c3ccc(C)cc3.N(c1ccccc1)([C@H]2C=C[C@H](OC(C)=O)[C@@H](COC(C)=O)O2)S(=O)(=O)c3ccc(C)cc3,Ignored this reaction
+68,S(=O)(=O)(NCCC(=O)OC)c1ccccc1.[C@@H]1(OC(C)=O)[C@H](OC=C[C@H]1OC(C)=O)COC(C)=O>>S(=O)(=O)(c1ccccc1)N(CCC(=O)OC)[C@@H]2C=C[C@H](OC(C)=O)[C@@H](COC(C)=O)O2.S(=O)(=O)(c1ccccc1)N(CCC(=O)OC)[C@H]2C=C[C@H](OC(C)=O)[C@@H](COC(C)=O)O2,Ignored this reaction
+69,c1(ccc(C(N)=O)cc1)N(=O)=O.[C@@H]1(OC(C)=O)[C@H](OC=C[C@H]1OC(C)=O)COC(C)=O>>[C@H]1(COC(C)=O)O[C@H](NC(=O)c2ccc(N(=O)=O)cc2)C=C[C@@H]1OC(C)=O.[C@H]1(COC(C)=O)O[C@@H](NC(=O)c2ccc(N(=O)=O)cc2)C=C[C@@H]1OC(C)=O,Ignored this reaction
+70,[C@]([H])(N)(C(=O)O)C(C)C.c12c(cc(F)cc1)sc(N=Cc3ccccc3O)n2.Cl.Cl.[Zn]>>[Zn+2]12([O-]C(=O)[C@]([H])(CC)[NH2]1)[O-]c3c(cccc3)C=N2c4nc(ccc(F)c5)c5s4,Ignored this reaction
+71,[C@]([H])(N)(C(=O)O)C(C)C.c12c(cc(F)cc1)sc(N=Cc3ccccc3O)n2.Cl.Cl.[Zn]>>[Zn+2]12([O-]C(=O)[C@@]([H])(CC)[NH2]1)[O-]c3c(cccc3)C=N2c4nc(ccc(F)c5)c5s4,Ignored this reaction
+72,C(OC)(OC)(c1ccc(OC(=O)CCl)cc1)C(=O)c2ccc(OC(=O)CCl)cc2.C([O-])(=O)C(=C)C.[K+]>>C(OC)(OC)(c1ccc(OC(=O)COC(=O)C(=C)C)cc1)C(=O)c2ccc(OC(=O)COC(=O)C(=C)C)cc2,Ignored this reaction
+73,c12c(ncn1[C@@H]3O[C@H](CO[Si](C)(C)C(C)(C)C)[C@@H](O)[C@H]3O)C(=O)NC(N)=N2.c12c(ncn1[C@@H]3O[C@H](CO[Si](C)(C)C(C)(C)C)[C@@H](O)[C@H]3O)C(=O)NC(N)=N2>>[C@H]1(O[C@H](CO[Si](C)(C)C(C)(C)C)[C@@H](O)[C@H]1OP(=O)O)n2cnc(C(=O)NC(N)=N3)c23.n1(cnc(C(=O)NC(N)=N2)c12)[C@@H]3O[C@H](CO[Si](C)(C)C(C)(C)C)[C@@H](OP(=O)O)[C@H]3O,Ignored this reaction
+74,C(=O)(Nc1cccc(C#Cc2cncc(C(=O)O)c2)c1)c3occc3C.C(CCO)[S@](C)(=N)=O.Cl>>c1(occc1C)C(=O)Nc2cccc(C#Cc3cncc(C(=O)N=[S@@](C)(=O)CCCO)c3)c2,Ignored this reaction
+75,[C@H](NC(=O)OC(C)(C)C)(C(=O)OC)Cc1ccc(C(=O)O)cc1.C(=N)(N)SC.S(=O)(=O)(O)O>>[C@H](NC(=O)OC(C)(C)C)(C(=O)OC)Cc1ccc(C(=O)\N=C(/N)\SC)cc1,Ignored this reaction
+76,N1(CC)CCNCC1.c12n(NC(c3cc(S(=O)(=O)Cl)ccc3OCC)=NC1=O)c(CCC)nc2C>>S(=O)(=O)(N1CCN(CC)CC1)c2ccc(OCC)c(C3=NC(=O)c(c(C)nc4CCC)n4N3)c2.Cl,Ignored this reaction
+77,c1(ccccc1C(=O)O)n2nccn2.c1(nc(C)cc(C)n1)N2CCCNCC2.Cl>>c1(ccccc1n2nccn2)C(=O)N3CCCN(c4nc(C)cc(C)n4)CC3,Ignored this reaction
+78,c1(nc(Cl)oc1C)C(=O)OCC.C(F)(F)(F)C(=O)O.N1(CCCNCC1)C(=O)OCc2ccccc2>>c1(C(=O)OCC)nc(N2CCCN(C(=O)OCc3ccccc3)CC2)oc1C,Ignored this reaction
+79,c1(ccncc1)c2ccncc2.Cl.[K].C(C)([O-])=O.O([H])[H].[Pb+2]>>c1(ccncc1)c2ccncc2.[Cl-].[Pb+2],Ignored this reaction
+80,[Si](C)(C)(OCCC=C)C(C)(C)C.[Si](C)(C)(OCCC=C)C(C)(C)C>>[Si](C)(C)(OCC[C@@H](C)CO)C(C)(C)C.[Si](C)(C)(OCC[C@H](C)CO)C(C)(C)C,Ignored this reaction
+81,O([H])[H].C(C)([O-])=O.O([H])[H].[Mn+2].c1(ccc(C(=O)Nc2ccc(c3n[n-]nn3)cc2)cc1)c4n[n-]nn4.[Na+]>>c1(ccc(C(=O)Nc2ccc(c3n[n-]nn3)cc2)cc1)c4n[n-]nn4.O.[Mn+2],Ignored this reaction
+82,[Zn](N(=C1C=C2)C2=C3c4ccccc4)(N(=C5C=C6)C6=C7c8ccccc8)(N(C(C=C9)=C1c%10ccccc%10)C9=C5c%11ccccc%11)n(c3cc%12)c7%12.c12c(cccc1)ccc(\C=C\c3ccc(OC)cc3)n2=O>>[Zn+2](\O=n(\c1\C=C\c2ccc(OC)cc2)/c3c(cccc3)cc1)(N(C(C=C4)=C5c6ccccc6)=C47)(N(C(C=C8)=C9c%10ccccc%10)=C8%11)([N-](C5=C%12)C9=C%12)[N-](C(C=C%13)=C7c%14ccccc%14)C%13=C%11c%15ccccc%15,"element: bad valence on O having 3 drawn bonds, charge 0, and 0 radical electrons"
+83,c1(cc(OC)c(OC)c(OC)c1)C(=O)c2ccc(N3CCCC3)cc2.[P+](C)(c1ccccc1)(c2ccccc2)c3ccccc3.[I-]>>c1(cc(OC)c(OC)c(OC)c1)C(=C)c2ccc(N3CCCC3)cc2,Ignored this reaction
+84,[Si](Cl)(C(C)C)(C(C)C)C(C)C.c1(ccccc1O\C(\Cl)=C(\Cl)/Cl)c2ccccc2O\C(\Cl)=C(\Cl)/Cl.[Si](Cl)(C(C)C)(C(C)C)C(C)C>>[Si](C#COc1ccccc1c2ccccc2OC#C[Si](C(C)C)(C(C)C)C(C)C)(C(C)C)(C(C)C)C(C)C,Ignored this reaction
+85,[Si](Cl)(C(C)C)(C(C)C)C(C)C.c1(ccccc1O\C(\Cl)=C(\Cl)/Cl)c2ccc(c3ccccc3O\C(\Cl)=C(\Cl)/Cl)cc2.[Si](Cl)(C(C)C)(C(C)C)C(C)C>>[Si](C#COc1ccccc1c2ccc(c3ccccc3OC#C[Si](C(C)C)(C(C)C)C(C)C)cc2)(C(C)C)(C(C)C)C(C)C,Ignored this reaction
+86,[Si](C#COc1ccccc1c2cccc(C)c2)(C(C)C)(C(C)C)C(C)C.[Si](C#COc1ccccc1c2cccc(C)c2)(C(C)C)(C(C)C)C(C)C>>[Si](C(C)C)(C(C)C)(C(C)C)\C=C(/O1)\c2c(cc(C)cc2)c(cccc3)c13.[Si](C(C)C)(C(C)C)(C(C)C)\C=C(/O1)\c2c(cccc2C)c(cccc3)c13,Ignored this reaction
+87,[Si](C#COc1ccccc1c2cccc(OC)c2)(C(C)C)(C(C)C)C(C)C.[Si](C#COc1ccccc1c2cccc(OC)c2)(C(C)C)(C(C)C)C(C)C>>[Si](C(C)C)(C(C)C)(C(C)C)\C=C(/O1)\c2c(cc(OC)cc2)c(cccc3)c13.[Si](C(C)C)(C(C)C)(C(C)C)\C=C(/O1)\c2c(cccc2OC)c(cccc3)c13,Ignored this reaction
+88,[Si](C#COc1ccccc1c2cccc(F)c2)(C(C)C)(C(C)C)C(C)C.[Si](C#COc1ccccc1c2cccc(F)c2)(C(C)C)(C(C)C)C(C)C>>[Si](C(C)C)(C(C)C)(C(C)C)\C=C(/O1)\c2c(cc(F)cc2)c(cccc3)c13.[Si](C(C)C)(C(C)C)(C(C)C)\C=C(/O1)\c2c(cccc2F)c(cccc3)c13,Ignored this reaction
+89,C(C[Li])CC.[Br-].c12c(cccc1)[o+]c(C)c(cccc3)c23>>C1(C)(CCCC)Oc2c(cccc2)c(cccc3)c13,Ignored this reaction
+90,[Br-].c12c(cccc1)[o+]c(C)c(cccc3)c23.c1(C#C)ccccc1>>C1(C)(C#Cc2ccccc2)Oc3c(cccc3)c(cccc4)c14,Ignored this reaction
+91,[Si](C#COc1ccccc1c2cccc(C(F)(F)F)c2)(C(C)C)(C(C)C)C(C)C.[Si](C#COc1ccccc1c2cccc(C(F)(F)F)c2)(C(C)C)(C(C)C)C(C)C>>[Si](C(C)C)(C(C)C)(C(C)C)\C=C(/O1)\c2c(cc(C(F)(F)F)cc2)c(cccc3)c13.[Si](C(C)C)(C(C)C)(C(C)C)\C=C(/O1)\c2c(cccc2C(F)(F)F)c(cccc3)c13,Ignored this reaction
+92,C(=O)(OC(=O)C(=C)C)C(=C)C.C(=O)(c1ccc(O)cc1)C(=O)c2ccc(O)cc2.C(OC)(OC)OC>>C(OC)(OC)(c1ccc(OC(=O)C(=C)C)cc1)C(=O)c2ccc(OC(=O)C(=C)C)cc2,Ignored this reaction
+93,C(=O)(c1ccc(O)cc1)C(=O)c2ccc(O)cc2.C(=O)(Cl)C=C.C(OC)(OC)OC>>C(OC)(OC)(c1ccc(OC(=O)C=C)cc1)C(=O)c2ccc(OC(=O)C=C)cc2,Ignored this reaction
+94,C(=O)(OC(=O)C(=C)C)C(=C)C.C(=O)(c1ccc(O)cc1)C(=O)c2ccc(O)cc2.C(OCC)(OCC)OCC>>C(OCC)(OCC)(c1ccc(OC(=O)C(=C)C)cc1)C(=O)c2ccc(OC(=O)C(=C)C)cc2,Ignored this reaction
+95,N1CCNCC1.c1(B(O)O)c(C=O)cccc1C=O.c1(B(O)O)c(C=O)cccc1C=O>>c12c(c(C=O)ccc1)B(O)OC2N3CCN(C4OB(O)c(c(C=O)ccc5)c45)CC3,Ignored this reaction
+96,c1(ccco1)\C=C\N(=O)=O.C(CC)CC=O>>[C@H](CN(=O)=O)([C@H](C=O)CCC)c1ccco1.C(CN(=O)=O)(C(C=O)CCC)c1ccco1,Ignored this reaction
+97,c1(ccccc1)\C=C\N(=O)=O.C(C=O)C(C)C>>C(CN(=O)=O)(C(C=O)C(C)C)c1ccccc1.[C@H](CN(=O)=O)([C@H](C=O)C(C)C)c1ccccc1,Ignored this reaction
+98,c1(ccccc1)\C=C\N(=O)=O.C(CCCC)CCCC=O>>[C@H](CN(=O)=O)([C@H](C=O)CCCCC)c1ccccc1.C(CN(=O)=O)(C(C=O)CCCCC)c1ccccc1,Ignored this reaction
+99,c1(ccccc1)\C=C\N(=O)=O.C(CCCCC)CCCCC=O>>C(CN(=O)=O)(C(C=O)CCCCCCCCC)c1ccccc1.[C@H](CN(=O)=O)([C@H](C=O)CCCCCCCCC)c1ccccc1,Ignored this reaction
+100,C(CC)CC=O.c1(ccc(F)cc1)\C=C\N(=O)=O>>C(CN(=O)=O)(C(C=O)CCC)c1ccc(F)cc1.[C@H](CN(=O)=O)([C@H](C=O)CCC)c1ccc(F)cc1,Ignored this reaction
+101,C(CC)CC=O.c1(ccccc1Cl)\C=C\N(=O)=O>>[C@H](CN(=O)=O)([C@H](C=O)CCC)c1ccccc1Cl.C(CN(=O)=O)(C(C=O)CCC)c1ccccc1Cl,Ignored this reaction
+102,C(CC)CC=O.c1(ccc(Cl)cc1)\C=C\N(=O)=O>>[C@H](CN(=O)=O)([C@H](C=O)CCC)c1ccc(Cl)cc1.C(CN(=O)=O)(C(C=O)CCC)c1ccc(Cl)cc1,Ignored this reaction
+103,C(CC)CC=O.c1(Cl)cc(Cl)ccc1\C=C\N(=O)=O>>c1(ccc(Cl)cc1Cl)[C@@H](CN(=O)=O)[C@H](C=O)CCC.c1(ccc(Cl)cc1Cl)C(CN(=O)=O)C(C=O)CCC,Ignored this reaction
+104,C(CC)CC=O.c1(cccc(OC)c1)\C=C\N(=O)=O>>[C@H](CN(=O)=O)([C@H](C=O)CCC)c1cccc(OC)c1.C(CN(=O)=O)(C(C=O)CCC)c1cccc(OC)c1,Ignored this reaction
+105,[C@H](OCc1ccc(OC)cc1)([C@@H](OC)CCC#C)[C@H](C=C(C)I)O[Si](CC)(CC)CC.[Si](CC)(CC)(CC)O[C@@H]([C@@H](C)C=O)C[C@@H](OCOC)C[C@H](OCOC)C[C@@H]1CCC[C@H](CCO[Si](C)(C)C(C)(C)C)O1.[Si](CC)(CC)(CC)O[C@@H]([C@@H](C)C=O)C[C@@H](OCOC)C[C@H](OCOC)C[C@@H]1CCC[C@H](CCO[Si](C)(C)C(C)(C)C)O1.[C@H](OCc1ccc(OC)cc1)([C@@H](OC)CCC#C)[C@H](C=C(C)I)O[Si](CC)(CC)CC>>[C@@H](C=C(C)I)(O[Si](CC)(CC)CC)[C@@H](OCc1ccc(OC)cc1)[C@@H](OC)CCC#C[C@@H](O)[C@H](C)[C@@H](C[C@@H](OCOC)C[C@H](OCOC)C[C@@H]2CCC[C@H](CCO[Si](C)(C)C(C)(C)C)O2)O[Si](CC)(CC)CC.[C@@H](C=C(C)I)(O[Si](CC)(CC)CC)[C@@H](OCc1ccc(OC)cc1)[C@@H](OC)CCC#C[C@H](O)[C@H](C)[C@@H](C[C@@H](OCOC)C[C@H](OCOC)C[C@@H]2CCC[C@H](CCO[Si](C)(C)C(C)(C)C)O2)O[Si](CC)(CC)CC,Ignored this reaction
+106,[Si](C)(C)(O[C@H](C[C@H]([C@@H](C)C=O)OC(=O)c1ccccc1)C[C@@H](C[C@@H]2CCC[C@H](CCO[Si](C)(C)C(C)(C)C)O2)O[Si](C)(C)C(C)(C)C)C(C)(C)C.[C@H](OCc1ccc(OC)cc1)([C@@H](OC)CCC#C)[C@H](C=C(C)I)O[Si](CC)(CC)CC.[Si](C)(C)(O[C@H](C[C@H]([C@@H](C)C=O)OC(=O)c1ccccc1)C[C@@H](C[C@@H]2CCC[C@H](CCO[Si](C)(C)C(C)(C)C)O2)O[Si](C)(C)C(C)(C)C)C(C)(C)C.[C@H](OCc1ccc(OC)cc1)([C@@H](OC)CCC#C)[C@H](C=C(C)I)O[Si](CC)(CC)CC>>[Si](C)(C)(O[C@H](C[C@@H](OC(=O)c1ccccc1)[C@@H](C)[C@H](O)C#CCC[C@H](OC)[C@H](OCc2ccc(OC)cc2)[C@H](C=C(C)I)O[Si](CC)(CC)CC)C[C@@H](C[C@@H]3CCC[C@H](CCO[Si](C)(C)C(C)(C)C)O3)O[Si](C)(C)C(C)(C)C)C(C)(C)C.[Si](C)(C)(O[C@H](C[C@@H](OC(=O)c1ccccc1)[C@@H](C)[C@@H](O)C#CCC[C@H](OC)[C@H](OCc2ccc(OC)cc2)[C@H](C=C(C)I)O[Si](CC)(CC)CC)C[C@@H](C[C@@H]3CCC[C@H](CCO[Si](C)(C)C(C)(C)C)O3)O[Si](C)(C)C(C)(C)C)C(C)(C)C,Ignored this reaction
+107,N(c1ccccc1)(c2ccccc2)c3ccc(C=Cc4ccc(c5cc(c6ccccc6)nc(c7ccccn7)c5)cc4)cc3.Br.Br.[Zn]>>[Zn+2]1([Br-])([Br-])N2=C(C=CC=C2)C(C=C(c3ccc(C=Cc4ccc(N(c5ccccc5)c6ccccc6)cc4)cc3)C=C7c8ccccc8)=N17,Ignored this reaction
+108,N([O-])(=O)=O.[Th+4].O([H])[H].S(=O)(=O)(O)c1ccc(C)cc1>>S(=O)(=O)([O-])c1ccc(C)cc1.O.[Th+4],Ignored this reaction
+109,[Bi].[Ce].[Li]>>[Bi].[Bi].[Ce].[Li].[Li].[Li],Ignored this reaction
+110,[Bi].[Pr].[Li]>>[Bi].[Bi].[Li].[Li].[Li].[Pr],Ignored this reaction
+111,[Bi].[Sm].[Li]>>[Bi].[Bi].[Li].[Li].[Li].[Sm],Ignored this reaction
+112,[Gd].[Bi].[Li]>>[Bi].[Bi].[Gd].[Li].[Li].[Li],Ignored this reaction
+113,S(C)(N)(=O)=O.[C@H]1(OC(C)=O)[C@H](OC=C[C@H]1OC(C)=O)COC(C)=O>>[C@H]1(COC(C)=O)O[C@H](NS(C)(=O)=O)C=C[C@H]1OC(C)=O.[C@H]1(COC(C)=O)O[C@@H](NS(C)(=O)=O)C=C[C@H]1OC(C)=O,Ignored this reaction
+114,S(N)(=O)(=O)c1ccccc1.[C@H]1(OC(C)=O)[C@H](OC=C[C@H]1OC(C)=O)COC(C)=O>>c1(ccccc1)S(=O)(=O)N[C@@H]2C=C[C@@H](OC(C)=O)[C@@H](COC(C)=O)O2.c1(ccccc1)S(=O)(=O)N[C@H]2C=C[C@@H](OC(C)=O)[C@@H](COC(C)=O)O2,Ignored this reaction
+115,[C@@H]1(OCc2ccccc2)[C@@H](COCc3ccccc3)OC=C[C@H]1OCc4ccccc4.S(N)(=O)(=O)c1ccc(C)cc1>>S(=O)(=O)(N[C@@H]1C=C[C@H](OCc2ccccc2)[C@@H](COCc3ccccc3)O1)c4ccc(C)cc4.S(=O)(=O)(N[C@H]1C=C[C@H](OCc2ccccc2)[C@@H](COCc3ccccc3)O1)c4ccc(C)cc4,Ignored this reaction
+116,S(N)(=O)(=O)c1ccc(C(C)(C)C)cc1.[C@H]1(OC(C)=O)[C@H](OC=C[C@H]1OC(C)=O)COC(C)=O>>c1(ccc(C(C)(C)C)cc1)S(=O)(=O)N[C@@H]2C=C[C@@H](OC(C)=O)[C@@H](COC(C)=O)O2.c1(ccc(C(C)(C)C)cc1)S(=O)(=O)N[C@H]2C=C[C@@H](OC(C)=O)[C@@H](COC(C)=O)O2,Ignored this reaction
+117,S(N)(=O)(=O)c1cccc(C(F)(F)F)c1.[C@H]1(OC(C)=O)[C@H](OC=C[C@H]1OC(C)=O)COC(C)=O>>c1(cccc(C(F)(F)F)c1)S(=O)(=O)N[C@@H]2C=C[C@@H](OC(C)=O)[C@@H](COC(C)=O)O2.c1(cccc(C(F)(F)F)c1)S(=O)(=O)N[C@H]2C=C[C@@H](OC(C)=O)[C@@H](COC(C)=O)O2,Ignored this reaction
+118,S(=O)(=O)(NCc1ccccc1)c2cccc(C(F)(F)F)c2.[C@@H]1(OC(C)=O)[C@H](OC=C[C@H]1OC(C)=O)COC(C)=O>>S(=O)(=O)(c1cccc(C(F)(F)F)c1)N(Cc2ccccc2)[C@@H]3C=C[C@H](OC(C)=O)[C@@H](COC(C)=O)O3.S(=O)(=O)(c1cccc(C(F)(F)F)c1)N(Cc2ccccc2)[C@H]3C=C[C@H](OC(C)=O)[C@@H](COC(C)=O)O3,Ignored this reaction
+119,c1(ccc(C)cc1)S(=O)(=O)Nc2ccc(Cl)cc2.[C@@H]1(OC(C)=O)[C@H](OC=C[C@H]1OC(C)=O)COC(C)=O>>S(=O)(=O)(c1ccc(C)cc1)N(c2ccc(Cl)cc2)[C@@H]3C=C[C@H](OC(C)=O)[C@@H](COC(C)=O)O3.S(=O)(=O)(c1ccc(C)cc1)N(c2ccc(Cl)cc2)[C@H]3C=C[C@H](OC(C)=O)[C@@H](COC(C)=O)O3,Ignored this reaction
+120,c1(ccc(C)cc1)S(=O)(=O)NCC(=O)OC.[C@@H]1(OC(C)=O)[C@H](OC=C[C@H]1OC(C)=O)COC(C)=O>>N(CC(=O)OC)([C@@H]1C=C[C@H](OC(C)=O)[C@@H](COC(C)=O)O1)S(=O)(=O)c2ccc(C)cc2.N(CC(=O)OC)([C@H]1C=C[C@H](OC(C)=O)[C@@H](COC(C)=O)O1)S(=O)(=O)c2ccc(C)cc2,Ignored this reaction
+121,c1(ccccc1)COC(N)=O.[C@H]1(OC(C)=O)[C@H](OC=C[C@H]1OC(C)=O)COC(C)=O>>[C@H]1(COC(C)=O)O[C@H](NC(=O)OCc2ccccc2)C=C[C@H]1OC(C)=O.[C@H]1(COC(C)=O)O[C@@H](NC(=O)OCc2ccccc2)C=C[C@H]1OC(C)=O,Ignored this reaction
+122,[C@]([H])(O)(CC(=O)O)C(=O)O.n1(ncc(C(=O)c2cc(cccc3)c3[nH]2)c1N)c4ccc(nc(C)[nH]5)c5c4>>[C@H](O)(CC(=O)O)C(=O)O.n1(ncc(C(=O)c2cc(cccc3)c3[nH]2)c1N)c4ccc(nc(C)[nH]5)c5c4,Ignored this reaction
+123,C(CC)CC=O.c1(ccccc1F)\C=C\N(=O)=O>>C(CN(=O)=O)(C(C=O)CCC)c1ccccc1F.[C@H](CN(=O)=O)([C@H](C=O)CCC)c1ccccc1F.[C@@H](CN(=O)=O)([C@@H](C=O)CCC)c1ccccc1F,Ignored this reaction
+124,C(CC)CC=O.c1(\C=C\N(=O)=O)cccc(Cl)c1>>[C@H](CN(=O)=O)([C@H](C=O)CCC)c1cccc(Cl)c1.C(CN(=O)=O)(C(C=O)CCC)c1cccc(Cl)c1.[C@@H](CN(=O)=O)([C@@H](C=O)CCC)c1cccc(Cl)c1,Ignored this reaction
+125,C(CC)CC=O.c1(ccccc1Br)\C([H])=C([H])\N(=O)=O>>[C@@H](CN(=O)=O)([C@@H](C=O)CCC)c1ccccc1Br.[C@H](CN(=O)=O)([C@H](C=O)CCC)c1ccccc1Br.C(CN(=O)=O)(C(C=O)CCC)c1ccccc1Br,Ignored this reaction
+126,C(CC)CC=O.c1(\C=C\N(=O)=O)cccc(Br)c1>>[C@H](CN(=O)=O)([C@H](C=O)CCC)c1cccc(Br)c1.C(CN(=O)=O)(C(C=O)CCC)c1cccc(Br)c1.[C@@H](CN(=O)=O)([C@@H](C=O)CCC)c1cccc(Br)c1,Ignored this reaction
+127,C(CC)CC=O.c1(ccc(C)cc1)\C=C\N(=O)=O>>[C@@H](CN(=O)=O)([C@@H](C=O)CCC)c1ccc(C)cc1.[C@H](CN(=O)=O)([C@H](C=O)CCC)c1ccc(C)cc1.C(CN(=O)=O)(C(C=O)CCC)c1ccc(C)cc1,Ignored this reaction
+128,C(CC)CC=O.c1(\C=C\N(=O)=O)ccc(OC)cc1>>[C@H](CN(=O)=O)([C@H](C=O)CCC)c1ccc(OC)cc1.[C@@H](CN(=O)=O)([C@@H](C=O)CCC)c1ccc(OC)cc1.C(CN(=O)=O)(C(C=O)CCC)c1ccc(OC)cc1,Ignored this reaction
+129,C(Cl)Cl.N(c1ccccc1)(c2ccccc2)c3ccc(C=Cc4ccc(c5cc(c6ccccc6)nc(c7ccccn7)c5)cc4)cc3.I.I.[Zn]>>C(Cl)Cl.[Zn+2]1([I-])([I-])N2=C(C=CC=C2)C(C=C(c3ccc(C=Cc4ccc(N(c5ccccc5)c6ccccc6)cc4)cc3)C=C7c8ccccc8)=N17,Ignored this reaction
+130,c1(ccccc1)C(N)=O.c1(ccccc1)C(N)=O.c1(ccccc1)C(N)=O>>N1(c2ccc(C)cc2)C(=O)c3c(cccc3)N=C1c4ccccc4,Ignored this reaction
+131,[Ru+2]123([Cl-])([Cl-])([P]45CN(CN(C6)C4)CN6[C@@H]5P([C@@H](C)C)[C@H](C)C)(C7([H])=C18[H])(C8([H])=C29[H])C7([H])=C39C>>[Ru+2]12345([Cl-])(P67CN(CN(C8)C6)CN8[C@]7([H])[P]1([C@@H](C)C)[C@H](C)C)(C([H])(C29[H])=C3%10[H])C=9([H])C4([H])=C5%10C.[Cl-].[Ru+2]12345([Cl-])([P]67CN(CN(C8)C6)CN8[C@@]7([H])[P]1([C@@H](C)C)[C@H](C)C)(C([H])(C29[H])=C3%10[H])C=9([H])C4([H])=C5%10C.[Cl-],Ignored this reaction
+132,N([O-])(=O)=O.[U+2](=O)=O.O([H])[H].S(=O)(=O)(O)c1ccc(C)cc1>>S(=O)(=O)([O-])c1ccc(C)cc1.S(=O)(=O)(O)c2ccc(C)cc2.O.[U+6](=[O-2])=[O-2],Ignored this reaction
+133,C1(O)C(=O)OC(=O)C1O.C(C)(=O)OC(C)=O.[C@H]1(O[C@H](CO[Si](C)(C)C(C)(C)C)[C@@H](O)[C@H]1O)N2C=CC(=O)NC2=O.[C@H]1(O[C@H](CO[Si](C)(C)C(C)(C)C)[C@@H](O)[C@H]1O)N2C=CC(=O)NC2=O.C(C)(=O)OC(C)=O>>[C@H]1(O[C@H](CO[Si](C)(C)C(C)(C)C)[C@@H](OC(=O)C(O)C(O)C(=O)O)[C@H]1OC(C)=O)N2C=CC(=O)NC2=O.[C@@H]1(OC(=O)C(O)C(O)C(=O)O)[C@H](OC(C)=O)[C@@H](CO[Si](C)(C)C(C)(C)C)O[C@H]1N2C=CC(=O)NC2=O,Ignored this reaction
+134,c1(cccc(F)c1C#N)N2CCCCC2.C(C)(C)O>>c1(cccc(OC(C)C)c1C#N)N2CCCCC2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+135,c1(C#N)c(F)ccc(Br)c1F.[O-]C.[Na+]>>c1(OC)c(Br)ccc(F)c1C#N,Ignored this reaction
+136,C(C)(C)(C)OC(=O)N1CCCN(C(=O)OCc2ccccc2)CC1.C(F)(F)(F)C(=O)O>>C(F)(F)(F)C(=O)O.N1(CCCNCC1)C(=O)OCc2ccccc2,Ignored this reaction
+137,[Si](C)(C)([Si](C)(C)Cl)[Si](C)(C)Cl.C(Cl)Br.C(Cl)Br>>[Si@@](C)(C)([Si@](C)(C)CCl)[Si@@](C)(C)CCl,Ignored this reaction
+138,C(Cl)Br.[Si](C)(C)([Si](C)(C)Cl)[Si](C)(C)[Si](C)(C)Cl.C(Cl)Br>>[Si@@](C)(C)([Si@](C)(C)CCl)[Si@](C)(C)[Si@](C)(C)CCl,Ignored this reaction
+139,[C@@H]1(OC(C)=O)[C@@H](OC(C)=O)[C@@H](OCCOCCOCCN=N#N)O[C@H](COC(C)=O)[C@@H]1OC(C)=O.c12c(cccc1OCC#C)C(=O)c(cccc3OCC#C)c3C2=O.[C@@H]1(OC(C)=O)[C@@H](OC(C)=O)[C@@H](OCCOCCOCCN=N#N)O[C@H](COC(C)=O)[C@@H]1OC(C)=O>>c12c(cccc1OCc3nnn(CCOCCOCCO[C@H]4O[C@H](COC(C)=O)[C@H](OC(C)=O)[C@H](OC(C)=O)[C@H]4OC(C)=O)c3)C(=O)c(cccc5OCc6nnn(CCOCCOCCO[C@H]7O[C@H](COC(C)=O)[C@H](OC(C)=O)[C@H](OC(C)=O)[C@H]7OC(C)=O)c6)c5C2=O,Ignored this reaction
+140,c1(ccccc1)C(=O)ON2CCCCC2.C(CC=C)(C(=O)NOC)(c1ccccc1)c2ccccc2>>C1(CC(CN2CCCCC2)N(OC)C1=O)(c3ccccc3)c4ccccc4,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+141,C(=O)=O.C(=O)=O.C(=O)=O.C(=O)=O>>OC.C.CC,Ignored this reaction
+142,c1(c(C)cc(C)cc1C)S(=O)(=O)N[C@H]2[C@@H](O[S@@](=O)CCCOCc3ccccc3)Cc(cccc4)c24.[Mg](C)Br>>c1(ccccc1)COCCC[S@@](C)=O.c1(ccccc1)COCCC[S@](C)=O,Ignored this reaction
+143,c1(c(C)cc(C)cc1C)S(=O)(=O)N[C@H]2[C@@H](O[S@](C)=O)Cc(cccc3)c23.c1(ccccc1)COCCC[Mg]Br>>c1(ccccc1)COCCC[S@@](C)=O.c1(ccccc1)COCCC[S@](C)=O,Ignored this reaction
+144,c1(cnc(N)c(C#Cc2cccc(NC(=O)c3occc3C)c2)c1)C(=O)N=S(C)(=O)CC(=O)OCC.[C@H]1(O)CCNC1>>c1(cnc(N)c(C#Cc2cccc(NC(=O)c3occc3C)c2)c1)C(=O)N=S(C)(=O)CC(=O)N4CC[C@H](O)C4.c1(cnc(N)c(C#Cc2cccc(NC(=O)c3occc3C)c2)c1)C(=O)N=S(C)(=O)CC(=O)N4CC[C@@H](O)C4,Ignored this reaction
+145,c1(ccccn1)SSCCO.Cl[H].C(Cl)(Cl)(Cl)OC(=O)OC(Cl)(Cl)Cl.c12c(nnn1O)cccc2>>c12c(cccc1)nnn2OC(=O)OCCSSc3ccccn3,Ignored this reaction
+146,c1(ccccc1)C(=O)ON2CCOCC2.C(CC=C)(C(=O)NOCc1ccccc1)(c2ccccc2)c3ccccc3>>C1(CC(CN2CCOCC2)N(OCc3ccccc3)C1=O)(c4ccccc4)c5ccccc5,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+147,c1(C#N)ccc(I)cc1.c1(ccccc1)B(O)O>>c1(ccc(C#N)cc1)c2ccc(C#N)cc2.c1(ccc(C#N)cc1)c2ccccc2.c1(C#N)ccccc1,Ignored this reaction
+148,N#[C-].[K+].c1(c2ccccc2)c3c(cc(CBr)cc3)c(cccc4)c4c1c5ccccc5>>C(/c1ccccc1)(\c2ccc(CC#N)cc2)=C(/c3ccccc3)\c4ccccc4,Ignored this reaction
+149,[Si](C)(C)(Cl)N[Si](C)(C)Cl.c1(OC)ccccc1.c1(OC)ccccc1>>c1(ccccc1OC)[Si](C)(C)[N-][Si](C)(C)c2ccccc2OC.[Li+],Ignored this reaction
+150,C(CC)CBr.c1(ccncc1)CC(CC)CCCC>>[Br-].c1(cc[n+](CCCC)cc1)CC(CC)CCCC,Ignored this reaction
+151,c1(ncccc1C(=O)O)C(=O)O.O([H])[H].N(=O)(=O)[O-].[Nd+3].[H+].O([H])[H].O123[W]4(=O)(O[W]5(=O)(O[W](=O)(O[W-4](=O)(O[W]6(=O)(O7)(O[W]89%10(=O)O%11)O[W]1%11%12(=O)O%13)(O[W]7%14(=O)(O[W]%15%16(=O)(O[W]%17%18(=O)(O[W]%19%20(=O)(O%15)O4)O%16%19%21)O%22)O[W]2%13%22%23=O)(O%17)O6%14[Si@@]3%21%24)(O8)(O%18)O59%24)(O%10)O%20)(O%12)O%23>>c1(cccnc1[O-])C([O-])=O.c2(cccnc2)C([O-])=O.[H+].O.[Nd+3].O345[W]6(=O)(O[W]7(=O)(O[W](=O)(O[W](=O)(O[W]8(=O)(O9)(O[W]%10%11%12(=O)O%13)O[W]3%13%14(=O)O%15)(O[W]9%16(=O)(O[W]%17%18(=O)(O[W]%19%20(=O)(O[W]%21%22(=O)(O%17)O6)O%18%21%23)O%24)O[W]4%15%24%25=O)(O%19)O8%16[Si@@]5%23%26)(O%10)(O%20)O7%11%26)(O%12)O%22)(O%14)O%25,Ignored this reaction
+152,OC.O([H])[H].Cl.Cl.[Mn].c1(ccncc1)C(=O)NN=C(C)c2ccncc2.C(#N)[S-].[Na+].C(#N)[S-].[Na+].OC>>OC.C(#N)[S-].c1(ccncc1)C(=O)NN=C(C)c2ccncc2.[Mn+2],Ignored this reaction
+153,O([H])[H].Cl.Cl.[Mn].C(#N)[S-].[Na+].c1(ccncc1)C(C)=NN=C(C)c2ccncc2.c1(ccncc1)C(C)=NN=C(C)c2ccncc2.C(#N)[S-].[Na+]>>C(#N)[S-].c1(ccncc1)C(C)=NN=C(C)c2ccncc2.[Mn+2],Ignored this reaction
+154,c1(cccc(F)c1C#N)c2ccccc2.[O-]C.[Na+]>>c1(cccc(OC)c1C#N)c2ccccc2,Ignored this reaction
+155,c1(c(Cl)ccc(F)c1C#N)N2CCCCCC2.[O-]C.[Na+]>>c1(c(Cl)ccc(OC)c1C#N)N2CCCCCC2,Ignored this reaction
+156,c1(cccc(F)c1C#N)OC2CCCC2.[O-]C.[Na+]>>c1(C#N)c(OC)cccc1OC2CCCC2,Ignored this reaction
+157,c1(C#C)cncn1C.IC>>c1(C#C)c[n+](C)cn1C.[I-],Ignored this reaction
+158,[W+6](=[O-2])([Cl-])([Cl-])(=[CH-2]C(C)(C)c1ccccc1)([P](C)(C)c2ccccc2)[C]3N(C=CN3c4c(C)cc(C)cc4C)c5c(C)cc(C)cc5C.c1(cccc(c2ccccc2)c1[O-])c3ccccc3.[Li+]>>[W+6](=[O-2])([Cl-])(=[CH-2]C(C)(C)c1ccccc1)([O-]c2c(cccc2c3ccccc3)c4ccccc4)[C]5N(C=CN5c6c(C)cc(C)cc6C)c7c(C)cc(C)cc7C,Ignored this reaction
+159,[W+6](=[O-2])([Cl-])(=[CH-2]C(C)(C)c1ccccc1)([O-][C@@](C)([C@](F)(F)F)[C@](F)(F)F)[C]2N(C=CN2c3c(C)cc(C)cc3C)c4c(C)cc(C)cc4C.[B-](c1cc(C(F)(F)F)cc(C(F)(F)F)c1)(c2cc(C(F)(F)F)cc(C(F)(F)F)c2)(c3cc(C(F)(F)F)cc(C(F)(F)F)c3)c4cc(C(F)(F)F)cc(C(F)(F)F)c4.[Na+]>>[B@@-](c1cc([C@](F)(F)F)cc([C@@](F)(F)F)c1)(c2cc([C@@](F)(F)F)cc([C@](F)(F)F)c2)(c3cc([C@](F)(F)F)cc([C@@](F)(F)F)c3)c4cc([C@](F)(F)F)cc([C@@](F)(F)F)c4.[W+6](=[O-2])(=[CH-2]C(C)(C)c5ccccc5)([O-][C@](C)([C@@](F)(F)F)[C@@](F)(F)F)[C]6N(C=CN6c7c(C)cc(C)cc7C)c8c(C)cc(C)cc8C,Ignored this reaction
+160,[W+6](=[O-2])([Cl-])(=[CH-2]C(C)(C)c1ccccc1)([O-]c2c(cccc2c3ccccc3)c4ccccc4)[C]5N(C=CN5c6c(C)cc(C)cc6C)c7c(C)cc(C)cc7C.[B-](c1cc(C(F)(F)F)cc(C(F)(F)F)c1)(c2cc(C(F)(F)F)cc(C(F)(F)F)c2)(c3cc(C(F)(F)F)cc(C(F)(F)F)c3)c4cc(C(F)(F)F)cc(C(F)(F)F)c4.[Na+]>>[B@@-](c1cc([C@](F)(F)F)cc([C@@](F)(F)F)c1)(c2cc([C@@](F)(F)F)cc([C@](F)(F)F)c2)(c3cc([C@](F)(F)F)cc([C@@](F)(F)F)c3)c4cc([C@](F)(F)F)cc([C@@](F)(F)F)c4.[W+6](=[O-2])(=[CH-2]C(C)(C)c5ccccc5)([O-]c6c(cccc6c7ccccc7)c8ccccc8)[C]9N(C=CN9c%10c(C)cc(C)cc%10C)c%11c(C)cc(C)cc%11C,Ignored this reaction
+161,[Ag+].C(C)#N.[B-](c1cc(C(F)(F)F)cc(C(F)(F)F)c1)(c2cc(C(F)(F)F)cc(C(F)(F)F)c2)(c3cc(C(F)(F)F)cc(C(F)(F)F)c3)c4cc(C(F)(F)F)cc(C(F)(F)F)c4.[W+6](=[O-2])([Cl-])(=[CH-2]C(C)(C)c1ccccc1)([O-][C@@](C)([C@](F)(F)F)[C@](F)(F)F)[C]2N(C=CN2c3c(C)cc(C)cc3C)c4c(C)cc(C)cc4C>>[B@@-](c1cc([C@](F)(F)F)cc([C@@](F)(F)F)c1)(c2cc([C@@](F)(F)F)cc([C@](F)(F)F)c2)(c3cc([C@](F)(F)F)cc([C@@](F)(F)F)c3)c4cc([C@](F)(F)F)cc([C@@](F)(F)F)c4.[C]5(N(C=CN5c6c(C)cc(C)cc6C)c7c(C)cc(C)cc7C)[W+6](=[O-2])(N#CC)(=[CH-2]C(C)(C)c8ccccc8)[O-][C@](C)([C@](F)(F)F)[C@](F)(F)F,Ignored this reaction
+162,C(=O)(OCC)CN(=O)=O.c1(OC)c(OC)ccc(C=O)c1O>>c12c(ccc(OC)c1OC)C=C(N(=O)=O)C(=O)O2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+163,c1(ccccc1OC)[Si](C)(C)[N-][Si](C)(C)c2ccccc2OC.[Li+].[Zr](Cl)(Cl)(Cl)Cl.c1(ccccc1OC)[Si](C)(C)[N-][Si](C)(C)c2ccccc2OC.[Li+]>>[Zr+4]12([Cl-])([Cl-])(O(C)c3c(cccc3)[Si@@](C)(C)[N-]1[Si@@](C)(C)c4ccccc4OC)O(C)c5c(cccc5)[Si@@](C)(C)[N-]2[Si@](C)(C)c6ccccc6OC,Ignored this reaction
+164,B(F)(F)(F)F.[Cu+](N#CC)(N#CC)(N#CC)N#CC.c1(ccc(C)cc1)NC(=O)CC(=O)Nc2ccc(C)cc2>>B(F)(F)(F)F.[Cu+]12(N#CC)(O=C(Nc3ccc(C)cc3)CC(Nc4ccc(C)cc4)=O1)O=C(Nc5ccc(C)cc5)CC(Nc6ccc(C)cc6)=O2,Ignored this reaction
+165,[C@@H](NC(=O)OCc1ccccc1)(C(C)C)[C@@H](O)[C@@H](O)C(=O)CO>>[C@H]1(C(C)C)N[C@H](CO)C(O)C1O.[C@H]1(C(C)C)NC(CO)[C@H](O)C1O.[C@H]1(C(C)C)N[C@H](CO)[C@H](O)[C@H]1O,Ignored this reaction
+166,C(CC=C)(C(=O)NOC)(c1ccccc1)c2ccccc2.C(=O)(ON(CCCC)CCCC=C)c1ccccc1>>C1(CC(CN(CCCC)CCCC=C)N(OC)C1=O)(c2ccccc2)c3ccccc3.C1(CCCN(CCCC)C1)OC(=O)c2ccccc2.C1(CCCN1CCCC)COC(=O)c2ccccc2,Ignored this reaction
+167,[W+6](=[O-2])([Cl-])([Cl-])(=[CH-2]C(C)(C)c1ccccc1)([P](C)(C)c2ccccc2)[C]3N(C=CN3c4c(C)cc(C)cc4C)c5c(C)cc(C)cc5C.[Ag+].S([O-])(=O)(=O)C(F)(F)F>>[W+6](=[O-2])([Cl-])(=[CH-2]C(C)(C)c1ccccc1)([O-]S(=O)(=O)[C@@](F)(F)F)([P](C)(C)c2ccccc2)[C]3N(C=CN3c4c(C)cc(C)cc4C)c5c(C)cc(C)cc5C,Ignored this reaction
+168,[C@](C)([O-])(C(F)(F)F)C(F)(F)F.[Li+].[W+6](=[O-2])([Cl-])([Cl-])(=[CH-2]C(C)(C)c1ccccc1)([P](C)(C)c2ccccc2)[C]3N(C=CN3c4c(C)cc(C)cc4C)c5c(C)cc(C)cc5C>>[W+6](=[O-2])([Cl-])(=[CH-2]C(C)(C)c1ccccc1)([O-][C@@](C)([C@](F)(F)F)[C@](F)(F)F)[C]2N(C=CN2c3c(C)cc(C)cc3C)c4c(C)cc(C)cc4C,Ignored this reaction
+169,[Ag+].C(C)#N.[B-](c1cc(C(F)(F)F)cc(C(F)(F)F)c1)(c2cc(C(F)(F)F)cc(C(F)(F)F)c2)(c3cc(C(F)(F)F)cc(C(F)(F)F)c3)c4cc(C(F)(F)F)cc(C(F)(F)F)c4.[W+6](=[O-2])([Cl-])(=[CH-2]C(C)(C)c1ccccc1)([O-]c2c(cccc2c3ccccc3)c4ccccc4)[C]5N(C=CN5c6c(C)cc(C)cc6C)c7c(C)cc(C)cc7C>>[B@@-](c1cc([C@](F)(F)F)cc([C@@](F)(F)F)c1)(c2cc([C@@](F)(F)F)cc([C@](F)(F)F)c2)(c3cc([C@](F)(F)F)cc([C@@](F)(F)F)c3)c4cc([C@](F)(F)F)cc([C@@](F)(F)F)c4.[W+6](=[O-2])(N#CC)(N#CC)(=[CH-2]C(C)(C)c5ccccc5)([O-]c6c(cccc6c7ccccc7)c8ccccc8)[C]9N(C=CN9c%10c(C)cc(C)cc%10C)c%11c(C)cc(C)cc%11C,Ignored this reaction
+170,c1(S)ccccn1.C(=O)(OC)SCl.C(S)CO>>c1(ccccn1)SSCCO.Cl[H],Ignored this reaction
+171,O([H])[H].Cl.Cl.[Fe].C(/c1ccccc1)(\c2[nH]c(\C(\c3ccccc3)=C(\C=C4)/N=C45)cc2)=C\6/C=C\C(=C(/c7ccccc7)\c8[nH]c5cc8)\N6>>[Fe+4]1([Cl-])(N(C(C=C2)=C3c4ccccc4)=C25)([N-](C6=C7)C3=C7)[N-](C(C=C8)=C(C=C9)[N-]1C9=C6c%10ccccc%10)C8=C5c%11ccccc%11,Ignored this reaction
+172,O([H])[H].Cl.Cl.[Fe].C1(=C2NC(=C(c3ccccc3)c4[nH]c(C(C=C5)=NC5=C(c6ccccc6)c(cc7)[nH]c17)cc4)C=C2)c8c(F)c(F)c(F)c(F)c8F>>[Fe+4]([Cl-])(N(C(C=C1)=C2c3ccccc3)=C14)([N-](C5=C6)C4=C6)([N-](C2=C7)C8=C7)[N-](C(C=C9)=C5c%10ccccc%10)C9=C8c%11c(F)c(F)c(F)c(F)c%11F,Ignored this reaction
+173,O([H])[H].Cl.Cl.[Fe].C1(=C2NC(=C(c3ccccc3)c4[nH]c(C(c5c(F)c(F)c(F)c(F)c5F)=C(C=C6)N=C6c(cc7)[nH]c17)cc4)C=C2)c8c(F)c(F)c(F)c(F)c8F>>[Fe+4]([Cl-])([N-](C(C=C1)=C2c3ccccc3)C1=C4c5c(F)c(F)c(F)c(F)c5F)([N-](C2=C6)C7=C6)([N-](C8=C9)C4=C9)N(=C8C=C%10)C%10=C7c%11c(F)c(F)c(F)c(F)c%11F,Ignored this reaction
+174,O([H])[H].Cl.Cl.[Fe].C(/c1[nH]c(\C(=C(\C=C2)/N=C23)\c4c(F)c(F)c(F)c(F)c4F)cc1)(=C/5\C=C\C(=C(\c6[nH]c3cc6)/c7c(F)c(F)c(F)c(F)c7F)\N5)\c8c(F)c(F)c(F)c(F)c8F>>[Fe+4]([Cl-])([N-](C1=C2)C3=C2)([N-](C4=C5)C3=C5)([N-](C(C=C6)=C7c8c(F)c(F)c(F)c(F)c8F)C6=C1c9c(F)c(F)c(F)c(F)c9F)N(C(C=C%10)=C4c%11c(F)c(F)c(F)c(F)c%11F)=C7%10,Ignored this reaction
+175,c1(O)cc(O)cc(O)c1.P(Cl)(C(C)C)C(C)C.P(Cl)(C(C)C)C(C)C>>P(C(C)C)(C(C)C)Oc1cc(O)cc(OP(C(C)C)C(C)C)c1,Ignored this reaction
+176,c1(O)cc(O)cc(O)c1.P(Cl)(C(C)(C)C)C(C)(C)C.P(Cl)(C(C)(C)C)C(C)(C)C>>C(C)(C)(C)P(Oc1cc(O)cc(OP(C(C)(C)C)C(C)(C)C)c1)C(C)(C)C,Ignored this reaction
+177,c1(O)cc(O)cc(O)c1.P(Cl)(c1ccccc1)c2ccccc2.P(Cl)(c1ccccc1)c2ccccc2>>P(Oc1cc(O)cc(OP(c2ccccc2)c3ccccc3)c1)(c4ccccc4)c5ccccc5,Ignored this reaction
+178,B(F)(F)(F)F.[Cu+](N#CC)(N#CC)(N#CC)N#CC.c1(ccccc1)CNC(=O)CC(=O)NCc2ccccc2>>B(F)(F)(F)F.[Cu+]12(N#CC)(O=C(NCc3ccccc3)CC(NCc4ccccc4)=O1)O=C(NCc5ccccc5)CC(NCc6ccccc6)=O2,Ignored this reaction
+179,c12c(c[nH]c1)CSC2.C(C)(C)=O>>c12[nH]c(C(C)(C)c3[nH]c(C(C)(C)c(c(CSC4)c45)[nH]c5C(C)(C)c(c(CSC6)c67)[nH]c7C1(C)C)c(CSC8)c38)c(CSC9)c29,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+180,O([H])[H].Cl.Cl.[Mn].c1(ccncc1)C(=O)NN=C(C)c2ccncc2.C(#N)[S-].[Na+].C(#N)[S-].[Na+].c1(ccncc1)C(=O)NN=C(C)c2ccncc2>>C(#N)[S-].c1(ccncc1)C(=O)NN=C(C)c2ccncc2.[Mn+2],Ignored this reaction
+181,C(OC(=O)[C@@H](N)CSC(c1ccccc1)(c2ccccc2)c3ccccc3)(c4ccccc4)(c5ccc(['Pol'])cc5)c6ccccc6Cl.C(=O)(OC(C)(C)C)[C@H](CCC(=O)OC(C)(C)C)NC(=O)N[C@@H](CCC(=O)O)C(=O)OC(C)(C)C.C1(COC(=O)N[C@]([H])(C(=O)O)Cc2ccccc2)c3c(cccc3)c(cccc4)c14.C1(COC(=O)N[C@]([H])(C(=O)O)CC(=O)OC(C)(C)C)c2c(cccc2)c(cccc3)c13.C1(COC(=O)NC[C@@H](C(=O)O)NC(=O)OC(C)(C)C)c2c(cccc2)c(cccc3)c13.C1(COC(=O)NCCCCCCCC(=O)O)c2c(cccc2)c(cccc3)c13>>[C@@H](Cc1ccccc1)(NC(=O)[C@@H](NC(=O)CCCCCCCNC(=O)CC[C@@H](C(=O)O)NC(=O)N[C@@H](CCC(=O)O)C(=O)O)Cc2ccccc2)C(=O)NC[C@H](N)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](CS)C(=O)O,Ignored this reaction
+182,[BH]1234[BH]56([BH]78[BH]159B7([H])(B%10%11(N%12=CC=CC=C%12)[BH]2%13%14[Rh]%10%15([H])(P(c%16ccccc%16)c%17ccccc%17)(P(c%18ccccc%18)c%19ccccc%19)[BH]36%13%20)[BH]49%11%14)S8%15%20.P(CCP(c1ccccc1)c2ccccc2)(c3ccccc3)c4ccccc4>>[Rh]12345([P](c6ccccc6)(c7ccccc7)CC[P]1(c8ccccc8)c9ccccc9)(S%10%11B([H])(B%12%13([H])(B%14%15%16%17[H])B2%14%18%19[H])(B%12%15%20([H])B3%16%21%22[H])(B4%10%13%18[H])B5%11%20%21[H])B%17%19%22N%23=CC=CC=C%23,"element: bad valence on B having 5 drawn bonds, charge 0, and 0 radical electrons"
+183,c1(O)cc(O)cc(O)c1.c1(\N=N\c2ccncc2)ccc(OCCC)cc1.c1(\N=N\c2ccncc2)ccc(OCCC)cc1.c1(\N=N\c2ccncc2)ccc(OCCC)cc1>>c1(O)cc(O)cc(O)c1.c2(\N=N\c3ccncc3)ccc(OCCC)cc2,Ignored this reaction
+184,c1(O)cc(O)cc(O)c1.c1(ccc(OCCCCCC)cc1)\N=N\c2ccncc2.c1(ccc(OCCCCCC)cc1)\N=N\c2ccncc2.c1(ccc(OCCCCCC)cc1)\N=N\c2ccncc2>>c1(O)cc(O)cc(O)c1.c2(ccc(OCCCCCC)cc2)\N=N\c3ccncc3,Ignored this reaction
+185,C(COCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCN=N#N.c1(C#C)c[n+](C)cn1C.[I-]>>c1(c[n+](C)cn1C)c2nnn(CCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC)c2.[I-],Ignored this reaction
+186,c1(C#C)c[n+](C)cn1C.[I-].C(COCCOC)OCCN=N#N>>c1(c[n+](C)cn1C)c2nnn(CCOCCOCCOC)c2.[I-],Ignored this reaction
+187,[S](C)(C)[Au]Cl.c1(c[n+](C)cn1C)c2nnn(CCOCCOCCOC)c2.[I-]>>C1(=CN(C)[C]([Au]Cl)N1C)c2nnn(CCOCCOCCOC)c2,Ignored this reaction
+188,c1(ccncc1)c2ccncc2.N([O-])=O.[Pb+2].Cl.[K]>>c1(ccncc1)c2ccncc2.[Cl-].[Pb+2],Ignored this reaction
+189,C(#N)[S-].c1(ccncc1)c2ccncc2.N(=O)(=O)[O-].[Pb+2].Cl.[K]>>c1(ccncc1)c2ccncc2.[Cl-].[Pb+2],Ignored this reaction
+190,c1(ccncc1)c2ccncc2.N(=O)(=O)[O-].[Pb+2].Cl.[K]>>c1(ccncc1)c2ccncc2.[Cl-].[Pb+2],Ignored this reaction
+191,C(#N)[S-].c1(ccncc1)c2ccncc2.[Pb+2].Cl.[K]>>c1(ccncc1)c2ccncc2.[Cl-].[Pb+2],Ignored this reaction
+192,c1(ccncc1)c2ccncc2.[Cl-].[Pb+2].Br.[K]>>[Br-].c1(ccncc1)c2ccncc2.[Pb+2],Ignored this reaction
+193,c1(ccncc1)c2ccncc2.[Cl-].[Pb+2].I.[K]>>c1(ccncc1)c2ccncc2.[I-].[Pb+2],Ignored this reaction
+194,c1(ccncc1)c2ccncc2.[Cl-].[Pb+2].Br.[K]>>[Br-].c1(ccncc1)c2ccncc2.[Pb+2],Ignored this reaction
+195,c1(ccncc1)c2ccncc2.[Cl-].[Pb+2].I.[K]>>c1(ccncc1)c2ccncc2.[I-].[Pb+2],Ignored this reaction
+196,O.O.[SeH2].O.O.O.[Sc].[Sc].C([O-])([O-])=O.[Cs+]>>[Cs].O.O.O.O.O.O.[Sc].[SeH2].[SeH2],Ignored this reaction
+197,O.O.[SeH2].O([H])[H].N(=O)(=O)[O-].[Sc+3].C([O-])([O-])=O.[Na+]>>[Na].O.O.O.O.O.O.[Sc].[SeH2].[SeH2],Ignored this reaction
+198,O.O.[SeH2].O([H])[H].N(=O)(=O)[O-].[Sc+3].C([O-])([O-])=O.[K+]>>[K].O.O.O.O.O.O.[Sc].[SeH2].[SeH2],Ignored this reaction
+199,N#[C-].[K+].C(/c1ccccc1)(\c2ccc(CBr)cc2)=C(/c3ccccc3)\c4ccccc4>>C(/c1ccccc1)(\c2ccc(CC#N)cc2)=C(/c3ccccc3)\c4ccccc4,Ignored this reaction
+200,c1(ccccc1OC)[Si](C)(C)[N-][Si](C)(C)c2ccccc2OC.[Li+].[Ti](Cl)(Cl)(Cl)Cl>>[Si@](C)(C)(c1ccccc1OC)[N-]([Ti+4]([Cl-])([Cl-])[Cl-])[Si@](C)(C)c2ccccc2OC,Ignored this reaction
+201,B(F)(F)(F)F.[Cu+](N#CC)(N#CC)(N#CC)N#CC.C(=O)(CC(=O)N(C(C)C)C(C)C)N(C(C)C)C(C)C>>B(F)(F)(F)F.[Cu+]12(N#CC)(O=C(N(C(C)C)C(C)C)CC(N(C(C)C)C(C)C)=O1)O=C(N(C(C)C)C(C)C)CC(N(C(C)C)C(C)C)=O2,Ignored this reaction
+202,B(F)(F)(F)F.[Cu+]12(N#CC)(O=C(N(C(C)C)C(C)C)CC(N(C(C)C)C(C)C)=O1)O=C(N(C(C)C)C(C)C)CC(N(C(C)C)C(C)C)=O2.O([H])[H]>>B(F)(F)(F)F.[Cu+2]12([OH2])(O=C(N(C(C)C)C(C)C)CC(N(C(C)C)C(C)C)=O1)O=C(N(C(C)C)C(C)C)CC(N(C(C)C)C(C)C)=O2,Ignored this reaction
+203,c12[nH]c(C(C)(C)c3[nH]c(C(C)(C)c(c(CSC4)c45)[nH]c5C(C)(C)c(c(CSC6)c67)[nH]c7C1(C)C)c(CSC8)c38)c(CSC9)c29.[N+](CCCC)(CCCC)(CCCC)CCCC.[F-]>>[N+](CCCC)(CCCC)(CCCC)CCCC.c12[nH]c(C(C)(C)c3[nH]c(C(C)(C)c(c(CSC4)c45)[nH]c5C(C)(C)c(c(CSC6)c67)[nH]c7C1(C)C)c(CSC8)c38)c(CSC9)c29.[F-],Ignored this reaction
+204,c1(ccncc1)C(=O)NN=Cc2ccncc2.O([H])[H].Cl.Cl.[Mn].C(#N)[S-].[Na+].c1(ccncc1)C(=O)NN=Cc2ccncc2.C(#N)[S-].[Na+]>>C(#N)[S-].c1(ccncc1)C(=O)NN=Cc2ccncc2.O.[Mn+2],Ignored this reaction
+205,C(=O)(C=C=C)OCC.c1(ccccc1)N(C)C>>c1(ccccc1)N(C)CC(=C)CC(=O)OCC.c1(ccccc1)N(C)C\C(\C)=C\C(=O)OCC,Ignored this reaction
+206,C(=O)(C=C=C)OCC.N(C)(c1ccccc1)c2ccccc2>>N(CC(C)=CC(=O)OCC)(c1ccccc1)c2ccccc2.N(CC(=C)CC(=O)OCC)(c1ccccc1)c2ccccc2,Ignored this reaction
+207,C(=O)(C=C=C)OCC.c1(ccccc1)N(CC)CC.c1(ccccc1)N(CC)CC.C(=O)(C=C=C)OCC>>N(CC)(c1ccccc1)C(C)C(=C)CC(=O)OCC.N(CC)(c1ccccc1)C(C)C(C)=CC(=O)OCC,Ignored this reaction
+208,C(=O)(C=C=C)OCC.c1(ccc(OC)cc1)N(C)C>>c1(ccc(OC)cc1)N(C)CC(=C)CC(=O)OCC.c1(ccc(OC)cc1)N(C)CC(C)=CC(=O)OCC,Ignored this reaction
+209,C(=O)(OCC)C=C=CC.c1(ccccc1)N(C)C>>c1(ccccc1)N(C)C\C(=C/C)\CC(=O)OCC.c1(ccccc1)N(C)C\C(=C\C)\CC(=O)OCC,Ignored this reaction
+210,c1(ccccc1)C=C=CC(=O)OCC.c1(ccc(C)cc1)N(C)C.c1(ccccc1)C=C=CC(=O)OCC.c1(ccc(C)cc1)N(C)C>>C(/CC(=O)OCC)(=C/c1ccccc1)\CN(C)c2ccc(C)cc2.C(/CC(=O)OCC)(=C\c1ccccc1)\CN(C)c2ccc(C)cc2,Ignored this reaction
+211,c1(ccc(F)cc1)N(C)C.c1(ccccc1)C=C=CC(=O)OCC.c1(ccccc1)C=C=CC(=O)OCC.c1(ccc(F)cc1)N(C)C>>C(/CC(=O)OCC)(=C/c1ccccc1)\CN(C)c2ccc(F)cc2.C(/CC(=O)OCC)(=C\c1ccccc1)\CN(C)c2ccc(F)cc2,Ignored this reaction
+212,c1(ccc(Cl)cc1)N(C)C.c1(ccccc1)C=C=CC(=O)OCC.c1(ccccc1)C=C=CC(=O)OCC.c1(ccc(Cl)cc1)N(C)C>>C(/CC(=O)OCC)(=C/c1ccccc1)\CN(C)c2ccc(Cl)cc2.C(/CC(=O)OCC)(=C\c1ccccc1)\CN(C)c2ccc(Cl)cc2,Ignored this reaction
+213,c1(ccc(Br)cc1)N(C)C.c1(ccccc1)C=C=CC(=O)OCC.c1(ccccc1)C=C=CC(=O)OCC.c1(ccc(Br)cc1)N(C)C>>C(/CC(=O)OCC)(=C/c1ccccc1)\CN(C)c2ccc(Br)cc2.C(/CC(=O)OCC)(=C\c1ccccc1)\CN(C)c2ccc(Br)cc2,Ignored this reaction
+214,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CC(C)c4ccccc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)CC(C)c3ccccc3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+215,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4c(F)cccc4F)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)Cc3c(F)cccc3F)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+216,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCC(C)(C)C)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4>>c12c(ccc(N(C)CC(=O)N(CCCN)CCC(C)(C)C)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+217,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCC(c4ccccc4)c5ccccc5)C(=O)CN(C)c6ccc(cc(C(C)=O)cc7)c7c6>>C(CCN(CCCN)C(=O)CN(C)c1ccc(cc(C(C)=O)cc2)c2c1)(c3ccccc3)c4ccccc4,SMILES loader: invalid character within atom description: '''
+218,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccccc4C)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)Cc3ccccc3C)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+219,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccccc4OCC)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)Cc3ccccc3OCC)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+220,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCN4CCCC4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)CCN3CCCC3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+221,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCc4ccccn4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)CCc3ccccn3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+222,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4cccc(OC)c4OC)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)Cc3cccc(OC)c3OC)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+223,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCCc4ccccc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)CCCCc3ccccc3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+224,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4c(Cl)cccc4Cl)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)Cc3c(Cl)cccc3Cl)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+225,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCc4ccc(F)cc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)CCc3ccc(F)cc3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+226,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCOC)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4>>c12c(ccc(N(C)CC(=O)N(CCCN)CCCOC)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+227,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCOC)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4>>c12c(ccc(N(C)CC(=O)N(CCCN)CCOC)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+228,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccc(OC)cc4OC)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)Cc3ccc(OC)cc3OC)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+229,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCc4cccc(OC)c4OC)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)CCc3cccc(OC)c3OC)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+230,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCOCC(CC)CCCC)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4>>c12c(ccc(N(C)CC(=O)N(CCCN)CCCOCC(CC)CCCC)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+231,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4cccc(F)c4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)Cc3cccc(F)c3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+232,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccc(Cl)cc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)Cc3ccc(Cl)cc3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+233,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CC(CC)CCCC)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4>>c12c(ccc(N(C)CC(=O)N(CCCN)CC(CC)CCCC)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+234,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccc(Cl)nc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)Cc3ccc(Cl)nc3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+235,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCN4CCCCC4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)CCN3CCCCC3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+236,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCOC(C)C)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4>>c12c(ccc(N(C)CC(=O)N(CCCN)CCCOC(C)C)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+237,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCCCCC)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4>>c12c(ccc(N(C)CC(=O)N(CCCN)CCCCCCC)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+238,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCN4CCOCC4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)CCN3CCOCC3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+239,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CC#C)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4>>c12c(ccc(N(C)CC(=O)N(CC#C)CCCN)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+240,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccc(OC)c(OC)c4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)Cc3ccc(OC)c(OC)c3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+241,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccccc4Br)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)Cc3ccccc3Br)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+242,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccc(C(F)(F)F)cc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)Cc3ccc(C(F)(F)F)cc3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+243,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCc4ccccc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)CCCc3ccccc3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+244,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCc4ccc(N(=O)=O)cc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)CCc3ccc(N(=O)=O)cc3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+245,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccccc4Cl)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)Cc3ccccc3Cl)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+246,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCN(CCCC)CCCC)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4>>c12c(ccc(N(C)CC(=O)N(CCCN)CCCN(CCCC)CCCC)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+247,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCC)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4>>c12c(ccc(N(C)CC(=O)N(CCCC)CCCN)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+248,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccccc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)Cc3ccccc3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+249,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccccc4F)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)Cc3ccccc3F)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+250,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccc(OC)cc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)Cc3ccc(OC)cc3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+251,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CC4CCCCC4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)CC3CCCCC3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+252,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4cccc(OC)c4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)Cc3cccc(OC)c3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+253,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccccc4OC)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)Cc3ccccc3OC)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+254,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCc4ccc(OC)cc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)CCc3ccc(OC)cc3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+255,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccc(C)cc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)Cc3ccc(C)cc3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+256,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccccn4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)Cc3ccccn3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+257,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCc4cccc(F)c4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)CCc3cccc(F)c3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+258,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCCCCCCCC)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4>>c12c(ccc(N(C)CC(=O)N(CCCN)CCCCCCCCCC)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+259,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4cc(F)cc(F)c4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)Cc3cc(F)cc(F)c3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+260,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccncc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)Cc3ccncc3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+261,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCN4CCCCC4C)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)CCCN3CCCCC3C)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+262,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCP(=O)(c4ccccc4)c5ccccc5)C(=O)CN(C)c6ccc(cc(C(C)=O)cc7)c7c6>>P(=O)(CCN(CCCN)C(=O)CN(C)c1ccc(cc(C(C)=O)cc2)c2c1)(c3ccccc3)c4ccccc4,SMILES loader: invalid character within atom description: '''
+263,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCCC)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4>>c12c(ccc(N(C)CC(=O)N(CCCN)CCCCC)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+264,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCN(CC)CC)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4>>c12c(ccc(N(C)CC(=O)N(CCCN)CCN(CC)CC)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+265,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCN(C)C)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4>>c12c(ccc(N(C)CC(=O)N(CCCN)CCN(C)C)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+266,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CC(C)(C)CN(C)C)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4>>c12c(ccc(N(C)CC(=O)N(CCCN)CC(C)(C)CN(C)C)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+267,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCC(C)C)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4>>c12c(ccc(N(C)CC(=O)N(CCCN)CCC(C)C)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+268,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccco4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)Cc3ccco3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+269,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4cc(F)ccc4F)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)Cc3cc(F)ccc3F)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+270,C12(C)C(CCc(cc(C(C)C)cc3)c13)C(C)(CCC2)CN(CCCNc4ccccc4C(Cl)(c5ccccc5)c6ccc(['Pol'])cc6)C(=O)CN(C)c7ccc(cc(C(C)=O)cc8)c8c7>>C12(C)C(CCc(cc(C(C)C)cc3)c13)C(C)(CCC2)CN(CCCN)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4,SMILES loader: invalid character within atom description: '''
+271,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccc(F)c(F)c4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)Cc3ccc(F)c(F)c3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+272,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCNC(=O)OC(C)(C)C)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4>>c12c(ccc(N(C)CC(=O)N(CCCN)CCNC(=O)OC(C)(C)C)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+273,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCc4ccccc4F)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)CCc3ccccc3F)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+274,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCc4ccc(C)cc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)CCc3ccc(C)cc3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+275,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCc4ccc(C(C)(C)C)cc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)CCc3ccc(C(C)(C)C)cc3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+276,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccc(Cl)cc4Cl)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)Cc3ccc(Cl)cc3Cl)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+277,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4)CC(c6ccccc6)c7ccccc7>>C(CN(CCCN)C(=O)CN(C)c1ccc(cc(C(C)=O)cc2)c2c1)(c3ccccc3)c4ccccc4,SMILES loader: invalid character within atom description: '''
+278,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCc4ccc(Br)cc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)CCc3ccc(Br)cc3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+279,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CC(C)CC)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4>>c12c(ccc(N(C)CC(=O)N(CCCN)CC(C)CC)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+280,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCCCCCCCCCCCCCC)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4>>c12c(ccc(N(C)CC(=O)N(CCCN)CCCCCCCCCCCCCCCC)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+281,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCc4ccccc4c5ccccc5)C(=O)CN(C)c6ccc(cc(C(C)=O)cc7)c7c6>>c12c(ccc(N(C)CC(=O)N(CCCN)CCc3ccccc3c4ccccc4)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+282,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCN4CCCC4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)CCCN3CCCC3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+283,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CC4CCCCCC4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)CC3CCCCCC3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+284,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccc(F)c(Br)c4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)Cc3ccc(F)c(Br)c3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+285,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCCCCCCC=CCCCCCCCC)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4>>c12c(ccc(N(C)CC(=O)N(CCCN)CCCCCCCCC=CCCCCCCCC)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+286,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCc4ccc(Cl)cc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)CCc3ccc(Cl)cc3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+287,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCc4ccc(Cl)cc4Cl)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)CCc3ccc(Cl)cc3Cl)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+288,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCN4CCCC4=O)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)CCCN3CCCC3=O)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+289,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCN4CCN(C)CC4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5>>c12c(ccc(N(C)CC(=O)N(CCCN)CCN3CCN(C)CC3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+290,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccc(OCO5)c5c4)C(=O)CN(C)c6ccc(cc(C(C)=O)cc7)c7c6>>c12c(ccc(N(C)CC(=O)N(CCCN)Cc3ccc(OCO4)c4c3)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+291,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCCCCCCCCCCC)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4>>c12c(ccc(N(C)CC(=O)N(CCCN)CCCCCCCCCCCCC)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+292,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCCCCCCCCCCCCCCCC)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4>>c12c(ccc(N(C)CC(=O)N(CCCN)CCCCCCCCCCCCCCCCCC)c1)cc(C(C)=O)cc2,SMILES loader: invalid character within atom description: '''
+293,[C@]12(C[C@@](CCCCOc3ccc(cccc4)c4c3)(C5)C(OC(=O)c6ccc(N(=O)=O)cc6)=C1)C(C=CCC2)=C5CCCCCC>>[C@]12(C[C@@](CCCCOc3ccc(cccc4)c4c3)(C5)C(=O)C1)C(C=CCC2)=C5CCCCCC,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+294,B(F)(F)(F)F.[Pd+2]12(N#C[C@]([2H])([2H])[2H])[N-](C(=O)[C@@]([H])(N3C(=O)c(cccc4)c4C3=O)[C@@]1(F)c5ccccc5)C(C)(C)C(C=CC=C6)=N26>>N1(C(=O)c(cccc2)c2C1=O)[C@@H]([C@@H](F)c3ccccc3)C(=O)NC(C)(C)c4ccccn4,"element: bad valence on N having 4 drawn bonds, charge 0, and 0 radical electrons"
+295,B12([C@H](COCc3ccccc3)NC(=O)Cc4ccccc4)N(C)(CC(=O)O1)CC(=O)O2>>B12([C@H](CO)NC(=O)Cc3ccccc3)N(C)(CC(=O)O1)CC(=O)O2,"element: bad valence on B having 4 drawn bonds, charge 0, and 0 radical electrons"
+296,c1(c(cccc1C(C)C)C(C)C)N2C(C)=CC(C)=N(c3c(cccc3C(C)C)C(C)C)[Ge]2OP(c4ccccc4)c5ccccc5>>[Ge]1(OP(=S)(c2ccccc2)c3ccccc3)N(C(C)=CC(C)=N1c4c(cccc4C(C)C)C(C)C)c5c(cccc5C(C)C)C(C)C,"element: bad valence on N having 4 drawn bonds, charge 0, and 0 radical electrons"
+297,C(=O)([O-])[O-].[Rb+].O.O.[SeH2].O([H])[H].N(=O)(=O)[O-].[Sc+3]>>O.O.O.O.O.O.[Rb].[Sc].[SeH2].[SeH2],Ignored this reaction
+298,C1(COC(=O)NC['Pol'])c2c(cccc2)c(cccc3)c13.C1(COC(=O)Nc2ccc(C(=O)O)cc2OCc3ccccc3)c4c(cccc4)c(cccc5)c15.C1(COC(=O)Nc2ccc(C(=O)O)c(OC(C)C)c2)c3c(cccc3)c(cccc4)c14.C1(COC(=O)N[C@]([H])(C(=O)O)Cc2ccccc2)c3c(cccc3)c(cccc4)c14>>c1(ccc(NC(=O)[C@H](Cc2ccccc2)NC(=O)c3ccc(N)c(OCc4ccccc4)c3)cc1OC(C)C)C(=O)NCC(=O)O,Ignored this reaction
+299,C1(COC(=O)NC['Pol'])c2c(cccc2)c(cccc3)c13.C1(COC(=O)Nc2ccc(C(=O)O)cc2OCc3ccccc3)c4c(cccc4)c(cccc5)c15.C1(COC(=O)Nc2ccc(C(=O)O)c(OC(C)C)c2)c3c(cccc3)c(cccc4)c14.C1(COC(=O)N[C@@]([H])(C(=O)O)Cc2ccccc2)c3c(cccc3)c(cccc4)c14>>c1(ccc(NC(=O)[C@@H](Cc2ccccc2)NC(=O)c3ccc(N)c(OCc4ccccc4)c3)cc1OC(C)C)C(=O)NCC(=O)O,Ignored this reaction
+300,C(C)(=O)OC(C)=O.n1(cnc(c(N)ncn2)c12)[C@@H]3O[C@H](CO)[C@@H](O)[C@H]3O>>[C@H]1(O[C@H](CO)[C@@H](O)[C@H]1OC(C)=O)n2cnc(c(N)ncn3)c23.n1(cnc(c(N)ncn2)c12)[C@@H]3O[C@H](CO)[C@@H](OC(C)=O)[C@H]3O,Ignored this reaction
+301,c1(nc(C)cc(C)n1)N2CCCNCC2.Cl.c1(cccnc1OCC(F)(F)F)C(=O)O>>c1(cccnc1OCC(F)(F)F)C(=O)N2CCCN(c3nc(C)cc(C)n3)CC2,Ignored this reaction
+302,[C@@]([H])(N(CCC1=O)C(=O)CC2)([C@@]2([H])[C@H]3C)[C@@]13[H].[C@@]([H])(N(CCC1=O)C(=O)CC2)([C@@]2([H])[C@H]3C)[C@@]13[H]>>[C@@]([H])(N(CC[C@H]1O)C(=O)CC2)([C@@]2([H])[C@H]3C)[C@@]13[H].[C@]([H])(N(CC[C@@H]1O)C(=O)CC2)([C@]2([H])[C@@H]3C)[C@]13[H],Ignored this reaction
+303,C(Cl)Br.[Si](C)(C)(Cl)C[Si](C)(C)Cl.C(Cl)Br>>C([Si](C)(C)CCl)[Si](C)(C)CCl,Ignored this reaction
+304,C(Cl)Br.[Ge](C)(C)(Cl)[Ge](C)(C)Cl.C(Cl)Br>>[Ge](C)(C)(CCl)[Ge](C)(C)CCl,Ignored this reaction
+305,[Si@@](C)(C)([Si@](C)(C)CCl)[Si@](C)(C)[Si@](C)(C)CCl.C(C)(=O)[S-].[K+]>>[Si](C)(C)([Si](C)(C)CSC(C)=O)[Si](C)(C)[Si](C)(C)CSC(C)=O,Ignored this reaction
+306,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCN4CCCC4=O>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCN4CCCC4=O)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+307,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCN4CCN(C)CC4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCN4CCN(C)CC4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+308,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccc(OCO5)c5c4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccc(OCO5)c5c4)C(=O)CN(C)c6ccc(cc(C(C)=O)cc7)c7c6,SMILES loader: invalid character within atom description: '''
+309,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCCCCCCCCCCC>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCCCCCCCCCCC)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4,SMILES loader: invalid character within atom description: '''
+310,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCCCCCCCCCCCCCCCC>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCCCCCCCCCCCCCCCC)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4,SMILES loader: invalid character within atom description: '''
+311,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCC(C)c4ccccc4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CC(C)c4ccccc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+312,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4c(F)cccc4F>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4c(F)cccc4F)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+313,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCC(C)(C)C>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCC(C)(C)C)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4,SMILES loader: invalid character within atom description: '''
+314,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCC(c4ccccc4)c5ccccc5>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCC(c4ccccc4)c5ccccc5)C(=O)CN(C)c6ccc(cc(C(C)=O)cc7)c7c6,SMILES loader: invalid character within atom description: '''
+315,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccccc4C>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccccc4C)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+316,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccccc4OCC>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccccc4OCC)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+317,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCN4CCCC4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCN4CCCC4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+318,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCc4ccccn4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCc4ccccn4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+319,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4cccc(OC)c4OC>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4cccc(OC)c4OC)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+320,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCCc4ccccc4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCCc4ccccc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+321,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4c(Cl)cccc4Cl>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4c(Cl)cccc4Cl)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+322,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCc4ccc(F)cc4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCc4ccc(F)cc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+323,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCOC>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCOC)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4,SMILES loader: invalid character within atom description: '''
+324,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCOC>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCOC)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4,SMILES loader: invalid character within atom description: '''
+325,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccc(OC)cc4OC>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccc(OC)cc4OC)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+326,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCc4cccc(OC)c4OC>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCc4cccc(OC)c4OC)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+327,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCOCC(CC)CCCC>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCOCC(CC)CCCC)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4,SMILES loader: invalid character within atom description: '''
+328,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4cccc(F)c4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4cccc(F)c4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+329,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccc(Cl)cc4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccc(Cl)cc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+330,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCC(CC)CCCC>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CC(CC)CCCC)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4,SMILES loader: invalid character within atom description: '''
+331,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccc(Cl)nc4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccc(Cl)nc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+332,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCN4CCCCC4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCN4CCCCC4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+333,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCOC(C)C>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCOC(C)C)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4,SMILES loader: invalid character within atom description: '''
+334,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCCCCC>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCCCCC)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4,SMILES loader: invalid character within atom description: '''
+335,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCN4CCOCC4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCN4CCOCC4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+336,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCC#C>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CC#C)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4,SMILES loader: invalid character within atom description: '''
+337,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccc(OC)c(OC)c4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccc(OC)c(OC)c4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+338,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccccc4Br>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccccc4Br)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+339,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccc(C(F)(F)F)cc4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccc(C(F)(F)F)cc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+340,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCc4ccccc4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCc4ccccc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+341,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCc4ccc(N(=O)=O)cc4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCc4ccc(N(=O)=O)cc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+342,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccccc4Cl>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccccc4Cl)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+343,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCN(CCCC)CCCC>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCN(CCCC)CCCC)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4,SMILES loader: invalid character within atom description: '''
+344,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCC>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCC)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4,SMILES loader: invalid character within atom description: '''
+345,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccccc4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccccc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+346,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccccc4F>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccccc4F)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+347,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccc(OC)cc4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccc(OC)cc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+348,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCC4CCCCC4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CC4CCCCC4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+349,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4cccc(OC)c4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4cccc(OC)c4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+350,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccccc4OC>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccccc4OC)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+351,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCc4ccc(OC)cc4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCc4ccc(OC)cc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+352,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccc(C)cc4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccc(C)cc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+353,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccccn4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccccn4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+354,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCc4cccc(F)c4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCc4cccc(F)c4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+355,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCCCCCCCC>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCCCCCCCC)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4,SMILES loader: invalid character within atom description: '''
+356,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4cc(F)cc(F)c4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4cc(F)cc(F)c4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+357,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccncc4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccncc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+358,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCN4CCCCC4C>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCN4CCCCC4C)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+359,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCP(=O)(c4ccccc4)c5ccccc5>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCP(=O)(c4ccccc4)c5ccccc5)C(=O)CN(C)c6ccc(cc(C(C)=O)cc7)c7c6,SMILES loader: invalid character within atom description: '''
+360,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCCC>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCCC)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4,SMILES loader: invalid character within atom description: '''
+361,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCN(CC)CC>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCN(CC)CC)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4,SMILES loader: invalid character within atom description: '''
+362,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCN(C)C>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCN(C)C)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4,SMILES loader: invalid character within atom description: '''
+363,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCC(C)(C)CN(C)C>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CC(C)(C)CN(C)C)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4,SMILES loader: invalid character within atom description: '''
+364,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCC(C)C>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCC(C)C)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4,SMILES loader: invalid character within atom description: '''
+365,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccco4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccco4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+366,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4cc(F)ccc4F>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4cc(F)ccc4F)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+367,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C12C(C)(CCCC1(C)CNCCCNc3ccccc3C(Cl)(c4ccccc4)c5ccc(['Pol'])cc5)c6c(cc(C(C)C)cc6)CC2>>C12(C)C(CCc(cc(C(C)C)cc3)c13)C(C)(CCC2)CN(CCCNc4ccccc4C(Cl)(c5ccccc5)c6ccc(['Pol'])cc6)C(=O)CN(C)c7ccc(cc(C(C)=O)cc8)c8c7,SMILES loader: invalid character within atom description: '''
+368,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccc(F)c(F)c4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccc(F)c(F)c4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+369,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCNC(=O)OC(C)(C)C>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCNC(=O)OC(C)(C)C)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4,SMILES loader: invalid character within atom description: '''
+370,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCc4ccccc4F>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCc4ccccc4F)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+371,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCc4ccc(C)cc4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCc4ccc(C)cc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+372,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCc4ccc(C(C)(C)C)cc4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCc4ccc(C(C)(C)C)cc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+373,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccc(Cl)cc4Cl>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccc(Cl)cc4Cl)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+374,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCC(c4ccccc4)c5ccccc5>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4)CC(c6ccccc6)c7ccccc7,SMILES loader: invalid character within atom description: '''
+375,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCc4ccc(Br)cc4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCc4ccc(Br)cc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+376,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCC(C)CC>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CC(C)CC)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4,SMILES loader: invalid character within atom description: '''
+377,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCCCCCCCCCCCCCC>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCCCCCCCCCCCCCC)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4,SMILES loader: invalid character within atom description: '''
+378,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCc4ccccc4c5ccccc5>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCc4ccccc4c5ccccc5)C(=O)CN(C)c6ccc(cc(C(C)=O)cc7)c7c6,SMILES loader: invalid character within atom description: '''
+379,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCN4CCCC4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCN4CCCC4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+380,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCC4CCCCCC4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CC4CCCCCC4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+381,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccc(F)c(Br)c4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(Cc4ccc(F)c(Br)c4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+382,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCCCCCCC=CCCCCCCCC>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCCCCCCCC=CCCCCCCCC)C(=O)CN(C)c4ccc(cc(C(C)=O)cc5)c5c4,SMILES loader: invalid character within atom description: '''
+383,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCc4ccc(Cl)cc4>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCc4ccc(Cl)cc4)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+384,c12c(ccc(N(C)CC(=O)O)c1)cc(C(C)=O)cc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCc4ccc(Cl)cc4Cl>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCN(CCc4ccc(Cl)cc4Cl)C(=O)CN(C)c5ccc(cc(C(C)=O)cc6)c6c5,SMILES loader: invalid character within atom description: '''
+385,N1(CCCN)CCCC1=O.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCN4CCCC4=O,SMILES loader: invalid character within atom description: '''
+386,N1(CCN)CCN(C)CC1.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCN4CCN(C)CC4,SMILES loader: invalid character within atom description: '''
+387,c12c(OCO1)ccc(CN)c2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccc(OCO5)c5c4,SMILES loader: invalid character within atom description: '''
+388,C(CCCCCN)CCCCCCC.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCCCCCCCCCCC,SMILES loader: invalid character within atom description: '''
+389,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.C(CCCCCCCCC)CCCCCCCCN>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCCCCCCCCCCCCCCCC,SMILES loader: invalid character within atom description: '''
+390,c1(ccccc1)C(C)CN.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCC(C)c4ccccc4,SMILES loader: invalid character within atom description: '''
+391,c1(CN)c(F)cccc1F.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4c(F)cccc4F,SMILES loader: invalid character within atom description: '''
+392,C(CN)C(C)(C)C.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCC(C)(C)C,SMILES loader: invalid character within atom description: '''
+393,C(CCN)(c1ccccc1)c2ccccc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCC(c4ccccc4)c5ccccc5,SMILES loader: invalid character within atom description: '''
+394,c1(CN)ccccc1C.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccccc4C,SMILES loader: invalid character within atom description: '''
+395,c1(OCC)ccccc1CN.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccccc4OCC,SMILES loader: invalid character within atom description: '''
+396,N1(CCCC1)CCN.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCN4CCCC4,SMILES loader: invalid character within atom description: '''
+397,c1(CCN)ccccn1.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCc4ccccn4,SMILES loader: invalid character within atom description: '''
+398,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.c1(OC)c(CN)cccc1OC>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4cccc(OC)c4OC,SMILES loader: invalid character within atom description: '''
+399,c1(ccccc1)CCCCN.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCCc4ccccc4,SMILES loader: invalid character within atom description: '''
+400,c1(CN)c(Cl)cccc1Cl.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4c(Cl)cccc4Cl,SMILES loader: invalid character within atom description: '''
+401,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.c1(CCN)ccc(F)cc1>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCc4ccc(F)cc4,SMILES loader: invalid character within atom description: '''
+402,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.C(OC)CCN>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCOC,SMILES loader: invalid character within atom description: '''
+403,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3Cl.C(CN)CBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr,SMILES loader: invalid character within atom description: '''
+404,c1(OC)cc(OC)ccc1CN.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccc(OC)cc4OC,SMILES loader: invalid character within atom description: '''
+405,c1(OC)c(OC)cccc1CCN.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCc4cccc(OC)c4OC,SMILES loader: invalid character within atom description: '''
+406,C(CC)(CCCC)COCCCN.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCOCC(CC)CCCC,SMILES loader: invalid character within atom description: '''
+407,c1(CN)cccc(F)c1.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4cccc(F)c4,SMILES loader: invalid character within atom description: '''
+408,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.c1(CN)ccc(Cl)cc1>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccc(Cl)cc4,SMILES loader: invalid character within atom description: '''
+409,C(CC)(CN)CCCC.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCC(CC)CCCC,SMILES loader: invalid character within atom description: '''
+410,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.c1(CN)ccc(Cl)nc1>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccc(Cl)nc4,SMILES loader: invalid character within atom description: '''
+411,N1(CCN)CCCCC1.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCN4CCCCC4,SMILES loader: invalid character within atom description: '''
+412,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.C(C)(C)OCCCN>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCOC(C)C,SMILES loader: invalid character within atom description: '''
+413,C(CCN)CCCC.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCCCCC,SMILES loader: invalid character within atom description: '''
+414,N1(CCN)CCOCC1.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCN4CCOCC4,SMILES loader: invalid character within atom description: '''
+415,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.C(N)C#C>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCC#C,SMILES loader: invalid character within atom description: '''
+416,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.c1(OC)cc(CN)ccc1OC>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccc(OC)c(OC)c4,SMILES loader: invalid character within atom description: '''
+417,c1(CN)ccccc1Br.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccccc4Br,SMILES loader: invalid character within atom description: '''
+418,C(F)(F)(F)c1ccc(CN)cc1.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccc(C(F)(F)F)cc4,SMILES loader: invalid character within atom description: '''
+419,c1(CCCN)ccccc1.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCc4ccccc4,SMILES loader: invalid character within atom description: '''
+420,c1(N(=O)=O)ccc(CCN)cc1.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCc4ccc(N(=O)=O)cc4,SMILES loader: invalid character within atom description: '''
+421,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.c1(CN)ccccc1Cl>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccccc4Cl,SMILES loader: invalid character within atom description: '''
+422,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.N(CCCC)(CCCC)CCCN>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCN(CCCC)CCCC,SMILES loader: invalid character within atom description: '''
+423,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.C(CC)CN>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCC,SMILES loader: invalid character within atom description: '''
+424,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.c1(CN)ccccc1>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccccc4,SMILES loader: invalid character within atom description: '''
+425,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.c1(CN)ccccc1F>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccccc4F,SMILES loader: invalid character within atom description: '''
+426,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.c1(OC)ccc(CN)cc1>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccc(OC)cc4,SMILES loader: invalid character within atom description: '''
+427,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.C1(CN)CCCCC1>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCC4CCCCC4,SMILES loader: invalid character within atom description: '''
+428,c1(OC)cccc(CN)c1.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4cccc(OC)c4,SMILES loader: invalid character within atom description: '''
+429,c1(OC)ccccc1CN.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccccc4OC,SMILES loader: invalid character within atom description: '''
+430,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.c1(CCN)ccc(OC)cc1>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCc4ccc(OC)cc4,SMILES loader: invalid character within atom description: '''
+431,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.c1(CN)ccc(C)cc1>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccc(C)cc4,SMILES loader: invalid character within atom description: '''
+432,c1(CN)ccccn1.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccccn4,SMILES loader: invalid character within atom description: '''
+433,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.c1(CCN)cccc(F)c1>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCc4cccc(F)c4,SMILES loader: invalid character within atom description: '''
+434,C(CCCCC)CCCCN.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCCCCCCCC,SMILES loader: invalid character within atom description: '''
+435,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.c1(CN)cc(F)cc(F)c1>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4cc(F)cc(F)c4,SMILES loader: invalid character within atom description: '''
+436,c1(CN)ccncc1.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccncc4,SMILES loader: invalid character within atom description: '''
+437,N1(CCCN)CCCCC1C.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCN4CCCCC4C,SMILES loader: invalid character within atom description: '''
+438,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.P(=O)(CCN)(c1ccccc1)c2ccccc2>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCP(=O)(c4ccccc4)c5ccccc5,SMILES loader: invalid character within atom description: '''
+439,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.C(CN)CCC>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCCC,SMILES loader: invalid character within atom description: '''
+440,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.N(CC)(CC)CCN>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCN(CC)CC,SMILES loader: invalid character within atom description: '''
+441,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.C(CN)N(C)C>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCN(C)C,SMILES loader: invalid character within atom description: '''
+442,C(C)(C)(CN)CN(C)C.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCC(C)(C)CN(C)C,SMILES loader: invalid character within atom description: '''
+443,C(CN)C(C)C.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCC(C)C,SMILES loader: invalid character within atom description: '''
+444,c1(CN)ccco1.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccco4,SMILES loader: invalid character within atom description: '''
+445,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.c1(CN)cc(F)ccc1F>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4cc(F)ccc4F,SMILES loader: invalid character within atom description: '''
+446,C12C(C)(CCCC1(C)CN)c3c(cc(C(C)C)cc3)CC2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C12C(C)(CCCC1(C)CNCCCNc3ccccc3C(Cl)(c4ccccc4)c5ccc(['Pol'])cc5)c6c(cc(C(C)C)cc6)CC2,SMILES loader: invalid character within atom description: '''
+447,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.c1(F)cc(CN)ccc1F>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccc(F)c(F)c4,SMILES loader: invalid character within atom description: '''
+448,C(C)(C)(C)OC(=O)NCCN.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCNC(=O)OC(C)(C)C,SMILES loader: invalid character within atom description: '''
+449,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.c1(CCN)ccccc1F>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCc4ccccc4F,SMILES loader: invalid character within atom description: '''
+450,c1(CCN)ccc(C)cc1.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCc4ccc(C)cc4,SMILES loader: invalid character within atom description: '''
+451,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.C(C)(C)(C)c1ccc(CCN)cc1>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCc4ccc(C(C)(C)C)cc4,SMILES loader: invalid character within atom description: '''
+452,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.c1(Cl)cc(Cl)ccc1CN>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccc(Cl)cc4Cl,SMILES loader: invalid character within atom description: '''
+453,C(CN)(c1ccccc1)c2ccccc2.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCC(c4ccccc4)c5ccccc5,SMILES loader: invalid character within atom description: '''
+454,c1(CCN)ccc(Br)cc1.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCc4ccc(Br)cc4,SMILES loader: invalid character within atom description: '''
+455,C(C)(CC)CN.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCC(C)CC,SMILES loader: invalid character within atom description: '''
+456,C(CCCCCCCC)CCCCCCCN.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCCCCCCCCCCCCCC,SMILES loader: invalid character within atom description: '''
+457,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.c1(ccccc1CCN)c2ccccc2>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCc4ccccc4c5ccccc5,SMILES loader: invalid character within atom description: '''
+458,N1(CCCN)CCCC1.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCN4CCCC4,SMILES loader: invalid character within atom description: '''
+459,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.C1(CN)CCCCCC1>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCC4CCCCCC4,SMILES loader: invalid character within atom description: '''
+460,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.c1(Br)cc(CN)ccc1F>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCc4ccc(F)c(Br)c4,SMILES loader: invalid character within atom description: '''
+461,C(=CCCCCCCCC)CCCCCCCCN.C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCCCCCCCC=CCCCCCCCC,SMILES loader: invalid character within atom description: '''
+462,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.c1(CCN)ccc(Cl)cc1>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCc4ccc(Cl)cc4,SMILES loader: invalid character within atom description: '''
+463,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.c1(CCN)ccc(Cl)cc1Cl>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCc4ccc(Cl)cc4Cl,SMILES loader: invalid character within atom description: '''
+464,C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCBr.C(CN)OC>>C(Cl)(c1ccccc1)(c2ccc(['Pol'])cc2)c3ccccc3NCCCNCCOC,SMILES loader: invalid character within atom description: '''
+465,c12c(ccc(OC)c1OC)C=C(N)C(=O)O2.[C@]12([H])[C@](O)(C=C[C@@H]([Se]c3ccccc3)[C@@H]1O)CC(C(=O)[O-])=NO2.[Na+]>>[C@]12([H])[C@](O)(C=C[C@@H]([Se]c3ccccc3)[C@@H]1O)CC(C(=O)NC4=Cc5c(c(OC)c(OC)cc5)OC4=O)=NO2,Ignored this reaction
+466,c12c(ccc(OC)c1OC)C=C(N)C(=O)O2.[C@@]12(O)[C@@]([H])(C=CC=C1)ON=C(C(=O)[O-])C2.[Na+]>>[C@@]12(O)[C@@]([H])(C=CC=C1)ON=C(C(=O)NC3=Cc4c(c(OC)c(OC)cc4)OC3=O)C2,Ignored this reaction
+467,[C@@]12(O)[C@@]([H])(C=CC=C1)ON=C(C(=O)N(C)C3=Cc4c(c(OC)c(OC)cc4)OC3=O)C2.[C@@]12(O)[C@@]([H])(C=CC=C1)ON=C(C(=O)N(C)C3=Cc4c(c(OC)c(OC)cc4)OC3=O)C2>>[C@]12(O)[C@]([H])(ON=C(C(=O)N(C)C3=Cc4c(c(OC)c(OC)cc4)OC3=O)C1)[C@]5([H])[C@@]([H])(O5)C=C2.[C@]12(O)[C@]([H])(ON=C(C(=O)N(C)C3=Cc4c(c(OC)c(OC)cc4)OC3=O)C1)C=C[C@@]([H])(O5)[C@]25[H],Ignored this reaction
+468,[C@@]12(O)[C@@]([H])(C=CC=C1)ON=C(C(=O)OCC)C2.[C@@]12(O)[C@@]([H])(C=CC=C1)ON=C(C(=O)OCC)C2>>[C@]12([H])[C@](O)(C=C[C@]([H])(O3)[C@@]13[H])CC(C(=O)OCC)=NO2.[C@]12(O)[C@]([H])(ON=C(C(=O)OCC)C1)C=C[C@@]([H])(O3)[C@]23[H],Ignored this reaction
+469,C(C)(C)(C)OC(=O)[C@@]([H])(N)CCC(=O)OCc1ccccc1.Cl[H].[C@H](N=C=O)(CCC(=O)OC(C)(C)C)C(=O)OC(C)(C)C>>[C@@H](CCC(=O)OC(C)(C)C)(NC(=O)N[C@@H](CCC(=O)OCc1ccccc1)C(=O)OC(C)(C)C)C(=O)OC(C)(C)C,Ignored this reaction
+470,O([H])[H].Cl.Cl.[Ni].C(C)(C)(C)P(Oc1cc(O)cc(OP(C(C)(C)C)C(C)(C)C)c1)C(C)(C)C>>[P]1([C@@](C)(C)C)([C@@](C)(C)C)OC2=[C-](C(=CC(O)=C2)O[P]3([C@@](C)(C)C)[C@@](C)(C)C)[Ni+2]13[Cl-],Ignored this reaction
+471,c1(C)cc(O)ccc1O.C(C=O)C(C)C.c1(C)cc(O)ccc1O.C(C=O)C(C)C>>c12c(O[C@H](O)[C@H]1C(C)C)c(C)cc(O)c2.c12c(cc(C)c(O)c1)O[C@H](O)[C@H]2C(C)C,Ignored this reaction
+472,O(CC(=O)CO)P([O-])([O-])=O.C(O)(CC=O)CN(=O)=O>>[C@@]1(O)(COP([O-])(=O)[O-])[C@H](O)[C@@H](O)C[C@@H](O)[C@@H]1N(=O)=O.[C@@]1(O)(COP([O-])(=O)[O-])[C@H](O)[C@H](O)C[C@@H](O)[C@@H]1N(=O)=O,Ignored this reaction
+473,C(CC=O)(OCC)OCC.O(CC(=O)CO)P([O-])([O-])=O>>[C@H](O)(C(=O)CO)[C@H](O)CC(OCC)OCC.[C@H](O)(C(=O)CO)[C@@H](O)CC(OCC)OCC,Ignored this reaction
+474,C(CC=O)(OCC)OCC.O(CC(=O)CO)P([O-])([O-])=O.C(CC=O)(OCC)OCC.O(CC(=O)CO)P([O-])([O-])=O>>[C@H](O)(C(=O)COP(=O)([O-])[O-])[C@@H](O)CC(OCC)OCC.[C@H](O)(C(=O)COP(=O)([O-])[O-])[C@H](O)CC(OCC)OCC,Ignored this reaction
+475,C(C)(=O)OC(C)=O.[C@H]1(O[C@H](CO)[C@@H](O)[C@H]1O)N2C=CC(N)=NC2=O>>[C@H]1(O[C@H](CO)[C@@H](OC(C)=O)[C@H]1O)N2C=CC(N)=NC2=O.[C@H]1(O[C@H](CO)[C@@H](O)[C@H]1OC(C)=O)N2C=CC(N)=NC2=O,Ignored this reaction
+476,C(C)(=O)OC(C)=O.n1(cnc(C(=O)NC(N)=N2)c12)[C@@H]3O[C@H](CO)[C@@H](O)[C@H]3O>>[C@H]1(O[C@H](CO)[C@@H](O)[C@H]1OC(C)=O)n2cnc(C(=O)NC(N)=N3)c23.c12c(ncn1[C@@H]3O[C@H](CO)[C@@H](OC(C)=O)[C@H]3O)C(=O)NC(N)=N2,Ignored this reaction
+477,[Si@@](C)(C)([Si@](C)(C)CCl)[Si@@](C)(C)CCl.C(C)(=O)[S-].[K+].C(C)(=O)[S-].[K+]>>[Si](C)(C)([Si](C)(C)CSC(C)=O)[Si](C)(C)CSC(C)=O,Ignored this reaction
+478,c1(ccc(N(=O)=O)cc1)C(=O)OC(CCCC#CC(=C)CCCCCC)C#CC(=C)CCCCCC>>[C@]12(C[C@@](CCCCCC)(C3)C(OC(=O)c4ccc(N(=O)=O)cc4)=C1)C(C=CCC2)=C3CCCCCC.[C@@]12(CCCCCC)C[C@@](CCC3)(CC1OC(=O)c4ccc(N(=O)=O)cc4)C3=C2C(=C)CCCCCC.C1(OC(=O)c2ccc(N(=O)=O)cc2)=C(CCCCCC)CC(CCCC#CC(=C)CCCCCC)=C1,Ignored this reaction
+479,c1(c(cccc1C(C)C)C(C)C)N2[Ge]N(c3c(cccc3C(C)C)C(C)C)C(=C)C=C2C.P(=O)(O)(OCCCC)OCCCC>>[Ge]1(OP(=O)(OCCCC)OCCCC)N(C(C)=CC(C)=N1c2c(cccc2C(C)C)C(C)C)c3c(cccc3C(C)C)C(C)C.c1(NC(C)=CC(C)=Nc2c(cccc2C(C)C)C(C)C)c(cccc1C(C)C)C(C)C,Ignored this reaction
+480,C(=O)(C=N#N)OCC.c1(OC)ccccc1C=O.c1(OC)ccccc1C=O.C(=O)(C=N#N)OCC>>c1(ccccc1OC)\C=C\C(=O)OCC.c1(ccccc1OC)\C=C/C(=O)OCC,Ignored this reaction
+481,C(=O)(C=N#N)OCC.c1(cccc(C=O)c1)N(=O)=O.c1(cccc(C=O)c1)N(=O)=O.C(=O)(C=N#N)OCC>>c1(cccc(\C=C/C(=O)OCC)c1)N(=O)=O.c1(cccc(\C=C\C(=O)OCC)c1)N(=O)=O,Ignored this reaction
+482,c1(ccncc1)C(=O)O.C(C)([O-])=O.[Cu+2].c1(nc[nH]n1)c2ccccn2.c1(nc[nH]n1)c2ccccn2>>c1(ccncc1)C(=O)[O-].c2(nc[n-]n2)c3ccccn3.[Cu+2],Ignored this reaction
+483,O([H])[H].Cl.Cl.[Ni].P(C(C)C)(C(C)C)Oc1cc(O)cc(OP(C(C)C)C(C)C)c1>>[Ni+2]12([Cl-])[C-](C(=CC(O)=C3)O[P]1([C@H](C)C)[C@@H](C)C)=C3O[P]2([C@H](C)C)[C@@H](C)C,Ignored this reaction
+484,O1CCCC1.B(F)(F)(F)F.[Cu+]12(N#CC)(O=C(NCc3ccccc3)CC(NCc4ccccc4)=O1)O=C(NCc5ccccc5)CC(NCc6ccccc6)=O2>>B(F)(F)(F)F.[Cu+2]12(O=C(NCc3ccccc3)CC(NCc4ccccc4)=O1)(O=C(NCc5ccccc5)CC(NCc6ccccc6)=O2)(O7CCCC7)O8CCCC8,Ignored this reaction
+485,C1(COC(=O)NC['Pol'])c2c(cccc2)c(cccc3)c13.C1(COC(=O)Nc2ccc(C(=O)O)c(OC(C)C)c2)c3c(cccc3)c(cccc4)c14.C1(COC(=O)Nc2ccc(C(=O)O)c(OCc3ccccc3)c2)c4c(cccc4)c(cccc5)c15.C1(COC(=O)N[C@]([H])(C(=O)O)Cc2ccccc2)c3c(cccc3)c(cccc4)c14>>c1(ccc(N)cc1OCc2ccccc2)C(=O)N[C@@H](Cc3ccccc3)C(=O)Nc4ccc(C(=O)NCC(=O)O)c(OC(C)C)c4,Ignored this reaction
+486,C1(COC(=O)NC['Pol'])c2c(cccc2)c(cccc3)c13.C1(COC(=O)Nc2ccc(C(=O)O)cc2OCc3ccccc3)c4c(cccc4)c(cccc5)c15.C1(COC(=O)Nc2ccc(C(=O)O)cc2OC(C)C)c3c(cccc3)c(cccc4)c14.C1(COC(=O)N[C@]([H])(C(=O)O)Cc2ccccc2)c3c(cccc3)c(cccc4)c14>>c1(ccc(C(=O)NCC(=O)O)cc1OC(C)C)NC(=O)[C@H](Cc2ccccc2)NC(=O)c3ccc(N)c(OCc4ccccc4)c3,Ignored this reaction
+487,C1(COC(=O)NC['Pol'])c2c(cccc2)c(cccc3)c13.C1(COC(=O)Nc2ccc(C(=O)O)cc2OC(C)C)c3c(cccc3)c(cccc4)c14.C1(COC(=O)Nc2ccc(C(=O)O)c(OCc3ccccc3)c2)c4c(cccc4)c(cccc5)c15.C1(COC(=O)N[C@]([H])(C(=O)O)Cc2ccccc2)c3c(cccc3)c(cccc4)c14>>c1(ccc(N)cc1OCc2ccccc2)C(=O)N[C@@H](Cc3ccccc3)C(=O)Nc4ccc(C(=O)NCC(=O)O)cc4OC(C)C,Ignored this reaction
+488,C(=O)(OCCCCCCCCCCCBr)C(C)SC(=S)SCCCC.N(C)(C)C>>[Br-].C(=O)(OCCCCCCCCCCC[N+](C)(C)C)C(C)SC(=S)SCCCC,Ignored this reaction
+489,C(CC)(CC)(CC)OC(=O)c1cc(C#Cc2cccc(N=NN(CC)CC)c2)cc(C#C[Si](C)(C)C)c1>>c1(cc(C#Cc2cccc(C#Cc3cc(C#C)cc(C(=O)OC(CC)(CC)CC)c3)c2)cc(C#Cc4cccc(C#Cc5cc(C#Cc6cccc(I)c6)cc(C(=O)OC(CC)(CC)CC)c5)c4)c1)C(=O)OC(CC)(CC)CC,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+490,O([H])[H].Cl.Cl.[Ni].P(Oc1cc(O)cc(OP(c2ccccc2)c3ccccc3)c1)(c4ccccc4)c5ccccc5>>[Ni+2]12([Cl-])[C-](C(=CC(O)=C3)O[P]1(c4ccccc4)c5ccccc5)=C3O[P]2(c6ccccc6)c7ccccc7,Ignored this reaction
+491,c12c(cccn1)C(=O)C(=O)c(cccn3)c23>>[Ru+2]123(N4=C(C=CC=C4)C(C=CC=C5)=N15)(N6=C(C=CC=C6)C(C=CC=C7)=N27)N(=C8)c(c(C=C8)c(nc(c9c(O)ccc(C(C)=CC(=O)O%10)c9%10)[nH]%11)c%11%12)c(c%12C=C%13)N3=C%13.Cl([O-])(=O)(=O)=O,"element: bad valence on N having 4 drawn bonds, charge 0, and 0 radical electrons"
+492,O1CCCC1.B(F)(F)(F)F.[Cu+]12(N#CC)(O=C(Nc3ccc(C)cc3)CC(Nc4ccc(C)cc4)=O1)O=C(Nc5ccc(C)cc5)CC(Nc6ccc(C)cc6)=O2>>B(F)(F)(F)F.[Cu+2]12(O=C(Nc3ccc(C)cc3)CC(Nc4ccc(C)cc4)=O1)(O=C(Nc5ccc(C)cc5)CC(Nc6ccc(C)cc6)=O2)(O7CCCC7)O8CCCC8,Ignored this reaction
+493,C(=O)(CCCC#C)N(C)OC>>[C@]12(C[C@@](CCCCOc3ccc(cccc4)c4c3)(C5)C(=O)C1)C(C=CCC2)=C5CCCCCC,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+494,C(=O)(CCCC#C)N(C)OC>>[C@]12(C[C@@]([H])(C3)C(=O)C1)C(C=CCC2)=C3CCCCOc4ccc(cccc5)c5c4,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+495,[Si](C)(C)(C)C#CC(=O)CCCC#C[Si](C)(C)C>>[C@]12(C[C@@](CCCCC(=O)c3ccccc3)(C4)C(=O)C1)C(C=CCC2)=C4CCCC(=O)c5ccccc5,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+496,C(O)(C#C)CCCC#C>>[C@]12(C[C@@](CCCCC(=O)c3ccccc3)(C4)C(=O)C1)C(C=CCC2)=C4CCCC(=O)c5ccccc5,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+497,C(=C)(I)CCCCCC>>[C@]12(C[C@@](CCCCC(=O)c3ccccc3)(C4)C(=O)C1)C(C=CCC2)=C4CCCCCC,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+498,N([O-])(=O)=O.[Pb+2].B(O)(O)O.C([O-])([O-])=O.[Cs+].[H].[K].O>>B([O-])([O-])[O-].C(=O)([O-])[O-].[OH-].[O-2].[Pb+2],Ignored this reaction
+499,n1ccccc1>>c12c(ccc1)ccc(CC(CC)CCCC)cc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+500,n1ccccc1>>c12c(ccc(CC(CC)CCCC)cc1)c(Br)cc2Br,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+501,n1ccccc1>>[Br-].c1(cc[n+](CCCC)cc1)CC(CC)CCCC,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+502,C(CC)(C[Mg]Br)CCCC>>c12c(ccc1)ccc(CC(CC)CCCC)cc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+503,C(CC)(C[Mg]Br)CCCC>>c12c(ccc(CC(CC)CCCC)cc1)c(Br)cc2Br,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+504,c1(ccncc1)CC(CC)CCCC>>c12c(ccc1)ccc(CC(CC)CCCC)cc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+505,S(=O)(=O)([O-])c1ccc(C)cc1.O.[Th+4]>>O.O.[Th],Ignored this reaction
+506,S(=O)(=O)([O-])c1ccc(C)cc1.S(=O)(=O)(O)c2ccc(C)cc2.O.[U+6](=[O-2])=[O-2]>>O.O.O.O.O.O.[U].[U].[U],Ignored this reaction
+507,C(CC)(CC)(CC)OC(=O)c1cc(C#Cc2cccc(N=NN(CC)CC)c2)cc(C#C[Si](C)(C)C)c1>>c1(cc(C#Cc2cccc(N=NN(CC)CC)c2)cc(C#Cc3cccc(C#Cc4cc(C#C)cc(C(=O)OC(CC)(CC)CC)c4)c3)c1)C(=O)OC(CC)(CC)CC,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+508,C(CC)(CC)(CC)OC(=O)c1cc(C#Cc2cccc(I)c2)cc(C#C[Si](C)(C)C)c1>>c1(cc(C#Cc2cccc(C#Cc3cc(C#C)cc(C(=O)OC(CC)(CC)CC)c3)c2)cc(C#Cc4cccc(C#Cc5cc(C#Cc6cccc(I)c6)cc(C(=O)OC(CC)(CC)CC)c5)c4)c1)C(=O)OC(CC)(CC)CC,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+509,P(F)(F)(F)(F)(F)F.[H+].N.[Ru]12(Cl)(Cl)(N3=C(C=CC=C3)C(=CC=C4)N1=C4)N5=C(C=CC=C5)C(C=CC=C6)=N26.O([H])[H].c12c(nc(c3ccco3)[nH]1)c4c(nccc4)c(nccc5)c25>>[Ru+2]123(N(=C4)C(=CC=C4)C(=CC=C5)N1=C5)(N(=C6)C(=CC=C6)C(=CC=C7)N2=C7)N(=C8)c(c(C=C8)c(nc(c9ccco9)[nH]%10)c%10%11)c(c%11C=C%12)N3=C%12.[P+5]([F-])([F-])([F-])([F-])([F-])[F-],Ignored this reaction
+510,c1(ccccc1OC)[Si](C)(C)[N-][Si](C)(C)c2ccccc2OC.[Li+]>>[Si]1(C)(C)c2c(cccc2)O(C)[K+](O(C)c(cccc3)c3[Si]4(C)C)[N-]14,"element: bad valence on O having 3 drawn bonds, charge 0, and 0 radical electrons"
+511,c1(OC)ccccc1>>[Zr+4]12([N-](C)C)([N-](C)C)([NH-](C)C)[N-]([Si@](C)(C)c(cccc3)c3O1C)[Si@](C)(C)c(cccc4)c4O2C,"element: bad valence on O having 3 drawn bonds, charge 0, and 0 radical electrons"
+512,c1(OC)ccccc1.c1(OC)ccccc1>>[Si]1(C)(C)c2c(cccc2)O(C)[K+](O(C)c(cccc3)c3[Si]4(C)C)[N-]14,"element: bad valence on O having 3 drawn bonds, charge 0, and 0 radical electrons"
+513,c1(OC)ccccc1.c1(OC)ccccc1>>[Zr+4]12([Cl-])([Cl-])([N-](C)C)[N-]([Si@@](C)(C)c(cccc3)c3O1C)[Si@](C)(C)c(cccc4)c4O2C,"element: bad valence on O having 3 drawn bonds, charge 0, and 0 radical electrons"
+514,C(C)(C)NC(C)C>>B(F)(F)(F)F.[Cu+]12(N#CC)(O=C(N(C(C)C)C(C)C)CC(N(C(C)C)C(C)C)=O1)O=C(N(C(C)C)C(C)C)CC(N(C(C)C)C(C)C)=O2,"element: bad valence on N having 4 drawn bonds, charge 0, and 0 radical electrons"
+515,c12[nH]c(C(C)(C)c3[nH]c(C(C)(C)c(c(CSC4)c45)[nH]c5C(C)(C)c(c(CSC6)c67)[nH]c7C1(C)C)c(CSC8)c38)c(CSC9)c29.[N+](CC)(CC)(CC)CC.[Cl-]>>[N+](CC)(CC)(CC)CC.c12[nH]c(C(C)(C)c3[nH]c(C(C)(C)c(c(CSC4)c45)[nH]c5C(C)(C)c(c(CSC6)c67)[nH]c7C1(C)C)c(CSC8)c38)c(CSC9)c29.[Cl-],Ignored this reaction
+516,O([H])[H].Cl.Cl.[Mn].c1(ccncc1)C(=O)NN=C(C)c2ccncc2.C(#N)[S-].[Na+].C(C)#N>>C(#N)[S-].C(C)#N.c1(ccncc1)C(=O)NN=C(C)c2ccncc2.[Mn+2],Ignored this reaction
+517,c1(ccncc1)C(=O)NN=Cc2ccncc2.O([H])[H].Cl.Cl.[Mn].C(#N)[S-].[Na+].C(C)#N>>C(#N)[S-].C(C)#N.c1(ccncc1)C(=O)NN=Cc2ccncc2.[Mn+2],Ignored this reaction
+518,C1(C)(C)CC(=O)C=C(C)[C@]1(O)\C=C\C(\C)=C/C(=O)Oc2ccccc2C(=O)OC>>C1(C)(C)CC(=O)C=C(C)[C@]1(O)\C=C\C(\C)=C/C(=O)Oc2ccccc2c3ccccc3,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+519,C1(C)(C)CC(=O)C=C(C)[C@]1(O)\C=C\C(\C)=C([H])/C(=O)OC>>[C@@]1(O)(\C=C\C(\C)=C/C(=O)Oc2ccc(C(C)(C)C)cc2)C(C)=CC(=O)CC1(C)C,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+520,C1(C)(C)CC(=O)C=C(C)[C@]1(O)\C=C\C(\C)=C([H])/C(=O)OC>>C1(C)(C)CC(=O)C=C(C)[C@]1(O)\C=C\C(\C)=C/C(=O)Oc2ccccc2C(=O)OC,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+521,C1(C)(C)CC(=O)C=C(C)[C@]1(O)\C=C\C(\C)=C([H])/C(=O)OC>>[C@@]1(O)(\C=C\C(\C)=C/C(=O)Oc2ccccc2OC)C(C)=CC(=O)CC1(C)C,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+522,C1(C)(C)CC(=O)C=C(C)[C@]1(O)\C=C\C(\C)=C([H])/C(=O)OC>>C1(C)(C)CC(=O)C=C(C)[C@]1(O)\C=C\C(\C)=C/C(=O)Oc2ccccc2c3ccccc3,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+523,C1(C)(C)CC(=O)C=C(C)[C@]1(O)\C=C\C(\C)=C/C(=O)OCc2ccccc2N(=O)=O>>C1(C)(C)CC(=O)C=C(C)[C@]1(O)\C=C\C(\C)=C/C(=O)Oc2ccccc2c3ccccc3,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+524,N1(OC)C(=O)N(Cc2ccccc2)CC1CN3CCN(C(=O)OC(C)(C)C)CC3>>C1(=NC(CN2CCN(c3ccccc3)CC2)CN1)c4ccccc4,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+525,N1(OC)C(=O)N(Cc2ccccc2)CC1CN3CCN(C(=O)OC(C)(C)C)CC3>>N1(Cc2ccccc2)CC(CN3CCN(c4ccccc4)CC3)NC1=O,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+526,N1(OC)C(=O)N(Cc2ccccc2)CC1CN3CCN(C(=O)OC(C)(C)C)CC3>>N1(CCN(CC(N)CNCc2ccccc2)CC1)c3ccccc3,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+527,O([H])[H].[H].[Li].O.[Fe].C(N)(N)=S>>[Fe].[H].[Li].O.S,Ignored this reaction
+528,c1(C=O)ccc(O)cc1.c1(C=O)ccc(O)cc1>>c1(\C=C\c2ccncc2)ccc(OCCCC)cc1,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+529,[Si](C)(C)(OCCCSCCCO[Si](C)(C)C(C)(C)C)C(C)(C)C>>S(=O)(CCCO)(CCCO)=NC(=O)c1cncc(C#Cc2cccc(NC(=O)c3occc3C)c2)c1,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+530,[Si](C)(C)(OCCCS(=O)CCCO[Si](C)(C)C(C)(C)C)C(C)(C)C>>S(=O)(CCCO)(CCCO)=NC(=O)c1cncc(C#Cc2cccc(NC(=O)c3occc3C)c2)c1,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+531,C(=O)(CCCC#CC(=C)CCCCCC)N(C)OC>>c1(ccc(N(=O)=O)cc1)C(=O)OC(CCCC#CC(=C)CCCCCC)C#CC(=C)CCCC(=O)c2ccccc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+532,C(=O)(CCCC#CC(=C)CCCCCC)N(C)OC>>c1(ccc(N(=O)=O)cc1)C(=O)OC(CCCC#CC(=C)CCCCCC)C#CC(=C)CCCCC(=O)c2ccccc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+533,C(=O)(CCCC#C)N(C)OC>>c1(ccc(N(=O)=O)cc1)C(=O)OC(CCCC#CC(=C)CCCCCC)C#CC(=C)CCCCOC(=O)c2ccc(N(=O)=O)cc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+534,C(=O)(CCCC#C)N(C)OC>>c12c(cccc1)ccc(OCCCCC(=C)C#CCCCC(O)C#C)c2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+535,C(=O)(CCCC#C)N(C)OC>>c12c(cccc1)cc(OCCCCC(=C)C#CCCCC(O)C#C[Si](C)(C)C)cc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+536,C(=O)(CCCC#C)N(C)OC>>[C@]12(C[C@@](CCCCC(=O)c3ccccc3)(C4)C(OC(=O)c5ccc(N(=O)=O)cc5)=C1)C(C=CCC2)=C4CCCCCC,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+537,C(=O)(CCCC#C)N(C)OC>>[C@]12(C[C@@](CCCCOC(=O)c3ccc(N(=O)=O)cc3)(C4)C(OC(=O)c5ccc(N(=O)=O)cc5)=C1)C(C=CCC2)=C4CCCCCC,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+538,C(=O)(CCCC#C)N(C)OC>>[C@@]12(CCCC(=O)c3ccccc3)C[C@@](CCC4)(C=C1OC(=O)c5ccc(N(=O)=O)cc5)C4=C2C(=C)CCCCCC,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+539,C(=O)(CCCC#C)N(C)OC>>[C@]12(C[C@@](CCCCCCCCCCCC)(C3)C(=O)C1)C(C=CCC2)=C3CCCCOc4ccc(cccc5)c5c4,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+540,C(=O)(CCCC#C)N(C)OC>>c1(ccc(N(=O)=O)cc1)C(=O)OC(CCCC#CC(=C)CCCCCC)C#CC(=C)CCOC(=O)c2ccc(N(=O)=O)cc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+541,C(=O)(CCCC#C)N(C)OC>>c12c(cccc1)ccc(OCCCCC(=C)C#CC(O)CCCC#CC(=C)CCCCCC)c2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+542,C(=O)(CCCC#C)N(C)OC>>c1(ccc(N(=O)=O)cc1)C(=O)OC(CCCC#CC(=C)CCCCCC)C#CC(=C)CCCC(=O)c2ccccc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+543,C(=O)(CCCC#C)N(C)OC>>c12c(cccc1)ccc(OCCCCC(=C)C#CCCCC(O)C#CC=C)c2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+544,C(=O)(CCCC#C)N(C)OC>>c12c(cccc1)cc(OCCCCC(=C)C#CCCCC(O)C#CC(=C)CCCCCCCCCCCC)cc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+545,C(=O)(CCCC#C)N(C)OC>>c1(ccc(N(=O)=O)cc1)C(=O)OC(CCCC#CC(=C)CCCCCC)C#CC(=C)CCCCC(=O)c2ccccc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+546,C(#CC(=O)CCCC#CC(=C)CCCCCC)[Si](C)(C)C>>c1(ccc(N(=O)=O)cc1)C(=O)OC(CCCC#CC(=C)CCCCCC)C#CC(=C)CCCC(=O)c2ccccc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+547,C(#CC(=O)CCCC#CC(=C)CCCCCC)[Si](C)(C)C>>c1(ccc(N(=O)=O)cc1)C(=O)OC(CCCC#CC(=C)CCCCCC)C#CC(=C)CCCCC(=O)c2ccccc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+548,c12c(cccc1)ccc(OCCCCC(=C)C#CCCCC(O)C#C)c2>>[C@]12(C[C@@]([H])(C3)C(OC(=O)c4ccc(N(=O)=O)cc4)=C1)C(C=CCC2)=C3CCCCOc5ccc(cccc6)c6c5,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+549,[Si](C)(C)(C)C#CCCCC(=O)N(C)OC>>[C@@]12(CCCCC(=O)c3ccccc3)C[C@@](CCC4)(C=C1OC(=O)c5ccc(N(=O)=O)cc5)C4=C2C(=C)CCCCC(=O)c6ccccc6,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+550,[Si](C)(C)(C)C#CCCCC(=O)N(C)OC>>c1(ccc(N(=O)=O)cc1)C(=O)OC(CCCC#CC(=C)CCCCC(=O)c2ccccc2)C#CC(=C)CCCCC(=O)c3ccccc3,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+551,[Si](C)(C)(C)C#CCCCC(=O)N(C)OC>>c1(ccccc1)C(=O)CCCCC(=C)C#CC(O)CCCC#CC(=C)CCCCC(=O)c2ccccc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+552,[Si](C)(C)(C)C#CC(=O)CCCC#C[Si](C)(C)C>>[C@]12(C[C@@](CCCCC(=O)c3ccccc3)(C4)C(OC(=O)c5ccc(N(=O)=O)cc5)=C1)C(C=CCC2)=C4CCCC(=O)c6ccccc6,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+553,[Si](C)(C)(C)C#CC(=O)CCCC#C[Si](C)(C)C>>c1(ccc(N(=O)=O)cc1)C(=O)OC(CCCC#CC(=C)CCCCC(=O)c2ccccc2)C#CC(=C)CCCCC(=O)c3ccccc3,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+554,[Si](C)(C)(C)C#CC(=O)CCCC#C[Si](C)(C)C>>c1(ccccc1)C(=O)CCCCC(=C)C#CC(O)CCCC#CC(=C)CCCCC(=O)c2ccccc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+555,C(O)(C#C)CCCC#C>>[C@]12(C[C@@](CCCCC(=O)c3ccccc3)(C4)C(OC(=O)c5ccc(N(=O)=O)cc5)=C1)C(C=CCC2)=C4CCCC(=O)c6ccccc6,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+556,C(=C)(I)CCCCCC>>c12c(cccc1)cc(OCCCCC(=C)C#CC(CCCC#CC(=C)CCCCCC)OC(=O)c3ccc(N(=O)=O)cc3)cc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+557,C(=C)(I)CCCCCC>>[C@]12(Cc3ccccc3)C[C@]4(C(C=CCC4)=C(CCCCCC)C1)C=C2OC(=O)c5ccc(N(=O)=O)cc5,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+558,C(=C)(I)CCCCCC>>[C@]12(C[C@@](CCCCC(=O)c3ccccc3)(C4)C(OC(=O)c5ccc(N(=O)=O)cc5)=C1)C(C=CCC2)=C4CCCCCC,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+559,C(=C)(I)CCCCCC>>[C@@]12(CCCC(=O)c3ccccc3)C[C@@](CCC4)(C=C1OC(=O)c5ccc(N(=O)=O)cc5)C4=C2C(=C)CCCCCC,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+560,C(=C)(I)CCCCCC>>c1(ccccc1)C(=O)CCCC(=C)C#CC(O)CCCC#CC(=C)CCCCCC,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+561,C(=C)(I)CCCCCC>>c1(ccccc1)C(=O)CCCCC(=C)C#CC(O)CCCC#CC(=C)CCCCCC,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+562,C(=C)(I)CCCCCC>>c12c(cccc1)ccc(OCCCCC(=C)C#CC(O)CCCC#CC(=C)CCCCCC)c2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+563,C(=C)(I)CCCCCC>>c1(ccc(N(=O)=O)cc1)C(=O)OC(CCCC#CC(=C)CCCCCC)C#CC(=C)CCCC(=O)c2ccccc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+564,C(=C)(I)CCCCCC>>c1(ccc(N(=O)=O)cc1)C(=O)OC(CCCC#CC(=C)CCCCCC)C#CC(=C)CCCCC(=O)c2ccccc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+565,[C@@]12(O)[C@@]([H])(C=CC=C1)ON=C(C(=O)[O-])C2.[Na+].[C@@]12(O)[C@@]([H])(C=CC=C1)ON=C(C(=O)[O-])C2.[Na+]>>[C@]12(O)[C@]([H])(ON=C(C(=O)NC3=Cc4c(c(OC)c(OC)cc4)OC3=O)C1)C=C[C@@]([H])(O5)[C@]25[H],Ignored this reaction
+566,B12([C@H](COCc3ccccc3)NC(=O)Cc4ccccc4)N(C)(CC(=O)O1)CC(=O)O2>>B12([C@H](C=O)NC(=O)Cc3ccccc3)N(C)(CC(=O)O1)CC(=O)O2,"element: bad valence on B having 4 drawn bonds, charge 0, and 0 radical electrons"
+567,B12([C@H](CO)NC(=O)Cc3ccccc3)N(C)(CC(=O)O1)CC(=O)O2>>B12([C@H](C=O)NC(=O)Cc3ccccc3)N(C)(CC(=O)O1)CC(=O)O2,"element: bad valence on B having 4 drawn bonds, charge 0, and 0 radical electrons"
+568,C12(C)C(OB(COCc3ccccc3)O1)CC(CC24)C4(C)C>>B12([C@H](COCc3ccccc3)NC(=O)Cc4ccccc4)N(C)(CC(=O)O1)CC(=O)O2,"element: bad valence on B having 4 drawn bonds, charge 0, and 0 radical electrons"
+569,C12(C)C(OB([C@H](Cl)COCc3ccccc3)O1)CC(CC24)C4(C)C>>B12([C@H](COCc3ccccc3)NC(=O)Cc4ccccc4)N(C)(CC(=O)O1)CC(=O)O2,"element: bad valence on B having 4 drawn bonds, charge 0, and 0 radical electrons"
+570,C12(C)C(OB([C@H](COCc3ccccc3)N([Si](C)(C)C)[Si](C)(C)C)O1)CC(CC24)C4(C)C>>B12([C@H](COCc3ccccc3)NC(=O)Cc4ccccc4)N(C)(CC(=O)O1)CC(=O)O2,"element: bad valence on B having 4 drawn bonds, charge 0, and 0 radical electrons"
+571,C12(C)C(OB([C@H](COCc3ccccc3)NC(=O)Cc4ccccc4)O1)CC(CC25)C5(C)C>>B12([C@H](C=O)NC(=O)Cc3ccccc3)N(C)(CC(=O)O1)CC(=O)O2,"element: bad valence on B having 4 drawn bonds, charge 0, and 0 radical electrons"
+572,C12(C)C(OB([C@H](COCc3ccccc3)NC(=O)Cc4ccccc4)O1)CC(CC25)C5(C)C>>B12([C@H](CO)NC(=O)Cc3ccccc3)N(C)(CC(=O)O1)CC(=O)O2,"element: bad valence on B having 4 drawn bonds, charge 0, and 0 radical electrons"
+573,[C@H](COCc1ccccc1)(B(O)O)NC(=O)Cc2ccccc2>>B12([C@H](C=O)NC(=O)Cc3ccccc3)N(C)(CC(=O)O1)CC(=O)O2,"element: bad valence on B having 4 drawn bonds, charge 0, and 0 radical electrons"
+574,[C@H](COCc1ccccc1)(B(O)O)NC(=O)Cc2ccccc2>>B12([C@H](CO)NC(=O)Cc3ccccc3)N(C)(CC(=O)O1)CC(=O)O2,"element: bad valence on B having 4 drawn bonds, charge 0, and 0 radical electrons"
+575,c1(N)ccc(C)cc1.c1(N)ccc(C)cc1.c1(N)ccc(C)cc1>>C(c1ccccc1)(c2c[nH]c(cccc3)c23)c4c[nH]c(cccc5)c45,Ignored this reaction
+576,c1(CC)ccc(N)cc1>>C(c1ccccc1)(c2c[nH]c(cccc3)c23)c4c[nH]c(cccc5)c45,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+577,c12c(cccc1)ccc(C)n2.c12c(cccc1)ccc(C)n2>>c12c(cccc1)ccc(\C=C\c3cc(OC)c(O)c(OC)c3)[n+]2C.[I-],Ignored this reaction
+578,c12c(cccc1)ccc(C)n2.c12c(cccc1)ccc(C)n2>>c12c(cccc1)ccc(\C=C\c3cc(OC)c(OC)c(OC)c3)[n+]2C.[I-],Ignored this reaction
+579,c12c(cc(OCc3ccccc3)cc1)c(C#N)cn2COCC[Si](C)(C)C>>n1(cc(C#N)c(cc(Oc2ccc(NC(=O)[C@@H]3CCCN3C(=O)OC(C)(C)C)cc2)cc4)c14)c5ccc(C(=O)N(C)C6)c6c5,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+580,c12c(ccc(Oc3ccc(NC(=O)CNC(=O)OC(C)(C)C)cc3)c1)n(COCC[Si](C)(C)C)cc2C#N>>c12c(cc(Oc3ccc(NC(=O)CN)cc3)cc1)c(C#N)cn2CC,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+581,c12c(ccc(O)c1)n(COCC[Si](C)(C)C)cc2C#N>>n1(cc(C#N)c(cc(Oc2ccc(NC(=O)[C@@H]3CCCN3C(=O)OC(C)(C)C)cc2)cc4)c14)c5ccc(C(=O)N(C)C6)c6c5,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+582,c12c(ccc(O)c1)n(COCC[Si](C)(C)C)cc2C#N>>n1(cc(C#N)c(cc(Oc2ccc(NC(=O)[C@@H]3CCCN3)cc2)cc4)c14)c5ccc(C(=O)N(C)C6)c6c5,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+583,c12c(cc(Oc3ccc(N(=O)=O)cc3)cc1)c(C#N)cn2COCC[Si](C)(C)C>>n1(cc(C#N)c(cc(Oc2ccc(NC(=O)[C@@H]3CCCN3)cc2)cc4)c14)c5ccc(C(=O)N(C)C6)c6c5,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+584,c12c(cc(Oc3ccc(NC(=O)[C@@H]4CCCN4C(=O)OC(C)(C)C)cc3)cc1)c(C#N)cn2COCC[Si](C)(C)C>>c12c(cc(Oc3ccc(NC(=O)[C@@H]4CCCN4C(=O)OC(C)(C)C)cc3)cc1)c(C#N)cn2c5ccccc5,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+585,c12c(cc(Oc3ccc(NC(=O)[C@@H]4CCCN4C(=O)OC(C)(C)C)cc3)cc1)c(C#N)cn2COCC[Si](C)(C)C>>c12c(cc(Oc3ccc(NC(=O)[C@@H]4CCCN4)cc3)cc1)c(C#N)cn2c5ccccc5,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+586,c12c([nH]cc1C#N)ccc(N(=O)=O)c2.c12c([nH]cc1C#N)ccc(N(=O)=O)c2>>c12c(ccc(N(C)c3ccc(N(=O)=O)cc3)c1)n(CC(C)C)cc2C#N,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+587,c1(ccc(F)cc1)N(=O)=O>>c12c(cc[nH]1)cc(Oc3ccc(NC(=O)CNC(=O)OCc4ccccc4)cc3)cc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+588,c1(ccc(F)cc1)N(=O)=O>>c12c([nH]cc1)ccc(Oc3ccc(N)cc3)c2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+589,c1(ccc(F)cc1)N(=O)=O>>[C@H]1(CCCN1C(=O)OC(C)(C)C)C(=O)Nc2ccc(Oc3ccc([nH]cc4)c4c3)cc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+590,C(C)(C)CC[Mg]Br>>[C@@](C)(OC)(C(=O)OCC[C@H](C)CCC[C@H](C)CCCC(C)C)c1cccc(cccc2)c12,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+591,C(C)(C)CC[Mg]Br>>[C@](C)(OC)(C(=O)OCC[C@H](C)CCC[C@H](C)CCCC(C)C)c1cccc(cccc2)c12,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+592,C(C)(C)CC[Mg]Br>>C(C)(OC)(C(=O)OCC[C@H](C)CCC[C@H](C)CCCC(C)C)c1cccc(cccc2)c12,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+593,C(CCCC)CCCBr>>c12c(n(CCCCCCCC)c(ccc(c3ccc(C=O)s3)c4)c14)c5c(n(CCCCCCCC)c(cccc6)c56)c(c7c(cccc7)n8CCCCCCCC)c8c(c9c(cccc9)n%10CCCCCCCC)c2%10,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+594,C(CCCC)CCCBr>>c12c(n(CCCCCCCC)c(ccc(c3ccc(c4ccc(C=O)s4)s3)c5)c15)c6c(n(CCCCCCCC)c(cccc7)c67)c(c8c(cccc8)n9CCCCCCCC)c9c(c%10c(cccc%10)n%11CCCCCCCC)c2%11,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+595,C(CCCC)CCCBr>>c12c(n(CCCCCCCC)c(ccc(c3ccc(\C=C(/C#N)\C(=O)O)s3)c4)c14)c5c(n(CCCCCCCC)c(cccc6)c56)c(c7c(cccc7)n8CCCCCCCC)c8c(c9c(cccc9)n%10CCCCCCCC)c2%10,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+596,C(CCCC)CCCBr>>c12c(n(CCCCCCCC)c(ccc(c3ccc(c4ccc(\C=C(/C#N)\C(=O)O)s4)s3)c5)c15)c6c(n(CCCCCCCC)c(cccc7)c67)c(c8c(cccc8)n9CCCCCCCC)c9c(c%10c(cccc%10)n%11CCCCCCCC)c2%11,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+597,c12c(cc(Br)cc1)Cc(cc(Br)cc3)c23>>C1(CCCCCC)(CCCCCC)c2c(ccc(C#Cc3ccc(C#Cc4ccc(c(ccc(n5c6c(cccc6)c(cccc7)c57)c8)c8C9(CCCCCC)CCCCCC)c9c4)cc3)c2)c(ccc(n%10c%11c(cccc%11)c(cccc%12)c%10%12)c%13)c1%13,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+598,c12c(cc(Br)cc1)Cc(cc(Br)cc3)c23>>C1(CCCCCC)(CCCCCC)c2c(ccc(C#Cc3ccc(C#Cc4ccc(c(ccc(n5c6c(cccc6)c(cccc7)c57)c8)c8C9(CCCCCC)CCCCCC)c9c4)s3)c2)c(ccc(n%10c%11c(cccc%11)c(cccc%12)c%10%12)c%13)c1%13,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+599,c12c(cc(Br)cc1)Cc(cc(Br)cc3)c23>>C1(CCCCCC)(CCCCCC)c2c(ccc(C#CC(C)(C)O)c2)c(ccc(n3c4c(cccc4)c(cccc5)c35)c6)c16,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+600,C1(CCCCCC)(CCCCCC)c2c(ccc(C#CC(C)(C)O)c2)c(ccc(n3c4c(cccc4)c(cccc5)c35)c6)c16>>C1(CCCCCC)(CCCCCC)c2c(ccc(C#Cc3ccc(C#Cc4ccc(c(ccc(n5c6c(cccc6)c(cccc7)c57)c8)c8C9(CCCCCC)CCCCCC)c9c4)cc3)c2)c(ccc(n%10c%11c(cccc%11)c(cccc%12)c%10%12)c%13)c1%13,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+601,c1(cc(C#C[Si](C)(C)C)cc(C#Cc2cccc(C#Cc3cc(C#Cc4cccc(N=NN(CC)CC)c4)cc(C(=O)OC(CC)(CC)CC)c3)c2)c1)C(=O)OC(CC)(CC)CC>>c1(cc(C#Cc2cccc(C#Cc3cc(C#Cc4cccc(I)c4)cc(C(=O)OC(CC)(CC)CC)c3)c2)cc(C#Cc5cccc(C#Cc6cc(C#C[Si](C)(C)C)cc(C(=O)OC(CC)(CC)CC)c6)c5)c1)C(=O)OC(CC)(CC)CC,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+602,c1(c2ccccc2)c3c(cc(C)cc3)c(cccc4)c4c1c5ccccc5>>C(/c1ccccc1)(\c2ccc(CC#N)cc2)=C(/c3ccccc3)\c4ccccc4,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+603,c1(c2ccccc2)c3c(cc(CBr)cc3)c(cccc4)c4c1c5ccccc5>>c1(c2ccc(CC#N)cc2)c3c(cccc3)c(cccc4)c4c1c5ccccc5,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+604,C(/c1ccccc1)(\c2ccc(CBr)cc2)=C(/c3ccccc3)\c4ccccc4>>c1(c2ccc(CC#N)cc2)c3c(cccc3)c(cccc4)c4c1c5ccccc5,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+605,c12c(cccc1)cc(cccc3)c3c2COCCCCCCCCCCCOP(=O)(O)O>>c12c(cccc1)cc(cccc3)c3c2COCCCCCCCCCCCOP(=O)([O-])OP(=O)([O-])O[C@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4NC(C)=O.[Na+],"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+606,c(c(ccc1)c(O)cc2)(c1C(=O)N(c3ccccc3)C4=O)c24.C(O)(C#C)(c1ccccc1)c2ccccc2>>c(c1ccc2)(c2C(=O)N(c3ccccc3)C4=O)C4=C\C(=C\C=C(\c5ccccc5)/c6ccccc6)\C1=O.c(c1ccc2)(c2C(=O)N(c3ccccc3)C4=O)C4=C\C(=C/C=C(/c5ccccc5)\c6ccccc6)\C1=O,Ignored this reaction
+607,O.O.O.O.O.O.[Pr].[Pr].[Pr].[Pr].[Pr].[Pr].[In].[In].O.O.O>>[In].O.O.O.[Pr],Ignored this reaction
+608,S(=O)(=O)(O)C(F)(F)F.[Rh]12345([P](c6ccccc6)(c7ccccc7)CC[P]1(c8ccccc8)c9ccccc9)(S%10%11B([H])(B%12%13([H])(B%14%15%16%17[H])B2%14%18%19[H])(B%12%15%20([H])B3%16%21%22[H])(B4%10%13%18[H])B5%11%20%21[H])B%17%19%22N%23=CC=CC=C%23>>S(=O)(=O)(O)[C@](F)(F)F.B1234([H])B567([H])B([H])(B5([H])(B89(N%10=CC=CC=C%10)B1%11%12%13[H])B268%11[H])(S%14([Rh]9%12%15%16[P](c%17ccccc%17)(c%18ccccc%18)CC[P]%15(c%19ccccc%19)c%20ccccc%20)B3%13%16%21[H])B47%14%21[H],Ignored this reaction
+609,S(=O)(=O)(O)[C@](F)(F)F.B1234([H])B567([H])B([H])(B5([H])(B89(N%10=CC=CC=C%10)B1%11%12%13[H])B268%11[H])(S%14([Rh]9%12%15%16[P](c%17ccccc%17)(c%18ccccc%18)CC[P]%15(c%19ccccc%19)c%20ccccc%20)B3%13%16%21[H])B47%14%21[H].[H][H]>>B123(B4([Rh]567([H])B89([H])(S5%10B8%11([H])(B%10%12%13[H])B19%14%15[H])B246%14[H])B37%12%16[H])B%11%13%15%16[H].S(=O)(=O)(O)[C@](F)(F)F.n%17ccccc%17.P(CCP(c%18ccccc%18)c%19ccccc%19)(c%20ccccc%20)c%21ccccc%21.[H-],Ignored this reaction
+610,[Ag+].C(C)#N.[B-](c1cc(C(F)(F)F)cc(C(F)(F)F)c1)(c2cc(C(F)(F)F)cc(C(F)(F)F)c2)(c3cc(C(F)(F)F)cc(C(F)(F)F)c3)c4cc(C(F)(F)F)cc(C(F)(F)F)c4.[W+6](=[O-2])([Cl-])(=[CH-2]C(C)(C)c1ccccc1)([O-]S(=O)(=O)[C@@](F)(F)F)([P](C)(C)c2ccccc2)[C]3N(C=CN3c4c(C)cc(C)cc4C)c5c(C)cc(C)cc5C>>[Ag+].C(C)#N.c1(ccccc1)P(C)C.[B@@-](c2cc([C@](F)(F)F)cc([C@@](F)(F)F)c2)(c3cc([C@@](F)(F)F)cc([C@](F)(F)F)c3)(c4cc([C@](F)(F)F)cc([C@@](F)(F)F)c4)c5cc([C@](F)(F)F)cc([C@@](F)(F)F)c5.[W+6](=[O-2])(N#CC)(N#CC)(=[CH-2]C(C)(C)c6ccccc6)([O-]S(=O)(=O)[C@@](F)(F)F)[C]7N(C=CN7c8c(C)cc(C)cc8C)c9c(C)cc(C)cc9C,Ignored this reaction
+611,N1(C=CC(=O)CC1)C(=O)CCC=C.[Al](Cl)(Cl)CC>>N1(C=CC(=O[Al](Cl)(Cl)CC)CC1)C(=O)CCC=C,"element: bad valence on O having 3 drawn bonds, charge 0, and 0 radical electrons"
+612,[Si@@](C)(C)([Si@](C)(C)CCl)[Si@@](C)(C)CCl.C(C)(=O)[S-].[K+]>>[Ge](C)(C)(CSC(C)=O)[Ge](C)(C)CSC(C)=O,Ignored this reaction
+613,[Si](C)(C)([Si](C)(C)[Si](C)(C)CCl)[Si](C)(C)[Si](C)(C)[Si](C)(C)CCl.C(C)(=O)[S-].[K+]>>[Si](C)(C)([Si](C)(C)[Si](C)(C)CSC(C)=O)[Si](C)(C)[Si](C)(C)[Si](C)(C)CSC(C)=O,Ignored this reaction
+614,C(=O)(CCCC#C)N(C)OC>>[C@]12(C[C@@](CCCCC(=O)c3ccccc3)(C4)C(OC(=O)c5ccc(N(=O)=O)cc5)=C1)C(C=CCC2)=C4CCCCCC.[C@@]12(CCCCC(=O)c3ccccc3)C[C@@](CCC4)(C=C1OC(=O)c5ccc(N(=O)=O)cc5)C4=C2C(=C)CCCCCC,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+615,C(=O)(CCCC#C)N(C)OC>>[C@]12(C[C@@](CCCCCCCCCCCC)(C3)C(=O)C1)C(C=CCC2)=C3CCCCOc4ccc(cccc5)c5c4.[C@]12(CCCCCCCCCCCC)C[C@](CCC3)(CC1=O)C3=C2C(=C)CCCCOc4ccc(cccc5)c5c4,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+616,c12c(cccc1)ccc(OCCCCC(=C)C#CCCCC(O)C#C)c2>>[C@]12(C[C@@](CCCCCCCCCCCC)(C3)C(OC(=O)c4ccc(N(=O)=O)cc4)=C1)C(C=CCC2)=C3CCCCOc5ccc(cccc6)c6c5.[C@@]12(CCCCCCCCCCCC)C[C@@](CCC3)(C=C1OC(=O)c4ccc(N(=O)=O)cc4)C3=C2C(=C)CCCCOc5ccc(cccc6)c6c5,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+617,[Si](C)(C)(C)C#CC(=O)CCCC#C[Si](C)(C)C>>[C@]12(C[C@@](CCCCC(=O)c3ccccc3)(C4)C(OC(=O)c5ccc(N(=O)=O)cc5)=C1)C(C=CCC2)=C4CCCC(=O)c6ccccc6.[C@@]12(CCCCC(=O)c3ccccc3)C[C@@](CCC4)(C=C1OC(=O)c5ccc(N(=O)=O)cc5)C4=C2C(=C)CCCCC(=O)c6ccccc6,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+618,C(O)(C#C)CCCC#C>>[C@]12(C[C@@](CCCCC(=O)c3ccccc3)(C4)C(OC(=O)c5ccc(N(=O)=O)cc5)=C1)C(C=CCC2)=C4CCCC(=O)c6ccccc6.[C@@]12(CCCCC(=O)c3ccccc3)C[C@@](CCC4)(C=C1OC(=O)c5ccc(N(=O)=O)cc5)C4=C2C(=C)CCCCC(=O)c6ccccc6,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+619,C(=C)(I)CCCCCC>>[C@]12(Cc3ccccc3)C[C@]4(C(C=CCC4)=C(CCCCCC)C1)C=C2OC(=O)c5ccc(N(=O)=O)cc5.[C@@]12(Cc3ccccc3)C[C@@](CCC4)(C=C1OC(=O)c5ccc(N(=O)=O)cc5)C4=C2C(=C)CCCCCC,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+620,C(=C)(I)CCCCCC>>[C@]12(C[C@@](CCCCC(=O)c3ccccc3)(C4)C(OC(=O)c5ccc(N(=O)=O)cc5)=C1)C(C=CCC2)=C4CCCCCC.[C@@]12(CCCCC(=O)c3ccccc3)C[C@@](CCC4)(C=C1OC(=O)c5ccc(N(=O)=O)cc5)C4=C2C(=C)CCCCCC,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+621,n1ccccc1.[Pd+2]12(N#C[C@@H](C)C)[N-](C(=O)[C@]([H])(N3C(=O)c(cccc4)c4C3=O)[CH-]1c5ccccc5)C(C)(C)C(C=CC=C6)=N26>>[Pd+2]12(N3=CC=CC=C3)[N-](C(=O)[C@]([H])(N4C(=O)c(cccc5)c5C4=O)[CH-]1c6ccccc6)C(C)(C)C(C=CC=C7)=N27,"element: bad valence on N having 4 drawn bonds, charge 0, and 0 radical electrons"
+622,c12c(ccc(OC)c1OC)C=C(N)C(=O)O2.[C@]12([H])[C@](O)(C=C[C@@H]([Se]c3ccccc3)[C@@H]1O)CC(C(=O)[O-])=NO2.[Na+]>>[C@@]12(O)[C@@]([H])(ON=C(C(=O)NC3=Cc4c(c(OC)c(OC)cc4)OC3=O)C1)[C@H](O)C=C[C@H]2O,Ignored this reaction
+623,[C@@]12(O)[C@@]([H])(C=CC=C1)ON=C(C(=O)NC3=Cc4c(c(OC)c(OC)cc4)OC3=O)C2.[C@@]12(O)[C@@]([H])(C=CC=C1)ON=C(C(=O)NC3=Cc4c(c(OC)c(OC)cc4)OC3=O)C2>>[C@]12(O)[C@]([H])(ON=C(C(=O)N(C)C3=Cc4c(c(OC)c(OC)cc4)OC3=O)C1)[C@]5([H])[C@@]([H])(O5)C=C2.[C@]12(O)[C@]([H])(ON=C(C(=O)N(C)C3=Cc4c(c(OC)c(OC)cc4)OC3=O)C1)C=C[C@@]([H])(O5)[C@]25[H],Ignored this reaction
+624,[C@@]12(O)[C@@]([H])(C=CC=C1)ON=C(C(=O)[O-])C2.[Na+]>>[C@]12(O)[C@]([H])(ON=C(C(=O)N(C)C3=Cc4c(c(OC)c(OC)cc4)OC3=O)C1)[C@]5([H])[C@@]([H])(O5)C=C2.[C@]12(O)[C@]([H])(ON=C(C(=O)N(C)C3=Cc4c(c(OC)c(OC)cc4)OC3=O)C1)C=C[C@@]([H])(O5)[C@]25[H],Ignored this reaction
+625,C12(C)C(OB([C@H](Cl)COCc3ccccc3)O1)CC(CC24)C4(C)C.[Si](C)(C)(C)[N-][Si](C)(C)C.[Li+]>>C12(C)C(OB([C@H](COCc3ccccc3)N([Si](C)(C)C)[Si](C)(C)C)O1)CC(CC24)C4(C)C,Ignored this reaction
+626,N(C)(CC(=O)O)CC(=O)O.[C@H](COCc1ccccc1)(B(O)O)NC(=O)Cc2ccccc2>>B12([C@H](COCc3ccccc3)NC(=O)Cc4ccccc4)N(C)(CC(=O)O1)CC(=O)O2,"element: bad valence on N having 4 drawn bonds, charge 0, and 0 radical electrons"
+627,c1(C([H])=O)ccccc1.c1(N)ccccc1.c1(C([H])=O)ccccc1>>C(c1ccccc1)(c2c[nH]c(cccc3)c23)c4c[nH]c(cccc5)c45,Ignored this reaction
+628,c1(C([H])=O)ccccc1.c1(OC)ccc(N)cc1.c1(OC)ccc(N)cc1>>C(c1ccccc1)(c2c[nH]c(cccc3)c23)c4c[nH]c(cccc5)c45,Ignored this reaction
+629,c1(OC)ccc(C=O)cc1.c1(N)ccccc1.c1(OC)ccc(C=O)cc1>>C(c1ccc(OC)cc1)(c2c[nH]c(cccc3)c23)c4c[nH]c(cccc5)c45,Ignored this reaction
+630,[Au+3]12([Cl-])N(=C3C(C=CC=C4)=N14)C(=CC=C3)C(=CC=C5)N2=C5.[Cl-].[Zn]>>[Zn+2]1234(N(=C5C(C=CC=C6)=N16)C(=CC=C5)C(=CC=C7)N2=C7)N(=C8C(C=CC=C9)=N39)C(=CC=C8)C(=CC=C%10)N4=C%10,Ignored this reaction
+631,c12c(cccc1)ccc(C)[n+]2C.[I-].c1(O)c(OC)cc(C=O)cc1OC>>c12c(cccc1)ccc(\C=C\c3cc(OC)c(O)c(OC)c3)[n+]2C.[I-],Ignored this reaction
+632,c12c(cccc1)ccc(C)[n+]2C.[I-].c1(C=O)cc(N(=O)=O)ccc1O>>c12c(cccc1)ccc(\C=C\c3cc(N(=O)=O)ccc3O)[n+]2C.[I-],Ignored this reaction
+633,c12c(cccc1)ccc(C)[n+]2C.[I-].c1(OC)cc(C=O)ccc1F>>c12c(cccc1)ccc(\C=C\c3ccc(F)c(OC)c3)[n+]2C,Ignored this reaction
+634,c12c(cccc1)ccc(C)[n+]2C.[I-].c1(OC)c(OC)cc(C=O)cc1OC>>c12c(cccc1)ccc(\C=C\c3cc(OC)c(OC)c(OC)c3)[n+]2C.[I-],Ignored this reaction
+635,c1(ccc(C=O)cc1OC)N2CCOCC2.c12c(cccc1)ccc(C)[n+]2C.[I-]>>c12c(cccc1)ccc(\C=C\c3ccc(N4CCOCC4)c(OC)c3)[n+]2C.[I-],Ignored this reaction
+636,c1(ccc(C=O)cc1)N2CCOCC2.c12c(cccc1)ccc(C)[n+]2C.[I-]>>c12c(cccc1)ccc(\C=C\c3ccc(N4CCOCC4)cc3)[n+]2C.[I-],Ignored this reaction
+637,c12c(ccc(C=O)c1)n(CC)c(cccc3)c23.c12c(cccc1)ccc(C)[n+]2C.[I-]>>c12c(cc(\C=C\c3ccc(cccc4)c4[n+]3C)cc1)n(CC)c(cccc5)c25.[I-],Ignored this reaction
+638,C(N)(N)=O.c1(ccncc1)C=Cc2ccncc2>>C(N)(N)=O.c1(ccncc1)C=Cc2ccncc2,Ignored this reaction
+639,c1(ccc(C#N)cc1)C=Cc2ccncc2.C(N)(N)=O>>C(N)(N)=O.c1(ccc(C#N)cc1)C=Cc2ccncc2,Ignored this reaction
+640,C(N)(N)=O.c1(ccccn1)C=Cc2ccccn2.C(N)(N)=O>>C(N)(N)=O.c1(ccccn1)C=Cc2ccccn2,Ignored this reaction
+641,c1(ccccn1)C=Cc2ccncc2.C(N)(N)=O.c1(ccccn1)C=Cc2ccncc2.C(N)(N)=O.C(N)(N)=O.C(N)(N)=O>>C(N)(N)=O.c1(ccccn1)C=Cc2ccncc2,Ignored this reaction
+642,C(N)(N)=O.c1(ccc(Cl)cc1)C=Cc2ccncc2>>C(N)(N)=O.c1(ccc(Cl)cc1)C=Cc2ccncc2,Ignored this reaction
+643,[Mg].O.O.O.O.O.[Ti].[Ti].F[H]>>F.F.[Mg].O.[Ti],Ignored this reaction
+644,O1C=CCCC1.O1C=CCCC1.O1C=CCCC1>>C(=O)(OC)\C=C\CCCCO.C(=O)(OC)\C=C/CCCCO,Ignored this reaction
+645,[Si](Cl)(C(C)C)(C(C)C)C(C)C.c1(ccccc1O\C(\Cl)=C(\Cl)/Cl)c2ccc(c3ccccc3O\C(\Cl)=C(\Cl)/Cl)cc2.[Si](Cl)(C(C)C)(C(C)C)C(C)C>>[Si](C(C)C)(C(C)C)(C(C)C)\C=C(/O1)\c2c(cc(\C(\Oc(cccc3)c34)=C\[Si](C(C)C)(C(C)C)C(C)C)c4c2)c(cccc5)c15,Ignored this reaction
+646,c1(cc(Br)cc(Br)c1)C(=O)Cl.C([O-])(CC)(CC)CC.[Li+]>>C(CC)(CC)(CC)OC(=O)c1cc(Br)cc(Br)c1,Ignored this reaction
+647,c1(c2ccccc2)c3c(cc(CBr)cc3)c(cccc4)c4c1c5ccccc5>>C(/c1ccccc1)(\c2ccc(\C(\C#N)=C(/C#N)\c3ccc(\C(\c4ccccc4)=C(\c5ccccc5)/c6ccccc6)cc3)cc2)=C(/c7ccccc7)\c8ccccc8.C(/c1ccccc1)(\c2ccc(\C(\C#N)=C(\C#N)/c3ccc(\C(\c4ccccc4)=C(\c5ccccc5)/c6ccccc6)cc3)cc2)=C(/c7ccccc7)\c8ccccc8,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+648,C(C)(C)NC(C)C.[C@H]1(OC(C)=O)[C@H](OC(C)=O)[C@@H](COC(C)=O)O[C@H](OP(=O)(O)O)[C@@H]1NC(C)=O.C(C)(C)NC(C)C.c12c(cccc1)cc(cccc3)c3c2COCCCCCCCCCCCOP(=O)(O)n4ccnc4>>[C@H]1(NC(C)=O)[C@H](O[C@H](COC(C)=O)[C@@H](OC(C)=O)[C@@H]1OC(C)=O)OP(=O)(O)OP(=O)(O)OCCCCCCCCCCCOCc2c3c(cccc3)cc(cccc4)c24,Ignored this reaction
+649,c1(Oc2cc(C#N)c(C#N)cc2Oc3c(cccc3c4ccccc4)c5ccccc5)c(cccc1c6ccccc6)c7ccccc7.Cl.Cl.[Zn]>>[Zn+2](N(=C1c(cc(Oc2c(cccc2c3ccccc3)c4ccccc4)c(Oc5c(cccc5c6ccccc6)c7ccccc7)c8)c89)C9=N%10)([N-](C(=N1)c(cc(Oc%11c(cccc%11c%12ccccc%12)c%13ccccc%13)c(Oc%14c(cccc%14c%15ccccc%15)c%16ccccc%16)c%17)c%17%18)C%18=N%19)(N(C(c(cc(Oc%20c(cccc%20c%21ccccc%21)c%22ccccc%22)c(Oc%23c(cccc%23c%24ccccc%24)c%25ccccc%25)c%26)c%26%27)=N%28)=C%19%27)[N-]%29C%28=C(C=C(Oc%30c(cccc%30c%31ccccc%31)c%32ccccc%32)C(Oc%33c(cccc%33c%34ccccc%34)c%35ccccc%35)=C%36)C%36=C%10%29,Ignored this reaction
+650,[Si](C)(C)(C)Cl.[Zr+4]12([N-](C)C)([N-](C)C)([NH-](C)C)[N-]([Si@](C)(C)c(cccc3)c3O1C)[Si@](C)(C)c(cccc4)c4O2C>>[Zr+4]12([Cl-])([Cl-])([N-](C)C)[N-]([Si@@](C)(C)c(cccc3)c3O1C)[Si@](C)(C)c(cccc4)c4O2C,"element: bad valence on O having 3 drawn bonds, charge 0, and 0 radical electrons"
+651,[Nd].[Nd].O.O.O.O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].[Nd].O.O.O.O.O.O.[Ti].[Ti].[Ti].[Ti],Ignored this reaction
+652,O.O.[Ru].O.O.O.O.O.O.[Pr].[Pr].[Pr].[Pr].[Pr].[Pr].[Cu].O>>[Cu].[Cu].[Cu].O.O.O.O.O.O.[Pr].[Ru].[Ru].[Ru].[Ru],Ignored this reaction
+653,O.O.O.O.O.O.[Pr].[Pr].[Pr].[Pr].[Pr].[Pr].O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].O.O.O.O.O.O.[Pr].[Ti].[Ti].[Ti].[Ti],Ignored this reaction
+654,c1(ccccc1)COCC=O.O(CC(=O)CO)P([O-])([O-])=O>>P(=O)([O-])([O-])OCC(=O)[C@H](O)[C@H](O)COCc1ccccc1.P(=O)([O-])([O-])OCC(=O)[C@H](O)[C@@H](O)COCc1ccccc1,Ignored this reaction
+655,[C@H](C=O)(C(C)C)NC(=O)OCc1ccccc1>>[C@H]1(C(C)C)N[C@H](CO)C(O)C1O.[C@H]1(C(C)C)NC(CO)[C@H](O)C1O.[C@H]1(C(C)C)N[C@H](CO)[C@H](O)[C@H]1O,Ignored this reaction
+656,[C@H](O)([C@@H](O)C(=O)COP(=O)([O-])[O-])[C@@H](C(C)C)NC(=O)OCc1ccccc1>>[C@H]1(C(C)C)N[C@H](CO)C(O)C1O.[C@H]1(C(C)C)NC(CO)[C@H](O)C1O.[C@H]1(C(C)C)N[C@H](CO)[C@H](O)[C@H]1O,Ignored this reaction
+657,O(C=C)C(C)=O.[C@H]1(O[C@H](CO)[C@@H](O)[C@H]1O)N2C=CC(N)=NC2=O>>[C@H]1(O[C@H](CO)[C@@H](OC(C)=O)[C@H]1O)N2C=CC(N)=NC2=O.[C@H]1(O[C@H](CO)[C@@H](O)[C@H]1OC(C)=O)N2C=CC(N)=NC2=O,Ignored this reaction
+658,O(C=C)C(C)=O.n1(cnc(C(=O)NC(N)=N2)c12)[C@@H]3O[C@H](CO)[C@@H](O)[C@H]3O>>[C@H]1(O[C@H](CO)[C@@H](O)[C@H]1OC(C)=O)n2cnc(C(=O)NC(N)=N3)c23.c12c(ncn1[C@@H]3O[C@H](CO)[C@@H](OC(C)=O)[C@H]3O)C(=O)NC(N)=N2,Ignored this reaction
+659,C(=O)(Nc1cccc(C#C)c1)c2occc2C.c1(cnc(N)c(I)c1)C(=O)N=S(C)(=O)CC(=O)OCC>>c1(cnc(N)c(C#Cc2cccc(NC(=O)c3occc3C)c2)c1)C(=O)N=S(C)(=O)CC(=O)N4CC[C@H](O)C4.c1(cnc(N)c(C#Cc2cccc(NC(=O)c3occc3C)c2)c1)C(=O)N=S(C)(=O)CC(=O)N4CC[C@@H](O)C4,Ignored this reaction
+660,[S](C)(C)[Au]Cl.c1(c[n+](C)cn1C)c2nnn(CCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC)c2.[I-]>>C1(=CN(C)[C]([Au]Cl)N1C)c2nnn(CCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC)c2.[C]1([Au+3]([Cl-])([Cl-])[Cl-])N(C)C=C(c2nnn(CCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC)c2)N1C,Ignored this reaction
+661,C(C)(C)C#N.N1(C(=O)c(cccc2)c2C1=O)[C@@H](Cc3ccccc3)C(=O)NC(C)(C)c4ccccn4.C(C)(=O)[O-].[Pd+2]>>[Pd+2]12(N#C[C@@H](C)C)[N-](C(=O)[C@]([H])(N3C(=O)c(cccc4)c4C3=O)[CH-]1c5ccccc5)C(C)(C)C(C=CC=C6)=N26,Ignored this reaction
+662,[Au+3]12([Cl-])N(=C3C(C=CC=C4)=N14)C(=CC=C3)C(=CC=C5)N2=C5.[Cl-].O([H])[H].[Zn]>>[Zn+2]12([OH2])N(C(=CC=C3)C(C=CC=C4)=N14)=C3C(C=CC=C5)=N25,Ignored this reaction
+663,O1CCNCC1.c12c(cccc1)c(Cl)cc(C)[n+]2C.[I-].c1(O)c(OC)cc(C=O)cc1OC>>c1(cc(\C=C\c2cc(OC)c(O)c(OC)c2)[n+](C)c(cccc3)c13)N4CCOCC4.[I-],Ignored this reaction
+664,N1CCCCC1.c12c(cccc1)c(Cl)cc(C)[n+]2C.[I-].c1(O)c(OC)cc(C=O)cc1OC>>c1(cc(\C=C\c2cc(OC)c(O)c(OC)c2)[n+](C)c(cccc3)c13)N4CCCCC4.[I-],Ignored this reaction
+665,N1(C)CCNCC1.c12c(cccc1)c(Cl)cc(C)[n+]2C.[I-].c1(O)c(OC)cc(C=O)cc1OC>>c1(cc(\C=C\c2cc(OC)c(O)c(OC)c2)[n+](C)c(cccc3)c13)N4CCN(C)CC4.[I-],Ignored this reaction
+666,O1CCNCC1.c12c(cccc1)c(Cl)cc(C)[n+]2C.[I-].c1(C=O)cc(N(=O)=O)ccc1O>>c1(cc(\C=C\c2cc(N(=O)=O)ccc2O)[n+](C)c(cccc3)c13)N4CCOCC4.[I-],Ignored this reaction
+667,N1CCCCC1.c12c(cccc1)c(Cl)cc(C)[n+]2C.[I-].c1(C=O)cc(N(=O)=O)ccc1O>>c1(cc(\C=C\c2cc(N(=O)=O)ccc2O)[n+](C)c(cccc3)c13)N4CCCCC4.[I-],Ignored this reaction
+668,N1CCCCC1.c12c(ccc(C=O)c1)n(CC)c(cccc3)c23.c12c(cccc1)c(Cl)cc(C)[n+]2C.[I-]>>c12c(ccc(\C=C\c3cc(N4CCCCC4)c(cccc5)c5[n+]3C)c1)n(CC)c(cccc6)c26.[I-],Ignored this reaction
+669,N1(C)CCNCC1.c12c(cccc1)c(Cl)cc(C)[n+]2C.[I-].c1(C=O)cc(N(=O)=O)ccc1O>>c1(cc(\C=C\c2cc(N(=O)=O)ccc2O)[n+](C)c(cccc3)c13)N4CCN(C)CC4.[I-],Ignored this reaction
+670,N1(C)CCNCC1.c12c(cccc1)c(Cl)cc(C)[n+]2C.[I-].c1(C([H])=O)ccccc1>>c1(cc(\C=C\c2ccccc2)[n+](C)c(cccc3)c13)N4CCN(C)CC4.[I-],Ignored this reaction
+671,N1(C)CCNCC1.c12c(cccc1)c(Cl)cc(C)[n+]2C.[I-].c1(OC)cc(C=O)ccc1F>>c1(cc(\C=C\c2ccc(F)c(OC)c2)[n+](C)c(cccc3)c13)N4CCN(C)CC4.[I-],Ignored this reaction
+672,N1(C)CCNCC1.c12c(cccc1)c(Cl)cc(C)[n+]2C.[I-].c1(OC)c(OC)cc(C=O)cc1OC>>c1(cc(\C=C\c2cc(OC)c(OC)c(OC)c2)[n+](C)c(cccc3)c13)N4CCN(C)CC4.[I-],Ignored this reaction
+673,N1(C)CCNCC1.c12c(cccc1)c(Cl)cc(C)[n+]2C.[I-].c1(C=O)ccc(O)cc1>>c1(cc(\C=C\c2ccc(O)cc2)[n+](C)c(cccc3)c13)N4CCN(C)CC4.[I-],Ignored this reaction
+674,N1(C)CCNCC1.c1(ccc(C=O)cc1OC)N2CCOCC2.c12c(cccc1)c(Cl)cc(C)[n+]2C.[I-]>>c1(cc(\C=C\c2ccc(N3CCOCC3)c(OC)c2)[n+](C)c(cccc4)c14)N5CCN(C)CC5.[I-],Ignored this reaction
+675,N1(C)CCNCC1.c1(ccc(C=O)cc1)N2CCOCC2.c12c(cccc1)c(Cl)cc(C)[n+]2C.[I-]>>c1(cc(\C=C\c2ccc(N3CCOCC3)cc2)[n+](C)c(cccc4)c14)N5CCN(C)CC5.[I-],Ignored this reaction
+676,N1(C)CCNCC1.c12c(cccc1)cc(C=O)[nH]2.c12c(cccc1)c(Cl)cc(C)[n+]2C.[I-]>>c1(cc(\C=C\c2cc(cccc3)c3[nH]2)[n+](C)c(cccc4)c14)N5CCN(C)CC5.[I-],Ignored this reaction
+677,N1(C)CCNCC1.c12c(ccc(C=O)c1)n(CC)c(cccc3)c23.c12c(cccc1)c(Cl)cc(C)[n+]2C.[I-]>>c12c(ccc(\C=C\c3cc(N4CCN(C)CC4)c(cccc5)c5[n+]3C)c1)n(CC)c(cccc6)c26.[I-],Ignored this reaction
+678,N1(CCO)CCNCC1.c12c(ccc(C=O)c1)n(CC)c(cccc3)c23.c12c(cccc1)c(Cl)cc(C)[n+]2C.[I-]>>c12c(ccc(\C=C\c3cc(N4CCN(CCO)CC4)c(cccc5)c5[n+]3C)c1)n(CC)c(cccc6)c26.[I-],Ignored this reaction
+679,N1(CCNCC1)CCN(C)C.c12c(ccc(C=O)c1)n(CC)c(cccc3)c23.c12c(cccc1)c(Cl)cc(C)[n+]2C.[I-]>>c12c(ccc(\C=C\c3cc(N4CCN(CCN(C)C)CC4)c(cccc5)c5[n+]3C)c1)n(CC)c(cccc6)c26.[I-],Ignored this reaction
+680,c12c(ccc(C=O)c1)n(CC)c(cccc3)c23.c12c(cccc1)c(Cl)cc(C)[n+]2C.[I-].N1(CCNCC1)CCCN(C)C>>c12c(ccc(\C=C\c3cc(N4CCN(CCCN(C)C)CC4)c(cccc5)c5[n+]3C)c1)n(CC)c(cccc6)c26.[I-],Ignored this reaction
+681,[Si](Cl)(C(C)C)(C(C)C)C(C)C.c1(ccccc1O\C(\Cl)=C(\Cl)/Cl)c2cccc(C(F)(F)F)c2.c1(ccccc1O\C(\Cl)=C(\Cl)/Cl)c2cccc(C(F)(F)F)c2.[Si](Cl)(C(C)C)(C(C)C)C(C)C>>[Si](C(C)C)(C(C)C)(C(C)C)\C=C(/O1)\c2c(cc(C(F)(F)F)cc2)c(cccc3)c13.[Si](C(C)C)(C(C)C)(C(C)C)\C=C(/O1)\c2c(cccc2C(F)(F)F)c(cccc3)c13,Ignored this reaction
+682,[Si](Cl)(C(C)C)(C(C)C)C(C)C.c1(ccccc1O\C(\Cl)=C(\Cl)/Cl)c2cccc(C)c2.c1(ccccc1O\C(\Cl)=C(\Cl)/Cl)c2cccc(C)c2.[Si](Cl)(C(C)C)(C(C)C)C(C)C>>[Si](C(C)C)(C(C)C)(C(C)C)\C=C(/O1)\c2c(cc(C)cc2)c(cccc3)c13.[Si](C(C)C)(C(C)C)(C(C)C)\C=C(/O1)\c2c(cccc2C)c(cccc3)c13,Ignored this reaction
+683,[Si](Cl)(C(C)C)(C(C)C)C(C)C.c1(ccccc1O\C(\Cl)=C(\Cl)/Cl)c2cccc(OC)c2.c1(ccccc1O\C(\Cl)=C(\Cl)/Cl)c2cccc(OC)c2.[Si](Cl)(C(C)C)(C(C)C)C(C)C>>[Si](C(C)C)(C(C)C)(C(C)C)\C=C(/O1)\c2c(cc(OC)cc2)c(cccc3)c13.[Si](C(C)C)(C(C)C)(C(C)C)\C=C(/O1)\c2c(cccc2OC)c(cccc3)c13,Ignored this reaction
+684,[Si](Cl)(C(C)C)(C(C)C)C(C)C.c1(ccccc1O\C(\Cl)=C(\Cl)/Cl)c2cccc(F)c2.c1(ccccc1O\C(\Cl)=C(\Cl)/Cl)c2cccc(F)c2.[Si](Cl)(C(C)C)(C(C)C)C(C)C>>[Si](C(C)C)(C(C)C)(C(C)C)\C=C(/O1)\c2c(cc(F)cc2)c(cccc3)c13.[Si](C(C)C)(C(C)C)(C(C)C)\C=C(/O1)\c2c(cccc2F)c(cccc3)c13,Ignored this reaction
+685,[La].[La].O.O.O.C([O-])([O-])=O.[Sr+2].O.O.[Ti].C([O-])([O-])=O.[Ca+2]>>[Ca].[La].O.O.O.[Sr].[Ti],Ignored this reaction
+686,[La].[La].O.O.O.C([O-])([O-])=O.[Sr+2].O.O.[Ti].C([O-])([O-])=O.[Ca+2]>>[Ca].[La].O.O.O.[Sr].[Ti],Ignored this reaction
+687,[La].[La].O.O.O.C([O-])([O-])=O.[Sr+2].O.O.[Ti].C([O-])([O-])=O.[Ca+2]>>[Ca].[La].O.O.O.[Sr].[Ti],Ignored this reaction
+688,[La].[La].O.O.O.C([O-])([O-])=O.[Sr+2].O.O.[Ti].C([O-])([O-])=O.[Ca+2]>>[Ca].[La].O.O.O.[Sr].[Ti],Ignored this reaction
+689,[La].[La].O.O.O.C([O-])([O-])=O.[Sr+2].O.O.[Ti].C([O-])([O-])=O.[Ca+2]>>[Ca].[La].O.O.O.[Sr].[Ti],Ignored this reaction
+690,[La].[La].O.O.O.C([O-])([O-])=O.[Sr+2].O.O.[Ti].C([O-])([O-])=O.[Ca+2]>>[Ca].[La].O.O.O.[Sr].[Ti],Ignored this reaction
+691,[La].[La].O.O.O.C([O-])([O-])=O.[Sr+2].O.O.[Ti].C([O-])([O-])=O.[Ca+2]>>[Ca].[La].O.O.O.[Sr].[Ti],Ignored this reaction
+692,[La].[La].O.O.O.C([O-])([O-])=O.[Sr+2].O.O.[Ti].C([O-])([O-])=O.[Ca+2]>>[Ca].[La].O.O.O.[Sr].[Ti],Ignored this reaction
+693,[La].[La].O.O.O.O.O.O.[Sb].[Sb].[Ba+2].C([O-])([O-])=O.[Cu].O>>[Ba].[Cu].[La].O.O.O.O.O.O.[Sb],Ignored this reaction
+694,[Fe+2].N([O-])(=O)=O.N(=O)([O-])=O.[Sr+2].[Ba+2].N(=O)([O-])=O.[Co+2].N([O])(=O)=O>>[Ba].[Co].[Fe].O.[Sr],Ignored this reaction
+695,O.O.[Ru].[La].[La].O.O.O.O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].[La].O.O.O.O.O.O.[Ru].[Ti].[Ti].[Ti],Ignored this reaction
+696,O.O.[Ru].[La].[La].O.O.O.O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].[La].O.O.O.O.O.O.[Ru].[Ti].[Ti].[Ti],Ignored this reaction
+697,O.O.[Ru].[La].[La].O.O.O.O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].[La].O.O.O.O.O.O.[Ru].[Ti].[Ti].[Ti],Ignored this reaction
+698,O.O.[Ru].[La].[La].O.O.O.O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].[La].O.O.O.O.O.O.[Ru].[Ti].[Ti].[Ti],Ignored this reaction
+699,O.O.[Ru].[La].[La].O.O.O.O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].[La].O.O.O.O.O.O.[Ru].[Ti].[Ti],Ignored this reaction
+700,O.O.[Ru].[La].[La].O.O.O.O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].[La].O.O.O.O.O.O.[Ru].[Ru].[Ti].[Ti],Ignored this reaction
+701,O.O.[Ru].[La].[La].O.O.O.O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].[La].O.O.O.O.O.O.[Ru].[Ru].[Ti],Ignored this reaction
+702,O.O.[Ru].[La].[La].O.O.O.O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].[La].O.O.O.O.O.O.[Ru].[Ru].[Ti],Ignored this reaction
+703,O.O.[Ru].[La].[La].O.O.O.O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].[La].O.O.O.O.O.O.[Ru].[Ru].[Ru].[Ti],Ignored this reaction
+704,O.O.[Ru].[La].[La].O.O.O.O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].[La].O.O.O.O.O.O.[Ru].[Ru].[Ru].[Ti],Ignored this reaction
+705,O.O.[Ru].[La].[La].O.O.O.O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].[La].O.O.O.O.O.O.[Ru].[Ru].[Ru].[Ti],Ignored this reaction
+706,O.O.[Ru].[La].[La].O.O.O.O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].[La].O.O.O.O.O.O.[Ru].[Ti].[Ti].[Ti],Ignored this reaction
+707,O.O.[Ru].[Nd].[Nd].O.O.O.O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].[Nd].O.O.O.O.O.O.[Ru].[Ti].[Ti].[Ti],Ignored this reaction
+708,O.O.[Ru].[Nd].[Nd].O.O.O.O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].[Nd].O.O.O.O.O.O.[Ru].[Ti].[Ti].[Ti],Ignored this reaction
+709,O.O.[Ru].[Nd].[Nd].O.O.O.O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].[Nd].O.O.O.O.O.O.[Ru].[Ti].[Ti].[Ti],Ignored this reaction
+710,O.O.[Ru].[Nd].[Nd].O.O.O.O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].[Nd].O.O.O.O.O.O.[Ru].[Ti].[Ti].[Ti],Ignored this reaction
+711,O.O.[Ru].[Nd].[Nd].O.O.O.O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].[Nd].O.O.O.O.O.O.[Ru].[Ti].[Ti].[Ti],Ignored this reaction
+712,O.O.[Ru].[Nd].[Nd].O.O.O.O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].[Nd].O.O.O.O.O.O.[Ru].[Ti].[Ti].[Ti],Ignored this reaction
+713,O.O.[Ru].[Nd].[Nd].O.O.O.O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].[Nd].O.O.O.O.O.O.[Ru].[Ti].[Ti],Ignored this reaction
+714,O.O.[Ru].[Nd].[Nd].O.O.O.O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].[Nd].O.O.O.O.O.O.[Ru].[Ru].[Ru].[Ti],Ignored this reaction
+715,O.O.[Ru].[Nd].[Nd].O.O.O.O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].[Nd].O.O.O.O.O.O.[Ru].[Ru].[Ru].[Ti],Ignored this reaction
+716,O.O.[Ru].[Nd].[Nd].O.O.O.O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].[Nd].O.O.O.O.O.O.[Ru].[Ru].[Ru].[Ti],Ignored this reaction
+717,O.O.[Ru].[Nd].[Nd].O.O.O.O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].[Nd].O.O.O.O.O.O.[Ru].[Ru].[Ru].[Ti],Ignored this reaction
+718,O.O.[Ru].[Nd].[Nd].O.O.O.O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].[Nd].O.O.O.O.O.O.[Ru].[Ru].[Ru].[Ti],Ignored this reaction
+719,O.O.[Ru].O.O.O.O.O.O.[Pr].[Pr].[Pr].[Pr].[Pr].[Pr].O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].O.O.O.O.O.O.[Pr].[Ru].[Ti].[Ti].[Ti],Ignored this reaction
+720,O.O.[Ru].O.O.O.O.O.O.[Pr].[Pr].[Pr].[Pr].[Pr].[Pr].O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].O.O.O.O.O.O.[Pr].[Ru].[Ti].[Ti].[Ti],Ignored this reaction
+721,O.O.[Ru].O.O.O.O.O.O.[Pr].[Pr].[Pr].[Pr].[Pr].[Pr].O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].O.O.O.O.O.O.[Pr].[Ru].[Ti].[Ti].[Ti],Ignored this reaction
+722,O.O.[Ru].O.O.O.O.O.O.[Pr].[Pr].[Pr].[Pr].[Pr].[Pr].O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].O.O.O.O.O.O.[Pr].[Ru].[Ti].[Ti].[Ti],Ignored this reaction
+723,O.O.[Ru].O.O.O.O.O.O.[Pr].[Pr].[Pr].[Pr].[Pr].[Pr].O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].O.O.O.O.O.O.[Pr].[Ru].[Ti].[Ti].[Ti],Ignored this reaction
+724,O.O.[Ru].O.O.O.O.O.O.[Pr].[Pr].[Pr].[Pr].[Pr].[Pr].O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].O.O.O.O.O.O.[Pr].[Ru].[Ru].[Ti].[Ti],Ignored this reaction
+725,O.O.[Ru].O.O.O.O.O.O.[Pr].[Pr].[Pr].[Pr].[Pr].[Pr].O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].O.O.O.O.O.O.[Pr].[Ru].[Ru].[Ru].[Ti],Ignored this reaction
+726,O.O.[Ru].O.O.O.O.O.O.[Pr].[Pr].[Pr].[Pr].[Pr].[Pr].O.O.[Ti].[Cu].O>>[Cu].[Cu].[Cu].O.O.O.O.O.O.[Pr].[Ru].[Ru].[Ru].[Ti],Ignored this reaction
+727,[Fe].[Fe].O.O.O.[Gd].[Gd].O.O.O.[Mn].[Mn].O.O.O.[Ba+2].C([O-])([O-])=O>>[Ba].[Fe].[Gd].[Mn].O,Ignored this reaction
+728,[Fe].[Fe].O.O.O.[Gd].[Gd].O.O.O.[Mn].[Mn].O.O.O.[Ba+2].C([O-])([O-])=O>>[Ba].[Fe].[Gd].[Mn].O,Ignored this reaction
+729,C(C)([O-])=O.[Li+].C(C)([O-])=O.O([H])[H].[Mn+2].C(C)([O-])=O.O([H])[H].[Ni+2].C(C)([O-])=O.[Co+2].O([H])[H]>>[Co].[Li].[Mn].[Ni].O.O,Ignored this reaction
+730,[La].[La].O.O.O.[Re].C([O-])([O-])=O.[Sr+2].O.O.O.[Re].[Mg].O>>[La].[Mg].O.O.O.O.O.O.[Re].[Sr],Ignored this reaction
+731,[La].[La].O.O.O.[Re].C([O-])([O-])=O.[Sr+2].O.O.O.[Re].[Mn].O>>[La].[Mn].O.O.O.O.O.O.[Re].[Sr],Ignored this reaction
+732,[Co].O.[La].[La].O.O.O.[Re].C([O-])([O-])=O.[Sr+2].O.O.O.[Re]>>[Co].[La].O.O.O.O.O.O.[Re].[Sr],Ignored this reaction
+733,[Ni].O.[La].[La].O.O.O.[Re].C([O-])([O-])=O.[Sr+2].O.O.O.[Re]>>[La].[Ni].O.O.O.O.O.O.[Re].[Sr],Ignored this reaction
+734,c1(CN)ccccc1>>B(F)(F)(F)F.[Cu+]12(N#CC)(O=C(NCc3ccccc3)CC(NCc4ccccc4)=O1)O=C(NCc5ccccc5)CC(NCc6ccccc6)=O2,"element: bad valence on N having 4 drawn bonds, charge 0, and 0 radical electrons"
+735,c1(N)ccc(C)cc1.c1(N)ccc(C)cc1.c1(N)ccc(C)cc1.c1(N)ccc(C)cc1.c1(N)ccc(C)cc1>>B(F)(F)(F)F.[Cu+]12(N#CC)(O=C(Nc3ccc(C)cc3)CC(Nc4ccc(C)cc4)=O1)O=C(Nc5ccc(C)cc5)CC(Nc6ccc(C)cc6)=O2,Ignored this reaction
+736,c1(\C=C\c2ccncc2)ccc(OCCCC)cc1.c1(\C=C\c2ccncc2)ccc(OCCCC)cc1.c1(\C=C\c2ccncc2)ccc(OCCCC)cc1>>c1(O)cc(O)cc(O)c1.c2(\C=C/c3ccncc3)ccc(OCCCC)cc2,Ignored this reaction
+737,O.Cl.Cl.[Cu].c1(ccccn1)C=NCCCCCO.c1(ccccn1)C=NCCCCCO>>[Cu+2]12([Cl-])(N(CCCCCO)=CC(C=CC=C3)=N13)[Cl-][Cu+2]4([Cl-])(N(CCCCCO)=CC(C=CC=C5)=N45)[Cl-]2,Ignored this reaction
+738,[Zr+4]([Cl-])([N-](C)C)([N-](C)C)[N-](C)C.c1(ccccc1OC)[Si](C)(C)[N-][Si](C)(C)c2ccccc2OC.[Li+]>>[Zr+4]12([N-](C)C)([N-](C)C)([NH-](C)C)[N-]([Si@](C)(C)c(cccc3)c3O1C)[Si@](C)(C)c(cccc4)c4O2C,Ignored this reaction
+739,Cl(=O)(=O)(=O)O.[Am].Cl.Cl.Cl>>[243Am+3].Cl(=O)(=O)([O-])=O,Ignored this reaction
+740,Cl(=O)(=O)(=O)[O-].[Nd+3].c12c(ccc(ccc(c3ncc(cccc4)c4n3)n5)c15)ccc(c6ncc(cccc7)c7n6)n2>>c12c(ccc(ccc(c3ncc(cccc4)c4n3)n5)c15)ccc(c6ncc(cccc7)c7n6)n2.Cl(=O)([O-])(=O)=O.[Nd+3],Ignored this reaction
+741,Cl(=O)(=O)(=O)[O-].[Nd+3].c12c(ccc(ccc(c3ncc(cccc4)c4n3)n5)c15)ccc(c6ncc(cccc7)c7n6)n2.c12c(ccc(ccc(c3ncc(cccc4)c4n3)n5)c15)ccc(c6ncc(cccc7)c7n6)n2>>c12c(ccc(ccc(c3ncc(cccc4)c4n3)n5)c15)ccc(c6ncc(cccc7)c7n6)n2.Cl(=O)([O-])(=O)=O.[Nd+3],Ignored this reaction
+742,Cl([O-])(=O)(=O)=O.[Eu+3].c12c(ccc(ccc(c3ncc(cccc4)c4n3)n5)c15)ccc(c6ncc(cccc7)c7n6)n2>>c12c(ccc(ccc(c3ncc(cccc4)c4n3)n5)c15)ccc(c6ncc(cccc7)c7n6)n2.Cl(=O)([O-])(=O)=O.[Eu+3],Ignored this reaction
+743,Cl([O-])(=O)(=O)=O.[Eu+3].c12c(ccc(ccc(c3ncc(cccc4)c4n3)n5)c15)ccc(c6ncc(cccc7)c7n6)n2.c12c(ccc(ccc(c3ncc(cccc4)c4n3)n5)c15)ccc(c6ncc(cccc7)c7n6)n2>>c12c(ccc(ccc(c3ncc(cccc4)c4n3)n5)c15)ccc(c6ncc(cccc7)c7n6)n2.Cl(=O)([O-])(=O)=O.[Eu+3],Ignored this reaction
+744,[243Am+3].Cl(=O)(=O)([O-])=O.c12c(ccc(ccc(c3ncc(cccc4)c4n3)n5)c15)ccc(c6ncc(cccc7)c7n6)n2>>[243Am+3].c12c(ccc(ccc(c3ncc(cccc4)c4n3)n5)c15)ccc(c6ncc(cccc7)c7n6)n2.Cl(=O)([O-])(=O)=O,Ignored this reaction
+745,[243Am+3].Cl(=O)(=O)([O-])=O.c12c(ccc(ccc(c3ncc(cccc4)c4n3)n5)c15)ccc(c6ncc(cccc7)c7n6)n2>>[243Am+3].c12c(ccc(ccc(c3ncc(cccc4)c4n3)n5)c15)ccc(c6ncc(cccc7)c7n6)n2.Cl(=O)([O-])(=O)=O,Ignored this reaction
+746,C([Si](C)(C)CCl)[Si](C)(C)CCl.C(C)(=O)[S-].[K+].C(C)(=O)[S-].[K+]>>[Si](C)(C)(CSC(C)=O)C[Si](C)(C)CSC(C)=O,Ignored this reaction
+747,[C@]([H])(N)(C(=O)O)C(C)(C)S.B12([C@H](C=O)NC(=O)Cc3ccccc3)N(C)(CC(=O)O1)CC(=O)O2>>C1(C)(C)SC([C@@H](B(O)O)NC(=O)Cc2ccccc2)N[C@H]1C(=O)O,"element: bad valence on B having 4 drawn bonds, charge 0, and 0 radical electrons"
+748,c1(F)ccc(F)cc1.C(CC)(CC)(CC)OC(=O)c1cc([c]#[c]c2cc(ccc2)[c]#[c]c3cc([c]#[c]c(ccc4)cc4[c]#[c]c(cc(C(=O)OC(CC)(CC)CC)c5)cc5[c]#[c]c(ccc6)cc6[c]#[c]7)cc(C(=O)OC(CC)(CC)CC)c3)cc7c1>>c1(F)ccc(F)cc1.C(CC)(CC)(CC)OC(=O)c2cc([c]#[c]c3cc(ccc3)[c]#[c]c4cc([c]#[c]c(ccc5)cc5[c]#[c]c(cc(C(=O)OC(CC)(CC)CC)c6)cc6[c]#[c]c(ccc7)cc7[c]#[c]8)cc(C(=O)OC(CC)(CC)CC)c4)cc8c2,Ignored this reaction
+749,c1(F)cc(F)cc(F)c1.C(CC)(CC)(CC)OC(=O)c1cc([c]#[c]c2cc(ccc2)[c]#[c]c3cc([c]#[c]c(ccc4)cc4[c]#[c]c(cc(C(=O)OC(CC)(CC)CC)c5)cc5[c]#[c]c(ccc6)cc6[c]#[c]7)cc(C(=O)OC(CC)(CC)CC)c3)cc7c1>>c1(F)cc(F)cc(F)c1.C(CC)(CC)(CC)OC(=O)c2cc([c]#[c]c3cc(ccc3)[c]#[c]c4cc([c]#[c]c(ccc5)cc5[c]#[c]c(cc(C(=O)OC(CC)(CC)CC)c6)cc6[c]#[c]c(ccc7)cc7[c]#[c]8)cc(C(=O)OC(CC)(CC)CC)c4)cc8c2,Ignored this reaction
+750,c1(F)cc(F)c(F)cc1F.C(CC)(CC)(CC)OC(=O)c1cc([c]#[c]c2cc(ccc2)[c]#[c]c3cc([c]#[c]c(ccc4)cc4[c]#[c]c(cc(C(=O)OC(CC)(CC)CC)c5)cc5[c]#[c]c(ccc6)cc6[c]#[c]7)cc(C(=O)OC(CC)(CC)CC)c3)cc7c1>>c1(F)cc(F)c(F)cc1F.C(CC)(CC)(CC)OC(=O)c2cc([c]#[c]c3cc(ccc3)[c]#[c]c4cc([c]#[c]c(ccc5)cc5[c]#[c]c(cc(C(=O)OC(CC)(CC)CC)c6)cc6[c]#[c]c(ccc7)cc7[c]#[c]8)cc(C(=O)OC(CC)(CC)CC)c4)cc8c2,Ignored this reaction
+751,P(F)(F)(F)(F)(F)F.[H+].N.[Ru]12(Cl)(Cl)(N3=C(C=CC=C3)C(=CC=C4)N1=C4)N5=C(C=CC=C5)C(C=CC=C6)=N26.O([H])[H].c12c(nc(c3ncc[nH]3)[nH]1)c4c(nccc4)c(nccc5)c25>>[Ru+2]123(N4=C(C=CC=C4)C(=CC=C5)N1=C5)(N6=C(C=CC=C6)C(=CC=C7)N2=C7)N8=C(C(=CC=C8)c(nc(c9ncc[nH]9)[nH]%10)c%10%11)C(C%11=CC=C%12)=N3%12.P(F)(F)(F)(F)(F)F,Ignored this reaction
+752,C(C([2H])([2H])[2H])#N.[Pd+2]12(N#C[C@@H](C)C)[N-](C(=O)[C@]([H])(N3C(=O)c(cccc4)c4C3=O)[CH-]1c5ccccc5)C(C)(C)C(C=CC=C6)=N26.B(F)(F)(F)F.[N+]12(CCl)CC[N+](F)(CC1)CC2>>B(F)(F)(F)F.[Pd+2]12(N#C[C@]([2H])([2H])[2H])[N-](C(=O)[C@@]([H])(N3C(=O)c(cccc4)c4C3=O)[C@@]1(F)c5ccccc5)C(C)(C)C(C=CC=C6)=N26,Ignored this reaction
+753,[Co].[K].[K].[K].[K].[K].[K].O.O.O.O.O.O.[W].[W].[W].[W].[W].[W].[Br-].C(=O)(OCCCCCCCCCCC[N+](C)(C)C)C(C)SC(=S)SCCCC.O([H])[H]>>C(=O)(OCCCCCCCCCCC[N+](C)(C)C)C(C)SC(=S)SCCCC.O.[Co].O.O.O.O.O.O.[W].[W].[W].[W].[W].[W],Ignored this reaction
+754,[SeH2].[Sn].[TeH2].[Cu].[Zn]>>[Cu].[Cu].[SeH2].[SeH2].[SeH2].[Sn].[TeH2].[Zn],Ignored this reaction
+755,[SeH2].[Sn].[TeH2].[Cu].[Zn]>>[Cu].[Cu].[SeH2].[SeH2].[SeH2].[Sn].[TeH2].[Zn],Ignored this reaction
+756,[SeH2].[Sn].[TeH2].[Cu].[Zn]>>[Cu].[Cu].[SeH2].[SeH2].[SeH2].[Sn].[TeH2].[Zn],Ignored this reaction
+757,[SeH2].[Sn].[TeH2].[Cu].[Zn]>>[Cu].[Cu].[SeH2].[SeH2].[SeH2].[Sn].[TeH2].[Zn],Ignored this reaction
+758,c1(O)cc(O)cc(O)c1.c2(\C=C\c3ccncc3)ccc(OCCCC)cc2>>c1(O)cc(O)cc(O)c1.c2(\C=C/c3ccncc3)ccc(OCCCC)cc2,Ignored this reaction
+759,c1(O)cc(O)cc(O)c1.c2(ccc(OCCCCCC)cc2)\N=N\c3ccncc3>>c1(O)cc(O)cc(O)c1.c2(ccc(OCCCCCC)cc2)\N=N/c3ccncc3,Ignored this reaction
+760,C(N)(N)=O.c1(ccccn1)C=Cc2ccccn2>>C1(c2ccccn2)C(c3ccccn3)C(c4ccccn4)C1c5ccccn5,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+761,C(N)(N)=O.c1(ccccn1)C=Cc2ccncc2>>C1(c2ccccn2)C(c3ccncc3)C(c4ccccn4)C1c5ccncc5,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+762,C(N)(N)=O.c1(ccc(Cl)cc1)C=Cc2ccncc2>>C1(c2ccc(Cl)cc2)C(c3ccncc3)C(c4ccc(Cl)cc4)C1c5ccncc5,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+763,[Al].Cl.Cl.Cl.[W+6](=[O-2])([Cl-])(=[CH-2]C(C)(C)c1ccccc1)([O-]c2c(cccc2c3ccccc3)c4ccccc4)[C]5N(C=CN5c6c(C)cc(C)cc6C)c7c(C)cc(C)cc7C>>[W+6](=[O-2])([Cl-])([Cl-])(=[CH-2]C(C)(C)c1ccccc1)[C]2N(C=CN2c3c(C)cc(C)cc3C)c4c(C)cc(C)cc4C,Ignored this reaction
+764,c1(F)c(F)c(F)c(F)c(F)c1F.C(Cl)Cl.C(CC)(CC)(CC)OC(=O)c1cc([c]#[c]c2cc(ccc2)[c]#[c]c3cc([c]#[c]c(ccc4)cc4[c]#[c]c(cc(C(=O)OC(CC)(CC)CC)c5)cc5[c]#[c]c(ccc6)cc6[c]#[c]7)cc(C(=O)OC(CC)(CC)CC)c3)cc7c1>>C(Cl)Cl.c1(F)c(F)c(F)c(F)c(F)c1F.C(CC)(CC)(CC)OC(=O)c2cc([c]#[c]c3cc(ccc3)[c]#[c]c4cc([c]#[c]c(ccc5)cc5[c]#[c]c(cc(C(=O)OC(CC)(CC)CC)c6)cc6[c]#[c]c(ccc7)cc7[c]#[c]8)cc(C(=O)OC(CC)(CC)CC)c4)cc8c2,Ignored this reaction
+765,c(c1ccc2)(c2C(=O)N(c3ccccc3)C4=O)C4=C\C(=C\C=C(\c5ccccc5)/c6ccccc6)\C1=O>>C1(C=Cc(cc2c(c(ccc3)C(=O)N(c4ccccc4)C2=O)c35)c5O1)(c6ccccc6)c7ccccc7,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+766,>>C1(C)(C)O[C@@H](CO)[C@@H](CCCCCCCCCCCCCCCCCCCCCCC)O1,Ignored this reaction
+767,>>[C@H]1(OC[C@H](NC(=O)[C@H](O)[C@H](O)[C@H](O)CCCCCCCCCCCCCCCCCCCCCC)[C@H](O)[C@H](O)CCCCCCCCCCCCCC)O[C@H](CO)[C@H](O)[C@H](O)[C@H]1O,Ignored this reaction
+768,>>n12c(ncc(c3cnc(N4CCOCC4)nc3)c1)nc(C)c2Cc5ccccc5OC(F)F,Ignored this reaction
+769,>>c1(cccc(OC)c1CN)N2CCC(O)CC2,Ignored this reaction
+770,>>c1(cccc(OC)c1CN)N2CCC(O)C2,Ignored this reaction
+771,>>c1(cccc(OC)c1CN)N2CCC(OC)CC2,Ignored this reaction
+772,>>c1(cccc(OC)c1CN)N2CCCC2,Ignored this reaction
+773,>>c1(cccc(OC)c1CN)N2CCCCCC2,Ignored this reaction
+774,>>c1(cccc(OC)c1CN)N2CCCCCC2C,Ignored this reaction
+775,>>c1(c(CN)cccc1OC)N2CCCCC2,Ignored this reaction
+776,>>c1(c(CN)cccc1OC)N2CCCCCC2,Ignored this reaction
+777,>>c1(cccc(OC)c1CN)N2CCCCC2C,Ignored this reaction
+778,>>c1(cccc(OCC)c1CN)N2CCCCC2,Ignored this reaction
+779,>>c1(ccc(C)cc1CN)N2CCCCC2,Ignored this reaction
+780,>>c1(ccc(OC)cc1CN)N2CCCCC2,Ignored this reaction
+781,>>c1(ccc(CC)cc1CN)N2CCCCC2,Ignored this reaction
+782,>>c1(ccc(C(C)C)cc1CN)N2CCCCC2,Ignored this reaction
+783,>>c1(ccc(c2ccccc2)cc1CN)N3CCCCC3,Ignored this reaction
+784,>>c1(ccc(c2ccccc2)cc1CN)N3CCCCCC3,Ignored this reaction
+785,>>c1(ccc(c2nccs2)cc1CN)N3CCCCC3,Ignored this reaction
+786,>>c1(cccc(Oc2ccccc2)c1CN)c3ccccc3,Ignored this reaction
+787,>>c1(cccc(Oc2ccccc2)c1CN)c3ccccc3Cl,Ignored this reaction
+788,>>c1(cccc(OC)c1CN)c2ccccc2,Ignored this reaction
+789,>>c1(cccc(OC)c1CN)c2ccccc2Cl,Ignored this reaction
+790,>>c1(cccc(OC)c1CN)c2cccnc2C,Ignored this reaction
+791,>>c1(cccc(OCC)c1CN)c2ccccc2Cl,Ignored this reaction
+792,>>c1(cccc(OC(C)C)c1CN)c2ccccc2Cl,Ignored this reaction
+793,>>c1(c(CN)cccc1OC)c2ccccc2,Ignored this reaction
+794,>>c1(c(CN)cccc1OC)c2ccccc2Cl,Ignored this reaction
+795,>>c1(cccc(OC(C)C)c1CN)N2CCCCC2,Ignored this reaction
+796,>>c1(cccc(OC2CCCCC2)c1CN)N3CCCCC3,Ignored this reaction
+797,>>c1(cccc(OC2CCC2)c1CN)N3CCCCC3,Ignored this reaction
+798,>>c1(CN)c(cccc1N2CCCCCC2)OC3CCOCC3,Ignored this reaction
+799,>>c1(cccc(OC2CCN(C)CC2)c1CN)N3CCCCCC3,Ignored this reaction
+800,>>c1(cccc(Oc2ccccc2)c1CN)N3CCCCC3,Ignored this reaction
+801,>>c1(cccc(Oc2ccc(C)cc2)c1CN)N3CCCCC3,Ignored this reaction
+802,>>c1(CN)c(cccc1N2CCCCC2)Oc3ccc(OC)cc3,Ignored this reaction
+803,>>c1(CN)c(cccc1N2CCCCC2)Oc3ccccc3OC,Ignored this reaction
+804,>>c1(cccc(Oc2ccccc2C)c1CN)N3CCCCC3,Ignored this reaction
+805,>>c1(cccc(Oc2ccc(C(F)(F)F)cc2)c1CN)N3CCCCC3,Ignored this reaction
+806,>>c1(CN)c(cccc1N2CCCCC2)Oc3cccc(OC)c3,Ignored this reaction
+807,>>c1(CN)c(cccc1N2CCCCC2)Oc3cccc(C)c3,Ignored this reaction
+808,>>c1(ccccc1Oc2cccc(N3CCCCC3)c2CN)C(F)(F)F,Ignored this reaction
+809,>>c1(CN)c(cccc1N2CCCCC2)Oc3cccc(C(F)(F)F)c3,Ignored this reaction
+810,>>c1(CN)c(cccc1N2CCCCCC2)Oc3ccccc3,Ignored this reaction
+811,>>c1(cccc(Oc2ccc(Cl)cc2)c1CN)N3CCCCC3,Ignored this reaction
+812,>>c1(cccc(Oc2ccccc2Cl)c1CN)N3CCCCC3,Ignored this reaction
+813,>>c1(CN)c(cccc1N2CCCCC2)Oc3cccc(Cl)c3,Ignored this reaction
+814,>>c1(CN)c(cccc1N2CCCCCC2)Oc3ccc(OC(F)(F)F)cc3,Ignored this reaction
+815,>>c1(CN)c(cccc1N2CCCCCC2)Oc3ccccc3OC(F)(F)F,Ignored this reaction
+816,>>c1(CN)c(cccc1N2CCCCCC2)Oc3ccc(OCCOC)cc3,Ignored this reaction
+817,>>c1(cccc(Oc2ccccc2OCCOC)c1CN)N3CCCCCC3,Ignored this reaction
+818,>>c1(ccccc1Oc2cccc(N3CCCCCC3)c2CN)C(C)(C)C,Ignored this reaction
+819,>>c1(ccc(C)c(Cl)c1CN)N2CCCCC2,Ignored this reaction
+820,>>c1(ccc(OC)c(Cl)c1CN)N2CCCCC2,Ignored this reaction
+821,>>c1(ccc(Cl)c(Cl)c1CN)N2CCCCC2,Ignored this reaction
+822,>>c1(ccc(C(F)(F)F)c(Cl)c1CN)N2CCCCC2,Ignored this reaction
+823,>>c1(CN)c2c(OCO2)ccc1N3CCCCC3,Ignored this reaction
+824,>>c1(CN)c2c(OCCO2)ccc1N3CCCCCC3,Ignored this reaction
+825,>>c1(c(Cl)ccc(OC)c1CN)N2CCCCCC2,Ignored this reaction
+826,>>c1(OC)c(CN)c(N2CCCCC2)ccc1c3cccc(C)c3,Ignored this reaction
+827,>>c1(ccccc1CN)N2CCCC(c3ccccc3)C2,Ignored this reaction
+828,>>c1(ccc(Cl)c(Oc2ccccc2)c1CN)N3CCCCCC3,Ignored this reaction
+829,>>c1(CN)c2c(OCO2)ccc1c3ccccc3,Ignored this reaction
+830,>>c1(ccccc1CN)N2CCC(N3CCCC3)CC2,Ignored this reaction
+831,>>c1(ccccc1CN)N2CCC(CCO)CC2,Ignored this reaction
+832,>>c1(ccccc1CN)N2CCC2,Ignored this reaction
+833,>>C12C(CN(c3ccccc3CN)C1)C2,Ignored this reaction
+834,>>N([C@@]([H])(CCC1)CC2)([C@]12[H])c3ccccc3CN,Ignored this reaction
+835,>>c1(ccc(OC)nc1C)c2ccccc2CN,Ignored this reaction
+836,>>c1(cnc(N(C)C)cc1C)c2ccccc2CN,Ignored this reaction
+837,>>c1(ccccc1CN)c2cccnc2C,Ignored this reaction
+838,>>C(F)(F)(F)c1ccc(c2ccccc2CN)cn1,Ignored this reaction
+839,>>c1(ccccc1CN)c2ccc(F)cc2Cl,Ignored this reaction
+840,>>c1(ccccc1CN)c2ccccc2CC,Ignored this reaction
+841,>>c1(ccccc1C(C)C)c2ccccc2CN,Ignored this reaction
+842,>>c1(ccccc1c2cocn2)c3ccccc3CN,Ignored this reaction
+843,>>c1(cc(OC)ccc1CN)N2CCCCC2,Ignored this reaction
+844,>>c1(ccc(Br)cc1CN)N2CCCCC2,Ignored this reaction
+845,>>c1(CN)c(cccc1N2CCCCC2)c3ccccc3,Ignored this reaction
+846,>>c1(cccc(Cl)c1CN)n2ccc(C)n2,Ignored this reaction
+847,>>c1(cccc(F)c1CN)n2nccn2,Ignored this reaction
+848,>>c1(cccc(F)c1CN)n2cccn2,Ignored this reaction
+849,>>c1(cccc(F)c1CN)N2CCOCC2,Ignored this reaction
+850,>>c1(CN)c(cccc1n2nccn2)n3nccn3,Ignored this reaction
+851,>>n12c(ncc(c3cnc(N4CCNC(=O)C4)nc3)c1)nc(C)c2Cc5ccccc5OC(F)F,Ignored this reaction
+852,>>n12c(ncc(c3ccc(S(N)(=O)=O)cc3)c1)nc(C)c2Cc4ccccc4OC(F)F,Ignored this reaction
+853,>>c(C(=NNC1=O)CC(C)(C)C2)(c23)c(c1ccc4)c4n3CC5CO5,Ignored this reaction
+854,>>c(c1ccc2)(c23)c(C(=NNC1=O)CN(C(=O)C4CC4)C5)c5n3CCN(C)C,Ignored this reaction
+855,>>c1(cc(C)ccc1F)C(=O)Nc2cccc(C#Cc3c(N)ncc(C(=O)N=S(C)(C)=O)c3)c2,Ignored this reaction
+856,>>C(OC)(OC)(c1ccc(OC(=O)CCl)cc1)C(=O)c2ccc(OC(=O)CCl)cc2,Ignored this reaction
+857,>>c1(cnc(N)c(C#Cc2cccc(NC(=O)c3occc3C)c2)c1)C(=O)N=S(=O)(CCCO)CCCO,Ignored this reaction
+858,>>S(=O)(CCCO)(CCCO)=NC(=O)c1cncc(C#Cc2cccc(NC(=O)c3ccc(Cl)c(C(F)(F)F)c3)c2)c1,Ignored this reaction
+859,>>S(=O)(CCCO)(CCCO)=NC(=O)c1cncc(C#Cc2cccc(NC(=O)c3cccc(C)c3)c2)c1,Ignored this reaction
+860,>>S(=O)(CCCO)(CCCO)=NC(=O)c1cncc(C#Cc2cccc(NC(=O)c3cccc(C(F)(F)F)c3)c2)c1,Ignored this reaction
+861,>>S(=O)(CCCO)(CCCO)=NC(=O)c1cncc(C#Cc2cccc(NC(=O)c3ccc(F)c(Cl)c3)c2)c1,Ignored this reaction
+862,>>S(=O)(CCCO)(CCCO)=NC(=O)c1cncc(C#Cc2cccc(NC(=O)c3cc(C)ccc3F)c2)c1,Ignored this reaction
+863,>>S(=O)(CCCO)(CCCO)=NC(=O)c1cnc(N)c(C#Cc2cccc(NC(=O)c3cccc(OC)c3)c2)c1,Ignored this reaction
+864,>>c1(cnc(N)c(C#Cc2cccc(C(=O)Nc3cccc(C)c3)c2)c1)C(=O)N=S(=O)(CCCO)CCCO,Ignored this reaction
+865,>>C(=O)(Nc1cccc(C#Cc2cncc(C(=O)N=S(C)(C)=O)c2)c1)c3occc3C,Ignored this reaction
+866,>>c1(C#Cc2cccc(NC(=O)c3ccc(Cl)cc3)c2)c(N)ncc(C(=O)N=S(C)(C)=O)c1,Ignored this reaction
+867,>>[S@@](C)(=O)(CCCCC(=O)OC)=NC(=O)c1cnc(N)c(C#Cc2cccc(NC(=O)c3occc3C)c2)c1,Ignored this reaction
+868,>>c1(occc1C)C(=O)Nc2cccc(C#Cc3cncc(C(=O)N=[S@](C)(=O)CCCO)c3)c2,Ignored this reaction
+869,>>c12c(cnc(c3ccnc(C)c3)c1)nc(C)n2Cc4cc(Cl)ccc4Cl,Ignored this reaction
+870,>>c12c(cnc(c3cnc(N4CCOCC4)nc3)c1)nc(C)n2Cc5cc(Cl)ccc5Cl,Ignored this reaction
+871,>>c12c(cnc(C3=CNC(=O)C=C3)c1)nc(COC)n2Cc4cc(Cl)ccc4Cl,Ignored this reaction
+872,>>c12c(cnc(c3ccnc(C)c3)c1)nc(COC)n2Cc4cc(Cl)ccc4Cl,Ignored this reaction
+873,>>c12c(cnc(C3CC3)c1)nc(COC)n2Cc4cc(Cl)ccc4Cl,Ignored this reaction
+874,>>c12c(cnc(c3cnc(N4CCOCC4)nc3)c1)nc(COC)n2Cc5cc(Cl)ccc5Cl,Ignored this reaction
+875,>>c12c(cnc(c3ccc(N4CCNCC4)nc3)c1)nc(C)n2Cc5cc(Cl)ccc5Cl,Ignored this reaction
+876,>>c12c(cnc(C3=CNC(=O)C=C3)c1)nc(C)n2Cc4ccccc4OC(F)F,Ignored this reaction
+877,>>c12c(cnc(c3ccc(OC)nc3)c1)nc(C)n2Cc4ccccc4OC(F)F,Ignored this reaction
+878,>>c12c(cnc(C3=CNC(=O)C=C3)c1)nc(COC)n2Cc4ccccc4OC(F)F,Ignored this reaction
+879,>>c12c(cnc(c3ccc(OC)nc3)c1)nc(COC)n2Cc4ccccc4OC(F)F,Ignored this reaction
+880,>>c12c(cnc(c3cnc(OC)nc3)c1)nc(COC)n2Cc4ccccc4OC(F)F,Ignored this reaction
+881,>>c12c(cnc(c3cnc(OC)nc3)c1)nc(C)n2Cc4ccccc4OC(F)F,Ignored this reaction
+882,>>c12c(cnc(C3=CNC(=O)N=C3)c1)nc(CO)n2Cc4ccccc4OC(F)F,Ignored this reaction
+883,>>c1(cccc(Cl)c1CN)N2CCC(O)C2,Ignored this reaction
+884,>>c1(CN)c(cccc1N2CCC(O)C2)C(F)(F)F,Ignored this reaction
+885,>>c1(ccccc1CN)OC2CCN(C(=O)OC(C)(C)C)CC2,Ignored this reaction
+886,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)n3ccnn3,Ignored this reaction
+887,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)n3cnc(C)c3,Ignored this reaction
+888,>>C12(C[C@]([H])(C[C@]([H])(C3)C1)C[C@@]3([H])C2)Oc4ccccc4CN\C(\N)=N\C(=O)c5ccc(C[C@H](N)C(=O)O)cc5,Ignored this reaction
+889,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)OC3CCNCC3,Ignored this reaction
+890,>>c1(cccc(Cl)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCCC3,Ignored this reaction
+891,>>N1(CCCC(c2ccccc2)C1)c3ccccc3CN\C(\N)=N\C(=O)c4ccc(C[C@H](N)C(=O)O)cc4,Ignored this reaction
+892,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCC(N4CCCC4)CC3,Ignored this reaction
+893,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCC(CCO)CC3,Ignored this reaction
+894,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCC3,Ignored this reaction
+895,>>C12C(CN(c3ccccc3CN\C(\N)=N\C(=O)c4ccc(C[C@H](N)C(=O)O)cc4)C1)C2,Ignored this reaction
+896,>>N([C@@]([H])(CCC1)CC2)([C@]12[H])c3ccccc3CN\C(\N)=N\C(=O)c4ccc(C[C@H](N)C(=O)O)cc4,Ignored this reaction
+897,>>c1(ccccc1O[C@@H]2CCNC2)CN\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)O)cc3,Ignored this reaction
+898,>>c1(ccc(OC)nc1C)c2ccccc2CN\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)O)cc3,Ignored this reaction
+899,>>c1(cnc(N(C)C)cc1C)c2ccccc2CN\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)O)cc3,Ignored this reaction
+900,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c3cccnc3C,Ignored this reaction
+901,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c3ccc(C(F)(F)F)nc3,Ignored this reaction
+902,>>c1(ccc(F)cc1Cl)c2ccccc2CN\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)O)cc3,Ignored this reaction
+903,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c3ccccc3CC,Ignored this reaction
+904,>>c1(ccccc1C(C)C)c2ccccc2CN\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)O)cc3,Ignored this reaction
+905,>>c1(cccc(CN2CCCCC2)c1)c3ccc(CN\C(\N)=N\C(=O)c4ccc(C[C@H](N)C(=O)O)cc4)cc3,Ignored this reaction
+906,>>c1(cccc(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c1)c3cocn3,Ignored this reaction
+907,>>c1(cc(OC)ccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCCC3,Ignored this reaction
+908,>>c1(ccc(Br)cc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCCC3,Ignored this reaction
+909,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(cccc1N3CCCCC3)c4ccccc4,Ignored this reaction
+910,>>c1(cccc(Cl)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)n3ccc(C)n3,Ignored this reaction
+911,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(OC)cccc1OC3CCCC3,Ignored this reaction
+912,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(F)cccc1OC3CCCC3,Ignored this reaction
+913,>>c1(cccc(F)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)n3nccn3,Ignored this reaction
+914,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(cccc1n3nccn3)n4nccn4,Ignored this reaction
+915,>>c1(cccc(N2CCCCC2)c1CN\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)O)cc3)C(F)(F)F,Ignored this reaction
+916,>>c1(cccc(N2CCC(OC)CC2)c1CN\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)O)cc3)C(F)(F)F,Ignored this reaction
+917,>>c1(cccc(N2CCC(O)CC2)c1CN\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)O)cc3)C(F)(F)F,Ignored this reaction
+918,>>c1(cccc(N2CCCC2)c1CN\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)O)cc3)C(F)(F)F,Ignored this reaction
+919,>>c1(cccc(C)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCCC3,Ignored this reaction
+920,>>c1(cccc(CC)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCCC3,Ignored this reaction
+921,>>c1(cccc(C(C)C)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCCC3,Ignored this reaction
+922,>>c1(cccc(N2CCCCCC2)c1CN\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)O)cc3)C(F)(F)F,Ignored this reaction
+923,>>c1(cccc(Cl)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCC(O)C3,Ignored this reaction
+924,>>c1(cccc(F)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)n3cccn3,Ignored this reaction
+925,>>c1(cccc(F)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCOCC3,Ignored this reaction
+926,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(cccc1N3CCC(O)C3)C(F)(F)F,Ignored this reaction
+927,>>c1(cccc(OC)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCC(O)CC3,Ignored this reaction
+928,>>c1(cccc(OC)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCC(OC)CC3,Ignored this reaction
+929,>>c1(cccc(OC)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCC(O)C3,Ignored this reaction
+930,>>c1(cccc(OC)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCC3,Ignored this reaction
+931,>>c1(cccc(OC)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCCCC3,Ignored this reaction
+932,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(OCC)cccc1N3CCCCC3,Ignored this reaction
+933,>>c1(cccc(OC)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCCCC3C,Ignored this reaction
+934,>>c1(ccc(C)cc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCCC3,Ignored this reaction
+935,>>c1(ccc(OC)cc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCCC3,Ignored this reaction
+936,>>c1(ccc(CC)cc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCCC3,Ignored this reaction
+937,>>c1(ccc(C(C)C)cc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCCC3,Ignored this reaction
+938,>>c1(c(Cl)cccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCCC3,Ignored this reaction
+939,>>c1(c(C)cccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCCC3,Ignored this reaction
+940,>>c1(c(OC)cccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCCC3,Ignored this reaction
+941,>>c1(c(OC)cccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCCCC3,Ignored this reaction
+942,>>c1(c(OC)cccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c3ccccc3,Ignored this reaction
+943,>>c1(ccc(c2ccccc2)cc1CN\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)O)cc3)N4CCCCC4,Ignored this reaction
+944,>>c1(ccc(c2ccccc2)cc1CN\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)O)cc3)N4CCCCCC4,Ignored this reaction
+945,>>c1(ccc(c2nccs2)cc1CN\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)O)cc3)N4CCCCC4,Ignored this reaction
+946,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(cccc1c3ccccc3)Oc4ccccc4,Ignored this reaction
+947,>>c1(c(OC)cccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c3ccccc3Cl,Ignored this reaction
+948,>>c1(cccc(OC)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c3ccccc3Cl,Ignored this reaction
+949,>>c1(cccc(OC)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c3cccnc3C,Ignored this reaction
+950,>>c1(cccc(OC)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c3ccccc3,Ignored this reaction
+951,>>c1(cccc(Oc2ccccc2)c1CN\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)O)cc3)c4ccccc4Cl,Ignored this reaction
+952,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(OCC)cccc1c3ccccc3,Ignored this reaction
+953,>>c1(cccc(OC(C)C)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c3ccccc3,Ignored this reaction
+954,>>c1(cccc(OC)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCCC3C,Ignored this reaction
+955,>>c1(cccc(OC(C)C)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCCC3,Ignored this reaction
+956,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(cccc1N3CCCCC3)OC4CCCCC4,Ignored this reaction
+957,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(cccc1N3CCCCC3)OC4CCC4,Ignored this reaction
+958,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(cccc1N3CCCCCC3)OC4CCOCC4,Ignored this reaction
+959,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(cccc1N3CCCCCC3)OC4CCN(C)CC4,Ignored this reaction
+960,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(cccc1N3CCCCC3)Oc4ccccc4,Ignored this reaction
+961,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(cccc1N3CCCCC3)Oc4ccc(C)cc4,Ignored this reaction
+962,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(cccc1N3CCCCC3)Oc4ccc(OC)cc4,Ignored this reaction
+963,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(cccc1N3CCCCC3)Oc4ccccc4OC,Ignored this reaction
+964,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(cccc1N3CCCCC3)Oc4ccccc4C,Ignored this reaction
+965,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(cccc1N3CCCCC3)Oc4ccc(C(F)(F)F)cc4,Ignored this reaction
+966,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(cccc1N3CCCCC3)Oc4cccc(OC)c4,Ignored this reaction
+967,>>c1(CN(N)\C=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(cccc1N3CCCCC3)Oc4cccc(C)c4,Ignored this reaction
+968,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(cccc1N3CCCCC3)Oc4ccccc4C(F)(F)F,Ignored this reaction
+969,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(cccc1N3CCCCC3)Oc4cccc(C(F)(F)F)c4,Ignored this reaction
+970,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(cccc1N3CCCCCC3)Oc4ccccc4,Ignored this reaction
+971,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(cccc1N3CCCCC3)Oc4ccc(Cl)cc4,Ignored this reaction
+972,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(cccc1N3CCCCC3)Oc4ccccc4Cl,Ignored this reaction
+973,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(cccc1N3CCCCC3)Oc4cccc(Cl)c4,Ignored this reaction
+974,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(cccc1N3CCCCCC3)Oc4ccc(OC(F)(F)F)cc4,Ignored this reaction
+975,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(cccc1N3CCCCCC3)Oc4ccccc4OC(F)(F)F,Ignored this reaction
+976,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(cccc1N3CCCCCC3)Oc4ccc(OCCOC)cc4,Ignored this reaction
+977,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(cccc1N3CCCCCC3)Oc4ccccc4OCCOC,Ignored this reaction
+978,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(cccc1N3CCCCCC3)Oc4ccccc4C(C)(C)C,Ignored this reaction
+979,>>C1(CCN(C)C(=O)C1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c3ccccc3,Ignored this reaction
+980,>>C1(c2ccccc2)=C(CN\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)O)cc3)C(=O)N(C)C=C1,Ignored this reaction
+981,>>c1(ccc(C)c(Cl)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCCC3,Ignored this reaction
+982,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(Cl)c(OC)ccc1N3CCCCC3,Ignored this reaction
+983,>>c1(ccc(Cl)c(Cl)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCCC3,Ignored this reaction
+984,>>c1(ccc(C(F)(F)F)c(Cl)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCCC3,Ignored this reaction
+985,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c3c(OCO3)ccc1N4CCCCC4,Ignored this reaction
+986,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c3c(OCCO3)ccc1N4CCCCCC4,Ignored this reaction
+987,>>c1(c(Cl)ccc(OC)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCCCC3,Ignored this reaction
+988,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(ccc(c3cccc(C)c3)c1OC)N4CCCCC4,Ignored this reaction
+989,>>c1(c(Cl)ccc(Oc2ccccc2)c1CN\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)O)cc3)N4CCCCCC4,Ignored this reaction
+990,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c3c(OCO3)ccc1c4ccccc4,Ignored this reaction
+991,>>c1(ccc(C[C@H](N)C(=O)O)cc1)C(=O)\N=C(/N)\Nc2ccccc2,Ignored this reaction
+992,>>c1(ccc(C[C@H](N)C(=O)O)cc1)C(=O)\N=C(/N)\NCC2CCCCC2,Ignored this reaction
+993,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c3ccccc3,Ignored this reaction
+994,>>c1(ccc(C[C@H](N)C(=O)O)cc1)C(=O)\N=C(/N)\NCc2ccccc2,Ignored this reaction
+995,>>c1(ccc(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)cc1)c3ccc(C)cc3,Ignored this reaction
+996,>>c1(cccc(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c1)c3ccccc3,Ignored this reaction
+997,>>C(F)(F)(F)c1ccc(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)cc1,Ignored this reaction
+998,>>c12c(cccc1)ccc(CN(C)\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)O)cc3)c2,Ignored this reaction
+999,>>c1(ccccc1CN(C)\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c3ccccc3,Ignored this reaction
+1000,>>c1(ccc(CN(C)\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)cc1)c3ccc(C)cc3,Ignored this reaction
+1001,>>c1(cccc(CN(C)\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c1)c3ccccc3,Ignored this reaction
+1002,>>c1(ccc(C(C)N\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)cc1)c3ccc(C)cc3,Ignored this reaction
+1003,>>C(N\C(\N)=N\C(=O)c1ccc(C[C@H](N)C(=O)O)cc1)(c2ccccc2)c3ccccc3,Ignored this reaction
+1004,>>c1(ccccc1N\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c3ccccc3,Ignored this reaction
+1005,>>c1(ccc(C[C@H](N)C(=O)O)cc1)C(=O)\N=C(/N)\NCc2ccccc2OC,Ignored this reaction
+1006,>>c1(ccc(C[C@H](N)C(=O)O)cc1)C(=O)\N=C(/N)\NCc2ccccc2Cl,Ignored this reaction
+1007,>>C(F)(F)(F)c1ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2,Ignored this reaction
+1008,>>C(N\C(\N)=N\C(=O)c1ccc(C[C@H](N)C(=O)O)cc1)(c2ccc(Cl)cc2)c3ccc(Cl)cc3,Ignored this reaction
+1009,>>c1(ccc(C[C@H](N)C(=O)O)cc1)C(=O)\N=C(/N)\NCc2ccccc2C,Ignored this reaction
+1010,>>c1(OC(F)F)ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2,Ignored this reaction
+1011,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)Oc3ccccc3,Ignored this reaction
+1012,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCOCC3,Ignored this reaction
+1013,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCC3,Ignored this reaction
+1014,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)n3cccn3,Ignored this reaction
+1015,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)n3ccnc3,Ignored this reaction
+1016,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)n3ccc(C)n3,Ignored this reaction
+1017,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)n3cncn3,Ignored this reaction
+1018,>>c1(ccccc1OC2CCCC2)CN\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)O)cc3,Ignored this reaction
+1019,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)OC3CCN(C)CC3,Ignored this reaction
+1020,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCNCC3,Ignored this reaction
+1021,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)n3nccn3,Ignored this reaction
+1022,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)OC(F)(F)F,Ignored this reaction
+1023,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)OC3CCOCC3,Ignored this reaction
+1024,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCC(O)CC3,Ignored this reaction
+1025,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)n3ccnc3C,Ignored this reaction
+1026,>>c1(ncccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCC(O)C3,Ignored this reaction
+1027,>>c1(ncccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCC(O)CC3,Ignored this reaction
+1028,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCC(O)C3,Ignored this reaction
+1029,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCC(OC)CC3,Ignored this reaction
+1030,>>c1(ncccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCC3,Ignored this reaction
+1031,>>c1(ncccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCC(O)C3,Ignored this reaction
+1032,>>c1(ccccc1OCC(=O)OCC)CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2,Ignored this reaction
+1033,>>c1(ncccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCCC3,Ignored this reaction
+1034,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N(CC)CC,Ignored this reaction
+1035,>>N1(CC(C)OC(C)C1)c2ccccc2CN\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)O)cc3,Ignored this reaction
+1036,>>c1(ncccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCC(F)(F)CC3,Ignored this reaction
+1037,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCC(c4ccccc4)CC3,Ignored this reaction
+1038,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCC(Cc4ccccc4)CC3,Ignored this reaction
+1039,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c3cccc(F)c3,Ignored this reaction
+1040,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c3cccc(OC)c3,Ignored this reaction
+1041,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c3ccccc3C,Ignored this reaction
+1042,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCC(CO)CC3,Ignored this reaction
+1043,>>c12c(cccc1)ccc(CCN\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)O)cc3)c2,Ignored this reaction
+1044,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCC(C(N)=O)CC3,Ignored this reaction
+1045,>>c12c(cccc1)ccc([C@@H](C)N\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)O)cc3)c2,Ignored this reaction
+1046,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCC(CO)C3,Ignored this reaction
+1047,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCC(C)C3,Ignored this reaction
+1048,>>c1(ccc(CCN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)cc1)c3ccccc3,Ignored this reaction
+1049,>>c1(ccc(CCCN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)cc1)c3ccccc3,Ignored this reaction
+1050,>>N1(C(C)CCCC1C)c2ccccc2CN\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)O)cc3,Ignored this reaction
+1051,>>N1(CC(CC2)CC12)c3ccccc3CN\C(\N)=N\C(=O)c4ccc(C[C@H](N)C(=O)O)cc4,Ignored this reaction
+1052,>>N1(CCCc(cccc2)c12)c3ccccc3CN\C(\N)=N\C(=O)c4ccc(C[C@H](N)C(=O)O)cc4,Ignored this reaction
+1053,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCCCC3,Ignored this reaction
+1054,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCCC3C,Ignored this reaction
+1055,>>c1(cccc(CCN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c1)c3ccccc3,Ignored this reaction
+1056,>>c1(ccccc1CCCN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c3ccccc3,Ignored this reaction
+1057,>>N1(CCCC(CCCC2)C12)c3ccccc3CN\C(\N)=N\C(=O)c4ccc(C[C@H](N)C(=O)O)cc4,Ignored this reaction
+1058,>>c1(ccccc1CCN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c3ccccc3,Ignored this reaction
+1059,>>N1(CC(C)CC(C)C1)c2ccccc2CN\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)O)cc3,Ignored this reaction
+1060,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCSCC3,Ignored this reaction
+1061,>>c1(cccc(CCCN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c1)c3ccccc3,Ignored this reaction
+1062,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c3ccccc3OC,Ignored this reaction
+1063,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c3ccc(OC)cc3,Ignored this reaction
+1064,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c3cccc(Cl)c3,Ignored this reaction
+1065,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c3cccc(C)c3,Ignored this reaction
+1066,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c3ccc(Cl)cc3,Ignored this reaction
+1067,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c3ccccc3Cl,Ignored this reaction
+1068,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c3ccc(C)cc3,Ignored this reaction
+1069,>>c1(ccc(OC)cc1C)c2ccccc2CN\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)O)cc3,Ignored this reaction
+1070,>>c1(cccc(cccc2)c12)c3ccccc3CN\C(\N)=N\C(=O)c4ccc(C[C@H](N)C(=O)O)cc4,Ignored this reaction
+1071,>>c1(cccc(OC)c1OC)c2ccccc2CN\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)O)cc3,Ignored this reaction
+1072,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c3ccc(C(F)(F)F)cc3,Ignored this reaction
+1073,>>c1(ccccc1OC(F)(F)F)c2ccccc2CN\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)O)cc3,Ignored this reaction
+1074,>>c1(ccc(C[C@H](N)C(=O)O)cc1)C(=O)\N=C(/N)\NCc2ccc(Oc3cccc(Cl)c3)cc2,Ignored this reaction
+1075,>>c1(ccc(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)cc1)c3ccccc3,Ignored this reaction
+1076,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c3nccs3,Ignored this reaction
+1077,>>c1(cccc(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c1)c3nccs3,Ignored this reaction
+1078,>>c1(cccc(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c1)c3cscn3,Ignored this reaction
+1079,>>N1(CCCS1(=O)=O)c2ccccc2CN\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)O)cc3,Ignored this reaction
+1080,>>c12c(cccc1)ccc(CN\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)O)cc3)c2,Ignored this reaction
+1081,>>c1(ccc(C[C@H](N)C(=O)O)cc1)C(=O)\N=C(/N)\NCc2ccc(C)c(C)c2,Ignored this reaction
+1082,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)cc(OC)ccc1OC,Ignored this reaction
+1083,>>c1(ccc(C[C@H](N)C(=O)O)cc1)C(=O)\N=C(/N)\NCc2cccc(Cl)c2Cl,Ignored this reaction
+1084,>>c1(ccc(C[C@H](N)C(=O)O)cc1)C(=O)\N=C(/N)\NCc2ccc(Cl)cc2Cl,Ignored this reaction
+1085,>>c1(ccc(C[C@H](N)C(=O)O)cc1)C(=O)\N=C(/N)\NCc2cc(OC)cc(OC)c2,Ignored this reaction
+1086,>>C1(N\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)CCc(cccc3)c13,Ignored this reaction
+1087,>>c1(ccc(C[C@H](N)C(=O)O)cc1)C(=O)\N=C(/N)\NCc2ccc(F)cc2Cl,Ignored this reaction
+1088,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)ccc(OC)cc1OC,Ignored this reaction
+1089,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)cc(C)ccc1C,Ignored this reaction
+1090,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(C)cccc1Cl,Ignored this reaction
+1091,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(OC)cccc1OC,Ignored this reaction
+1092,>>C(F)(F)(F)c1ccc(Cl)c(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c1,Ignored this reaction
+1093,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c(F)cccc1F,Ignored this reaction
+1094,>>c1(ccc(C[C@H](N)C(=O)O)cc1)C(=O)\N=C(/N)\NCc2cccc(Cl)c2C,Ignored this reaction
+1095,>>c1(ccc(C[C@H](N)C(=O)O)cc1)C(=O)\N=C(/N)\NCc2ccc(Cl)cc2C,Ignored this reaction
+1096,>>c1(ccc(C[C@H](N)C(=O)O)cc1)C(=O)\N=C(/N)\NCc2cc(C)cc(C)c2,Ignored this reaction
+1097,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)cc(F)ccc1F,Ignored this reaction
+1098,>>c12c(cccc1)cccc2CN\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)O)cc3,Ignored this reaction
+1099,>>c1(ccc(C[C@H](N)C(=O)O)cc1)C(=O)\N=C(/N)\NCc2cccc(C)c2C,Ignored this reaction
+1100,>>c1(cccc(F)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCCC3,Ignored this reaction
+1101,>>c1(cccc(F)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCC3,Ignored this reaction
+1102,>>c1(cc(Cl)ccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)n3ccc(C)n3,Ignored this reaction
+1103,>>c1(cccc(Cl)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCC3,Ignored this reaction
+1104,>>c1(cccc(Cl)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCC(O)CC3,Ignored this reaction
+1105,>>c1(cccc(Cl)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCC(OC)CC3,Ignored this reaction
+1106,>>c1(cccc(OC)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCCC3,Ignored this reaction
+1107,>>c1(cc(Cl)ccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCCC3,Ignored this reaction
+1108,>>c1(cc(C)ccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCCC3,Ignored this reaction
+1109,>>c1(ccc(Cl)cc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCCC3,Ignored this reaction
+1110,>>c1(ccc(C(F)(F)F)cc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)N3CCCCC3,Ignored this reaction
+1111,>>c12c(cccc1CN\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)O)cc3)Cc(cccc4)c24,Ignored this reaction
+1112,>>c1(C)cc(C)cc(C)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2,Ignored this reaction
+1113,>>c1(ccccc1CN\C(\NC)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c3ccccc3,Ignored this reaction
+1114,>>c1(cccc(CN\C(\NC)=N\C(=O)c2ccc(C[C@H](N)C(=O)O)cc2)c1)c3ccccc3,Ignored this reaction
+1115,>>c1(ccccc1CN)n2cnc(C)c2,Ignored this reaction
+1116,>>c1(cccc(N2CCC(OC)CC2)c1CN)C(F)(F)F,Ignored this reaction
+1117,>>c1(cccc(N2CCC(O)CC2)c1CN)C(F)(F)F,Ignored this reaction
+1118,>>c1(cccc(N2CCCC2)c1CN)C(F)(F)F,Ignored this reaction
+1119,>>c1(cccc(CC)c1CN)N2CCCCC2,Ignored this reaction
+1120,>>c1(cccc(C(C)C)c1CN)N2CCCCC2,Ignored this reaction
+1121,>>c1(cccc(N2CCCCCC2)c1CN)C(F)(F)F,Ignored this reaction
+1122,>>c1(ccccc1n2nccn2)C(=O)N3CCCN(c4oc(C)c(C(C)(C)O)n4)CC3,Ignored this reaction
+1123,>>c1(oc(C)c(C(C)(C)O)n1)N2CCCN(C(=O)c3cccnc3OC(C)C)CC2,Ignored this reaction
+1124,>>c1(oc(C)c(C(C)(C)O)n1)N2CCCN(C(=O)c3ccccc3OC(F)(F)F)CC2,Ignored this reaction
+1125,>>C(C)(C)(O)c1nc(N2CCCN(C(=O)c3cccnc3OCC(F)F)CC2)oc1C,Ignored this reaction
+1126,>>C(C)(C)(O)c1nc(N2CCCN(C(=O)c3cccnc3OCC(F)(F)F)CC2)oc1C,Ignored this reaction
+1127,>>c1(cc(F)ccc1C(=O)N2CCCN(c3oc(C)c(C(C)(C)O)n3)CC2)n4nccn4,Ignored this reaction
+1128,>>c1(oc(C)c(C(C)(C)O)n1)N2CCCN(C(=O)c3ccccc3OCC)CC2,Ignored this reaction
+1129,>>c1(ccccc1n2cccn2)C(=O)N3CCCN(c4oc(C)c(C(C)(C)O)n4)CC3,Ignored this reaction
+1130,>>c1(oc(C)c(C(C)(C)O)n1)N2CCCN(C(=O)c3cccnc3OCC)CC2,Ignored this reaction
+1131,>>c1(cccnc1OCC(F)(F)F)C(=O)N2CCCN(c3scc(C(C)(C)O)n3)CC2,Ignored this reaction
+1132,>>c1(ccccc1OC(F)(F)F)C(=O)N2CCCN(c3scc(C(C)(C)O)n3)CC2,Ignored this reaction
+1133,>>c1(ccccc1C(=O)N2CCCN(c3scc(C(C)(C)O)n3)CC2)C4CC4,Ignored this reaction
+1134,>>c1(cc(F)ccc1C(=O)N2CCCN(c3scc(C(C)(C)O)n3)CC2)n4nccn4,Ignored this reaction
+1135,>>c(C(=NNC1=O)CN(C)C2)(c23)c(c(ccc4)[nH]3)c14,Ignored this reaction
+1136,>>c(C(=NNC1=O)CN(C(=O)C2CC2)C3)(c34)c(c1ccc5)c5[nH]4,Ignored this reaction
+1137,>>c(C(=NNC1=O)CN(C(=O)C2CC2)C3)(c34)c(c1cc(F)c5)c5[nH]4,Ignored this reaction
+1138,>>c(c1ccc2)(c23)c(C(=NNC1=O)CN(CCN(C)C)C4)c4[nH]3,Ignored this reaction
+1139,>>c(C(=NNC1=O)CN(C(=O)C(C)(C)NC(=O)OCc2ccccc2)C3)(c34)c(c1ccc5)c5[nH]4,Ignored this reaction
+1140,>>c(c1ccc2)(c23)c(C(CCC4)=NNC1=O)c4n3C,Ignored this reaction
+1141,>>c(c1ccc2)(c23)c(C(CCC4)=NNC1=O)c4n3Cc5ccccc5,Ignored this reaction
+1142,>>c1(cncc(C#Cc2cccc(NC(=O)Nc3ccccc3F)c2)c1)C(=O)N=S(C)(C)=O,Ignored this reaction
+1143,>>c1(cncc(C#Cc2cccc(NC(=O)Nc3cccc(C)c3)c2)c1)C(=O)N=S(C)(C)=O,Ignored this reaction
+1144,>>c1(cncc(C#Cc2cccc(NC(=O)Nc3ccc(C)cc3)c2)c1)C(=O)N=S(C)(C)=O,Ignored this reaction
+1145,>>c1(cccc(C)c1CN)N2CCCCC2,Ignored this reaction
+1146,>>c12c(cccc1)CCC2N\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)OC)cc3,Ignored this reaction
+1147,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)OC)cc2)c(F)cccc1F,Ignored this reaction
+1148,>>c1(ccccc1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)OCC)cc2)N3CCCCC3,Ignored this reaction
+1149,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)OCC)cc2)c(cccc1N3CCCCC3)Oc4ccccc4,Ignored this reaction
+1150,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)OC(C)C)cc2)c(cccc1N3CCCCC3)Oc4ccccc4,Ignored this reaction
+1151,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)OC3CCCC3)cc2)c(cccc1N4CCCCC4)Oc5ccccc5,Ignored this reaction
+1152,>>c1(cccc(Oc2ccc(C(F)(F)F)cc2)c1CN\C(\N)=N\C(=O)c3ccc(C[C@H](N)C(=O)OCC)cc3)N4CCCCC4C,Ignored this reaction
+1153,>>c1(cccc(OC)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)OCC)cc2)N3CCCCC3C,Ignored this reaction
+1154,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)OCC)cc2)c(cccc1N3CCCCC3)Oc4cccc(C)c4,Ignored this reaction
+1155,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)OCC)cc2)c(cccc1N3CCCCCC3)C(F)(F)F,Ignored this reaction
+1156,>>c1(CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)OCC)cc2)c(cccc1N3CCCCC3)Oc4ccccc4Cl,Ignored this reaction
+1157,>>c1(cccc(C(F)F)c1CN\C(\N)=N\C(=O)c2ccc(C[C@H](N)C(=O)OCC)cc2)N3CCCCCC3,Ignored this reaction
+1158,c1(C)ccco1.C(C=O)CC>>,Ignored this reaction
+1159,[Si](C#COc1ccccc1c2ccccc2)(C(C)C)(C(C)C)C(C)C>>,Ignored this reaction
+1160,C(C#N)(C#N)(CC=C)CCC=C>>,Ignored this reaction
+1161,C(CC=C)(Nc1ccccc1)c2ccccc2>>,Ignored this reaction
+1162,C(=S)=S.C12C(CCCC1)O2>>,Ignored this reaction
+1163,C(CC#C)CC#C.C(CCN=N#N)CCCN=N#N>>,Ignored this reaction
+1164,C(CC#C)CC#C.c1(CN=N#N)cccc(CN=N#N)c1>>,Ignored this reaction
+1165,c1(cccc(C#N)c1)[n+]2ccc(c3ccncc3)cc2.[Zn+2]([Cl-])([Cl-])([Cl-])[Cl-].[H+].O>>,Ignored this reaction
+1166,N1(=CC=C(c2cc[n+](c3cccc(C#N)c3)cc2)C=C1)[Zn+2]([Cl-])([Cl-])[Cl-]>>,Ignored this reaction

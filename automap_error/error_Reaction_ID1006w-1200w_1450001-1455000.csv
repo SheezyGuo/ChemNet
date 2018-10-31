@@ -1,0 +1,247 @@
+,error_ractions,error_info
+0,c1(ccccc1)C(=O)C=Cc2ccccc2>>[P+](c1ccccc1)(c2ccccc2)(c3ccccc3)c4c(O)cc(c5ccccc5)cc4c6ccccc6.[Cl-],"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+1,C(NCCCCC)C(=O)Cl.Cl[H]>>C(=O)(OCC)CNCCCCC.Cl[H],Ignored this reaction
+2,C(CCCCCCCNC)CCCCCCCCCC.Cl[H].C(CCCCCCCNC)CCCCCCCCCC.Cl[H]>>c1(N(C)CCCCCCCCCCCCCCCCCC)nc(N)nc(CCCCCCCCCCCCCCCCC)n1,Ignored this reaction
+3,C(CC[S-])CCCC.[Na+].C(CC[S-])CCCC.[Na+]>>C1(C)(CCSCCCCCCC)OCC(CO)O1,Ignored this reaction
+4,c1(ccc(C)cc1)S(=O)[O-].[Na+]>>c1(ccc(C)cc1)S(=O)(=O)[CH-]\C=N(\=O)/[O-].[Li+],Ignored this reaction
+5,c1(ccc(C)cc1)S(=O)[O-].[Na+].c1(ccc(C)cc1)S(=O)[O-].[Na+]>>S(=O)(=O)(c1ccc(C)cc1)c2nc(c3ccccc3)oc2N(C)C,Ignored this reaction
+6,c12c(C(=O)C=C(C)C1=O)c(Cl)c(c(ccc3)N(=O)=O)c3c2O>>c12c(c(OC)c(C)cc1OC)C(=O)c(cccc3OC)c3C2=O,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+7,c12c(C(=O)C=C(C)C1=O)c(Cl)c(c(ccc3)N(=O)=O)c3c2O>>c12c(c(O)c(C)cc1O)C(=O)c(cccc3O)c3C2=O,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+8,c12c(C(=O)C=C(C)C1=O)c(Cl)c(c(ccc3)N(=O)=O)c3c2O>>c12c(c(O)c(C)cc1O)C(=O)c(cccc3OC)c3C2=O,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+9,P(Cl)(c1ccccc1)c2ccccc2>>P(=[Se])(Oc1ccc(cccc2)c2c1)(c3ccccc3)c4ccccc4,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+10,P(Cl)(c1ccccc1)c2ccccc2>>P(=S)(Oc1ccc(cccc2)c2c1)(c3ccccc3)c4ccccc4,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+11,C(=CC(=O)c1ccccc1)(Sc2nc(cccc3)c3[nH]2)C(=O)c4ccccc4>>C(=CC(=O)c1cccs1)(Sc2nc(cccc3)c3[nH]2)c4ccccc4,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+12,c1(ccccc1)C(N)C(Cl)Cl.Cl[H].c1(ccccc1)C(N)C(Cl)Cl.Cl[H]>>C(NC(=O)c1ccccc1)(NC(C(Cl)Cl)c2ccccc2)C(Cl)(Cl)Cl,Ignored this reaction
+13,c1(N(=O)=O)cc(C(=O)O)ccc1Sc2cc(N(C)C)ccc2N(=O)=O>>C1(=C\C(=[N+](\C)/C)\C=C2)C2=Nc(cc(C(=O)O)cc3)c3S1.Cl[H].[Cl-],Ignored this reaction
+14,c12c(nc(cccc3)c3c1\C=N(\=O)/c4ccccc4)c(F)c(F)c(F)c2F>>c12c(nc(cccc3)c3c1C(OC)=Nc4ccccc4)c(F)c(F)c(F)c2O,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+15,c1(cc(Cl)ccc1N(=O)=O)Sc2ccc(C(=O)OC)cc2N(=O)=O>>C1(=C\C(=[N+](\C)/C)\C=C2)C2=Nc(cc(C(=O)O)cc3)c3S1.Cl[H].[Cl-],Ignored this reaction
+16,c1(ccc(OC)cc1)SC(=N)N.Cl[H]>>c1(ccc(OC)cc1)Sc2ccc(OC)cc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+17,[C+]1(SC)NCCCCN1.[I-]>>[C+]1(SC)N(C)CCCCN1C.[I-],Ignored this reaction
+18,[C+]1(SC)NCCCCN1.[I-]>>C(=[S+]\C)(/NCCCC1)\N1C.[I-],Ignored this reaction
+19,c12c(C(=O)C=C(C(C(=O)OCC)C(=O)OCC)C1=O)c(O)c(cccc3)c3c2Cl>>c12c(c(O)cc(C)c1O)C(=O)c(cccc3O)c3C2=O,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+20,S(=O)(=O)(c1ccc(S(=O)(=O)\C=C(\Cl)/Cl)cc1)c2ccc(S(=O)(=O)\C=C(\Cl)/Cl)cc2>>S(=O)(=O)(c1ccc(S(=O)(=O)CC(=O)O)cc1)c2ccc(S(=O)(=O)CC(=O)O)cc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+21,C(N(C)C)=[N+](C)N=CN(C)C.[I-]>>[N+](CC)(N=CN(C)C)=CN(C)C.[I-],Ignored this reaction
+22,C(N(C)C)=[N+](C)N=CN(C)C.[I-]>>[N+](CCC)(N=CN(C)C)=CN(C)C.[I-],Ignored this reaction
+23,C(N(C)C)=[N+](C)N=CN(C)C.[I-]>>[N+](CCCC)(=CN(C)C)N=CN(C)C.[I-],Ignored this reaction
+24,c12c(ncn1C)nc(Cl)nc2N.Cl[H]>>c12c(ncn1C)[n+](C)c(SC)nc2N.[I-],Ignored this reaction
+25,c12c(ncn1C)nc(Cl)nc2N.Cl[H]>>c12c(n(C)cn1)c(N)nc(SC)n2.Cl[H],Ignored this reaction
+26,C(C)(O)(C=C)C#CC[N+](C)(C)C.[I-]>>C(C)(O)(C=C)C(=O)CC[N+](C)(C)C.[I-],Ignored this reaction
+27,C(=[S+]\C)(/NCCCC1)\N1C.[I-]>>[C+]1(SC)N(C)CCCCN1C.[I-],Ignored this reaction
+28,S(=O)(=O)(C(F)(F)F)c1cc(S(=O)(=O)C(F)(F)F)cc(N(=O)=O)c1N.S(=O)(=O)(C(F)(F)F)c1cc(S(=O)(=O)C(F)(F)F)cc(N(=O)=O)c1N>>c1(cc(S(=O)(=O)C(F)(F)F)cc(N(=O)=O)c1[N-]c2c(N(=O)=O)cc(S(=O)(=O)C(F)(F)F)cc2S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F.[Na+],Ignored this reaction
+29,c12c(C(=O)C=C(C(C(=O)OCC)C(=O)OCC)C1=O)c(O)c(c(ccc3)N(=O)=O)c3c2Cl>>c12c(c(O)c(C)cc1O)C(=O)c(cccc3O)c3C2=O,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+30,Br[H].C(Br)(Nc1ccccc1)(C(=O)OCC)C(=O)OCC>>Br[H].C(Nc1ccccc1)(Nc2ccccc2)(C(=O)OCC)C(=O)OCC,Ignored this reaction
+31,C(F)(F)(C(F)(F)F)\C(\[O-])=C(\C#N)/C#N.[Na+].C(F)(F)(C(F)(F)F)\C(\[O-])=C(\C#N)/C#N.[Na+]>>C(F)(F)(C(F)(F)F)\C(\Nc1ccccc1)=C(\C#N)/C#N,Ignored this reaction
+32,c1(s[s+]c(Cl)c1C)c2ccccc2.[Cl-]>>c1(s[s+]c(SC)c1C)c2ccccc2.S([O])(=O)(=O)F,Ignored this reaction
+33,c1(s[s+]c(Cl)c1C)c2ccccc2.[Cl-]>>N1(NC(=O)N(c2ccccc2)C1=O)c3[s+]sc(c4ccccc4)c3C.S([O])(=O)(=O)F,Ignored this reaction
+34,c1(C#N)cc(C#N)c(N)nc1[S-].[Na+]>>[n+]12c(SCC1CI)c(C#N)cc(C#N)c2N.[I-](I)I,Ignored this reaction
+35,c(c(ccc1)ccc2)(c1C(SC)=[N+]3CC)c23.[I-]>>[Br-].c(c(ccc1)ccc2)(c1C(C)=[N+]3CC)c23,Ignored this reaction
+36,c(c(ccc1)ccc2)(c1C(SC)=[N+]3CC)c23.[I-]>>[Br-].c(c(ccc1)ccc2)(c1[N+](CC)=C3C=CC=CC=C4N(CC)c5c(c(ccc5)ccc6)c46)c23,Ignored this reaction
+37,C(C)(O)(C#CC[N+](C)(C)C)c1ccccc1.[I-]>>C(C)(O)(C(=O)CC[N+](C)(C)C)c1ccccc1.[I-],Ignored this reaction
+38,C(/SC=C1C([O-])=O)(\S1)=C(/SC=C2)\S2.[Na+]>>[C+](/SC=C1)(\S1)=C(/SC=C2)\S2.C(/SC=C3C([O-])=O)(\S3)=C(/SC=C4)\S4,Ignored this reaction
+39,C(/SC=C1C([O-])=O)(\S1)=C(/SC=C2)\S2.[Na+].C(/SC=C1C([O-])=O)(\S1)=C(/SC=C2)\S2.[Na+]>>C(/SC=C1C(=O)O)(\S1)=C(/SC=C2)\S2.C(/SC(C)=C3C)(\S3)=C(/SC(C)=C4C)\S4.[Cl-],Ignored this reaction
+40,[n+]1(ccccc1)CC(=O)N(N)CCO.[Cl-]>>N(CCOC(=O)Nc1ccccc1)(NC(=O)Nc2ccccc2)C(=O)C[n+]3ccccc3.[Cl-],Ignored this reaction
+41,c12c(sc(C)[n+]1CC)[nH]c(c(C)c(C)cc3)c23.[I-]>>c12c(sc(C=CC=C3Sc(cccc4)c4N3CC)[n+]1CC)[nH]c(c(C)c(C)cc5)c25.[I-],Ignored this reaction
+42,c12c(ccc([nH]c(C)c3C)c13)[n+](CC)c(C)s2.[I-]>>c12c(ccc([n+](CC)c(C=CC=C3Sc(cccc4)c4N3CC)s5)c15)[nH]c(C)c2C.[I-],Ignored this reaction
+43,c12c(ccc([nH]c(C)c3C)c13)[n+](CC)c(C)s2.[I-].c12c(ccc([nH]c(C)c3C)c13)[n+](CC)c(C)s2.[I-]>>c12c(ccc([nH]c(C)c3C)c13)[n+](CC)c(C=CC=C4Sc(c5c([nH]c(C)c5C)cc6)c6N4CC)s2.[I-],Ignored this reaction
+44,c12c(nc(SC)[n+](C)c1N)n(C)cn2.[I-]>>c12c(nc(SC)nc1N)n(C)c[n+]2C.[I-],Ignored this reaction
+45,c12c(nc(SC)[n+](C)c1N)n(C)cn2.[I-]>>c12c(nc(SC)nc1N)n(C)c[n+]2C.Cl(=O)(=O)(=O)[O-],Ignored this reaction
+46,c(c(ccc1)c(Cl)cc2)(c1C(SC)=[N+]3CC)c23.[I-]>>B(F)(F)(F)F.c(c(ccc1)c(Cl)cc2)(c1C(C)=[N+]3CC)c23,Ignored this reaction
+47,c(c(ccc1)c(Cl)cc2)(c1C(SC)=[N+]3CC)c23.[I-]>>B(F)(F)(F)F.c(c(ccc1)c(Cl)cc2)(c2[N+](CC)=C3C=CC=C4N(CC)c5c(c(ccc6)c(Cl)cc5)c46)c13,Ignored this reaction
+48,c12c(ccc([n+](CC)c(C)s3)c13)n(C)c(C)c2C.[I-].c12c(ccc([n+](CC)c(C)s3)c13)n(C)c(C)c2C.[I-]>>c12c(ccc([n+](CC)c(C=CC=C3Sc(c4c(n(C)c(C)c4C)cc5)c5N3CC)s6)c16)n(C)c(C)c2C.[I-],Ignored this reaction
+49,c(c(ccc1)c(OC)cc2)(c1C(SC)=[N+]3CC)c23.[I-]>>c(c(ccc1)c(OC)cc2)(c1C(C)=[N+]3CC)c23.[I-],Ignored this reaction
+50,c(c(ccc1)c(N(C)C)cc2)(c1C(SC)=[N+]3CC)c23.[I-]>>c(c(ccc1)C(C)=[N+]2CC)(c1c(N(C)C)cc3)c23.[I-],Ignored this reaction
+51,c(c(ccc1)c(N(C)C)cc2)(c1C(SC)=[N+]3CC)c23.[I-]>>c(c(ccc1)c(N(C)C)cc2)(c1C(C=CC=C3N(CC)c4c(c(ccc5)c(N(C)C)cc4)c35)=[N+]6CC)c26.[I-],Ignored this reaction
+52,c12c(sc(C)[n+]1CC)n(C)c(c(C)ccc3C)c23.[I-]>>c12c(sc(C=CC=C3Sc(cccc4)c4N3CC)[n+]1CC)n(C)c(c(C)ccc5C)c25.[I-],Ignored this reaction
+53,c12c(sc(C)[n+]1CC)n(C)c(c(C)cc(C)c3)c23.[I-]>>c12c(sc(C=CC=C3Sc(cccc4)c4N3CC)[n+]1CC)n(C)c(c(C)cc(C)c5)c25.[I-],Ignored this reaction
+54,c12c(sc(C)[n+]1CC)n(C)c(c(C)c(C)cc3)c23.[I-]>>c12c(sc(C=CC=C3Sc(cccc4)c4N3CC)[n+]1CC)n(C)c(c(C)c(C)cc5)c25.[I-],Ignored this reaction
+55,[Br-].[N+]1(CC)(CCCCC1)c2ccc(NC(C)=O)cc2>>[Br-].[N+]1(CC)(CCCCC1)c2ccc(N=Cc3ccc(N(C)C)cc3)cc2,Ignored this reaction
+56,c(N1CCC2=O)(c23)c(c(ccc4)cc3)c4[N+](C)=C1.[I-]>>[N+]1(C)(C)CN2c(c(CCC2)cc3)c(c3ccc4)c14.[I-],Ignored this reaction
+57,c(c(cc(OC)c1)cc(OC)c2)(c1C(SC)=[N+]3CC)c23.[I-]>>c(c(cc(OC)c1)cc(OC)c2)(c1C(C)=[N+]3CC)c23.[I-],Ignored this reaction
+58,C(/SC=C1C([O-])=O)(\S1)=C(\SC=C2C([O-])=O)/S2.[K+]>>[C+](/SC=C1)(\S1)=C(/SC=C2)\S2.C(/SC=C3C([O-])=O)(\S3)=C(/SC=C4)\S4,Ignored this reaction
+59,c(c(ccc1)c(N(=O)=O)cc2)(c1C(SC)=[N+]3CC)c23.[I-]>>S([O-])(=O)(=O)c1ccc(C)cc1.c(c(ccc2)C(C)=[N+]3CC)(c2c(N(=O)=O)cc4)c34,Ignored this reaction
+60,c(c(ccc1)c(N(=O)=O)cc2)(c1C(SC)=[N+]3CC)c23.[I-]>>S([O-])(=O)(=O)c1ccc(C)cc1.c(c(ccc2)c(N(=O)=O)cc3)(c2C(C=CC=C4N(CC)c5c(c(ccc6)c(N(=O)=O)cc5)c46)=[N+]7CC)c37,Ignored this reaction
+61,[C+](/SC=C1C([O-])=O)(\S1)=C(\SC=C2C([O-])=O)/S2.[K+]>>[C+](/SC=C1)(\S1)=C(/SC=C2)\S2.C(/SC=C3C([O-])=O)(\S3)=C(/SC=C4)\S4,Ignored this reaction
+62,c12c(cccc1)[o+]ccc2OCC.Cl(=O)(=O)(=O)[O-]>>c1(cc(OCC)c(cccc2)c2[o+]1)c3ccccc3.Cl(=O)(=O)(=O)[O-],Ignored this reaction
+63,c12c(sc(C=CNc3ccccc3)[n+]1CC)[nH]c(c(C)c(C)cc4)c24.[I-]>>c12c(sc(C=CC=C3Sc(cccc4)c4N3CC)[n+]1CC)[nH]c(c(C)c(C)cc5)c25.[I-],Ignored this reaction
+64,S(=O)(=O)(Cl)c1ccccc1N(=O)=O.S(=O)(=O)(Cl)c1ccccc1N(=O)=O.S(=O)(=O)(Cl)c1ccccc1N(=O)=O>>c1(ccccc1N(=O)=O)S(=O)(=O)N=C2C=CC(=NS(=O)(=O)c3ccccc3)C=C2,Ignored this reaction
+65,S(=O)(=O)(Cl)c1ccccc1N(=O)=O.S(=O)(=O)(Cl)c1ccccc1N(=O)=O.S(=O)(=O)(Cl)c1ccccc1N(=O)=O>>c1(ccccc1N(=O)=O)S(=O)(=O)Nc2ccc(NS(=O)(=O)c3ccccc3)c(Cl)c2,Ignored this reaction
+66,c12c(sc(C=CNc3ccccc3)[n+]1CC)n(C)c(c(C)cc(C)c4)c24.[I-]>>c12c(sc(C=CC=C3Sc(cccc4)c4N3CC)[n+]1CC)n(C)c(c(C)cc(C)c5)c25.[I-],Ignored this reaction
+67,[Br-].[P+](Cc1ccc(C(=O)CBr)cc1)(c2ccccc2)(c3ccccc3)c4ccccc4>>[P+](Cc1ccc(C([O-])=C[n+]2cccc(c3c(cccc3)cc4)c24)cc1)(c5ccccc5)(c6ccccc6)c7ccccc7.[I-],Ignored this reaction
+68,N1(Cc2ccccc2)C(=NN=CN=Nc3nc(cccc4)c4n3Cc5ccccc5)Nc(cccc6)c16.Cl[H]>>Br[H].N1(Cc2ccccc2)C(=NN=CN=Nc3nc(cccc4)c4n3Cc5ccccc5)Nc(cccc6)c16,Ignored this reaction
+69,c1(ccccc1)S(=O)(=O)\N=C(\C=CC2=O)/C=C2>>c1(c(O)ccc(cccc2)c12)c3cc(N)ccc3O,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+70,N1(Cc2ccccc2)C(=NN=C(C)N=Nc3nc(cccc4)c4n3Cc5ccccc5)Nc(cccc6)c16.Cl[H]>>Br[H].N1(Cc2ccccc2)C(=NN=C(C)N=Nc3nc(cccc4)c4n3Cc5ccccc5)Nc(cccc6)c16,Ignored this reaction
+71,C(/SC=C1CCCCCCCCCCCCCCCCC)(=[N+](/CC)\CC)\S1.Cl(=O)(=O)(=O)[O-]>>B(F)(F)(F)F.c1(CCCCCCCCCCCCCCCCC)c[s+]cs1,Ignored this reaction
+72,C(/SC=C1CCCCCCCCCCCCCCCCC)(=[N+](/CC)\CC)\S1.Cl(=O)(=O)(=O)[O-]>>S([O-])(=O)(=O)OC.c1(CCCCCCCCCCCCCCCCC)c[s+]c(SC)s1,Ignored this reaction
+73,[P+](c1ccccc1)(c2ccccc2)(c3ccccc3)N=S(=O)(N(C)C)c4ccc(Cl)cc4.[Cl-]>>S(=O)(=N[S+](C)C)(N(C)C)c1ccc(Cl)cc1.[Cl-],Ignored this reaction
+74,N1([H])CCCCC1.C2(c3ccco3)C(C#N)C(S)NC(C)=C2C(=O)OCC>>c12c(NC(C)=C(C(=O)OCC)C1c3ccco3)sc(C(=O)c4ccccc4)c2N,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+75,c(c1c2c(cccc2)c3Oc4ccccc4)(c3C(=O)c(cccc5)c56)C6=C([n+]7ccccc7)C(=O)N1.[Cl-]>>C(=C1c2c(cccc2)C3=O)(C4=CC(=O)N1)C3=C(Oc5ccccc5)c(cccc6)c46,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+76,S([O-])(=O)(=O)OC.c1(ccccc1)C=[N+](C)CCOCC[N+](C)=Cc2ccccc2>>S([O-])(=O)(=O)OC.c1(ccccc1)C=[N+](C)CCOCCOCC[N+](C)=Cc2ccccc2,Ignored this reaction
+77,S([O-])(=O)(=O)OC.c1(ccccc1)C=[N+](C)CCOCC[N+](C)=Cc2ccccc2>>S([O-])(=O)(=O)OC.c1(ccccc1)C=[N+](C)CCOCCOCCOCC[N+](C)=Cc2ccccc2,Ignored this reaction
+78,S([O-])(=O)(=O)OC.c1(ccccc1)C=[N+](C)CCOCCOCC[N+](C)=Cc2ccccc2>>S([O-])(=O)(=O)OC.c1(ccccc1)C=[N+](C)CCOCCOCCOCC[N+](C)=Cc2ccccc2,Ignored this reaction
+79,S([O-])(=O)(=O)OC.c1(ccccc1)C=[N+](C)CCOCCOCCOCC[N+](C)=Cc2ccccc2>>S([O-])(=O)(=O)OC.c1(ccccc1)C=[N+](C)CCOCCOCC[N+](C)=Cc2ccccc2,Ignored this reaction
+80,n1ccccc1.c23c(ncn2[C@H]4C[C@H](O)[C@@H](COP(=O)(O)O)O4)C(=O)NC(NC(=O)c5ccccc5)=N3>>c12c(ncn1[C@H]3C[C@H](OP(=O)(OC)OC[C@H]4O[C@@H](n5cnc(c(ncn6)NC(=O)c7ccccc7)c56)C[C@@H]4O)[C@@H](COP(=O)(Nc8ccccc8)Nc9ccccc9)O3)C(=O)NC(NC(=O)c%10ccccc%10)=N2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+81,n1ccccc1.c23c(ncn2[C@H]4C[C@H](O)[C@@H](COP(=O)(O)O)O4)C(=O)NC(NC(=O)c5ccccc5)=N3>>c12c(ncn1[C@H]3C[C@H](OP(=O)(OC)OC[C@H]4O[C@@H](n5cnc(c(ncn6)NC(=O)c7ccccc7)c56)C[C@@H]4OC(C)=O)[C@@H](COP(=O)(Nc8ccccc8)Nc9ccccc9)O3)C(=O)NC(NC(=O)c%10ccccc%10)=N2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+82,n1ccccc1.c23c(ncn2[C@H]4C[C@H](OC(C)=O)[C@@H](COP(=O)(O)O)O4)c(ncn3)NC(=O)c5ccccc5>>c12c(ncn1[C@H]3C[C@H](OP(=O)(OC)OC[C@H]4O[C@@H](n5cnc(c(ncn6)NC(=O)c7ccccc7)c56)C[C@@H]4O)[C@@H](COP(=O)(Nc8ccccc8)Nc9ccccc9)O3)C(=O)NC(NC(=O)c%10ccccc%10)=N2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+83,c12c(C(=O)c(cccc3)c3C1=O)c(Nc4cccc(C)c4)cc(Br)c2[N+]#N.[Na+].S([O])([O])(=O)=O>>c12c(c(no3)c(Br)cc1Nc4cccc(C)c4)c3c(cccc5)c5C2=O,Ignored this reaction
+84,c12c(C(=O)c(cccc3)c3C1=O)c(Nc4cccc(C)c4)cc(Br)c2[N+]#N.[Na+].S([O])([O])(=O)=O>>c(c(on1)c2c(cccc2)C3=O)(c1c(c4cc(C(C)(C)C)c(O)c(C(C)(C)C)c4)cc5Nc6cccc(C)c6)c35,Ignored this reaction
+85,c12c(C(=O)c(cccc3)c3C1=O)c(cc(Br)c2[N+]#N)Nc4ccccc4OC.[Na+].S([O])([O])(=O)=O>>c(c(no1)c(Br)cc2Nc3ccccc3OC)(c1c4c(cccc4)C5=O)c25,Ignored this reaction
+86,c12c(C(=O)c(cccc3)c3C1=O)c(cc(Br)c2[N+]#N)Nc4ccccc4OC.[Na+].S([O])([O])(=O)=O>>c(c(on1)c2c(cccc2)C3=O)(c1c(c4cc(C(C)(C)C)c(O)c(C(C)(C)C)c4)cc5Nc6ccccc6OC)c35,Ignored this reaction
+87,[S+](NC(=O)c1ccccc1)(NC(=O)c2ccccc2)c3ccc(Cl)cc3.[Cl-]>>c1(ccccc1)C(N)=O.Cl[H],Ignored this reaction
+88,C(C)(C)(C)[Si-](C(C)(C)C)C(C)(C)C.[Na+].C(C)(C)(C)[Si-](C(C)(C)C)C(C)(C)C.[Na+]>>[Si](C(C)(C)C)(C(C)(C)C)(C(C)(C)C)p1p(P2[Si](C(C)(C)C)(C(C)(C)C)C(C)(C)C)p12,Ignored this reaction
+89,c12c(cccc1)ccc(cccc3)c3ss2>>c12c(sc(cccc3)c13)c(cccc4)c4S2(=O)=O,"element: can not calculate valence of S (1 aromatic bonds, min connectivity 1, charge 0)"
+90,C(=O)(OC(C)C)\C=C(/C)\C=C\CCCCOC(C)C>>c1(ccccc1)COC(=O)\C=C(\C)/C=C/CCCCOC(C)C,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+91,C(=O)(OC(C)C)\C=C(/C)\C=C\CCCCOC(C)C>>c1(ccccc1)COC(=O)\C=C(/C)\C=C\CCCCOC(C)C,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+92,C(/SC=C1C([O-])=O)(\S1)=[C+](/SC=C2)\S2.C(/SC=C1C([O-])=O)(\S1)=[C+](/SC=C2)\S2>>C(/SC=C1C(=O)O)(\S1)=C(/SC=C2)\S2.C(/SC(C)=C3C)(\S3)=C(/SC(C)=C4C)\S4.[Cl-],Ignored this reaction
+93,c1(c2cccc1)\C(=N\NC(=O)C(C)(C)O)\C(=O)N2C>>c1(c2cccc1)\C(=N/Nc3ccccc3)\C(=O)N2C,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+94,c1(c2cccc1)\C(=N\NC(=O)C(C)(C)O)\C(=O)N2CC>>C(=N\Nc1ccccc1)(/C2=O)\c3c(cccc3)N2CC,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+95,c12c(cccc1N(=O)=O)c(Cl)c(C(=O)C=CC3=O)c3c2O>>c12c(c(O)c(C)cc1O)C(=O)c(cccc3O)c3C2=O,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+96,C(/C=C/c1ccccc1)(\c2ccccc2)=C(/C#N)\C(\N)=C(\C#N)/C#N>>c1(cc(c2ccccc2)nc([C-](C#N)C#N)c1C#N)c3ccccc3.O([H])[H].[K+],Ignored this reaction
+97,C(/C=C/c1ccccc1)(\c2ccccc2)=C(\C#N)/C(/N)=C(/C#N)\C#N>>C1(=CC(c2ccccc2)NC([C-](C#N)C#N)=C1C#N)c3ccccc3.O([H])[H].[K+],Ignored this reaction
+98,C(/C=C/c1ccccc1)(\c2ccccc2)=C(\C#N)/C(/N)=C(/C#N)\C#N>>c1(cc(c2ccccc2)nc([C-](C#N)C#N)c1C#N)c3ccccc3.O([H])[H].[K+],Ignored this reaction
+99,C(/C=C/c1ccccc1)(\c2ccc(C)cc2)=C(\C#N)/C(/N)=C(/C#N)\C#N>>C1(=CC(c2ccccc2)NC([C-](C#N)C#N)=C1C#N)c3ccc(C)cc3.O([H])[H].[K+],Ignored this reaction
+100,C(/C=C/c1ccccc1)(\c2ccc(C)cc2)=C(\C#N)/C(/N)=C(/C#N)\C#N>>c1(cc(c2ccccc2)nc([C-](C#N)C#N)c1C#N)c3ccc(C)cc3.O([H])[H].[K+],Ignored this reaction
+101,C(/C=C/c1ccc(F)cc1)(\c2ccccc2)=C(\C#N)/C(/N)=C(/C#N)\C#N>>C1(=CC(c2ccc(F)cc2)NC([C-](C#N)C#N)=C1C#N)c3ccccc3.O([H])[H].[K+],Ignored this reaction
+102,C(/C=C/c1ccc(Cl)cc1)(\c2ccccc2)=C(\C#N)/C(/N)=C(/C#N)\C#N>>C1(=CC(c2ccc(Cl)cc2)NC([C-](C#N)C#N)=C1C#N)c3ccccc3.O([H])[H].[K+],Ignored this reaction
+103,C(=NC(=O)\N=C(\c1ccccc1)/c2ccccc2)(C(F)(F)F)c3ccccc3>>C(=N\C(=O)\N=C(\c1ccccc1)/c2ccccc2)(/c3ccccc3)\c4ccccc4,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+104,C12(C=C(C(C)(C)C)C(=O)C(C(C)(C)C)=C1)C=C(C(C)=O)C(C(C)=O)C2c3cc(C(C)(C)C)c(O)c(C(C)(C)C)c3>>C(F)(F)(F)C(=O)O.C1(c2cc(C(C)(C)C)c(O)c(C(C)(C)C)c2)c3c(cc(C(C)(C)C)c(O)c3)Cc(c(C)nnc4C)c14,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+105,B(F)(F)(F)F.c12c(cccc1)sc(\C=C(\Cl)/Cl)[n+]2C>>B(F)(F)(F)F.c1(sc(cccc2)c2[n+]1C)C(Cl)=C(Cl)C(Cl)=C3Sc(cccc4)c4N3C,Ignored this reaction
+106,C(C)(CCC(OC)OC)=CC(=O)OCC>>c1(ccccc1)OC\C(\C)=C\CCC(C)CCOC,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+107,c1(ccc(CCCC2)c2c1)[C@H](O)[C@@H](C)NC(C)C.Cl[H]>>c1(ccc(CCCC2)c2c1)[C@H](O)[C@H](C)NC(C)C.Cl[H],Ignored this reaction
+108,c1(ccc(CCCC2)c2c1)[C@H](O)[C@@H](C)N(CC)CC.Cl[H]>>c1(ccc(CCCC2)c2c1)[C@H](O)[C@H](C)N(CC)CC.Cl[H],Ignored this reaction
+109,c1(ccc(CCCC2)c2c1)[C@H](O)[C@@H](C)N3CCCCC3.Cl[H]>>c1(ccc(CCCC2)c2c1)[C@H](O)[C@H](C)N3CCCCC3.Cl[H],Ignored this reaction
+110,c1(cc(C)c(C#N)c(C)c1)c2ccc(OCC)cc2>>c1(ccc(OC(=O)c2ccc(CCCCC)cc2)cc1)c3cc(C)c(C#N)c(C)c3,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+111,c1(cc(C)c(C(=O)Cl)c(C)c1)c2ccc(OCC)cc2>>c1(ccc(OC(=O)c2ccc(CCCCC)cc2)cc1)c3cc(C)c(C#N)c(C)c3,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+112,c1(cc(C)c(C(=O)O)c(C)c1)c2ccc(OCC)cc2>>c1(ccc(OC(=O)c2ccc(CCCCC)cc2)cc1)c3cc(C)c(C#N)c(C)c3,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+113,c1(cc(C)c(C(N)=O)c(C)c1)c2ccc(OCC)cc2>>c1(ccc(OC(=O)c2ccc(CCCCC)cc2)cc1)c3cc(C)c(C#N)c(C)c3,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+114,C1(C(=O)OCC)=C(C)C=C(c2ccc(OCC)cc2)CC1C>>c1(cc(C)c(C(=O)Oc2ccc(CC)cc2)c(C)c1)c3ccc(OCC)cc3,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+115,C1(C(=O)OCC)=C(C)C=C(c2ccc(OCC)cc2)CC1C>>c1(ccc(OC(=O)c2ccc(CCCCC)cc2)cc1)c3cc(C)c(C#N)c(C)c3,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+116,c1(C(=O)OCC)c(C)cc(c2ccc(OCC)cc2)cc1C>>c1(cc(C)c(C(=O)Oc2ccc(CC)cc2)c(C)c1)c3ccc(OCC)cc3,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+117,c(c(CC1)ccc2C(C)=O)(c1ccc3OC(=O)c4ccc(C)cc4)c23>>c(c1OC(c2ccc(C)cc2)=CC3=O)(c34)c(c(CC5)cc4)c5cc1,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+118,c(c(ccc1O)CC2)(c2ccc3C(C)=O)c13>>c(c1[O+]=C(c2ccc(C)cc2)C=C3OCC)(c34)c(c(CC5)cc1)c5cc4.Cl(=O)(=O)(=O)[O-],"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+119,c(c(ccc1O)CC2)(c2ccc3C(C)=O)c13>>c(c1[O+]=C(c2ccc(OC)cc2)C=C3OCC)(c34)c(c(CC5)cc1)c5cc4.Cl(=O)(=O)(=O)[O-],"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+120,C1(=C(C)Oc(cc(OC(C)=O)cc2)c2C1=O)c3cnn(c4ccccc4)c3>>C1(=C(C)Oc(cc(OCc2ccccc2)cc3)c3C1=O)c4cnn(c5ccccc5)c4,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+121,[Br-].[P+]1(CC(O)=C[P+](c2ccccc2)(c3ccccc3)C1)(c4ccccc4)c5ccccc5>>P1(=CC=C[P+](c2ccccc2)(c3ccccc3)C1)(c4ccccc4)c5ccccc5.Cl(=O)(=O)(=O)[O-],Ignored this reaction
+122,[Br-].[P+]1(CC(O)=C[P+](c2ccccc2)(c3ccccc3)C1)(c4ccccc4)c5ccccc5>>[P+]1(CC=C[P+](c2ccccc2)(c3ccccc3)C1)(c4ccccc4)c5ccccc5.Cl([O])(=O)(=O)=O,Ignored this reaction
+123,C1(=O)c2c(cc(OC(C)=O)cc2C)OC(C)=C1c3cnn(c4ccccc4)c3>>C1(=O)c2c(cc(OCc3ccccc3)cc2C)OC(C)=C1c4cnn(c5ccccc5)c4,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+124,c12c(ccc(CCCC)c1O)Cc(c(O)c(CCCC)cc3)c3C2=O>>c(c(SS1)cc(CCCC)c2O)(c23)C1=C4C(=C(Nc5ccccc5)C=C(CCCC)C4=O)C3=O,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+125,c1(C#C)ccccc1>>c1(c[nH]c(cccc2)c12)c3ccc(c4c[nH]c(cccc5)c45)s3,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+126,C1(=O)CCCC1>>c1(c2cc(CCC3)c3n1)\C(\CC2)=C(\CCC4)/C4,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+127,C1(=O)CCCC1>>c1(c2cc(CCC3=Cc4ccccc4)c3n1)\C(\CC2)=C(\CCC5)/C5,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+128,C1(=O)CCCC1>>c1(c2cc(CCC3=Cc4ccc(OC)cc4)c3n1)\C(\CC2)=C(\CCC5)/C5,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+129,C1(=O)CCCC1>>c12c(CCC1=Cc3ccc(OC)cc3)cc(cccc4)c4[o+]2.Cl(=O)(=O)(=O)[O-],"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+130,C1(=O)CCCC1>>c12c(ccc(C=C3CCc(cc(cccc4)c4[o+]5)c35)c1)n(CC)c(cccc6)c26.Cl(=O)(=O)(=O)[O-],"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+131,c1(N)ccccc1.c1(N)ccccc1.c1(N)ccccc1.c1(N)ccccc1>>c1(cc2c(cccc2)c(N=Nc3ccccc3)c1O)C(=Nc4ccccc4)Nc5ccccc5,Ignored this reaction
+132,c1(N)ccccc1.c1(N)ccccc1>>C1(=CC(=O)C(N(=O)=O)=C2)C2=Cc(cccc3)c3N1C.I[H],Ignored this reaction
+133,c1(N)ccccc1.c1(N)ccccc1>>c12c(cc(cccc3)c3[n+]1C)cc(N(=O)=O)c(OC)c2.[I-],Ignored this reaction
+134,c1(N)ccccc1.c1(N)ccccc1.c1(N)ccccc1>>N(Cc1ccccc1)(C(=C)C2CC2)C(=O)c3ccccc3,Ignored this reaction
+135,c1(N)ccccc1.c1(N)ccccc1.c1(N)ccccc1.c1(N)ccccc1>>c12c(c(NC)ccc1Nc3ccccc3)C(=O)c(cccc4Nc5ccccc5)c4C2=O,Ignored this reaction
+136,c1(N)ccccc1.c1(N)ccccc1.c1(N)ccccc1.c1(N)ccccc1>>c12c(c(Nc3ccccc3)ccc1Nc4ccccc4)C(=O)c(cccc5N(=O)=O)c5C2=O,Ignored this reaction
+137,c1(N)ccccc1.c1(N)ccccc1.c1(N)ccccc1.c1(N)ccccc1>>c12c(ccc(Nc3ccc(C)cc3)c1)N=C4C(=C\C(=N\c5ccccc5)\C=C4)S2,Ignored this reaction
+138,c1(N)ccccc1.c1(N)ccccc1.c1(N)ccccc1.c1(N)ccccc1.c1(N)ccccc1.c1(N)ccccc1.c1(N)ccccc1.c1(N)ccccc1>>[P+](c1ccccc1)(c2ccccc2)(c3ccccc3)C4P(Nc5ccccc5)C(=P(c6ccccc6)(c7ccccc7)c8ccccc8)P4Nc9ccccc9.[Cl-],Ignored this reaction
+139,c1(Cl)ccccc1.c1(Cl)ccccc1.c1(Cl)ccccc1>>B(F)(F)(F)F.[n+]1(nc(c2ccc(Cl)cc2)ccc1OCC)c3ccccc3,Ignored this reaction
+140,C(=O)(Cl)CCCCCC>>c1(ccc(CCCCCCC)cc1)c2ccc(C#N)cc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+141,C(=O)(Cl)CCCCCC>>c1(ccc(CCCCCCC)cc1)c2ccc(C=NO)cc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+142,c1(N=O)ccccc1.c1(N=O)ccccc1.c1(N=O)ccccc1>>C12(CCCCC1)ON(c3ccccc3)C(C(=O)c4ccccc4)C2,Ignored this reaction
+143,c1(S)ccc(C)cc1.c1(S)ccc(C)cc1>>c1(scc(Sc2ccc(C)cc2)n1)c3ccccc3,"element: can not calculate valence of S (1 aromatic bonds, min connectivity 1, charge 0)"
+144,c1(ccccc1)C(C)=O>>c1(c2ccc(c3ccccc3)n1)\C(\CC2)=C(\CCC4)/C4,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+145,c1(ccccc1)C(C)=O>>c1(cc(C(C)C)cc(c2ccccc2)n1)c3ccccc3,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+146,c1(ccccc1)C(C)=O>>N1(N=C(c2ccccc2)CC1c3ccccc3)c4ccc(c5cc(c6ccccc6)nc(c7ccccc7)c5)cc4,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+147,c1(ccccc1)C(C)=O>>N1(N=C(c2ccccc2)CC1c3ccccc3)c4ccc(c5cc(c6ccccc6)[s+]c(c7ccccc7)c5)cc4.Cl(=O)(=O)(=O)[O-],"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+148,c1(CS)ccccc1.c1(CS)ccccc1.c1(CS)ccccc1>>C(=O)(NC(CSCc1ccccc1)CSCc2ccccc2)c3ccccc3,Ignored this reaction
+149,c1(CS)ccccc1.c1(CS)ccccc1.c1(CS)ccccc1>>S(=O)(=O)(NC(CSCc1ccccc1)CSCc2ccccc2)c3ccc(C)cc3,Ignored this reaction
+150,c1(Cl)ccc(S)cc1.c1(Cl)ccc(S)cc1.c1(Cl)ccc(S)cc1>>S(=O)(=O)(c1ccc(Cl)cc1)C(Sc2ccc(Cl)cc2)S(=O)(=O)c3ccc(Cl)cc3,Ignored this reaction
+151,c1(O)ccccc1N.c1(O)ccccc1N>>c1(ccccc1OCC(=O)O)NC(=O)C(=C)C,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+152,c1(S)ccccc1N>>c1(nc(cccc2)c2s1)c3ccc(C=Cc4nc(cccc5)c5s4)o3,"element: can not calculate valence of S (1 aromatic bonds, min connectivity 1, charge 0)"
+153,c1(Cl)ccccc1N>>n12c(cccc1)nc(cccc3)c23,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+154,c1(NN)ccccc1.c1(NN)ccccc1>>N(CC=C)(N=C(C)CC)c1ccccc1,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+155,c1(ccccc1)NC(C)=O>>C(C(C)C)(Nc1ccccc1)c2ccccc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+156,c1(ccccc1)C(=O)CBr>>c12n(cc(C)c(Cc3ccc(CC)cc3)c1)cc(c4ccccc4)c2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+157,c1(C[O-])ccccc1.[Na+]>>c(c(no1)c(N=N#N)cc2OCc3ccccc3)(c1c4c(cccc4)C5=O)c25,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+158,c1(ccc(C)cc1)C(=O)CBr>>c12c(ccc[n+]1C=C([O-])c3ccc(C)cc3)c4c(cccc4)cc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+159,c1(ccc(C)cc1)C(=O)CBr>>c12n(cc(C)c(Cc3ccc(C)c(C)c3C)c1)cc(c4ccc(C)cc4)c2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+160,C(=O)(O)CCCCCCCCCCCCCCCCC>>c1(CCCCCCCCCCCCCCCCCC)ccc(O)c(O)c1,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+161,C(=O)(O)CCCCCCCCCCCCCCCCC.C(=O)(O)CCCCCCCCCCCCCCCCC>>c1(OC(=O)CCCCCCCCCCCCCCCCC)ccc(CCCCCCCCCCCCCCCCCC)cc1O,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+162,C([O-])(C(F)(F)F)(C(F)(F)F)c1ccccc1.[Na+]>>C(OC1=Cc(nc2nc(nc(c(OC(C(F)(F)F)(C(F)(F)F)c3ccccc3)c4)[n-]c4nc(c(OC(C(F)(F)F)(C(F)(F)F)c5ccccc5)c6)nc6n7)cc2OC(C(F)(F)F)(C(F)(F)F)c8ccccc8)[n-]c17)(C(F)(F)F)(C(F)(F)F)c9ccccc9.[Mg+2],Ignored this reaction
+163,C(Br)(C(=O)OCC)c1ccccc1>>C1(C(=O)OCC)(C(=O)OCC)Cc2c(cccc2)\C(=N/O)\C1c3ccccc3,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+164,c1(ccc(N(=O)=O)cc1)C(Cl)=NO>>c1(ccc(N(=O)=O)cc1N(=O)=O)c2nocc2N(=O)=O,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+165,c1(N(=O)=O)cc(N(=O)=O)ccc1Cl.c1(N(=O)=O)cc(N(=O)=O)ccc1Cl.c1(N(=O)=O)cc(N(=O)=O)ccc1Cl>>c1(N(=O)=O)cc(N(=O)=O)ccc1Nc2ccc(Nc3ccccc3)c(Cl)c2,Ignored this reaction
+166,[C@H]1(CC[C@@H](C(=O)OCC)CC1)c2ccccc2>>[C@H]1(CC[C@@H](COc2ccc(CCC)cc2)CC1)c3ccc(C#N)cc3,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+167,[C@H]1(CC[C@@H](C(=O)OCC)CC1)c2ccccc2>>c1(ccc(OC[C@@H]2CC[C@@H](c3ccc(C#N)cc3)CC2)cc1)[C@@H]4CC[C@@H](CCCCC)CC4,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+168,[C@H]1(CC[C@@H](COC(C)=O)CC1)c2ccccc2>>[C@H]1(CC[C@@H](COc2ccc(CCC)cc2)CC1)c3ccc(C#N)cc3,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+169,[C@H]1(CC[C@@H](COC(C)=O)CC1)c2ccccc2>>c1(ccc(OC[C@@H]2CC[C@@H](c3ccc(C#N)cc3)CC2)cc1)[C@@H]4CC[C@@H](CCCCC)CC4,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+170,[C@H]1(CC[C@@H](COC(C)=O)CC1)c2ccc(C(C)=O)cc2>>[C@H]1(CC[C@@H](COc2ccc(CCC)cc2)CC1)c3ccc(C#N)cc3,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+171,[C@H]1(CC[C@@H](COC(C)=O)CC1)c2ccc(C(C)=O)cc2>>c1(ccc(OC[C@@H]2CC[C@@H](c3ccc(C#N)cc3)CC2)cc1)[C@@H]4CC[C@@H](CCCCC)CC4,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+172,c1(N(=O)=O)cc(N(=O)=O)ccc1NN.c1(N(=O)=O)cc(N(=O)=O)ccc1NN.c1(N(=O)=O)cc(N(=O)=O)ccc1NN>>C1(C)(NNc2ccc(N(=O)=O)cc2N(=O)=O)C(C)(C)C(C)=NN1c3ccc(N(=O)=O)cc3N(=O)=O,Ignored this reaction
+173,C1(c2ccccc2)=C(OC(=O)C1=O)c3ccccc3>>C1(=C(O)C(=O)NN=C1c2ccccc2)c3ccccc3,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+174,C(CC)CC#C>>c12c(cccc1)cccc2NC(=O)OCCCCCCCCC\C=C\C=C\CCCC,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+175,C(C)(C)(O)C#C>>C(C)(O)(c1ccccc1)C(C)(O)C=CC(C)(C)O,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+176,C(=O)(CC)CC>>c12c3[nH]c(nc4nc(nc(c(cc(OC(CC)(CC)O5)c5c6)c67)[nH]c7nc(c(cc(OC(CC)(CC)O8)c8c9)c9%10)nc%10n3)c(cc(OC(CC)(CC)O%11)c%11c%12)c4%12)c1cc(OC(CC)(CC)O%13)c%13c2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+177,c1(C)ccccc1>>B(F)(F)(F)F.c1(ccc(OCC)[n+](C)n1)c2ccc(C)cc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+178,c1(C)ccccc1>>B(F)(F)(F)F.[n+]1(nc(c2ccc(C)cc2)ccc1OCC)c3ccccc3,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+179,C(CCCCCC)C(=O)Cl>>c1(ccc(CCCCCCCC)cc1)c2ccc(C#N)cc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+180,C(CCCCCC)C(=O)Cl>>c1(ccc(CCCCCCCC)cc1)c2ccc(C=NO)cc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+181,C(CCCCCCCCC)CCCCCCCCN.C(CCCCCCCCC)CCCCCCCCN>>C(/SC(CCCCCCCCCCCCCCCCC)=C1CCCCCCCCCCCCCCCCC)(\S1)=[N+](/CC)\CC.S(=O)(=O)([O-])O,Ignored this reaction
+182,c1(ccccc1)C(C)N>>c12c(ccc(C(=O)N(C(C)c3ccccc3)N4)c14)C(=O)c(cccc5)c5C2=O,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+183,c1(ccccc1)C(C)N>>c(c(ccc1C(=O)NC(C)c2ccccc2)C(=O)c(cccc3)c34)(c1no5)c45,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+184,c1(ccccc1)C(C)N>>c12c(ccc(C(=O)NC(C)c3ccccc3)c1N=N#N)C(=O)c(cccc4)c4C2=O,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+185,C(N)(CCSC)C(=O)O>>C1(O)(CCOCC1)CN(CC(=O)O)C(CC[S+](C)CC(=O)O)C(=O)O.Cl[H].[Cl-],Ignored this reaction
+186,c1(ccccc1)S(=O)O>>S(=O)(=O)(c1ccccc1)c2cc3c(N=C4C(=C\C(=[N+](\CC)/CC)\C=C4)O3)c(cccc5)c25.N(=O)(=O)[O-],"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+187,c1(ccccc1)S(=O)O>>S(=O)(=O)(c1ccccc1)c2cc3c(N=C4C(=C\C(=[N+](\C)/C)\C=C4)O3)c(cccc5)c25.[Cl-],"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+188,P(c1ccccc1)(c2ccccc2)(c3ccccc3)=C4P=C([P+](c5ccccc5)(c6ccccc6)c7ccccc7)P4N(CC)CC.[Cl-]>>[Al](Cl)(Cl)(Cl)Cl.P(c1ccccc1)(c2ccccc2)(c3ccccc3)=C4P=C([P+](c5ccccc5)(c6ccccc6)c7ccccc7)P4(=[Se])N(CC)CC,Ignored this reaction
+189,c1([Mg]Br)cccc(C)c1.c1([Mg]Br)cccc(C)c1.c1([Mg]Br)cccc(C)c1>>C1(SC(=S)c(cccc2)c12)(c3cccc(C)c3)c4cccc(C)c4,Ignored this reaction
+190,c1([Mg]Br)ccc(C)cc1>>C1(C)(c2ccc(C)cc2)C(=O)c3c(c(ccc3)ccc4)c14,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+191,c1(C=O)cc(Cl)ccc1O.c1(C=O)cc(Cl)ccc1O>>c12c(ccc(C=Cc3ccc(OC)cc3)[o+]1)cc(Cl)cc2.Cl(=O)(=O)(=O)[O-],Ignored this reaction
+192,[C@H]1(CCCC)CCCC(=O)O1>>c1(ccccc1)C(=O)OCCCC[C@@H](F)CCCC,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+193,c1(ccccc1)C(=O)CCC(=O)O>>C1(=CC=C(c2ccccc2)C1)c3ccccc3,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+194,c1(ccccc1)C(=O)CCC(=O)O>>C(=C\c1ccccc1)(/C(=C2)c3ccccc3)\C(=C2)c4ccccc4,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+195,c1(ccccc1)C(=O)CCC(=O)O>>C1(c2ccccc2)=C(C(=O)OCC)C=C(c3ccccc3)C1,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+196,C(C(=O)OCC)C(=O)CC(=O)OCC>>C(F)(F)(Cc1nc(cccc2)c2s1)Cc3nc(cccc4)c4s3,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+197,c1(ccccc1)NN=C(Cl)C(C)=O>>n1(nc(C(C)=O)cc1C(=C)C)c2ccccc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+198,C(=N\Nc1ccccc1N)(/C(=O)OCC)\C(=O)OCC>>n12c(SCC(c3ccccc3)=N1)nc(cccc4)c24,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+199,[P+](CC(C)=O)(c1ccccc1)(c2ccccc2)c3ccccc3.Cl(=O)(=O)(=O)[O-]>>[P+](C=CC)(c1ccccc1)(c2ccccc2)c3ccccc3.Cl(=O)(=O)(=O)[O-],Ignored this reaction
+200,[P+](CC(=O)CC)(c1ccccc1)(c2ccccc2)c3ccccc3.Cl(=O)(=O)(=O)[O-]>>[P+](C=CCC)(c1ccccc1)(c2ccccc2)c3ccccc3.Cl(=O)(=O)(=O)[O-],Ignored this reaction
+201,[C@@H]1(CCl)[C@H]2C[C@H](C=C2)[C@@H]1CCl>>c12c(cc(cc(Br)c(Br)c3)c3c1)[C@H](C(=C)C4=C)C[C@@H]24,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+202,[C@@H]1(CCl)[C@H]2C[C@H](C=C2)[C@@H]1CCl>>C12CC(C(CC([C@@H](c(cc(cc(Br)c(Br)c3)c3c4)c45)C[C@@H]56)=C6C7)=C17)C(CC([C@H](c(cc(cc(Br)c(Br)c8)c8c9)c9%10)C[C@H]%10%11)=C%11C%12)=C2%12,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+203,C(C)(=O)CC(C)=O>>[Te](OC(C)=CC(C)=O)(OC(=O)C(Cl)Cl)(c1ccc(OC)cc1)c2ccc(OC)cc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+204,C(C)(=O)CC(C)=O>>[Te](OC(C)=CC(C)=O)(OC(=O)C(F)(F)F)(c1ccc(OC)cc1)c2ccc(OC)cc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+205,C(C)(=O)CC(C)=O>>[Te](OC(C)=CC(C)=O)(OC(=O)C(Cl)(Cl)Cl)(c1ccc(OC)cc1)c2ccc(OC)cc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+206,c1(N)ccccc1C.c1(N)ccccc1C.c1(N)ccccc1C>>c12c(ccc(C(=O)Nc3ccccc3C)c1N=N#N)C(=O)c(cccc4)c4C2=O,Ignored this reaction
+207,c1(NC)ccccc1>>c(c(ccc1)ccc2)(c1OC3=[N+](C)c4ccccc4)c23.Cl(=O)(=O)(=O)[O-],"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+208,c1(CN)ccccc1.c1(CN)ccccc1.c1(CN)ccccc1>>c12c(ccc(C(=O)NCc3ccccc3)c1N=N#N)C(=O)c(cccc4)c4C2=O,Ignored this reaction
+209,C1(CCCCC1)C(=O)Cl>>c1(occ(C)c1)C2CCCCC2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+210,C1(CCCCC1)C(=O)Cl.C1(CCCCC1)C(=O)Cl.C1(CCCCC1)C(=O)Cl>>c1(ccc(OC(=O)C2CCCCC2)cc1)C3OCC(CCCC)CO3,Ignored this reaction
+211,c1(ccccc1)[P-]c2ccccc2.[K+].c1(ccccc1)[P-]c2ccccc2.[K+]>>P(c1ccccc1)(c2ccccc2)[C@H]3CCN(C(=O)CP(c4ccccc4)c5ccccc5)C3,Ignored this reaction
+212,c1(SCl)ccccc1.c1(SCl)ccccc1.c1(SCl)ccccc1>>S(=O)(=O)(N=S(NC(=O)c1ccccc1)c2ccccc2)c3ccc(C)cc3,Ignored this reaction
+213,c1(SCl)ccccc1.c1(SCl)ccccc1.c1(SCl)ccccc1>>C(=N\S(=O)c1ccccc1)(/c2ccccc2)\c3ccccc3,Ignored this reaction
+214,c1(SCl)ccccc1.c1(SCl)ccccc1.c1(SCl)ccccc1.c1(SCl)ccccc1>>C(Sc1ccccc1)(NS(=O)(=O)c2ccc(Cl)cc2)(C(=O)c3ccccc3)C(=O)c4ccccc4,Ignored this reaction
+215,c1(SCl)ccccc1.c1(SCl)ccccc1.c1(SCl)ccccc1>>C(=N\[S+](Cl)c1ccccc1)(/c2ccccc2)\c3ccccc3.[Cl-],Ignored this reaction
+216,c1(S)cc(C)ccc1N.c1(S)cc(C)ccc1N.c1(S)cc(C)ccc1N>>c1(cc(C)ccc1NC(=O)c2ccccc2)SC(=O)c3ccccc3,Ignored this reaction
+217,c1(C=O)cc(Br)ccc1O.c1(C=O)cc(Br)ccc1O>>c12c(ccc(C=Cc3ccc(OC)cc3)[o+]1)cc(Br)cc2.Cl(=O)(=O)(=O)[O-],Ignored this reaction
+218,C(Nc1ccc(C)cc1)(=N2)\C(=N\c3ccc(C)cc3)\N=C2c4ccccc4>>c1([nH]c(c2ccccc2)nc1NCCc3ccccn3)\N=C(/N=C4c5ccccc5)\C(NCCc6ccccn6)=N4,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+219,O1C(=O)CCC[C@@H]1C>>c1(ccccc1)C(=O)OCCCC[C@H](C)O,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+220,c1(Cl)cc(Cl)c(N)cc1Cl>>c12c(cc(Cl)c(Cl)c1)nc(cccc3)n23,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+221,c(c(ccc1)ccc2)(c1C(=O)C3=O)c23>>C1(C)(c2ccc(C)cc2)C(=O)c3c(c(ccc3)ccc4)c14,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+222,[C@H](O)(CCCC)CCCCO.[C@H](O)(CCCC)CCCCO.[C@H](O)(CCCC)CCCCO>>c1(ncc(OCCCC[C@H](F)CCCC)cn1)c2ccc(OCCCCCCCCCC)cc2,Ignored this reaction
+223,c1(ccc(F)cc1F)\C(\C)=N\NC(N)=S.c1(ccc(F)cc1F)\C(\C)=N\NC(N)=S>>c1(nn(c2scc(c3ccccc3)n2)cc1C=O)c4ccc(F)cc4F,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+224,C12(O)C(CCCC1)C(c3ccccc3)C(CCC4)C(=O)C24>>c1(c2ccccc2)c3c(CCCC3)nc(C(CCC4)=Cc5ccc(OC)cc5)c14,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+225,C(=C)(C)C=C>>S(=O)(=O)(NCCC(=C)C)c1ccc(C)cc1,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+226,C(=C)(C)C=C.C(=C)(C)C=C>>c1(ccccc1)C(O)CC\C=C(\C)/C,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+227,C(=C)(C)C=C>>S(=O)(=O)(NCCC(=C)C)c1ccc(Cl)cc1,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+228,C(=C)(C)C=C.C(=C)(C)C=C>>S(=O)(=O)(NCCC(=C)C)c1ccccc1N(=O)=O,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+229,C(=C)(C)C=C.C(=C)(C)C=C>>c1(cccc(N(=O)=O)c1)S(=O)(=O)NCCC(=C)C,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+230,C(=C)(C)C=C>>S(=O)(=O)(NCCC(=C)C)c1ccc(N(=O)=O)cc1,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+231,C(=C)(C)C#C>>c1(ccccc1)C(=O)C#CC(=C)C,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+232,C(=C)(C)C#C>>C(C(=C)C)(Nc1ccccc1)=CC(=O)c2ccccc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+233,c1ccccc1.c1ccccc1.c1ccccc1>>C(F)(F)(C(F)(F)C(F)(F)Sc1ccc(Cl)cc1)C(F)(F)C(F)(F)C(F)(F)Sc2ccc(Cl)cc2,Ignored this reaction
+234,C(C)(O)(C#C)CC>>C(C)(O)(c1ccccc1)C(C)(O)C=CC(C)(O)CC,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+235,C(OCCO)COCCO.C(OCCO)COCCO.C(OCCO)COCCO>>[C@@H]12[C@H](OCCOCCOCCOCCOCCOCCO1)CCCC2,Ignored this reaction
+236,C(OCCO)COCCO.C(OCCO)COCCO.C(OCCO)COCCO>>[C@@H]12[C@H](OCCOCCOCCOCCOCCOCCOCCO1)CCCC2,Ignored this reaction
+237,c1(O)ccccc1.c1(O)ccccc1.c1(O)ccccc1>>C(CCCCC)(COc1ccccc1)OC(=O)Nc2ccccc2,Ignored this reaction
+238,c1(O)ccccc1.c1(O)ccccc1>>C(=S)(N(CC)CC)C(C)Oc1ccccc1,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+239,c12c(OC(C)OC1)c(C)ncc2CO>>c12c(OC(C)OC1)c(\C=C\c3ccccc3)[n+](C)cc2CO.[I-],"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+240,c12c(OC(C)OC1)c(C)ncc2CO>>c12c(OC(C)OC1)c(\C=C\c3ccc(OC)cc3)[n+](C)cc2CO.[I-],"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+241,c1(c(O)ccc(cccc2)c12)c3c(O)ccc(cccc4)c34>>c1(c2c(cccc2)ccc1P(c3ccccc3)c4ccccc4)c5c(ccc(cccc6)c56)O[Si](C)(C)C,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+242,C1(c2c(cccc2)N(CC)C=C1c3ccc(cccc4)c4n3)C5c6c(cccc6)N(CC)C=C5c7ccc(cccc8)c8n7>>c1(c[n+](CC)c(cccc2)c2c1)c3ccc(cccc4)c4n3.[I-],"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+243,C1(CCCCCC)(CCCCCC)c2c(ccc([Si](C)(C)C)c2)c(ccc(B3OC(C)(C)C(C)(C)O3)c4)c14>>C1(CCCCCC)(CCCCCC)c2c(ccc(Br)c2)c(ccc(c3ccc(c4nnc(c5ccc(C(C)(C)C)cc5)o4)cc3)c6)c16,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+244,c12c(OC=CC1=O)cc(C)c(Cl)c2>>c12c(C(=O)Oc(cc(C)c(Cl)c3)c13)c(O)c(CCCCl)cc2,"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
+245,c1(ccc(I)cc1)COP(OC)OC>>c(c(ccc1)cc(S(=O)(=O)[O-])c2)(c1C(=O)N(Cc3ccc(\C=C\c4ccc(B(O)O)cc4)cc3)C5=O)c25.[Na+],"element: can not calculate implicit hydrogens on aromatic C, charge 0, degree 1, 0 radical electrons"
