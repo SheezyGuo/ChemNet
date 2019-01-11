@@ -24,5 +24,7 @@ __IDE__ = 'PyCharm'
 
 from scrapy import cmdline
 
+cmdline.execute("scrapy crawl ChemInfo".split())
+
 
 
