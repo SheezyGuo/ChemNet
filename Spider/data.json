@@ -1,0 +1,4201 @@
+{
+    "name_EN": "3,4-Dichlorobenzaldehyde",
+    "name_CH": "3,4-二氯苯甲醛",
+    "purity": "98%",
+    "CAS": "6287-38-3",
+    "MDL": "MFCD00003351",
+    "prod_num": "101044",
+    "structure": "C7H4Cl2O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/101/101044.png",
+    "Smiles": [
+        {
+            "cid": 22710,
+            "smiles": "C1=CC(=C(C=C1C=O)Cl)Cl"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "25G",
+            "unit_price": "263",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100G",
+            "unit_price": "868",
+            "arrive_time": "3-4周"
+        }
+    ]
+},
+{
+    "name_EN": "2,6-Dimethylbenzaldehyde",
+    "name_CH": "2,6-二甲基苯甲醛",
+    "purity": "98%",
+    "CAS": "1123-56-4",
+    "MDL": "MFCD00128003",
+    "prod_num": "101786",
+    "structure": "C9H10O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/422/422486.png",
+    "Smiles": [
+        {
+            "cid": 583841,
+            "smiles": "CC1=C(C(=CC=C1)C)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "89",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "356",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "920",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "4-Cyanobenzaldehyde",
+    "name_CH": "4-氰基苯甲醛",
+    "purity": "98%",
+    "CAS": "105-07-7",
+    "MDL": "MFCD00003376",
+    "prod_num": "102101",
+    "structure": "C8H5NO",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/102/102101.png",
+    "Smiles": [
+        {
+            "cid": 66042,
+            "smiles": "C1=CC(=CC=C1C=O)C#N"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "5G",
+            "unit_price": "60",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100G",
+            "unit_price": "900",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "240",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "2-Cyanobenzaldehyde",
+    "name_CH": "2-氰基苯甲醛",
+    "purity": "98%",
+    "CAS": "7468-67-9",
+    "MDL": "MFCD00017503",
+    "prod_num": "102301",
+    "structure": "C8H5NO",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/102/102301.png",
+    "Smiles": [
+        {
+            "cid": 101209,
+            "smiles": "C1=CC=C(C(=C1)C=O)C#N"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "115",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "461",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "1602",
+            "arrive_time": "3-4周"
+        }
+    ]
+},
+{
+    "name_EN": "5-(Hydroxymethyl)furfural",
+    "name_CH": "5-羟甲基糠醛",
+    "purity": "98%",
+    "CAS": "67-47-0",
+    "MDL": "MFCD00003234",
+    "prod_num": "103511",
+    "structure": "C6H6O3",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/316/316206.png",
+    "Smiles": [
+        {
+            "cid": 237332,
+            "smiles": "C1=C(OC(=C1)C=O)CO"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "230",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "760",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "2505",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "Tri-O-acetyl-D-galactal",
+    "name_CH": "3,4,6-三邻乙酰基-D-半乳醛",
+    "purity": "98%",
+    "CAS": "4098-06-0",
+    "MDL": "MFCD00064092",
+    "prod_num": "106650",
+    "structure": "C12H16O7",
+    "picture_url": "www.jkchemical.com/static/images/999.PNG",
+    "Smiles": [
+        {
+            "cid": 640125,
+            "smiles": "CC(=O)OC[C@@H]1[C@@H]([C@@H](C=CO1)OC(=O)C)OC(=O)C"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "327",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "1088",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "2,2'-Bithiophene-5-carboxaldehyde",
+    "name_CH": "2,2'-联二噻吩-5-乙醛",
+    "purity": "98%",
+    "CAS": "3779-27-9",
+    "MDL": "MFCD00052294",
+    "prod_num": "107292",
+    "structure": "C9H6OS2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/107/107292.png",
+    "Smiles": [
+        {
+            "cid": 364428,
+            "smiles": "C1=CSC(=C1)C2=CC=C(S2)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "425",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "1888",
+            "arrive_time": "3-4周"
+        },
+        {
+            "package": "250MG",
+            "unit_price": "129",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "Phthalimidoacetaldehydediethylacetal",
+    "name_CH": "邻苯二甲酰乙醛二乙基乙缩醛",
+    "purity": "98%",
+    "CAS": "78902-09-7",
+    "MDL": "MFCD00005901",
+    "prod_num": "107666",
+    "structure": "C14H17NO4",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/107/107666.png",
+    "Smiles": [],
+    "sell_info": [
+        {
+            "package": "5G",
+            "unit_price": "258",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "1029",
+            "arrive_time": "3-4周"
+        }
+    ]
+},
+{
+    "name_EN": "4,6-Dichloro-5-pyrimidinecarbaldehyde",
+    "name_CH": "4,6-二氯-5-嘧啶甲醛",
+    "purity": "96%",
+    "CAS": "5305-40-8",
+    "MDL": "MFCD02257701",
+    "prod_num": "110173",
+    "structure": "C5H2Cl2N2O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/617/617278.png",
+    "Smiles": [
+        {
+            "cid": 819691,
+            "smiles": "C1=NC(=C(C(=N1)Cl)C=O)Cl"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "92",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "319",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "5-Methylthiophene-2-carboxaldehyde",
+    "name_CH": "5-甲基噻吩-2-甲醛",
+    "purity": "98%",
+    "CAS": "13679-70-4",
+    "MDL": "MFCD00005434",
+    "prod_num": "110614",
+    "structure": "C6H6OS",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/286/286050.png",
+    "Smiles": [
+        {
+            "cid": 61663,
+            "smiles": "CC1=CC=C(S1)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "5g",
+            "unit_price": "98",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100G",
+            "unit_price": "797",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "270",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "500G",
+            "unit_price": "3180",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "6-Bromo-1H-indole-2-carbaldehyde",
+    "name_CH": "6-溴-1H-吲哚-2-甲醛",
+    "purity": "97%",
+    "CAS": "105191-12-6",
+    "MDL": "MFCD06738308",
+    "prod_num": "110784",
+    "structure": "C9H6BrNO",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/378/378074.png",
+    "Smiles": [
+        {
+            "cid": 13567958,
+            "smiles": "C1=CC2=C(C=C1Br)NC(=C2)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "4053",
+            "arrive_time": "10周"
+        },
+        {
+            "package": "250MG",
+            "unit_price": "1126",
+            "arrive_time": "10周"
+        }
+    ]
+},
+{
+    "name_EN": "3-Benzyloxybenzaldehyde",
+    "name_CH": "3-苄氧基苯甲醛",
+    "purity": "98%",
+    "CAS": "1700-37-4",
+    "MDL": "MFCD00003367",
+    "prod_num": "110811",
+    "structure": "C14H12O2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/569/569013.png",
+    "Smiles": [
+        {
+            "cid": 74342,
+            "smiles": "C1=CC=C(C=C1)COC2=CC=CC(=C2)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "5G",
+            "unit_price": "135",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "539",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100G",
+            "unit_price": "1736",
+            "arrive_time": "3-4周"
+        }
+    ]
+},
+{
+    "name_EN": "3-Cyanobenzaldehyde",
+    "name_CH": "3-氰基苯甲醛",
+    "purity": "98%",
+    "CAS": "24964-64-5",
+    "MDL": "MFCD00003344",
+    "prod_num": "112526",
+    "structure": "C8H5NO",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/108/108418.png",
+    "Smiles": [
+        {
+            "cid": 90670,
+            "smiles": "C1=CC(=CC(=C1)C=O)C#N"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "74",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "245",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "98",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "4,6-Dihydroxy-2-methylpyrimidine-5-carbaldehyde",
+    "name_CH": "4,6-二羟基-2-甲基嘧啶-5-甲醛",
+    "purity": "97%",
+    "CAS": "14160-85-1",
+    "MDL": "MFCD01791182",
+    "prod_num": "112647",
+    "structure": "C6H6N2O3",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/723/723738.png",
+    "Smiles": [
+        {
+            "cid": 12472467,
+            "smiles": "CC1=NC(=O)/C(=C\\O)/C(=O)N1"
+        },
+        {
+            "cid": 5438372,
+            "smiles": "CC1=NC(=O)/C(=C/O)/C(=O)N1"
+        },
+        {
+            "cid": 6750846,
+            "smiles": "CC1=NC(=O)C(=CO)C(=O)N1"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "5649",
+            "arrive_time": "6-8周"
+        },
+        {
+            "package": "500MG",
+            "unit_price": "4210",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "N,N-Dimethylformamidediethylacetal,derivatizationgrade",
+    "name_CH": "N,N-二甲基甲酰胺二乙基缩醛,衍生化试剂",
+    "purity": "95%",
+    "CAS": "1188-33-6",
+    "MDL": "MFCD00009227",
+    "prod_num": "113009",
+    "structure": "C7H17NO2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/113/113009.png",
+    "Smiles": [],
+    "sell_info": [
+        {
+            "package": "5ML",
+            "unit_price": "217",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25ML",
+            "unit_price": "868",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "(Dimethylamino)acetaldehydediethylacetal",
+    "name_CH": "(二甲氨基)乙醛缩二乙醇",
+    "purity": "98%",
+    "CAS": "3616-56-6",
+    "MDL": "MFCD00009232",
+    "prod_num": "113010",
+    "structure": "C8H19NO2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/113/113010.png",
+    "Smiles": [],
+    "sell_info": [
+        {
+            "package": "25ML",
+            "unit_price": "601",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100ML",
+            "unit_price": "2100",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "3-Chloro-4-fluorobenzaldehyde",
+    "name_CH": "3-氯-4-氟苯甲醛",
+    "purity": "97%",
+    "CAS": "34328-61-5",
+    "MDL": "MFCD00011735",
+    "prod_num": "113744",
+    "structure": "C7H4ClFO",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/113/113744.png",
+    "Smiles": [
+        {
+            "cid": 593866,
+            "smiles": "C1=CC(=C(C=C1C=O)Cl)F"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "60",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "178",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "711",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "4-Bromo-3-methylbenzaldehyde",
+    "name_CH": "4-溴-3-甲基苯甲醛",
+    "purity": "95%",
+    "CAS": "78775-11-8",
+    "MDL": "MFCD07787170",
+    "prod_num": "1149312",
+    "structure": "C8H7BrO",
+    "picture_url": "www.jkchemical.com/static/images/999.PNG",
+    "Smiles": [
+        {
+            "cid": 10921521,
+            "smiles": "CC1=C(C=CC(=C1)C=O)Br"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "5G",
+            "unit_price": "637",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "Acetal",
+    "name_CH": "乙缩醛",
+    "purity": "98.5%",
+    "CAS": "105-57-7",
+    "MDL": "MFCD00009243",
+    "prod_num": "115224",
+    "structure": "C6H14O2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/115/115224.png",
+    "Smiles": [
+        {
+            "cid": 7765,
+            "smiles": "CCOC(C)OCC"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "25mL",
+            "unit_price": "60",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "250ML",
+            "unit_price": "180",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "7-Azaindole-3-carboxaldehyde",
+    "name_CH": "7-氮杂吲哚-3-甲醛",
+    "purity": "97%",
+    "CAS": "4649-09-6",
+    "MDL": "MFCD03407363",
+    "prod_num": "115492",
+    "structure": "C8H6N2O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/115/115492.png",
+    "Smiles": [
+        {
+            "cid": 5372812,
+            "smiles": "C1=CC2=C(NC=C2C=O)N=C1"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "858",
+            "arrive_time": "3-4周"
+        },
+        {
+            "package": "5G",
+            "unit_price": "3106",
+            "arrive_time": "3-4周"
+        },
+        {
+            "package": "250MG",
+            "unit_price": "260",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "8-Hydroxyquinoline-2-carboxaldehyde",
+    "name_CH": "8-羟基喹啉-2-甲醛",
+    "purity": "98%",
+    "CAS": "14510-06-6",
+    "MDL": "MFCD00168962",
+    "prod_num": "116576",
+    "structure": "C10H7NO2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/147/147107.png",
+    "Smiles": [
+        {
+            "cid": 599342,
+            "smiles": "C1=CC2=C(C(=C1)O)N=C(C=C2)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "1161",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "4020",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "Isophthalaldehyde",
+    "name_CH": "间苯二甲醛",
+    "purity": "98.5%",
+    "CAS": "626-19-7",
+    "MDL": "MFCD00003372",
+    "prod_num": "117303",
+    "structure": "C8H6O2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/218/218928.png",
+    "Smiles": [
+        {
+            "cid": 34777,
+            "smiles": "C1=CC(=CC(=C1)C=O)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "5G",
+            "unit_price": "66",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100G",
+            "unit_price": "356",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "178",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "4-(4-Fluorobenzyloxy)benzaldehyde",
+    "name_CH": "4-(4-氟苄氧基)苯甲醛",
+    "purity": "97%",
+    "CAS": "56442-17-2",
+    "MDL": "MFCD00173650",
+    "prod_num": "117639",
+    "structure": "C14H11FO2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/117/117639.png",
+    "Smiles": [
+        {
+            "cid": 735860,
+            "smiles": "C1=CC(=CC=C1COC2=CC=C(C=C2)C=O)F"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "255",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "1016",
+            "arrive_time": "4-6周"
+        }
+    ]
+},
+{
+    "name_EN": "5-Chloro-1,3-dimethyl-1H-pyrazole-4-carbaldehyde",
+    "name_CH": "5-氯-1,3-二甲基-1H-吡唑-4-甲醛",
+    "purity": "97%",
+    "CAS": "27006-76-4",
+    "MDL": "MFCD00052538",
+    "prod_num": "118057",
+    "structure": "C6H7ClN2O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/259/259977.png",
+    "Smiles": [
+        {
+            "cid": 2777397,
+            "smiles": "CC1=NN(C(=C1C=O)Cl)C"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "446",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "1520",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "1-Methyl-2-phenylindole-3-carboxaldehyde",
+    "name_CH": "1-甲基-2-苯基吲哚-3-甲醛",
+    "purity": "98%",
+    "CAS": "1757-72-8",
+    "MDL": "MFCD00186065",
+    "prod_num": "118130",
+    "structure": "C16H13NO",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/209/209978.png",
+    "Smiles": [
+        {
+            "cid": 74468,
+            "smiles": "CN1C2=CC=CC=C2C(=C1C3=CC=CC=C3)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "953",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "3557",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "trans,trans-2,4-Nonadienal",
+    "name_CH": "反,反-2,4-壬二烯醛",
+    "purity": "85%",
+    "CAS": "5910-87-2",
+    "MDL": "MFCD00007006",
+    "prod_num": "118170",
+    "structure": "C9H14O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/118/118170.png",
+    "Smiles": [
+        {
+            "cid": 5283339,
+            "smiles": "CCCC/C=C/C=C/C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "5G",
+            "unit_price": "537",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "1245",
+            "arrive_time": "3-4周"
+        }
+    ]
+},
+{
+    "name_EN": "2-Bromo-4-pyridinecarboxaldehyde",
+    "name_CH": "2-溴吡啶-4-甲醛",
+    "purity": "97%",
+    "CAS": "118289-17-1",
+    "MDL": "MFCD04039311",
+    "prod_num": "118625",
+    "structure": "C6H4BrNO",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/476/476932.png",
+    "Smiles": [
+        {
+            "cid": 2762991,
+            "smiles": "C1=CN=C(C=C1C=O)Br"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "133",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "532",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "trans-2-Octenal",
+    "name_CH": "反式-2-辛烯醛",
+    "purity": "95%",
+    "CAS": "2548-87-0",
+    "MDL": "MFCD00007011",
+    "prod_num": "119568",
+    "structure": "C8H14O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/580/580557.png",
+    "Smiles": [
+        {
+            "cid": 5283324,
+            "smiles": "CCCCC/C=C/C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "5g",
+            "unit_price": "299",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25g",
+            "unit_price": "989",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "Imidazole-4-carboxaldehyde",
+    "name_CH": "咪唑-4-甲醛",
+    "purity": "98%",
+    "CAS": "3034-50-2",
+    "MDL": "MFCD00173726",
+    "prod_num": "120969",
+    "structure": "C4H4N2O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/500/500185.png",
+    "Smiles": [
+        {
+            "cid": 76428,
+            "smiles": "C1=C(NC=N1)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "74",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "239",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "3-Quinolinecarboxaldehyde",
+    "name_CH": "3-喹啉甲醛",
+    "purity": "98%",
+    "CAS": "13669-42-6",
+    "MDL": "MFCD00006768",
+    "prod_num": "121990",
+    "structure": "C10H7NO",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/114/114872.png",
+    "Smiles": [
+        {
+            "cid": 83641,
+            "smiles": "C1=CC=C2C(=C1)C=C(C=N2)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "1048",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "3697",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "250MG",
+            "unit_price": "300",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "2-Thiophenecarboxaldehyde",
+    "name_CH": "2-噻吩甲醛",
+    "purity": "98%",
+    "CAS": "98-03-3",
+    "MDL": "MFCD00005429",
+    "prod_num": "124605",
+    "structure": "C5H4OS",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/607/607332.png",
+    "Smiles": [
+        {
+            "cid": 7364,
+            "smiles": "C1=CSC(=C1)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "100G",
+            "unit_price": "138",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "80",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "500G",
+            "unit_price": "515",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "4-Fluoro-3-methoxybenzaldehyde",
+    "name_CH": "4-氟-3-甲氧基苯甲醛",
+    "purity": "98%",
+    "CAS": "128495-46-5",
+    "MDL": "MFCD00143320",
+    "prod_num": "124975",
+    "structure": "C8H7FO2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/124/124975.png",
+    "Smiles": [
+        {
+            "cid": 2737358,
+            "smiles": "COC1=C(C=CC(=C1)C=O)F"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "374",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "1304",
+            "arrive_time": "3-4周"
+        },
+        {
+            "package": "25G",
+            "unit_price": "4947",
+            "arrive_time": "3-4周"
+        }
+    ]
+},
+{
+    "name_EN": "2-Bromothiazole-5-carboxaldehyde",
+    "name_CH": "2-溴-5-甲醛基噻唑",
+    "purity": "98%",
+    "CAS": "464192-28-7",
+    "MDL": "MFCD03788567",
+    "prod_num": "125108",
+    "structure": "C4H2BrNOS",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/125/125108.png",
+    "Smiles": [
+        {
+            "cid": 2773259,
+            "smiles": "C1=C(SC(=N1)Br)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1g",
+            "unit_price": "665",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5g",
+            "unit_price": "1995",
+            "arrive_time": "3-4周"
+        }
+    ]
+},
+{
+    "name_EN": "5-[2-Chloro-4-(trifluoromethyl)phenyl]-2-furaldehyde",
+    "name_CH": "5-[2-氯-4-(三氟甲基)苯基]-2-呋喃甲醛",
+    "purity": "97%",
+    "CAS": "306936-04-9",
+    "MDL": "MFCD01571128",
+    "prod_num": "126123",
+    "structure": "C12H6ClF3O2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/322/322513.png",
+    "Smiles": [
+        {
+            "cid": 2781786,
+            "smiles": "C1=CC(=C(C=C1C(F)(F)F)Cl)C2=CC=C(O2)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "535",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "2140",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "4-Nitrobenzaldehyde",
+    "name_CH": "4-硝基苯甲醛",
+    "purity": "99%",
+    "CAS": "555-16-8",
+    "MDL": "MFCD00007346",
+    "prod_num": "127420",
+    "structure": "C7H5NO3",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/127/127420.png",
+    "Smiles": [
+        {
+            "cid": 541,
+            "smiles": "C1=CC(=CC=C1C=O)[N+](=O)[O-]"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "100G",
+            "unit_price": "438",
+            "arrive_time": "3-4周"
+        },
+        {
+            "package": "25G",
+            "unit_price": "164",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "60",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "4-Aminobutyraldehydediethylacetal",
+    "name_CH": "4-氨基丁醛缩二乙醇",
+    "purity": "97%",
+    "CAS": "6346-09-4",
+    "MDL": "MFCD00008227",
+    "prod_num": "129240",
+    "structure": "C8H19NO2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/129/129240.png",
+    "Smiles": [
+        {
+            "cid": 80672,
+            "smiles": "CCOC(CCCN)OCC"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "109",
+            "arrive_time": "3-4周"
+        },
+        {
+            "package": "5G",
+            "unit_price": "435",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "3-Carboxybenzaldehyde",
+    "name_CH": "3-羧基苯甲醛",
+    "purity": "98%",
+    "CAS": "619-21-6",
+    "MDL": "MFCD00039575",
+    "prod_num": "131916",
+    "structure": "C8H6O3",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/169/169296.png",
+    "Smiles": [
+        {
+            "cid": 12077,
+            "smiles": "C1=CC(=CC(=C1)C(=O)O)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "1075",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "4054",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "2,3-Dihydroxybenzaldehyde",
+    "name_CH": "2,3-二羟基苯甲醛",
+    "purity": "97%",
+    "CAS": "24677-78-9",
+    "MDL": "MFCD00003324",
+    "prod_num": "132898",
+    "structure": "C7H6O3",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/132/132898.png",
+    "Smiles": [
+        {
+            "cid": 90579,
+            "smiles": "C1=CC(=C(C(=C1)O)O)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "5G",
+            "unit_price": "299",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "1188",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100G",
+            "unit_price": "3912",
+            "arrive_time": "3-4周"
+        }
+    ]
+},
+{
+    "name_EN": "2,6-Difluorobenzaldehyde",
+    "name_CH": "2,6-二氟苯甲醛",
+    "purity": "98%",
+    "CAS": "437-81-0",
+    "MDL": "MFCD00010293",
+    "prod_num": "133376",
+    "structure": "C7H4F2O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/133/133376.png",
+    "Smiles": [
+        {
+            "cid": 136284,
+            "smiles": "C1=CC(=C(C(=C1)F)C=O)F"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "5G",
+            "unit_price": "153",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "478",
+            "arrive_time": "3-4周"
+        }
+    ]
+},
+{
+    "name_EN": "4-Propoxybenzaldehyde",
+    "name_CH": "4-丙氧基苯甲醛",
+    "purity": "98%",
+    "CAS": "5736-85-6",
+    "MDL": "MFCD00014134",
+    "prod_num": "133929",
+    "structure": "C10H12O2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/133/133929.png",
+    "Smiles": [
+        {
+            "cid": 79812,
+            "smiles": "CCCOC1=CC=C(C=C1)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "5G",
+            "unit_price": "149",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "596",
+            "arrive_time": "3-4周"
+        }
+    ]
+},
+{
+    "name_EN": "3-Ethoxy-4-hydroxybenzaldehyde",
+    "name_CH": "3-乙氧基-4-羟基苯甲醛",
+    "purity": "99%",
+    "CAS": "121-32-4",
+    "MDL": "MFCD00006944",
+    "prod_num": "134312",
+    "structure": "C9H10O3",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/134/134312.png",
+    "Smiles": [
+        {
+            "cid": 8467,
+            "smiles": "CCOC1=C(C=CC(=C1)C=O)O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "5G",
+            "unit_price": "60",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "74",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100G",
+            "unit_price": "220",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "Salicylaldehyde",
+    "name_CH": "水杨醛",
+    "purity": "99%",
+    "CAS": "90-02-8",
+    "MDL": "MFCD00003317",
+    "prod_num": "135775",
+    "structure": "C7H6O2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/135/135775.png",
+    "Smiles": [
+        {
+            "cid": 6998,
+            "smiles": "C1=CC=C(C(=C1)C=O)O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1KG",
+            "unit_price": "866",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25g",
+            "unit_price": "66",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100G",
+            "unit_price": "218",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "250G",
+            "unit_price": "328",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "2-Hydroxy-1-naphthaldehyde",
+    "name_CH": "2-羟基-1-萘甲醛",
+    "purity": "99%",
+    "CAS": "708-06-5",
+    "MDL": "MFCD00004005",
+    "prod_num": "136006",
+    "structure": "C11H8O2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/136/136006.png",
+    "Smiles": [
+        {
+            "cid": 12819,
+            "smiles": "C1=CC=C2C(=C1)C=CC(=C2C=O)O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "25G",
+            "unit_price": "222",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100G",
+            "unit_price": "535",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "500G",
+            "unit_price": "1672",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "4-Chloro-3-nitrobenzaldehyde",
+    "name_CH": "4-氯-3-硝基苯甲醛",
+    "purity": "98%",
+    "CAS": "16588-34-4",
+    "MDL": "MFCD00007078",
+    "prod_num": "137542",
+    "structure": "C7H4ClNO3",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/137/137542.png",
+    "Smiles": [
+        {
+            "cid": 85505,
+            "smiles": "C1=CC(=C(C=C1C=O)[N+](=O)[O-])Cl"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "60",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "150",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100G",
+            "unit_price": "1804",
+            "arrive_time": "8周"
+        },
+        {
+            "package": "25G",
+            "unit_price": "547",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "2,6-Dimethoxy-4-hydroxybenzaldehyde",
+    "name_CH": "2,6-二甲氧基-4-羟基苯甲醛",
+    "purity": "98%",
+    "CAS": "22080-96-2",
+    "MDL": "MFCD01407645",
+    "prod_num": "137888",
+    "structure": "C9H10O4",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/137/137888.png",
+    "Smiles": [
+        {
+            "cid": 529894,
+            "smiles": "COC1=CC(=CC(=C1C=O)OC)O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "1057",
+            "arrive_time": "6-8周"
+        },
+        {
+            "package": "5G",
+            "unit_price": "3701",
+            "arrive_time": "6-8周"
+        }
+    ]
+},
+{
+    "name_EN": "N-Acetyl-3-indolecarboxaldehyde",
+    "name_CH": "N-乙酰基-3-吲哚甲醛",
+    "purity": "98%",
+    "CAS": "22948-94-3",
+    "MDL": "MFCD00039691",
+    "prod_num": "138378",
+    "structure": "C11H9NO2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/138/138378.png",
+    "Smiles": [],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "165",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "606",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "3,5-Dimethoxybenzaldehyde",
+    "name_CH": "3,5-二甲氧基苯甲醛",
+    "purity": "98%",
+    "CAS": "7311-34-4",
+    "MDL": "MFCD00003366",
+    "prod_num": "138581",
+    "structure": "C9H10O3",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/348/348999.png",
+    "Smiles": [
+        {
+            "cid": 81747,
+            "smiles": "COC1=CC(=CC(=C1)C=O)OC"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "5G",
+            "unit_price": "123",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100G",
+            "unit_price": "920",
+            "arrive_time": "4-6Weeks"
+        },
+        {
+            "package": "25G",
+            "unit_price": "331",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "2-Chloromalonaldehyde",
+    "name_CH": "2-氯丙二醛",
+    "purity": "94%",
+    "CAS": "36437-19-1",
+    "MDL": "MFCD01320489",
+    "prod_num": "139424",
+    "structure": "C3H3ClO2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/454/454653.png",
+    "Smiles": [
+        {
+            "cid": 147646,
+            "smiles": "C(=O)C(C=O)Cl"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "608",
+            "arrive_time": "3-4周"
+        }
+    ]
+},
+{
+    "name_EN": "Indole-4-carboxaldehyde",
+    "name_CH": "吲哚-4-甲醛",
+    "purity": "98%",
+    "CAS": "1074-86-8",
+    "MDL": "MFCD01632221",
+    "prod_num": "139688",
+    "structure": "C9H7NO",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/250/250825.png",
+    "Smiles": [
+        {
+            "cid": 333703,
+            "smiles": "C1=CC(=C2C=CNC2=C1)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "186",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "742",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "2960",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "trans,trans-2,4-Decadienal",
+    "name_CH": "反,反-2,4-癸二烯醛",
+    "purity": "95%",
+    "CAS": "25152-84-5",
+    "MDL": "MFCD00007007",
+    "prod_num": "141695",
+    "structure": "C10H16O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/141/141695.png",
+    "Smiles": [
+        {
+            "cid": 5283349,
+            "smiles": "CCCCC/C=C/C=C/C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "75",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "300",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "1199",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "5-Bromovanillin",
+    "name_CH": "5-溴香草醛",
+    "purity": "97%",
+    "CAS": "2973-76-4",
+    "MDL": "MFCD00006940",
+    "prod_num": "142172",
+    "structure": "C8H7BrO3",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/142/142172.png",
+    "Smiles": [
+        {
+            "cid": 18099,
+            "smiles": "COC1=C(C(=CC(=C1)C=O)Br)O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "25G",
+            "unit_price": "579",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100G",
+            "unit_price": "1908",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "Cyclohexanecarboxaldehyde",
+    "name_CH": "环己基甲醛",
+    "purity": "98%",
+    "CAS": "2043-61-0",
+    "MDL": "MFCD00001457",
+    "prod_num": "142591",
+    "structure": "C7H12O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/142/142591.png",
+    "Smiles": [
+        {
+            "cid": 16275,
+            "smiles": "C1CCC(CC1)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "100ML",
+            "unit_price": "1006",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25ML",
+            "unit_price": "305",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "L-(-)-Perillaldehyde",
+    "name_CH": "L-(-)-紫苏醛",
+    "purity": "90%",
+    "CAS": "18031-40-8",
+    "MDL": "MFCD00001543",
+    "prod_num": "142719",
+    "structure": "C10H14O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/142/142719.png",
+    "Smiles": [],
+    "sell_info": [
+        {
+            "package": "5G",
+            "unit_price": "197",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "788",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100G",
+            "unit_price": "2412",
+            "arrive_time": "3-4周"
+        }
+    ]
+},
+{
+    "name_EN": "3-Nitrobenzaldehyde",
+    "name_CH": "3-硝基苯甲醛",
+    "purity": "98%",
+    "CAS": "99-61-6",
+    "MDL": "MFCD00007249",
+    "prod_num": "144999",
+    "structure": "C7H5NO3",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/101/101784.png",
+    "Smiles": [
+        {
+            "cid": 7449,
+            "smiles": "C1=CC(=CC(=C1)[N+](=O)[O-])C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "5G",
+            "unit_price": "60",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100G",
+            "unit_price": "141",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "500G",
+            "unit_price": "563",
+            "arrive_time": "3-4周"
+        }
+    ]
+},
+{
+    "name_EN": "3-Hydroxybenzaldehyde",
+    "name_CH": "3-羟基苯甲醛",
+    "purity": "99%",
+    "CAS": "100-83-4",
+    "MDL": "MFCD00003368",
+    "prod_num": "146235",
+    "structure": "C7H6O2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/146/146235.png",
+    "Smiles": [
+        {
+            "cid": 101,
+            "smiles": "C1=CC(=CC(=C1)O)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "100G",
+            "unit_price": "254",
+            "arrive_time": "3-4周"
+        },
+        {
+            "package": "25G",
+            "unit_price": "81",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "500G",
+            "unit_price": "1106",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "1,2,3,6-Tetrahydrobenzaldehyde",
+    "name_CH": "1,2,3,6-四氢苯甲醛",
+    "purity": "98%",
+    "CAS": "100-50-5",
+    "MDL": "MFCD00001572",
+    "prod_num": "146553",
+    "structure": "C7H10O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/527/527211.png",
+    "Smiles": [
+        {
+            "cid": 7508,
+            "smiles": "C1CC(CC=C1)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "25G",
+            "unit_price": "74",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100G",
+            "unit_price": "245",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "500G",
+            "unit_price": "1197",
+            "arrive_time": "3-4周"
+        }
+    ]
+},
+{
+    "name_EN": "2-Pyridinecarboxaldehyde",
+    "name_CH": "2-吡啶甲醛",
+    "purity": "98%",
+    "CAS": "1121-60-4",
+    "MDL": "MFCD00006290",
+    "prod_num": "147015",
+    "structure": "C6H5NO",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/169/169220.png",
+    "Smiles": [
+        {
+            "cid": 14273,
+            "smiles": "C1=CC=NC(=C1)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "5G",
+            "unit_price": "60",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100G",
+            "unit_price": "462",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "165",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "6-Chloro-2-fluoro-3-methylbenzaldehyde",
+    "name_CH": "6-氯-2-氟-3-甲基苯甲醛",
+    "purity": "97.5%",
+    "CAS": "286474-59-7",
+    "MDL": "MFCD01631370",
+    "prod_num": "147329",
+    "structure": "C8H6ClFO",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/147/147329.png",
+    "Smiles": [
+        {
+            "cid": 1268278,
+            "smiles": "CC1=C(C(=C(C=C1)Cl)C=O)F"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "284",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "1133",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "4-(Dimethylamino)cinnamaldehyde",
+    "name_CH": "4-二甲基氨基肉桂醛",
+    "purity": "98%",
+    "CAS": "6203-18-5",
+    "MDL": "MFCD00007002",
+    "prod_num": "147601",
+    "structure": "C11H13NO",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/147/147601.png",
+    "Smiles": [
+        {
+            "cid": 5284506,
+            "smiles": "CN(C)C1=CC=C(C=C1)/C=C/C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "5G",
+            "unit_price": "581",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "1862",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "Anthracene-9,10-dicarboxaldehyde",
+    "name_CH": "9,10-蒽二甲醛",
+    "purity": "95%",
+    "CAS": "7044-91-9",
+    "MDL": "MFCD00045386",
+    "prod_num": "148637",
+    "structure": "C16H10O2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/410/410917.png",
+    "Smiles": [
+        {
+            "cid": 81500,
+            "smiles": "C1=CC=C2C(=C1)C(=C3C=CC=CC3=C2C=O)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "753",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "2295",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "1-Methyl-1H-imidazole-2-carbaldehyde",
+    "name_CH": "1-甲基-1H-咪唑-2-甲醛",
+    "purity": "98%",
+    "CAS": "13750-81-7",
+    "MDL": "MFCD01321308",
+    "prod_num": "149300",
+    "structure": "C5H6N2O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/563/563183.png",
+    "Smiles": [
+        {
+            "cid": 139575,
+            "smiles": "CN1C=CN=C1C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "445",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "1496",
+            "arrive_time": "8周"
+        }
+    ]
+},
+{
+    "name_EN": "4-Chlorobenzaldehyde",
+    "name_CH": "对氯苯甲醛",
+    "purity": "98%",
+    "CAS": "104-88-1",
+    "MDL": "MFCD00003379",
+    "prod_num": "149467",
+    "structure": "C7H5ClO",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/381/381233.png",
+    "Smiles": [
+        {
+            "cid": 7726,
+            "smiles": "C1=CC(=CC=C1C=O)Cl"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1KG",
+            "unit_price": "744",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100G",
+            "unit_price": "127",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "250G",
+            "unit_price": "227",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "5-Benzyloxyindole-3-carboxaldehyde",
+    "name_CH": "5-苄氧基吲哚-3-甲醛",
+    "purity": "98%",
+    "CAS": "6953-22-6",
+    "MDL": "MFCD00014562",
+    "prod_num": "150433",
+    "structure": "C16H13NO2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/298/298536.png",
+    "Smiles": [
+        {
+            "cid": 81398,
+            "smiles": "C1=CC=C(C=C1)COC2=CC3=C(C=C2)NC=C3C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "222",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "679",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "2200",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "p-Anisaldehydedimethylacetal",
+    "name_CH": "对甲氧基苯甲醛二甲缩醛",
+    "purity": "98%",
+    "CAS": "2186-92-7",
+    "MDL": "MFCD00036507",
+    "prod_num": "151258",
+    "structure": "C10H14O3",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/151/151258.png",
+    "Smiles": [
+        {
+            "cid": 75140,
+            "smiles": "COC1=CC=C(C=C1)C(OC)OC"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "100G",
+            "unit_price": "898",
+            "arrive_time": "3-4周"
+        },
+        {
+            "package": "25G",
+            "unit_price": "304",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "500G",
+            "unit_price": "4394",
+            "arrive_time": "3-4周"
+        }
+    ]
+},
+{
+    "name_EN": "4-(Diethylamino)salicylaldehyde",
+    "name_CH": "4-(二乙基氨基)水杨醛",
+    "purity": "99%",
+    "CAS": "17754-90-4",
+    "MDL": "MFCD00003326",
+    "prod_num": "151364",
+    "structure": "C11H15NO2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/454/454955.png",
+    "Smiles": [
+        {
+            "cid": 87293,
+            "smiles": "CCN(CC)C1=CC(=C(C=C1)C=O)O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "60",
+            "arrive_time": "4-6Weeks"
+        },
+        {
+            "package": "25g",
+            "unit_price": "429",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "117",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "Indole-3-carboxaldehyde",
+    "name_CH": "吲哚-3-甲醛",
+    "purity": "98%",
+    "CAS": "487-89-8",
+    "MDL": "MFCD00005622",
+    "prod_num": "151720",
+    "structure": "C9H7NO",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/196/196313.png",
+    "Smiles": [
+        {
+            "cid": 10256,
+            "smiles": "C1=CC=C2C(=C1)C(=CN2)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "5G",
+            "unit_price": "95",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100G",
+            "unit_price": "1245",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "378",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "4,4'-Biphenyldicarboxaldehyde",
+    "name_CH": "4,4'-联苯二甲醛",
+    "purity": "97%",
+    "CAS": "66-98-8",
+    "MDL": "MFCD00016714",
+    "prod_num": "152594",
+    "structure": "C14H10O2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/152/152594.png",
+    "Smiles": [
+        {
+            "cid": 6200,
+            "smiles": "C1=CC(=CC=C1C=O)C2=CC=C(C=C2)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "585",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "2033",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "2,1,3-Benzothiadiazole-4-carbaldehyde",
+    "name_CH": "2,1,3-苯并噻二唑-4-甲醛",
+    "purity": "97%",
+    "CAS": "5170-68-3",
+    "MDL": "MFCD02681902",
+    "prod_num": "152809",
+    "structure": "C7H4N2OS",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/257/257241.png",
+    "Smiles": [
+        {
+            "cid": 2776283,
+            "smiles": "C1=CC2=NSN=C2C(=C1)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "3600",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "250MG",
+            "unit_price": "999",
+            "arrive_time": "3-4周"
+        }
+    ]
+},
+{
+    "name_EN": "trans,trans-2,4-Hexadienal",
+    "name_CH": "反,反-2,4-己二烯醛",
+    "purity": "95%",
+    "CAS": "142-83-6",
+    "MDL": "MFCD00007004",
+    "prod_num": "155229",
+    "structure": "C6H8O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/155/155229.png",
+    "Smiles": [
+        {
+            "cid": 637564,
+            "smiles": "C/C=C/C=C/C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "100ML",
+            "unit_price": "1420",
+            "arrive_time": "3-4周"
+        },
+        {
+            "package": "25ML",
+            "unit_price": "492",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "3-Phenylpropionaldehyde",
+    "name_CH": "3-苯基丙醛",
+    "purity": "95%",
+    "CAS": "104-53-0",
+    "MDL": "MFCD00007021",
+    "prod_num": "155402",
+    "structure": "C9H10O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/155/155402.png",
+    "Smiles": [
+        {
+            "cid": 7707,
+            "smiles": "C1=CC=C(C=C1)CCC=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "5G",
+            "unit_price": "60",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100G",
+            "unit_price": "602",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "183",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "500G",
+            "unit_price": "1190",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "5-Chloro-2-thiophenecarboxaldehyde",
+    "name_CH": "5-氯-2-噻吩甲醛",
+    "purity": "97%",
+    "CAS": "7283-96-7",
+    "MDL": "MFCD00047090",
+    "prod_num": "156322",
+    "structure": "C5H3ClOS",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/421/421462.png",
+    "Smiles": [
+        {
+            "cid": 81700,
+            "smiles": "C1=C(SC(=C1)Cl)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "484",
+            "arrive_time": "8周"
+        },
+        {
+            "package": "5G",
+            "unit_price": "1553",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "Sodiumformaldehydesulfoxylatedihydrate",
+    "name_CH": "甲醛合次硫酸钠二水合物",
+    "purity": "98%",
+    "CAS": "6035-47-8",
+    "MDL": "MFCD00150598",
+    "prod_num": "156978",
+    "structure": "CH3NaO3S·2H2O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/156/156978.png",
+    "Smiles": [],
+    "sell_info": [
+        {
+            "package": "1KG",
+            "unit_price": "378",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5KG",
+            "unit_price": "1540",
+            "arrive_time": "3-4周"
+        },
+        {
+            "package": "50G",
+            "unit_price": "60",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "cis-6-Nonenal",
+    "name_CH": "顺-6-壬烯醛",
+    "purity": "94%",
+    "CAS": "2277-19-2",
+    "MDL": "MFCD00014683",
+    "prod_num": "157318",
+    "structure": "C9H16O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/157/157318.png",
+    "Smiles": [
+        {
+            "cid": 5362720,
+            "smiles": "CC/C=C\\CCCCC=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "150",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "598",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "5-Methyl-2-phenyl-2-hexenal",
+    "name_CH": "5-甲基-2-苯基-2-己烯醛",
+    "purity": "94%",
+    "CAS": "21834-92-4",
+    "MDL": "MFCD00036615",
+    "prod_num": "157996",
+    "structure": "C13H16O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/157/157996.png",
+    "Smiles": [
+        {
+            "cid": 5370602,
+            "smiles": "CC(C)C/C=C(/C=O)\\C1=CC=CC=C1"
+        },
+        {
+            "cid": 576026,
+            "smiles": "CC(C)CC=C(C=O)C1=CC=CC=C1"
+        },
+        {
+            "cid": 5463934,
+            "smiles": "CC(C)C/C=C(\\C=O)/C1=CC=CC=C1"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "25G",
+            "unit_price": "376",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100G",
+            "unit_price": "1240",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "4-Ethenylbenzaldehyde",
+    "name_CH": "4-乙烯基苯甲醛",
+    "purity": "95%",
+    "CAS": "1791-26-0",
+    "MDL": "MFCD00085289",
+    "prod_num": "1580310",
+    "structure": "C9H8O",
+    "picture_url": "www.jkchemical.com/static/images/999.PNG",
+    "Smiles": [
+        {
+            "cid": 39389,
+            "smiles": "C=CC1=CC=C(C=C1)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "440",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "1845",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "2-Carboxybenzaldehyde",
+    "name_CH": "2-羧基苯甲醛",
+    "purity": "99%",
+    "CAS": "119-67-5",
+    "MDL": "MFCD00003336",
+    "prod_num": "159270",
+    "structure": "C8H6O3",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/159/159270.png",
+    "Smiles": [
+        {
+            "cid": 8406,
+            "smiles": "C1=CC=C(C(=C1)C=O)C(=O)O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "100G",
+            "unit_price": "306",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "110",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "500G",
+            "unit_price": "1223",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "2,5-Dihydroxybenzaldehyde",
+    "name_CH": "2,5-二羟基苯甲醛",
+    "purity": "98%",
+    "CAS": "1194-98-5",
+    "MDL": "MFCD00003333",
+    "prod_num": "159373",
+    "structure": "C7H6O3",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/159/159373.png",
+    "Smiles": [
+        {
+            "cid": 70949,
+            "smiles": "C1=CC(=C(C=C1O)C=O)O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "179",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "448",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "1791",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "3-Fluoro-5-(trifluoromethyl)benzaldehyde",
+    "name_CH": "3-氟-5-(三氟甲基)苯甲醛",
+    "purity": "97%",
+    "CAS": "188815-30-7",
+    "MDL": "MFCD00061312",
+    "prod_num": "159559",
+    "structure": "C8H4F4O",
+    "picture_url": "www.jkchemical.com/static/images/999.PNG",
+    "Smiles": [
+        {
+            "cid": 605686,
+            "smiles": "C1=C(C=C(C=C1C(F)(F)F)F)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "399",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "1317",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "2-Bromo-5-fluorobenzaldehyde",
+    "name_CH": "2-溴-5-氟苯甲醛",
+    "purity": "98%",
+    "CAS": "94569-84-3",
+    "MDL": "MFCD00142872",
+    "prod_num": "160553",
+    "structure": "C7H4BrFO",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/160/160553.png",
+    "Smiles": [
+        {
+            "cid": 2773321,
+            "smiles": "C1=CC(=C(C=C1F)C=O)Br"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "194",
+            "arrive_time": "3-4周"
+        },
+        {
+            "package": "5G",
+            "unit_price": "426",
+            "arrive_time": "3-4周"
+        },
+        {
+            "package": "25G",
+            "unit_price": "1561",
+            "arrive_time": "3-4周"
+        }
+    ]
+},
+{
+    "name_EN": "3-Allylsalicylaldehyde",
+    "name_CH": "3-烯丙基水杨醛",
+    "purity": "96.5%",
+    "CAS": "24019-66-7",
+    "MDL": "MFCD00037364",
+    "prod_num": "161942",
+    "structure": "C10H10O2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/546/546535.png",
+    "Smiles": [
+        {
+            "cid": 141062,
+            "smiles": "C=CCC1=CC=CC(=C1O)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "219",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "685",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "2-Chloro-5-nitrobenzaldehyde",
+    "name_CH": "2-氯-5-硝基苯甲醛",
+    "purity": "97%",
+    "CAS": "6361-21-3",
+    "MDL": "MFCD00007293",
+    "prod_num": "163006",
+    "structure": "C7H4ClNO3",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/163/163006.png",
+    "Smiles": [
+        {
+            "cid": 72933,
+            "smiles": "C1=CC(=C(C=C1[N+](=O)[O-])C=O)Cl"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "25G",
+            "unit_price": "184",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100G",
+            "unit_price": "521",
+            "arrive_time": "3-4周"
+        }
+    ]
+},
+{
+    "name_EN": "5-Formyl-2-furancarboxylicacid",
+    "name_CH": "5-甲醛基-2-呋喃甲酸",
+    "purity": "98%",
+    "CAS": "13529-17-4",
+    "MDL": "MFCD00020924",
+    "prod_num": "163865",
+    "structure": "C6H4O4",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/163/163865.png",
+    "Smiles": [],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "2061",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "250MG",
+            "unit_price": "626",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "2-Ethylbutyraldehyde",
+    "name_CH": "2-乙基丁醛",
+    "purity": "98%",
+    "CAS": "97-96-1",
+    "MDL": "MFCD00006985",
+    "prod_num": "164493",
+    "structure": "C6H12O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/268/268504.png",
+    "Smiles": [
+        {
+            "cid": 7359,
+            "smiles": "CCC(CC)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "25ML",
+            "unit_price": "228",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100ML",
+            "unit_price": "551",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "2,4-Difluorobenzaldehyde",
+    "name_CH": "2,4-二氟苯甲醛",
+    "purity": "98%",
+    "CAS": "1550-35-2",
+    "MDL": "MFCD00010326",
+    "prod_num": "164652",
+    "structure": "C7H4F2O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/258/258017.png",
+    "Smiles": [
+        {
+            "cid": 73770,
+            "smiles": "C1=CC(=C(C=C1F)F)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "5G",
+            "unit_price": "242",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "966",
+            "arrive_time": "3-4周"
+        }
+    ]
+},
+{
+    "name_EN": "3-Pyridinecarboxaldehyde",
+    "name_CH": "3-吡啶甲醛",
+    "purity": "97%",
+    "CAS": "500-22-1",
+    "MDL": "MFCD00006382",
+    "prod_num": "165612",
+    "structure": "C6H5NO",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/165/165612.png",
+    "Smiles": [
+        {
+            "cid": 10371,
+            "smiles": "C1=CC(=CN=C1)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "25G",
+            "unit_price": "171",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100G",
+            "unit_price": "478",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "2-Quinolinecarboxaldehyde",
+    "name_CH": "2-喹啉甲醛",
+    "purity": "98%",
+    "CAS": "5470-96-2",
+    "MDL": "MFCD00075032",
+    "prod_num": "166750",
+    "structure": "C10H7NO",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/537/537643.png",
+    "Smiles": [
+        {
+            "cid": 79619,
+            "smiles": "C1=CC=C2C(=C1)C=CC(=N2)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1g",
+            "unit_price": "147",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5g",
+            "unit_price": "585",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25g",
+            "unit_price": "1957",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "Phenylacetaldehyde,stabilizedwith100ppmcitricacid",
+    "name_CH": "苯乙醛,含稳定剂:100ppm柠檬酸",
+    "purity": "97.5%",
+    "CAS": "122-78-1",
+    "MDL": "MFCD00006993",
+    "prod_num": "166786",
+    "structure": "C8H8O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/166/166786.png",
+    "Smiles": [],
+    "sell_info": [
+        {
+            "package": "100G",
+            "unit_price": "281",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "500G",
+            "unit_price": "921",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "Cyclopentanecarboxaldehyde,stabilizedwith0.1%HQ",
+    "name_CH": "环戊烷甲醛,含稳定剂:0.1%HQ",
+    "purity": "96%",
+    "CAS": "872-53-7",
+    "MDL": "MFCD00060798",
+    "prod_num": "169379",
+    "structure": "C6H10O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/289/289455.png",
+    "Smiles": [],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "371",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "1301",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "α-Hexylcinnamaldehyde,stabilizedwith0.075-0.3%BHT",
+    "name_CH": "α-己基肉桂醛,含稳定剂:0.075-0.3%BHT",
+    "purity": "95%",
+    "CAS": "101-86-0",
+    "MDL": "MFCD00006989",
+    "prod_num": "169726",
+    "structure": "C15H20O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/169/169726.png",
+    "Smiles": [],
+    "sell_info": [
+        {
+            "package": "25ML",
+            "unit_price": "110",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100ML",
+            "unit_price": "422",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "2-Ethoxybenzaldehyde",
+    "name_CH": "2-乙氧基苯甲醛",
+    "purity": "98%",
+    "CAS": "613-69-4",
+    "MDL": "MFCD00003316",
+    "prod_num": "169946",
+    "structure": "C9H10O2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/168/168492.png",
+    "Smiles": [
+        {
+            "cid": 11950,
+            "smiles": "CCOC1=CC=CC=C1C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "5G",
+            "unit_price": "60",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "147",
+            "arrive_time": "4-6Weeks"
+        }
+    ]
+},
+{
+    "name_EN": "3-Bromopropionaldehydedimethylacetal",
+    "name_CH": "3-溴丙醛二甲基缩醛",
+    "purity": "95%",
+    "CAS": "36255-44-4",
+    "MDL": "MFCD00013245",
+    "prod_num": "172107",
+    "structure": "C5H11BrO2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/172/172107.png",
+    "Smiles": [
+        {
+            "cid": 12360406,
+            "smiles": "CC(=O)CC(=O)OCCC#N"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "272",
+            "arrive_time": "4-6Weeks"
+        },
+        {
+            "package": "5G",
+            "unit_price": "909",
+            "arrive_time": "4-6Weeks"
+        },
+        {
+            "package": "25G",
+            "unit_price": "2727",
+            "arrive_time": "4-6Weeks"
+        }
+    ]
+},
+{
+    "name_EN": "3,3-Dimethylbutyraldehyde",
+    "name_CH": "3,3-二甲基丁醛",
+    "purity": "97%",
+    "CAS": "2987-16-8",
+    "MDL": "MFCD00042807",
+    "prod_num": "172179",
+    "structure": "C6H12O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/326/326439.png",
+    "Smiles": [
+        {
+            "cid": 76335,
+            "smiles": "CC(C)(C)CC=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1ML",
+            "unit_price": "237",
+            "arrive_time": "3-4周"
+        },
+        {
+            "package": "5ML",
+            "unit_price": "945",
+            "arrive_time": "3-4周"
+        }
+    ]
+},
+{
+    "name_EN": "Methoxyacetaldehydedimethylacetal",
+    "name_CH": "甲氧基乙醛缩二甲醇",
+    "purity": "98%",
+    "CAS": "24332-20-5",
+    "MDL": "MFCD00008486",
+    "prod_num": "172581",
+    "structure": "C5H12O3",
+    "picture_url": "www.jkchemical.com/static/images/999.PNG",
+    "Smiles": [],
+    "sell_info": [
+        {
+            "package": "25ML",
+            "unit_price": "915",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100ML",
+            "unit_price": "2356",
+            "arrive_time": "4-6Weeks"
+        }
+    ]
+},
+{
+    "name_EN": "Thieno[3,2-b]thiophene-2,5-dicarboxaldehyde",
+    "name_CH": "噻吩并[3,2-b]噻吩-2,5-二甲醛",
+    "purity": "98%",
+    "CAS": "37882-75-0",
+    "MDL": "MFCD03931117",
+    "prod_num": "1733532",
+    "structure": "C8H4O2S2",
+    "picture_url": "www.jkchemical.com/static/images/999.PNG",
+    "Smiles": [
+        {
+            "cid": 361865,
+            "smiles": "C1=C(SC2=C1SC(=C2)C=O)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "2048",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "200MG",
+            "unit_price": "750",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "4-Amino-3-pyridinecarboxyaldehydehydrochloride",
+    "name_CH": "4-氨基-3-吡啶甲醛盐酸盐",
+    "purity": "97%",
+    "CAS": "927891-97-2",
+    "MDL": "MFCD02683208",
+    "prod_num": "173943",
+    "structure": "C6H6N2O·HCl",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/591/591937.png",
+    "Smiles": [],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "2800",
+            "arrive_time": "10周"
+        }
+    ]
+},
+{
+    "name_EN": "PyruvicaldehydesolutioninH2O",
+    "name_CH": "丙酮醛,40%水溶液",
+    "purity": "N/A",
+    "CAS": "78-98-8",
+    "MDL": "MFCD00006960",
+    "prod_num": "174855",
+    "structure": "C3H4O2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/174/174855.png",
+    "Smiles": [],
+    "sell_info": [
+        {
+            "package": "1KG",
+            "unit_price": "3052",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100G",
+            "unit_price": "590",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "4-(Trifluoromethoxy)benzaldehyde",
+    "name_CH": "4-(三氟甲氧基)苯甲醛",
+    "purity": "98%",
+    "CAS": "659-28-9",
+    "MDL": "MFCD00041530",
+    "prod_num": "177302",
+    "structure": "C8H5F3O2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/481/481369.png",
+    "Smiles": [
+        {
+            "cid": 69573,
+            "smiles": "C1=CC(=CC=C1C=O)OC(F)(F)F"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "160",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "10G",
+            "unit_price": "1162",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "4-Methylsulphonylbenzaldehyde",
+    "name_CH": "4-甲磺酰基苯甲醛",
+    "purity": "95%",
+    "CAS": "5398-77-6",
+    "MDL": "MFCD00216485",
+    "prod_num": "178674",
+    "structure": "C8H8O3S",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/178/178674.png",
+    "Smiles": [
+        {
+            "cid": 220376,
+            "smiles": "CS(=O)(=O)C1=CC=C(C=C1)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "2.5G",
+            "unit_price": "60",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "6-Bromoveratraldehyde",
+    "name_CH": "6-溴藜芦醛",
+    "purity": "98%",
+    "CAS": "5392-10-9",
+    "MDL": "MFCD00003301",
+    "prod_num": "179584",
+    "structure": "C9H9BrO3",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/179/179584.png",
+    "Smiles": [
+        {
+            "cid": 79351,
+            "smiles": "COC1=C(C=C(C(=C1)C=O)Br)OC"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "100G",
+            "unit_price": "5359",
+            "arrive_time": "3-4周"
+        },
+        {
+            "package": "25G",
+            "unit_price": "1776",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "462",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "N-Methylpyrrole-2-carboxaldehyde",
+    "name_CH": "N-甲基吡咯-2-甲醛",
+    "purity": "98%",
+    "CAS": "1192-58-1",
+    "MDL": "MFCD00003087",
+    "prod_num": "179824",
+    "structure": "C6H7NO",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/299/299204.png",
+    "Smiles": [
+        {
+            "cid": 14504,
+            "smiles": "CN1C=CC=C1C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "5G",
+            "unit_price": "287",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100G",
+            "unit_price": "2395",
+            "arrive_time": "3-4周"
+        },
+        {
+            "package": "25G",
+            "unit_price": "967",
+            "arrive_time": "3-4周"
+        }
+    ]
+},
+{
+    "name_EN": "2-Bromomalonaldehyde",
+    "name_CH": "2-溴丙二醛",
+    "purity": "99%",
+    "CAS": "2065-75-0",
+    "MDL": "MFCD00459999",
+    "prod_num": "180445",
+    "structure": "C3H3BrO2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/560/560560.png",
+    "Smiles": [
+        {
+            "cid": 74945,
+            "smiles": "C(=O)C(C=O)Br"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "60",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "123",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "337",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "2,4-Bis(trifluoromethyl)benzaldehyde",
+    "name_CH": "2,4-双(三氟甲基)苯甲醛",
+    "purity": "98%",
+    "CAS": "59664-42-5",
+    "MDL": "MFCD00083535",
+    "prod_num": "182284",
+    "structure": "C9H4F6O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/182/182284.png",
+    "Smiles": [
+        {
+            "cid": 2736095,
+            "smiles": "C1=CC(=C(C=C1C(F)(F)F)C(F)(F)F)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "305",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "1206",
+            "arrive_time": "3-4周"
+        }
+    ]
+},
+{
+    "name_EN": "trans-2-Hexenal",
+    "name_CH": "反式-2-己烯醛",
+    "purity": "97%",
+    "CAS": "6728-26-3",
+    "MDL": "MFCD00007008",
+    "prod_num": "183231",
+    "structure": "C6H10O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/183/183231.png",
+    "Smiles": [
+        {
+            "cid": 5281168,
+            "smiles": "CCC/C=C/C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "25ML",
+            "unit_price": "281",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100ML",
+            "unit_price": "944",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "500ML",
+            "unit_price": "4084",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "2,6-Dichloropyridine-4-carboxaldehyde",
+    "name_CH": "2,6-二氯吡啶-4-甲醛",
+    "purity": "98%",
+    "CAS": "113293-70-2",
+    "MDL": "MFCD00124816",
+    "prod_num": "184097",
+    "structure": "C6H3Cl2NO",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/435/435397.png",
+    "Smiles": [
+        {
+            "cid": 2761024,
+            "smiles": "C1=C(C=C(N=C1Cl)Cl)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "1950",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "6180",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "Pyruvicaldehydedimethylacetal",
+    "name_CH": "丙酮醛二甲缩醛",
+    "purity": "98%",
+    "CAS": "6342-56-9",
+    "MDL": "MFCD00008758",
+    "prod_num": "185798",
+    "structure": "C5H10O3",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/185/185798.png",
+    "Smiles": [],
+    "sell_info": [
+        {
+            "package": "25ML",
+            "unit_price": "72",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100ML",
+            "unit_price": "238",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "500ML",
+            "unit_price": "772",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "6-Methoxy-3-pyridinecarboxaldehyde",
+    "name_CH": "6-甲氧基-3-吡啶甲醛",
+    "purity": "97%",
+    "CAS": "65873-72-5",
+    "MDL": "MFCD02683446",
+    "prod_num": "186817",
+    "structure": "C7H7NO2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/478/478763.png",
+    "Smiles": [
+        {
+            "cid": 3364576,
+            "smiles": "COC1=NC=C(C=C1)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "378",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "1512",
+            "arrive_time": "8周"
+        },
+        {
+            "package": "10G",
+            "unit_price": "2744",
+            "arrive_time": "8周"
+        }
+    ]
+},
+{
+    "name_EN": "4-Hydroxybenzaldehyde",
+    "name_CH": "4-羟基苯甲醛",
+    "purity": "99%",
+    "CAS": "123-08-0",
+    "MDL": "MFCD00006939",
+    "prod_num": "187581",
+    "structure": "C7H6O2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/551/551444.png",
+    "Smiles": [
+        {
+            "cid": 126,
+            "smiles": "C1=CC(=CC=C1C=O)O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1KG",
+            "unit_price": "1322",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "250G",
+            "unit_price": "401",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "50G",
+            "unit_price": "125",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "D-Mannuronicacidsodiumsalt",
+    "name_CH": "D-甘露糖醛酸单糖",
+    "purity": "98%",
+    "CAS": "0",
+    "MDL": "N/A",
+    "prod_num": "1880218",
+    "structure": "C6H9NaO7",
+    "picture_url": "www.jkchemical.com/static/images/999.PNG",
+    "Smiles": [],
+    "sell_info": [
+        {
+            "package": "5MG",
+            "unit_price": "1011",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "10MG",
+            "unit_price": "1820",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "D-Dimannuronicaciddisodiumsalt",
+    "name_CH": "D-甘露糖醛酸二糖",
+    "purity": "98%",
+    "CAS": "0",
+    "MDL": "N/A",
+    "prod_num": "1880219",
+    "structure": "C12H16Na2O13",
+    "picture_url": "www.jkchemical.com/static/images/999.PNG",
+    "Smiles": [],
+    "sell_info": [
+        {
+            "package": "5MG",
+            "unit_price": "868",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "10MG",
+            "unit_price": "1620",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25MG",
+            "unit_price": "3640",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "D-Trimannuronicacidtrisodiumsalt",
+    "name_CH": "D-甘露糖醛酸三糖",
+    "purity": "98%",
+    "CAS": "0",
+    "MDL": "N/A",
+    "prod_num": "1880220",
+    "structure": "C18H23Na3O19",
+    "picture_url": "www.jkchemical.com/static/images/999.PNG",
+    "Smiles": [],
+    "sell_info": [
+        {
+            "package": "5MG",
+            "unit_price": "880",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "10MG",
+            "unit_price": "1583",
+            "arrive_time": "2-4周"
+        },
+        {
+            "package": "25MG",
+            "unit_price": "3458",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "D-Pentamannuronicacidpentasodiumsalt",
+    "name_CH": "D-甘露糖醛酸五糖",
+    "purity": "97%",
+    "CAS": "0",
+    "MDL": "N/A",
+    "prod_num": "1880222",
+    "structure": "C30H37O31Na5",
+    "picture_url": "www.jkchemical.com/static/images/999.PNG",
+    "Smiles": [],
+    "sell_info": [
+        {
+            "package": "10MG",
+            "unit_price": "1730",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "L-Guluronicacidsodiumsalt",
+    "name_CH": "L-古罗糖醛酸单糖",
+    "purity": "98%",
+    "CAS": "0",
+    "MDL": "N/A",
+    "prod_num": "1880229",
+    "structure": "C6H9NaO7",
+    "picture_url": "www.jkchemical.com/static/images/999.PNG",
+    "Smiles": [],
+    "sell_info": [
+        {
+            "package": "5MG",
+            "unit_price": "958",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "10MG",
+            "unit_price": "1729",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "L-AL1379",
+    "name_CH": "L-古罗糖醛酸二糖",
+    "purity": "98%",
+    "CAS": "0",
+    "MDL": "N/A",
+    "prod_num": "1880230",
+    "structure": "C12H16Na2O13",
+    "picture_url": "www.jkchemical.com/static/images/999.PNG",
+    "Smiles": [],
+    "sell_info": [
+        {
+            "package": "5MG",
+            "unit_price": "951",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "10MG",
+            "unit_price": "1730",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "L-Triguluronicacidtrisodiumsalt",
+    "name_CH": "L-古罗糖醛酸三糖",
+    "purity": "98%",
+    "CAS": "0",
+    "MDL": "N/A",
+    "prod_num": "1880231",
+    "structure": "C18H23Na3O19",
+    "picture_url": "www.jkchemical.com/static/images/999.PNG",
+    "Smiles": [],
+    "sell_info": [
+        {
+            "package": "5MG",
+            "unit_price": "893",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "10MG",
+            "unit_price": "1640",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "L-Tetraguluronicacidtetrasodiumsalt",
+    "name_CH": "L-古罗糖醛酸四糖",
+    "purity": "98%",
+    "CAS": "0",
+    "MDL": "N/A",
+    "prod_num": "1880232",
+    "structure": "C24H30Na4O25",
+    "picture_url": "www.jkchemical.com/static/images/999.PNG",
+    "Smiles": [],
+    "sell_info": [
+        {
+            "package": "5MG",
+            "unit_price": "863",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "10MG",
+            "unit_price": "1600",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "trans-Cinnamaldehyde",
+    "name_CH": "反式-肉桂醛",
+    "purity": "99%",
+    "CAS": "14371-10-9",
+    "MDL": "MFCD00007000",
+    "prod_num": "188151",
+    "structure": "C9H8O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/188/188151.png",
+    "Smiles": [
+        {
+            "cid": 637511,
+            "smiles": "C1=CC=C(C=C1)/C=C/C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "2.5KG",
+            "unit_price": "772",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "50G",
+            "unit_price": "72",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "500G",
+            "unit_price": "228",
+            "arrive_time": "3-4周"
+        }
+    ]
+},
+{
+    "name_EN": "4-(N,N-Diphenylamino)benzaldehyde",
+    "name_CH": "4-(N,N-二苯氨基)苯甲醛",
+    "purity": "98%",
+    "CAS": "4181-05-9",
+    "MDL": "MFCD00145131",
+    "prod_num": "189304",
+    "structure": "C19H15NO",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/189/189304.png",
+    "Smiles": [
+        {
+            "cid": 77846,
+            "smiles": "C1=CC=C(C=C1)N(C2=CC=CC=C2)C3=CC=C(C=C3)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "5G",
+            "unit_price": "313",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "699",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "2-Fluoro-6-methoxybenzaldehyde",
+    "name_CH": "2-氟-6-甲氧基苯甲醛",
+    "purity": "97%",
+    "CAS": "146137-74-8",
+    "MDL": "MFCD01090998",
+    "prod_num": "189375",
+    "structure": "C8H7FO2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/189/189375.png",
+    "Smiles": [
+        {
+            "cid": 2737357,
+            "smiles": "COC1=C(C(=CC=C1)F)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "727",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "2508",
+            "arrive_time": "3-4周"
+        }
+    ]
+},
+{
+    "name_EN": "Acetaldehydeoxime,mixtureofsynandanti",
+    "name_CH": "乙醛肟,顺式和反式异构体混合物",
+    "purity": "99%",
+    "CAS": "107-29-9",
+    "MDL": "MFCD00002124",
+    "prod_num": "189561",
+    "structure": "C2H5NO",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/189/189561.png",
+    "Smiles": [],
+    "sell_info": [
+        {
+            "package": "25G",
+            "unit_price": "151",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100G",
+            "unit_price": "498",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "500G",
+            "unit_price": "1764",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "Diphenylglyoxime",
+    "name_CH": "二联苯乙二醛肟",
+    "purity": "98%",
+    "CAS": "23873-81-6",
+    "MDL": "MFCD00002113",
+    "prod_num": "189612",
+    "structure": "C14H12N2O2",
+    "picture_url": "www.jkchemical.com/static/images/999.PNG",
+    "Smiles": [
+        {
+            "cid": 5356301,
+            "smiles": "C1=CC=C(C=C1)/C(=C(/C2=CC=CC=C2)\\N=O)/NO"
+        },
+        {
+            "cid": 5369401,
+            "smiles": "C1=CC=C(C=C1)/C(=C(\\C2=CC=CC=C2)/N=O)/NO"
+        },
+        {
+            "cid": 32111,
+            "smiles": "C1=CC=C(C=C1)C(=C(C2=CC=CC=C2)N=O)NO"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "25G",
+            "unit_price": "706",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100G",
+            "unit_price": "1649",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "500G",
+            "unit_price": "5467",
+            "arrive_time": "4-6Weeks"
+        }
+    ]
+},
+{
+    "name_EN": "α-Amylcinnamaldehyde,mixtureofcisandtrans",
+    "name_CH": "α-戊基肉桂醛,顺反异构体混合物",
+    "purity": "97%",
+    "CAS": "122-40-7",
+    "MDL": "MFCD00006988",
+    "prod_num": "190049",
+    "structure": "C14H18O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/190/190049.png",
+    "Smiles": [],
+    "sell_info": [
+        {
+            "package": "100ML",
+            "unit_price": "224",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "500ML",
+            "unit_price": "894",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "4-Methoxy-2-(trifluoromethyl)benzaldehyde",
+    "name_CH": "4-甲氧基-2-(三氟甲基)苯甲醛",
+    "purity": "98%",
+    "CAS": "106312-36-1",
+    "MDL": "MFCD01091011",
+    "prod_num": "191892",
+    "structure": "C9H7F3O2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/191/191892.png",
+    "Smiles": [
+        {
+            "cid": 2778286,
+            "smiles": "COC1=CC(=C(C=C1)C=O)C(F)(F)F"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "836",
+            "arrive_time": "4-6Weeks"
+        },
+        {
+            "package": "250MG",
+            "unit_price": "254",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "Carboxylatedureaformaldehyderesinmagneticbeads,1-2μm(w/v)suspendedinPBSbuffersolution",
+    "name_CH": "羧基脲醛树脂磁珠,1-2μm,1%(w/v)悬浮于PBS缓冲溶液",
+    "purity": "N/A",
+    "CAS": "0",
+    "MDL": "N/A",
+    "prod_num": "1924558",
+    "structure": "N/A",
+    "picture_url": "www.jkchemical.com/static/images/999.PNG",
+    "Smiles": [],
+    "sell_info": [
+        {
+            "package": "10ML",
+            "unit_price": "512",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "Hydroxylureaformaldehyderesinmagneticbeads,1-2μm(w/v)suspendedinPBSbuffersolution",
+    "name_CH": "羟基脲醛树脂磁珠,1-2μm,1%(w/v)悬浮于PBS缓冲溶液",
+    "purity": "N/A",
+    "CAS": "0",
+    "MDL": "N/A",
+    "prod_num": "1924559",
+    "structure": "N/A",
+    "picture_url": "www.jkchemical.com/static/images/999.PNG",
+    "Smiles": [],
+    "sell_info": [
+        {
+            "package": "10ML",
+            "unit_price": "512",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "3-Ethoxyproionaldehydediethylacetal",
+    "name_CH": "3-乙氧基丙醛二乙基乙基缩醛",
+    "purity": "98%",
+    "CAS": "7789-92-6",
+    "MDL": "MFCD00009241",
+    "prod_num": "192929",
+    "structure": "C9H20O3",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/192/192929.png",
+    "Smiles": [],
+    "sell_info": [
+        {
+            "package": "5G",
+            "unit_price": "196",
+            "arrive_time": "4-6Weeks"
+        },
+        {
+            "package": "25G",
+            "unit_price": "781",
+            "arrive_time": "4-6Weeks"
+        }
+    ]
+},
+{
+    "name_EN": "Bromoacetoaldehydedimethylacetal",
+    "name_CH": "溴乙醛缩二甲醇",
+    "purity": "98%",
+    "CAS": "7252-83-7",
+    "MDL": "MFCD00000213",
+    "prod_num": "194855",
+    "structure": "C4H9BrO2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/159/159177.png",
+    "Smiles": [],
+    "sell_info": [
+        {
+            "package": "5G",
+            "unit_price": "60",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100G",
+            "unit_price": "301",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "104",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "Ethylglyoxylatesolutionintoluene",
+    "name_CH": "乙醛酸乙酯,50%甲苯溶液",
+    "purity": "N/A",
+    "CAS": "924-44-7",
+    "MDL": "MFCD00044009",
+    "prod_num": "195089",
+    "structure": "C4H6O3",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/195/195089.png",
+    "Smiles": [],
+    "sell_info": [
+        {
+            "package": "100G",
+            "unit_price": "409",
+            "arrive_time": "3-4周"
+        },
+        {
+            "package": "25G",
+            "unit_price": "198",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "500G",
+            "unit_price": "1598",
+            "arrive_time": "3-4周"
+        }
+    ]
+},
+{
+    "name_EN": "Methyl2-formylbenzoate",
+    "name_CH": "2-醛基苯甲酸甲酯",
+    "purity": "97%",
+    "CAS": "4122-56-9",
+    "MDL": "MFCD00204231",
+    "prod_num": "196044",
+    "structure": "C9H8O3",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/196/196044.png",
+    "Smiles": [],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "662",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "10G",
+            "unit_price": "2200",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "6-Bromopyridine-2-carboxaldehyde",
+    "name_CH": "6-溴吡啶-2-甲醛",
+    "purity": "97%",
+    "CAS": "34160-40-2",
+    "MDL": "MFCD02683546",
+    "prod_num": "199059",
+    "structure": "C6H4BrNO",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/575/575349.png",
+    "Smiles": [
+        {
+            "cid": 2757009,
+            "smiles": "C1=CC(=NC(=C1)Br)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "305",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "2870",
+            "arrive_time": "3-4周"
+        },
+        {
+            "package": "5G",
+            "unit_price": "720",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "2,6-Dichlorobenzaldehyde",
+    "name_CH": "2,6-二氯苯甲醛",
+    "purity": "99%",
+    "CAS": "83-38-5",
+    "MDL": "MFCD00003307",
+    "prod_num": "199467",
+    "structure": "C7H4Cl2O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/504/504355.png",
+    "Smiles": [
+        {
+            "cid": 6737,
+            "smiles": "C1=CC(=C(C(=C1)Cl)C=O)Cl"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "250G",
+            "unit_price": "355",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "50G",
+            "unit_price": "122",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "p-Anisaldehyde",
+    "name_CH": "对茴香醛",
+    "purity": "99%",
+    "CAS": "123-11-5",
+    "MDL": "MFCD00003385",
+    "prod_num": "199896",
+    "structure": "C8H8O2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/610/610798.png",
+    "Smiles": [
+        {
+            "cid": 31244,
+            "smiles": "COC1=CC=C(C=C1)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "100G",
+            "unit_price": "262",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "79",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "500G",
+            "unit_price": "465",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "6-Methoxy-2-naphthaldehyde",
+    "name_CH": "6-甲氧基-2-萘醛",
+    "purity": "98%",
+    "CAS": "3453-33-6",
+    "MDL": "MFCD00081152",
+    "prod_num": "201419",
+    "structure": "C12H10O2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/146/146079.png",
+    "Smiles": [
+        {
+            "cid": 76991,
+            "smiles": "COC1=CC2=C(C=C1)C=C(C=C2)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "5G",
+            "unit_price": "178",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100G",
+            "unit_price": "3054",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "711",
+            "arrive_time": "3-4周"
+        }
+    ]
+},
+{
+    "name_EN": "2,3,4-Trifluorobenzaldehyde",
+    "name_CH": "2,3,4-三氟苯甲醛",
+    "purity": "98%",
+    "CAS": "161793-17-5",
+    "MDL": "MFCD00061230",
+    "prod_num": "202901",
+    "structure": "C7H3F3O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/308/308727.png",
+    "Smiles": [
+        {
+            "cid": 519226,
+            "smiles": "C1=CC(=C(C(=C1C=O)F)F)F"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1g",
+            "unit_price": "181",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5g",
+            "unit_price": "723",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "3,5-Dichlorobenzaldehyde",
+    "name_CH": "3,5-二氯苯甲醛",
+    "purity": "97%",
+    "CAS": "10203-08-4",
+    "MDL": "MFCD00003352",
+    "prod_num": "203732",
+    "structure": "C7H4Cl2O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/203/203732.png",
+    "Smiles": [
+        {
+            "cid": 35746,
+            "smiles": "C1=C(C=C(C=C1Cl)Cl)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "74",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "294",
+            "arrive_time": "3-4周"
+        }
+    ]
+},
+{
+    "name_EN": "Furfural,ACSreagent",
+    "name_CH": "糠醛,ACS试剂",
+    "purity": "98%",
+    "CAS": "98-01-1",
+    "MDL": "MFCD00003229",
+    "prod_num": "205681",
+    "structure": "C5H4O2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/205/205681.png",
+    "Smiles": [],
+    "sell_info": [
+        {
+            "package": "2.5L",
+            "unit_price": "1188",
+            "arrive_time": "3-4周"
+        },
+        {
+            "package": "100ML",
+            "unit_price": "113",
+            "arrive_time": "3-4周"
+        },
+        {
+            "package": "500ML",
+            "unit_price": "396",
+            "arrive_time": "3-4周"
+        }
+    ]
+},
+{
+    "name_EN": "5-Nitrothiophene-2-carboxaldehyde",
+    "name_CH": "5-硝基噻吩-2-甲醛",
+    "purity": "98%",
+    "CAS": "4521-33-9",
+    "MDL": "MFCD00005433",
+    "prod_num": "206112",
+    "structure": "C5H3NO3S",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/206/206112.png",
+    "Smiles": [
+        {
+            "cid": 78281,
+            "smiles": "C1=C(SC(=C1)[N+](=O)[O-])C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "5G",
+            "unit_price": "398",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "1589",
+            "arrive_time": "4-6Weeks"
+        }
+    ]
+},
+{
+    "name_EN": "4-(n-Heptyloxy)butanal",
+    "name_CH": "4-(正庚氧基)丁醛",
+    "purity": "95%",
+    "CAS": "65885-35-0",
+    "MDL": "N/A",
+    "prod_num": "2063815",
+    "structure": "C11H22O2",
+    "picture_url": "www.jkchemical.com/static/images/999.PNG",
+    "Smiles": [
+        {
+            "cid": 21263620,
+            "smiles": "CCCCCCCOCCCC=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "432",
+            "arrive_time": "8周"
+        },
+        {
+            "package": "5G",
+            "unit_price": "1622",
+            "arrive_time": "8周"
+        },
+        {
+            "package": "25G",
+            "unit_price": "6084",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "Pyrrole-2-carboxaldehyde",
+    "name_CH": "吡咯-2-甲醛",
+    "purity": "98%",
+    "CAS": "1003-29-8",
+    "MDL": "MFCD00005217",
+    "prod_num": "206417",
+    "structure": "C5H5NO",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/125/125390.png",
+    "Smiles": [
+        {
+            "cid": 13854,
+            "smiles": "C1=CNC(=C1)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "5G",
+            "unit_price": "153",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "100G",
+            "unit_price": "1873",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "555",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "2-Hydroxy-5-methyl-1,3-benzenedicarboxaldehyde",
+    "name_CH": "2-羟基-5-甲基-1,3-苯二甲醛",
+    "purity": "98%",
+    "CAS": "7310-95-4",
+    "MDL": "MFCD00016596",
+    "prod_num": "206830",
+    "structure": "C9H8O3",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/200/200772.png",
+    "Smiles": [
+        {
+            "cid": 81744,
+            "smiles": "CC1=CC(=C(C(=C1)C=O)O)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "1208",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "2820",
+            "arrive_time": "4-6周"
+        }
+    ]
+},
+{
+    "name_EN": "4-(Trifluoromethyl)benzaldehyde",
+    "name_CH": "4-(三氟甲基)苯甲醛",
+    "purity": "98%",
+    "CAS": "455-19-6",
+    "MDL": "MFCD00006952",
+    "prod_num": "207732",
+    "structure": "C8H5F3O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/495/495543.png",
+    "Smiles": [
+        {
+            "cid": 67996,
+            "smiles": "C1=CC(=CC=C1C=O)C(F)(F)F"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "5G",
+            "unit_price": "275",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "1031",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "4-Fluorobenzaldehyde",
+    "name_CH": "4-氟苯甲醛",
+    "purity": "99%",
+    "CAS": "459-57-4",
+    "MDL": "MFCD00003378",
+    "prod_num": "209533",
+    "structure": "C7H5FO",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/359/359250.png",
+    "Smiles": [
+        {
+            "cid": 68023,
+            "smiles": "C1=CC(=CC=C1C=O)F"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "50G",
+            "unit_price": "225",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "250G",
+            "unit_price": "778",
+            "arrive_time": "3-4周"
+        }
+    ]
+},
+{
+    "name_EN": "3,4,5-Trifluorobenzaldehyde",
+    "name_CH": "3,4,5-三氟苯甲醛",
+    "purity": "98%",
+    "CAS": "132123-54-7",
+    "MDL": "MFCD00083523",
+    "prod_num": "210057",
+    "structure": "C7H3F3O",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/210/210057.png",
+    "Smiles": [
+        {
+            "cid": 2776954,
+            "smiles": "C1=C(C=C(C(=C1F)F)F)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "60",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "184",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "613",
+            "arrive_time": "3-4周"
+        }
+    ]
+},
+{
+    "name_EN": "5-Acetoxymethyl-2-furaldehyde",
+    "name_CH": "5-乙酰氧基甲基-2-呋喃醛",
+    "purity": "97%",
+    "CAS": "10551-58-3",
+    "MDL": "MFCD00003233",
+    "prod_num": "210259",
+    "structure": "C8H8O4",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/155/155774.png",
+    "Smiles": [
+        {
+            "cid": 66349,
+            "smiles": "CC(=O)OCC1=CC=C(O1)C=O"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1G",
+            "unit_price": "149",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "25G",
+            "unit_price": "2374",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "5G",
+            "unit_price": "595",
+            "arrive_time": "现货"
+        }
+    ]
+},
+{
+    "name_EN": "Benzaldehydedimethylacetal",
+    "name_CH": "苯甲醛二甲缩醛",
+    "purity": "97.5%",
+    "CAS": "1125-88-8",
+    "MDL": "MFCD00008491",
+    "prod_num": "212465",
+    "structure": "C9H12O2",
+    "picture_url": "www.jkchemical.com/static/Structure_mini/212/212465.png",
+    "Smiles": [
+        {
+            "cid": 62375,
+            "smiles": "COC(C1=CC=CC=C1)OC"
+        }
+    ],
+    "sell_info": [
+        {
+            "package": "1L",
+            "unit_price": "2068",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "250ML",
+            "unit_price": "644",
+            "arrive_time": "现货"
+        },
+        {
+            "package": "50ML",
+            "unit_price": "205",
+            "arrive_time": "现货"
+        }
+    ]
+},

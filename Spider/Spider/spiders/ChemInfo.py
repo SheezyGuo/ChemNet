@@ -2,6 +2,7 @@
 import re
 import urllib
 
+import pubchempy as pcp
 import scrapy
 from scrapy_splash import SplashRequest
 
@@ -33,7 +34,6 @@ class CheminfoSpider(scrapy.Spider):
     def __init__(self):
         search_url_pattern = 'http://www.jkchemical.com/CH/products/search/fulltextsearch/{:s}.html'
         key_words = ['醛']
-        print(search_url_pattern)
         self.start_urls = [search_url_pattern.format(urllib.parse.quote(key_word, safe="/")) for key_word in key_words]
         pass
 
@@ -67,6 +67,8 @@ class CheminfoSpider(scrapy.Spider):
             item['picture_url'] = row.xpath("./td/div/div[2]/div[1]/img/@src").extract()[0]
             item["picture_url"] = "{:s}{:s}".format(self.site_root, self.remove_space(item["picture_url"]))
 
+            item["Smiles"] = self.get_smiles_by_name(item["name_EN"])
+
             sell_table = row.xpath('.//div[@class="PRODUCT_box"]/div[contains(@id,"up_PackAge_dv_PackAge")]/div/table/tbody')
             sell_info_list = []
             for info_table_row in sell_table.xpath("./tr")[1:]:
@@ -87,9 +89,18 @@ class CheminfoSpider(scrapy.Spider):
             yield SplashRequest(url=next_url, callback=self.parse, endpoint='execute', args={"lua_source": self.lua_script, "wait": 2.0, "url": next_url}, encoding='utf-8')
 
     def start_requests(self):
-
         for url in self.start_urls:
             yield SplashRequest(url=url, callback=self.parse, endpoint='execute', args={"lua_source": self.lua_script, "wait": 5.0}, encoding='utf-8')
 
     def remove_space(self, str):
         return re.sub("\s", "", str)
+
+    def get_smiles_by_name(self, name):
+        compounds = pcp.get_compounds(name, 'name')
+        result = []
+        for compound in compounds:
+            temp_dict = dict()
+            temp_dict["cid"] = compound.cid
+            temp_dict["smiles"] = compound.isomeric_smiles
+            result.append(temp_dict)
+        return result
