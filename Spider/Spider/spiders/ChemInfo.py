@@ -10,7 +10,8 @@ from Spider.items import SpiderItem
 class CheminfoSpider(scrapy.Spider):
     name = 'ChemInfo'
     allowed_domains = ['jkchemical.com']
-    start_urls = ['http://www.jkchemical.com/CH/products/search/fulltextsearch/%E9%86%9B.html']
+    start_urls = ['http://www.jkchemical.com/CH/products/search/fulltextsearch/%E9%86%9B.html',
+                  'http://www.jkchemical.com/CH/products/search/FullTextSearch/%E9%86%9B/2.html']
     site_root = "www.jkchemical.com"
 
     def parse(self, response):
@@ -43,10 +44,9 @@ class CheminfoSpider(scrapy.Spider):
             item['picture_url'] = row.xpath("./td/div/div[2]/div[1]/img/@src").extract()[0]
             item["picture_url"] = "{:s}{:s}".format(self.site_root, self.remove_space(item["picture_url"]))
 
-            sell_table = row.xpath('.//*[@id="ctl00_ContentPlaceHolder1_up_Product_GridView1_ctl02_up_PackAge_dv_PackAge"]/div/table/tbody')
+            sell_table = row.xpath('.//div[@class="PRODUCT_box"]/div[contains(@id,"up_PackAge_dv_PackAge")]/div/table/tbody')
             sell_info_list = []
             for info_table_row in sell_table.xpath("./tr")[1:]:
-                print(info_table_row.extract())
                 tds = info_table_row.xpath("./td")
                 sell_info = dict()
                 sell_info["package"] = tds[0].xpath("string(.)").extract()[0]
@@ -59,8 +59,23 @@ class CheminfoSpider(scrapy.Spider):
             yield item
 
     def start_requests(self):
+        lua_script = \
+            '''
+            function
+                main(splash, args)
+                splash: set_viewport_size(1028, 10000)
+                splash: go(args.url)
+                local
+                scroll_to = splash:jsfunc("window.scrollTo")
+                scroll_to(0, 4000)
+                splash: wait(5)
+                return {
+                    html = splash:html()
+                }
+            end
+            '''
         for url in self.start_urls:
-            yield SplashRequest(url=url, callback=self.parse, args={"wait": 2.0}, encoding='utf-8')
+            yield SplashRequest(url=url, callback=self.parse, endpoint='execute', args={"lua_source": lua_script, "wait": 2.0}, encoding='utf-8')
 
     def remove_space(self, str):
         return re.sub("\s", "", str)

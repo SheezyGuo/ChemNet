@@ -13,7 +13,7 @@ class SpiderPipeline(object):
         self.file = open("data.json", "wb+")
 
     def process_item(self, item, spider):
-        jsontext = json.dumps(dict(item), ensure_ascii=False) + ",\n"
+        jsontext = json.dumps(dict(item), ensure_ascii=False, indent=4) + ",\n"
         self.file.write(jsontext.encode("utf-8"))
         return item
 
